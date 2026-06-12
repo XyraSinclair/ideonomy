@@ -16,9 +16,15 @@ configurations. It was synthesized from three convergent streams:
    ecosystem of detect → generate → verify → persist loops.
 
 The striking empirical fact: **all three streams converge on the same loop.**
-The same ~35 primitives recur whether the substrate is ideas, categories, or
+The same 37 primitives recur whether the substrate is ideas, categories, or
 code. That convergence is the evidence that these are genuinely *generic*
 cognitive building blocks, not domain tricks.
+
+The six phases below say *what kinds of move exist*. An orthogonal axis — the
+**respiratory axis** of expansion and compression, ratcheted on
+minimum-description-length — says *how the moves are sequenced over time* so a
+system gets deeper rather than just busier. That axis has its own authority,
+[CYCLES.md](CYCLES.md), and its own runnable engine, `ideonomy/cycles.py`.
 
 ## The metabolic frame
 
@@ -85,6 +91,16 @@ amorphous pile into a navigable space.
   morphological box; Clio facets; TaxoAdapt's multi-dimensional taxonomies;
   desloppify's review dimensions.
 
+**P37. residue-seed** — Extract what resists the current structure —
+anomalies, misfits, cross-model disagreement — and make it the next
+expansion's seed. The heartbeat of the respiratory loop: residue is fuel, not
+error. (Detail: CYCLES.md.)
+- Signature: `(structure, corpus) → [resisting items] → next seed`
+- Metabolizes: tension swept under the rug → tension fed forward as the next
+  question
+- Provenance: the MDL residual term; Gunkel's anomalies (Xenology);
+  cross-model triangulation (M4).
+
 ## Phase II — ORIENT: structure the field
 
 **P6. cluster** — Group instances by similarity before naming anything.
@@ -126,6 +142,16 @@ move; the heart of Gunkel's method.
 - Provenance: Gunkel's progressive loop step 3; taxonomy-expansion literature;
   coverage-gap-driven test generation (Qodo Cover); "exhaustiveness is a
   search-quality property."
+
+**P36. distill** — Compress the whole structure to the minimal generative rule
+that would regenerate it — the invariant, not a per-type label. Naming (P8)
+compresses one type; distillation compresses the structure. A taxonomy you can
+only enumerate is compressed once; one you can regenerate from a rule is
+compressed twice, and the rule is usually the insight.
+- Signature: `structure → generative rule`
+- Metabolizes: an enumerable structure → a regenerable one
+- Provenance: Gunkel's "proof is a tree"; MDL two-part codes; Clio's cluster
+  descriptions.
 
 ## Phase III — GENERATE: candidate moves
 

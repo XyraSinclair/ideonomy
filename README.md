@@ -16,18 +16,23 @@ can. Ideonomy is an LLM-era project that arrived forty years early.
 
 This repo holds three things:
 
-1. **[ORGANON.md](ORGANON.md)** — the canonical catalog of ~35 inference-time
+1. **[ORGANON.md](ORGANON.md)** — the canonical catalog of 37 inference-time
    cognitive building blocks, synthesized from ideonomy, automatic taxonomy
    induction, and automatic codebase improvement. All three streams converge
    on the same tension-metabolizing loop: SENSE → ORIENT → GENERATE → JUDGE →
-   ACT → PERSIST. This catalog is the kernel; sibling repos instantiate it.
+   ACT → PERSIST. **[CYCLES.md](CYCLES.md)** adds the orthogonal respiratory
+   axis — the breath of expansion and compression, ratcheted on
+   minimum-description-length — that turns the catalog into an engine for
+   open-ended cognitive work. This is the kernel; sibling repos instantiate it.
 2. **Gunkel's corpus as data** — the divisions of ideonomy
    ([`ideonomy/divisions.py`](ideonomy/divisions.py)), his generative
    operators ([`ideonomy/operators.py`](ideonomy/operators.py)), and his
    progressive loop, all machine-usable.
 3. **A minimal metabolic loop engine** ([`ideonomy/loop.py`](ideonomy/loop.py))
-   — model-agnostic (any CLI or callable is a model), multi-model by default,
-   stdlib-only Python.
+   and the **respiratory engine** ([`ideonomy/cycles.py`](ideonomy/cycles.py))
+   — expand↔compress breaths with an MDL ratchet, model-agnostic (any CLI or
+   callable is a model), multi-model by default, stdlib-only Python. See it
+   breathe over its own catalog: `python3 -m ideonomy.cycles_demo`.
 
 ## Sibling repos
 

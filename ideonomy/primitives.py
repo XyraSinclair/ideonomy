@@ -48,6 +48,13 @@ PRIMITIVES: list[Primitive] = [
       "event stream -> triggered cycle",
       "staleness -> liveness",
       ("SapFix/Sapienz", "CodeMender/OSS-Fuzz", "gh-aw cron")),
+    P("P37", "residue-seed", "SENSE",
+      "Extract what resists the current structure — anomalies, misfits, "
+      "cross-model disagreement — and make it the next expansion's seed. The "
+      "heartbeat of the respiratory loop: residue is fuel, not error.",
+      "(structure, corpus) -> [resisting items] -> next seed",
+      "tension swept under the rug -> tension fed forward as the next question",
+      ("CYCLES.md", "MDL residual term", "Gunkel anomalies/Xenology")),
     P("P5", "dimensionalize", "SENSE",
       "Identify the axes/facets along which the thing varies.",
       "[instances] -> [dimensions(name, range)]",
@@ -83,6 +90,13 @@ PRIMITIVES: list[Primitive] = [
       "(structure, [instances]) -> [absences]",
       "complacent coverage -> named residual gaps",
       ("Gunkel loop step 3", "Mendeleev", "Qodo Cover")),
+    P("P36", "distill", "ORIENT",
+      "Compress the whole structure to the minimal generative rule that would "
+      "regenerate it — the invariant, not a per-type label. Naming (P8) "
+      "compresses one type; distillation compresses the structure.",
+      "structure -> generative rule",
+      "an enumerable structure -> a regenerable one",
+      ("Gunkel 'proof is a tree'", "MDL two-part codes", "Clio describe")),
     # ---------------------------------------------------------- GENERATE
     P("P12", "combine", "GENERATE",
       "Cartesian product of lists phrased for coherent combination; read the "
@@ -215,6 +229,30 @@ MULTI_MODEL_PATTERNS: dict[str, str] = {
     "M6 human-gate-last":
         "Machine senses, generates, verifies; the human adjudicates only "
         "verified survivors.",
+}
+
+# The respiratory axis (CYCLES.md): orthogonal to the six phases, like the
+# multi-model axis. Every phase can run in an expanding or compressing register;
+# what carries structure across breaths is the residue, ratcheted on MDL.
+RESPIRATORY_AXIS: dict[str, str] = {
+    "R1 expand":
+        "Diverge: raise cardinality and entropy (enumerate, combine, vary, "
+        "analogize, sample-many, gap-find, transpose). Breathe in.",
+    "R2 compress":
+        "Converge: raise structure, lower entropy (cluster, typify, name, "
+        "hierarchize, distill). Breathe out.",
+    "R3 distill":
+        "Compression taken to its limit: the minimal generative rule (P36).",
+    "R4 residue-as-seed":
+        "What resists the compression seeds the next expansion (P37). Tension "
+        "fed forward, not minimized away.",
+    "R5 MDL-ratchet":
+        "Keep a breath iff the corpus still compresses at least as well: "
+        "L(structure)+L(corpus|structure) earns its keep. Catches expansion "
+        "runaway and premature compression alike.",
+    "R6 breath":
+        "The cycle, not either half, is the unit of work. Metabolism = each "
+        "breath explains more of its corpus with a smaller structure.",
 }
 
 BY_KEY: dict[str, Primitive] = {p.key: p for p in PRIMITIVES}
