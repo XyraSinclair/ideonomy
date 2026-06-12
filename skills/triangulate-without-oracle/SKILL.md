@@ -31,6 +31,25 @@ unit check), use **build-the-oracle-before-the-answer** instead. This skill is
 for the cases where forcing an oracle would measure the wrong thing precisely.
 Misrouting *toward* a fake oracle is the exact failure it exists to prevent.
 
+## The tool
+
+An executable harness ships with the organon — `ideonomy/triangulate.py`:
+
+```bash
+python3 -m ideonomy.triangulate "<question>" \
+    --axis "<axis 1>" --axis "<axis 2>" \
+    --judge 'claude -p {prompt}' --judge '<a second, different model> {prompt}'
+```
+
+It refuses to run with fewer than two independent judges or with no axes
+(omitting `--axis` auto-dimensionalizes via the first judge). It reports, per
+axis, the spread of independent judgments — never a single collapsed number —
+and names the contested axes as the residue an owner must decide. Those
+contested axes feed straight into the cross-session ledger (P-10):
+`Triangulation.to_residue(ledger)` writes each as a `contested_axis` item, so
+P-9 and P-10 compose — a disagreement surfaced today is the seed carried to the
+session that resolves it.
+
 ## Procedure
 
 1. **Name that there is no oracle.** State plainly: "this question is
