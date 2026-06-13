@@ -197,6 +197,65 @@ The top three are scaffolded as executable skill files under
 [`skills/`](skills/). They are v0 — meant to be used, measured, and revised
 under P-35 (the catalog applies to itself).
 
+## Adversarial review (external, M4)
+
+The set was put through an external adversarial pass by a strong non-Claude
+frontier model, explicitly hunting slop rather than reassurance — the library
+eating its own cooking (P-4 refute-blind + M4 cross-model triangulation).
+Triangulated against our own judgment, the surviving findings forced real
+changes, recorded here rather than hidden:
+
+- **The dangerous case is the *middle*, not the absence of an oracle.** The
+  P-1 (oracle exists) vs P-9 (no oracle) binary missed the most common failure:
+  a *weak/proxy* oracle trusted as exact (tests that miss the spec, metrics
+  that proxy value, evals that proxy safety, backtests on drifted systems).
+  **Fix shipped:** a new skill, `audit-the-oracle-coverage`, the three-way
+  partition exact / proxied / uncovered, mandatory between P-1 and P-9.
+
+- **"Executable gate" was overclaimed.** The gates are not uniform. Honest
+  classification:
+  - **Hard (machine-checkable / coded):** P-7 (best-response check), P-9
+    (≥2 independent reads, enforced in `triangulate.py`), P-10 (cite-prior /
+    metabolism-vs-churn, enforced in `residue.py`), P-11 (zero unlabeled),
+    P-1 (timestamped pre-commit), and the new `audit-the-oracle-coverage`.
+  - **Soft (disciplined judgment in formal clothing):** P-3 (MDL "shorter" is
+    a judgment for prose), P-4 ("serious attack fails on execution" only when
+    the attack is actually executable), P-6 (MDL drop is not yet operational),
+    P-2 (which case is "smallest nontrivial" is a call). These are still
+    valuable, but they are disciplines, not proofs — labelling them as proofs
+    is itself a slop risk.
+
+- **P-0 is control-plane, not a premier cognitive move**, and its gate ("the
+  chosen skill's gate fires") is circular. Reclassified: a dispatcher/utility
+  that *organizes* the set, not a peer within it.
+
+- **P-2 and P-4 are tactics in the verification family, with P-1 the
+  distinctive member.** Kept — the verification stack (P-2 → P-1 → P-4) is a
+  real sequence — but they are not three co-equal premier skills. P-1
+  (precommit the oracle and its expected value, blind) is the genuinely
+  non-default move; P-2 and P-4 are close to what a careful model already does.
+
+- **P-6 is the weakest** — close to "invent a label", which models overdo, with
+  a "false essence" risk (a crisp name for a blurry cluster, then reasoning as
+  if the boundary were real). Kept, because a *decidable membership test* plus
+  out-of-sample prediction is more than relabeling — but its gate is tightened:
+  the "predicts a real previously-unlisted case" clause is **mandatory**, not
+  optional, or the coinage is rejected as branding.
+
+- **Genuinely differentiated (a strong model does NOT do these unprompted):**
+  P-1 (precommit oracle), P-7 (backward design from equilibrium under
+  metric-gaming), P-11 (denominator accounting), and the gap-find pair P-9/P-10
+  in composition.
+
+- **The sharpest critique, kept as a standing caveat.** The deepest risk is not
+  answering too fast. It is **formalizing the wrong oracle, denominator, or
+  frame, and drawing false confidence from a workflow that *looks* rigorous —
+  rigor theater.** Every hard gate in this set certifies that a *procedure* ran,
+  never that the procedure was aimed at the right target. The honest use of this
+  library treats its own apparent rigor as the thing most in need of P-9's
+  question: *is there really an oracle here, or did I just build one that
+  flatters me?*
+
 ## Why this matters beyond the repos
 
 Each premier skill is a **differentiated affordance** in the exact sense the

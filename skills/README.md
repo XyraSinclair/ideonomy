@@ -16,6 +16,7 @@ anti-vacuity check without which the move degrades into confident slop.
 | --- | --- | --- |
 | [`triangulate-without-oracle`](triangulate-without-oracle/SKILL.md) ★ | rigor when there is NO computable oracle — dimensionalize the value space, gather independent judgments, expose disagreement, name the irreducible call | honesty about the absence of a gate: ≥2 independent reads per axis, or a named irreducible judgment with an owner |
 | [`build-the-oracle-before-the-answer`](build-the-oracle-before-the-answer/SKILL.md) ★ | commit the independent truth-check and its expected value *before* answering | a timestamped expected-value artifact exists before the answer; the oracle runs and matches |
+| [`audit-the-oracle-coverage`](audit-the-oracle-coverage/SKILL.md) | partition a passing check into covered / proxied / uncovered — the weak-oracle middle | at least one named thing the oracle does NOT certify; proxied/uncovered parts routed, not folded into "verified" |
 | [`reframe-until-it-dissolves`](reframe-until-it-dissolves/SKILL.md) ★ | change altitude/basis/domain until the problem is mechanical — the general case is often easier | MDL: shorter statement, instance falls out free, a method unavailable before now available; else revert |
 | [`carry-the-residue-forward-across-sessions`](carry-the-residue-forward-across-sessions/SKILL.md) | persist what resisted resolution as the seed for the next session | session N+1 cites session N's residue or it's a churn breath, not metabolism |
 | [`compute-the-smallest-nontrivial-case`](compute-the-smallest-nontrivial-case/SKILL.md) | hand-compute the smallest case before generalizing | computed == predicted, or the general claim is rejected |
@@ -41,12 +42,20 @@ Two skills ship with real, stdlib-only, offline-tested engines:
 They compose: `Triangulation.to_residue(ledger)` writes contested axes (P-9)
 straight into the residue ledger (P-10).
 
-## The two that are a matched pair
+## The oracle trio (not a binary)
 
-Route to `build-the-oracle-before-the-answer` when an honest oracle exists, to
-`triangulate-without-oracle` when forcing one would measure the wrong thing.
-Choosing wrong — fabricating a proxy oracle for a question that has none — is
-the single failure both exist to prevent, and the reason `route-to-the-right-move`
-makes that branch explicit.
+An external adversarial review found the original "matched pair" framing was a
+false binary. The real structure is a three-way partition of any claim:
+
+- exact oracle exists → `build-the-oracle-before-the-answer`
+- **partial/proxy oracle** (the dangerous middle — a passing check trusted as
+  exact) → `audit-the-oracle-coverage` (covered / proxied / uncovered)
+- no honest oracle → `triangulate-without-oracle`
+
+The failure all three exist to prevent is the same: drawing false confidence
+from a check that does not actually certify the claim. `route-to-the-right-move`
+makes the three-way branch explicit. The review's full findings — including the
+gate-hardness classification and the "rigor theater" caveat — are in
+[`../PREMIER_SKILLS.md`](../PREMIER_SKILLS.md#adversarial-review-external-m4).
 
 The catalog applies to itself (P35): use these, measure them, revise them.
