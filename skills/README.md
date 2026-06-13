@@ -10,6 +10,17 @@ its trigger, then the procedure and its executable gate). They are
 agent can execute end to end. Each gate is the anti-fool-yourself /
 anti-vacuity check without which the move degrades into confident slop.
 
+## The universal pre-gate
+
+| Skill | The move it forces | The gate |
+| --- | --- | --- |
+| [`preserve-the-target`](preserve-the-target/SKILL.md) ◆ | wraps EVERY other skill: name the target property before a move, verify the artifact still binds it after | a preserved-target property named before the move + a post-move binding check; reject gate-passed-but-target-drifted moves |
+
+Two independent strong-model reviews converged on this as the deepest risk: a
+gate prevents vacuity only if it is attached to the *real* target, and most
+moves transform the target. `preserve-the-target` is inherited by all the moves
+below.
+
 ## The set
 
 | Skill | The move it forces | The gate |

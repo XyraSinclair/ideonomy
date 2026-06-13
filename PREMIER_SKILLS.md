@@ -256,6 +256,43 @@ changes, recorded here rather than hidden:
   question: *is there really an oracle here, or did I just build one that
   flatters me?*
 
+### Second pass: GPT-5.5 Pro (the real Oracle, browser-background)
+
+A second external review by GPT-5.5 Pro Extended Thinking **converged** with the
+first on every structural point — the partial/proxy-oracle middle (it independently
+proposed the same `P-11 + P-1 + P-9` decomposition fix), P-0/P-3/P-6 as weakest,
+P-1/P-7/P-10/P-11 as the genuinely-differentiated core, and the verification
+stack (F) as "one protocol, P-1 the anchor, P-2/P-4 subroutines." Convergence of
+two independent strong models on the same de-slop verdict is the strongest signal
+available that those findings are real, not one model's bias.
+
+It also sharpened the deepest critique into a **constructive, shippable
+invariant** — the highest-value outcome of the whole review:
+
+- **Gate laundering → the target-preservation pre-gate.** Every skill
+  *transforms* the target; a gate can fire cleanly on a transformed target that
+  is no longer the one that mattered ("high-assurance wrongness — beautifully
+  verified cognition aimed one degree away from the real problem"). **Fix
+  shipped:** a new cross-cutting skill, `preserve-the-target`, the universal
+  pre-gate every other skill inherits — name the target property before a move,
+  verify the artifact still binds it after, reject gate-passed-but-drifted moves.
+
+- **P-3 needs semantic preservation, not just MDL-shorter** (a reframe can be
+  shorter because it is vaguer — it dropped a constraint). P-3's gate is tightened
+  accordingly; this is `preserve-the-target` applied to reframing.
+
+- **Further missing high-value combos** (beyond `audit-the-oracle-coverage`):
+  `P-5 + P-1 + P-4` (diagnostic tournament: enumerate live hypotheses → precommit
+  expected test results → blind-attack the survivor), `P-11 + P-8 + P-3`
+  (structural safety: prove the cover before gluing patches), and `P-7 + P-4`
+  (mechanism design must be adversarially red-teamed for unmodeled deviations,
+  sybils, side-channels, equilibrium-selection failure).
+
+Tooling note: this pass was run fully in the background via the browser engine
+(GPT-5.5 Pro, ~5 min, zero foreground) using a dedicated `open -g` Chrome with
+seeded ChatGPT cookies and `--remote-chrome` attach — the recipe is now the
+default in the `oracle` skill's `oracle-bg.sh` launcher.
+
 ## Why this matters beyond the repos
 
 Each premier skill is a **differentiated affordance** in the exact sense the

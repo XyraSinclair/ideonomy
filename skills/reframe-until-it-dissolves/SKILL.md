@@ -73,6 +73,13 @@ Plus the **≥3-real-members guard**: do not build general apparatus unless thre
 *real* instances of the class exist. One triggering instance → solve it
 directly; the foundation is premature.
 
+Plus the **semantic-preservation check** (this is `preserve-the-target` applied
+to reframing): a reframe can be MDL-shorter simply because it is *vaguer* — it
+dropped a constraint that mattered. Shorter is necessary but not sufficient.
+Verify the reframed statement still binds the original target's load-bearing
+constraints; if the compression came from quietly discarding one, reject it. A
+reframe that is shorter because it says less is not a dissolution, it is a loss.
+
 Conceptually this is `cycles.py`'s ratchet: keep the breath only if codelen
 drops — coverage up while the structure stays small. A reframe that grows
 coverage on paper but leaves a huge residual (you still need per-case work) or
