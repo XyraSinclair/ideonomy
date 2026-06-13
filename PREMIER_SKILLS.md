@@ -288,10 +288,9 @@ invariant** — the highest-value outcome of the whole review:
   (mechanism design must be adversarially red-teamed for unmodeled deviations,
   sybils, side-channels, equilibrium-selection failure).
 
-Tooling note: this pass was run fully in the background via the browser engine
-(GPT-5.5 Pro, ~5 min, zero foreground) using a dedicated `open -g` Chrome with
-seeded ChatGPT cookies and `--remote-chrome` attach — the recipe is now the
-default in the `oracle` skill's `oracle-bg.sh` launcher.
+Tooling note: this pass was run fully in the background via a browser-engine
+oracle (GPT-5.5 Pro, ~5 min, zero foreground). The launcher mechanics are
+operator-local tooling, not part of this library.
 
 ## Why this matters beyond the repos
 
