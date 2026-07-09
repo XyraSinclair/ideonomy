@@ -8,7 +8,7 @@ version = "0.2.0"
 description = "Computational ideonomy: Gunkel's science of ideas as inference-time cognitive machinery — the organon, the respiratory engine, and 14 gated agent skills"
 readme = "README.md"
 license = { file = "LICENSE" }
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 authors = [{ name = "Xyra Sinclair" }]
 keywords = [
   "ideonomy", "gunkel", "agents", "llm", "cognition",
@@ -19,7 +19,6 @@ classifiers = [
   "Intended Audience :: Developers",
   "Intended Audience :: Science/Research",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.11",
   "Topic :: Scientific/Engineering :: Artificial Intelligence",
 ]
 

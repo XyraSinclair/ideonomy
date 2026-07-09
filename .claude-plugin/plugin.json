@@ -1,0 +1,11 @@
+{
+  "name": "ideonomy",
+  "displayName": "Ideonomy",
+  "version": "0.2.0",
+  "description": "14 premier agent skills: gated cognitive moves default LLM workflows do badly — precommit the oracle, triangulate without one, audit oracle coverage, prove the denominator, carry residue across sessions, preserve the target.",
+  "author": {
+    "name": "Xyra Sinclair"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/XyraSinclair/ideonomy"
+}

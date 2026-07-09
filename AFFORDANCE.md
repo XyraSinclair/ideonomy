@@ -54,7 +54,7 @@ procedure + gate. Start with the top three: `triangulate-without-oracle`,
     Model-backed paths depend on the operator's own model CLIs.
   - *fragility:* low for the offline engine; the model-backed skills inherit
     whatever model access the operator wires in.
-  - *platform coverage:* any environment with Python 3.11+;
+  - *platform coverage:* any environment with Python 3.9+;
     skills are model-agnostic (any CLI/callable is a model).
   - *clarity:* each skill is one page with an explicit trigger and gate.
 

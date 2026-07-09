@@ -36,13 +36,15 @@ Three layers, each usable alone:
    minimum-description-length — that turns the catalog into an engine.
 
 3. **[`ideonomy/`](ideonomy/) — the engines and Gunkel's corpus as data.**
-   Stdlib-only Python 3.11+, zero dependencies, fully offline-testable: the
+   Stdlib-only Python 3.9+, zero dependencies, fully offline-testable: the
    respiratory engine ([`cycles.py`](ideonomy/cycles.py)), the cross-session
    residue ledger ([`residue.py`](ideonomy/residue.py)), the no-oracle
    triangulation harness ([`triangulate.py`](ideonomy/triangulate.py)), the
    metabolic loop skeleton ([`loop.py`](ideonomy/loop.py)), and Gunkel's 236
    divisions ([`divisions.py`](ideonomy/divisions.py)) and generative
-   operators ([`operators.py`](ideonomy/operators.py)), machine-usable.
+   operators ([`operators.py`](ideonomy/operators.py)), machine-usable —
+   plus a seeded drawer ([`draw.py`](ideonomy/draw.py)) that forces
+   non-default lenses from their 2,832-pair cross-product.
    Model-agnostic by construction: any CLI or callable is a model
    ([`models.py`](ideonomy/models.py)).
 
@@ -56,7 +58,15 @@ python3 -m unittest discover tests  # the whole suite, no network, no deps
 
 ## Install the skills
 
-Any agent that reads `SKILL.md` files:
+Claude Code, one command:
+
+```
+/plugin marketplace add XyraSinclair/ideonomy
+```
+
+(then install the `ideonomy` plugin; skills appear as `/ideonomy:<skill-name>`.)
+
+Any other agent that reads `SKILL.md` files:
 
 ```bash
 ./install.sh                        # copies skills/ into ~/.claude/skills/
@@ -100,6 +110,7 @@ python3 -m ideonomy.triangulate "Is this landing copy in the right register?" \
     --axis austerity --axis exactness \
     --judge 'claude -p {prompt}' --judge 'codex exec {prompt}'
 python3 -m ideonomy.residue --topic mywork open   # cross-session residue ledger
+python3 -m ideonomy.draw "your problem" --n 3     # forced non-default lenses, offline
 ```
 
 ## Status, honestly
@@ -112,12 +123,33 @@ ruled-out, nothing unlabeled — is [docs/canonicality.md](docs/canonicality.md)
 The catalog applies to itself: gap-find it, vary it, and keep what survives
 refutation (P11, P15, P22, P35).
 
-## Sources
+## Lineage and related work
 
-- https://ideonomy.mit.edu/ — Gunkel's five scanned volumes and ~400 charts
-- https://gracekind.net/writing/ideonomy/intro/ — the contemporary revival
-- [docs/gunkel.md](docs/gunkel.md) — distilled research notes with full provenance
-- [AFFORDANCE.md](AFFORDANCE.md) — this repo packaged as a capability an
-  arbitrary stranger's agent can execute end to end
+Everything here descends from **Patrick Gunkel** (the primary source:
+[ideonomy.mit.edu](https://ideonomy.mit.edu/), five scanned volumes and ~400
+charts) via **Grace Kind's revival essays**
+([intro](https://gracekind.net/writing/ideonomy/intro/)), which named the
+field's three open problems: evaluating idea quality, contextualizing
+ideation strategies, and effective AI-driven ideation. This repo's center of
+gravity is the first two — gates and routing — which is also what
+distinguishes it from its siblings:
+
+- [`latentwill/ideonomy-skill`](https://github.com/latentwill/ideonomy-skill)
+  — a well-made pair of Claude skills built on Kind's essays: an external
+  random picker (8 operators × 17 organons × 29 dimension-prompts) against
+  ideation mode-collapse. Take its thesis seriously — `draw.py` here is that
+  idea pointed at Gunkel's full catalog. What it deliberately lacks is what
+  this repo is for: evaluation gates and cross-session accumulation.
+- [`Morpheis/ideonomy-engine`](https://github.com/Morpheis/ideonomy-engine)
+  — a TypeScript CLI curating 28 of Gunkel's divisions into agent-usable
+  lenses with chaining/synthesis verbs. Good curation; the composition is
+  string templates, and there is no judgment layer.
+- [`kindgracekind/ideonomy-legacy`](https://github.com/kindgracekind/ideonomy-legacy)
+  — Kind's own 2023 experiments, including the first stab at the
+  idea-quality problem (`discriminator.py`).
+
+Distilled research notes with full provenance: [docs/gunkel.md](docs/gunkel.md).
+This repo packaged as a capability a stranger's agent can execute end to end:
+[AFFORDANCE.md](AFFORDANCE.md).
 
 MIT licensed.

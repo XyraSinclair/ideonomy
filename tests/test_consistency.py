@@ -112,6 +112,18 @@ class TestProseCounts(unittest.TestCase):
                                  f"{py.name} carries a stale primitive count")
 
 
+class TestVersionSync(unittest.TestCase):
+    """pyproject, plugin.json, and marketplace.json carry one version."""
+
+    def test_versions_agree(self):
+        import json
+        pv = re.search(r'^version = "([^"]+)"', read("pyproject.toml"), re.M).group(1)
+        plugin = json.loads(read(".claude-plugin/plugin.json"))
+        market = json.loads(read(".claude-plugin/marketplace.json"))
+        self.assertEqual(plugin["version"], pv)
+        self.assertEqual(market["plugins"][0]["version"], pv)
+
+
 class TestLinks(unittest.TestCase):
     """Every relative markdown link in every tracked .md file resolves."""
 
