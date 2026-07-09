@@ -66,8 +66,34 @@ class LedgerTests(unittest.TestCase):
         self.assertAlmostEqual(sc["strict"], 2 / 3, places=3)
         self.assertEqual(sc["open_residue"], 1)
 
+    def test_same_session_resolution_is_not_metabolism(self) -> None:
+        # resolving an item born THIS session must not count as engaging the
+        # prior residue surfaced at open.
+        led = R.Ledger()
+        led.open_session(now="t0")
+        led.add("old tension", "anomaly")
+        led.close_session(now="t1")
+        led.open_session(now="t2")               # cited_prior == 1
+        new = led.add("brand new", "open_question")
+        led.resolve(new.id)                       # engages nothing prior
+        self.assertEqual(led.close_session(now="t3").breath, "churn")
+
+    def test_forward_compat_load_ignores_unknown_fields(self) -> None:
+        led = R.Ledger()
+        led.open_session(now="t0")
+        led.add("x", "anomaly")
+        led.close_session(now="t1")
+        d = led.to_dict()
+        next(iter(d["residue"].values()))["future_field"] = 1
+        d["sessions"][0]["future_field"] = 2
+        led2 = R.Ledger.from_dict(d)              # must not TypeError
+        self.assertEqual(len(led2.residue), 1)
+
     def test_cli_smoke(self) -> None:
-        with tempfile.TemporaryDirectory() as d:
+        import contextlib
+        import io
+        with tempfile.TemporaryDirectory() as d, \
+                contextlib.redirect_stdout(io.StringIO()):
             store = str(Path(d) / "l.json")
             self.assertEqual(R.main(["--store", store, "open"]), 0)
             self.assertEqual(R.main(["--store", store, "add", "q", "--kind", "open_question"]), 0)
@@ -76,6 +102,15 @@ class LedgerTests(unittest.TestCase):
             led = R.Ledger.load(Path(store))
             self.assertEqual(len(led.residue), 1)
             self.assertEqual(led.sessions[-1].breath, "churn")
+
+    def test_cli_errors_are_exit_codes_not_tracebacks(self) -> None:
+        import contextlib
+        import io
+        with tempfile.TemporaryDirectory() as d, \
+                contextlib.redirect_stderr(io.StringIO()):
+            store = str(Path(d) / "l.json")
+            rc = R.main(["--store", store, "add", "q", "--kind", "anomaly"])
+            self.assertNotEqual(rc, 0)            # no open session -> error, not raise
 
 
 if __name__ == "__main__":

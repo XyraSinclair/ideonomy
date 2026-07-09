@@ -103,7 +103,7 @@ class Triangulation:
         return ids
 
 
-def triangulate(question: str, axes: list, judges: list) -> Triangulation:
+def triangulate(question: str, axes: list[str], judges: list[Judge]) -> Triangulation:
     """Run every judge on every axis. The gate: >=2 independent judges, else
     this is not triangulation — raise and tell the caller to name the owner."""
     if len(judges) < 2:
@@ -147,7 +147,8 @@ def dimensionalize(question: str, model: Callable[[str], str], k: int = 4) -> li
         f"the dimensions along which one would judge it. One per line, terse, "
         f"no numbering.\n\nQuestion: {question}")
     reply = model(prompt)
-    axes = [ln.strip(" -*\t") for ln in reply.splitlines() if ln.strip()]
+    axes = [ln.strip(" -*\t0123456789.)") for ln in reply.splitlines() if ln.strip()]
+    axes = [a for a in axes if a]
     return axes[:k] or ["overall fitness"]
 
 
@@ -170,12 +171,18 @@ def main(argv: Optional[list] = None) -> int:
     import argparse
     from .models import CommandModel
 
-    ap = argparse.ArgumentParser(prog="ideonomy.triangulate", description=__doc__)
+    ap = argparse.ArgumentParser(
+        prog="ideonomy.triangulate",
+        description="Triangulate a no-oracle question: >=2 independent judges "
+                    "per value axis; report the spread, never a single number.")
     ap.add_argument("question")
     ap.add_argument("--axis", action="append", default=[], help="value axis (repeatable)")
     ap.add_argument("--judge", action="append", default=[], required=True,
                     help="model command with {prompt} (repeatable; need >=2)")
     args = ap.parse_args(argv)
+    if len(args.judge) < 2:
+        ap.error("triangulation needs >=2 independent --judge commands; with "
+                 "one judge, name the judgment irreducible and its owner instead")
 
     judges_models = [CommandModel(c, name=f"judge-{i+1}") for i, c in enumerate(args.judge)]
     axes = args.axis or dimensionalize(args.question, judges_models[0])

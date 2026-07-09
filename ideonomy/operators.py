@@ -1,8 +1,9 @@
 """Gunkel's generative operators as pure functions (no model required).
 
-These are the GENERATE-phase primitives (P12-P17) in their mechanical form.
-Model-mediated versions — where a model fills the template judgmentally
-instead of mechanically — live in loop.py via the same signatures.
+These are the GENERATE-phase primitives (P12-P17) in their mechanical form:
+either direct computations (combine, gap_matrix) or prompt renderers
+(vary, analogy_prompt, transpose_prompt, progressive_loop_prompt) whose
+output you hand to any model — e.g. via models.CommandModel.
 """
 
 from __future__ import annotations

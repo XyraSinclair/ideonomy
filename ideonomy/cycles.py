@@ -147,7 +147,12 @@ def compress_mechanical(state: State, threshold: float = 0.45) -> Compression:
 
 def residue_extract(state: State, comp: Compression, quantile: float = 0.7) -> list[str]:
     """RESIDUE: items whose per-item data cost is in the top tail, plus
-    singleton groups (structure that failed to generalize)."""
+    singleton groups (structure that failed to generalize).
+
+    A flat cost distribution has no tail: when every item resists equally,
+    nothing resists *more*, so nothing is residue — items at the global
+    minimum are excluded so ties cannot flood the seed with the whole corpus.
+    """
     member_of = {iid: lbl for lbl, ids in comp.groups.items() for iid in ids}
     costs = {
         iid: data_bits(it, comp.rule.get(member_of.get(iid, ""), set()))
@@ -157,7 +162,8 @@ def residue_extract(state: State, comp: Compression, quantile: float = 0.7) -> l
         return []
     ordered = sorted(costs.values())
     cut = ordered[min(len(ordered) - 1, int(quantile * len(ordered)))]
-    res = [iid for iid, c in costs.items() if c >= cut]
+    floor = ordered[0]
+    res = [iid for iid, c in costs.items() if c >= cut and c > floor]
     singletons = [ids[0] for ids in comp.groups.values() if len(ids) == 1]
     return sorted(set(res) | set(singletons))
 
@@ -214,12 +220,13 @@ def breath(state: State, *, expand: Expand = expand_mechanical,
     """One expand->judge->compress->measure->residue breath, with MDL ratchet.
 
     The expansion is accepted only if it does not worsen the two-part code
-    length; on regression the new items are rolled back (variant-archive P32)
-    and the breath is recorded as a failed expansion (logged, never hidden).
+    length; on regression the new items are rolled back and the breath is
+    recorded as a failed expansion (logged, never hidden).
     """
     state.cycle += 1
     prev_comp = state.compression
-    prev_ratio = (raw_bits(state) / codelen(state, prev_comp)) if prev_comp else 1.0
+    prev_len = codelen(state, prev_comp) if prev_comp else 0.0
+    prev_ratio = (raw_bits(state) / prev_len) if prev_len else 1.0
     snapshot = set(state.corpus)
 
     # breathe in

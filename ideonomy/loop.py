@@ -62,6 +62,7 @@ class State:
     # -- persistence ---------------------------------------------------------
     def save(self, path: str | Path) -> None:
         p = Path(path)
+        p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(json.dumps({
             "subject": self.subject,
             "tensions": {k: vars(t) for k, t in self.tensions.items()},

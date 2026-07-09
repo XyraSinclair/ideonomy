@@ -9,6 +9,7 @@ assembled on a workstation without SDK lock-in.
 from __future__ import annotations
 
 import concurrent.futures
+import re
 import shlex
 import subprocess
 from collections.abc import Callable, Sequence
@@ -42,7 +43,9 @@ class CommandModel:
                 text=True, timeout=self.timeout,
             )
         else:
-            cmd = self.command.format(prompt=shlex.quote(prompt))
+            # replace, not str.format: command templates may carry literal
+            # braces (jq filters, JSON payloads) that are not placeholders.
+            cmd = self.command.replace("{prompt}", shlex.quote(prompt))
             proc = subprocess.run(
                 cmd, shell=True, capture_output=True, text=True,
                 timeout=self.timeout,
@@ -63,6 +66,8 @@ def panel(models: Sequence[Model], prompt: str,
     per judge (M2). A failed model yields its Exception rather than sinking
     the panel.
     """
+    if not models:
+        return []
     ps = list(prompts) if prompts is not None else [prompt] * len(models)
     if len(ps) != len(models):
         raise ValueError("prompts must match models in length")
@@ -96,7 +101,20 @@ def refute(models: Sequence[Model], claim: str, context: str = "") -> bool:
         prompt += f"\nContext:\n{context}\n"
     votes = panel(models, prompt)
     survives = sum(
-        1 for v in votes
-        if isinstance(v, str) and "VERDICT: SURVIVES" in v.upper()
+        1 for v in votes if isinstance(v, str) and _survives(v)
     )
     return survives > len(models) / 2
+
+
+def _survives(reply: str) -> bool:
+    """Parse the LAST verdict line; refuted-by-default when unparseable.
+
+    A bare substring test would count a model that echoes its instructions
+    (which contain both verdict strings) as a survival vote — inverting the
+    gate's safety default.
+    """
+    for ln in reversed([ln.strip() for ln in reply.splitlines() if ln.strip()]):
+        m = re.match(r"VERDICT:\s*(REFUTED|SURVIVES)\b", ln, re.IGNORECASE)
+        if m:
+            return m.group(1).upper() == "SURVIVES"
+    return False

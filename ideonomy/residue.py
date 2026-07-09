@@ -14,11 +14,15 @@ seed store, with the distinction the engine cares about made executable:
 
 Organon: P31 episodic-memory + P32 variant-archive + P37 residue-seed + P30
 ledger. Stdlib-only, JSON-backed, model-agnostic. CLI: `python3 -m ideonomy.residue`.
+
+The CLI is load/mutate/save with no locking: concurrent invocations against
+one store are last-writer-wins. Scope ledgers per topic (one writer each).
 """
 
 from __future__ import annotations
 
 import json
+import sys
 import time
 from dataclasses import dataclass, field, asdict
 from pathlib import Path
@@ -82,8 +86,8 @@ class Ledger:
     @classmethod
     def from_dict(cls, d: dict[str, Any]) -> "Ledger":
         led = cls(topic=d.get("topic", "default"), _seq=d.get("_seq", 0))
-        led.residue = {k: Residue(**v) for k, v in d.get("residue", {}).items()}
-        led.sessions = [Session(**s) for s in d.get("sessions", [])]
+        led.residue = {k: _fields(Residue, v) for k, v in d.get("residue", {}).items()}
+        led.sessions = [_fields(Session, s) for s in d.get("sessions", [])]
         return led
 
     def save(self, path: Path) -> None:
@@ -148,8 +152,15 @@ class Ledger:
     def close_session(self, now: Optional[str] = None) -> Session:
         sess = self._require_open()
         sess.closed = now or _ts()
-        engaged = bool(sess.seeded or sess.resolved)
-        # Metabolism iff prior residue existed, was surfaced, and was engaged.
+        # Metabolism iff prior residue existed, was surfaced, and was engaged —
+        # where "engaged" means seeding/resolving an item born in an EARLIER
+        # session. Resolving residue added this same session is motion within
+        # the session, not compounding across sessions.
+        engaged = any(
+            self.residue[rid].born_session != sess.id
+            for rid in (*sess.seeded, *sess.resolved)
+            if rid in self.residue
+        )
         sess.breath = "metabolism" if (sess.cited_prior and engaged) else "churn"
         return sess
 
@@ -188,6 +199,14 @@ def _ts() -> str:
     return time.strftime("%Y-%m-%dT%H:%M:%S")
 
 
+def _fields(cls: Any, d: dict[str, Any]) -> Any:
+    """Construct a dataclass from a dict, ignoring unknown keys — a store
+    written by a future version with extra fields must still load."""
+    import dataclasses
+    known = {f.name for f in dataclasses.fields(cls)}
+    return cls(**{k: v for k, v in d.items() if k in known})
+
+
 # --------------------------------------------------------------------- CLI
 def _store_path(args: Any) -> Path:
     if getattr(args, "store", None):
@@ -224,18 +243,27 @@ def main(argv: Optional[list] = None) -> int:
 
     args = ap.parse_args(argv)
     path = _store_path(args)
-    led = Ledger.load(path)
+    try:
+        led = Ledger.load(path)
+    except (ValueError, TypeError) as exc:   # corrupt store: refuse, don't clobber
+        print(f"error: cannot read ledger {path}: {exc}", file=sys.stderr)
+        return 2
     if args.topic:
         led.topic = args.topic
-    rc = _dispatch(led, args)
+    try:
+        rc = _dispatch(led, args, path)
+    except (RuntimeError, KeyError) as exc:
+        msg = exc.args[0] if exc.args else exc
+        print(f"error: {msg}  [store: {path}]", file=sys.stderr)
+        return 2                              # nothing mutated is saved
     led.save(path)
     return rc
 
 
-def _dispatch(led: Ledger, args: Any) -> int:
+def _dispatch(led: Ledger, args: Any, path: Path) -> int:
     if args.cmd == "open":
         sess, carried = led.open_session()
-        print(f"session {sess.id} open  (topic={led.topic})")
+        print(f"session {sess.id} open  (topic={led.topic}, store={path})")
         if carried:
             print(f"prior residue to engage before you expand ({len(carried)}):")
             for r in carried:
@@ -260,6 +288,7 @@ def _dispatch(led: Ledger, args: Any) -> int:
         return 0
     if args.cmd == "status":
         sc = led.score()
+        print(f"store={path}")
         print(f"topic={led.topic}  open_residue={sc['open_residue']}  "
               f"strict={sc['strict']:.0%}  lenient={sc['lenient']:.0%}")
         print(f"breaths: metabolism={sc['metabolism_breaths']}  churn={sc['churn_breaths']}")

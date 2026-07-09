@@ -74,13 +74,37 @@ class RatchetTests(unittest.TestCase):
 
     def test_residue_extracted_and_run_terminates(self) -> None:
         s = structured_corpus()
+        outlier = s.add("qqq www eee rrr ttt yyy", source="seed")
         s.compression = cycles.compress_mechanical(s)
         s.residue = cycles.residue_extract(s, s.compression)
-        self.assertTrue(s.residue)                      # something resists
+        self.assertIn(outlier, s.residue)               # the misfit resists
         out = cycles.run(s, cycles=8)                   # must terminate (plateau)
         self.assertLessEqual(len(out.history), 8)
         for rec in out.history:
             self.assertIn(rec["expansion"], ("accepted", "reverted"))
+
+
+class EdgeTests(unittest.TestCase):
+    def test_breath_on_empty_corpus_does_not_crash(self) -> None:
+        s = cycles.seed([])
+        cycles.breath(s)
+        rec = cycles.breath(s)      # second breath: prev_comp exists, codelen == 0
+        self.assertIn(rec["expansion"], ("accepted", "reverted"))
+
+    def test_flat_cost_corpus_has_no_residue_tail(self) -> None:
+        # every item = shared core + exactly one unique token: costs all tie,
+        # so nothing resists more than anything else — residue must not flood.
+        s = structured_corpus()
+        comp = cycles.compress_mechanical(s)
+        self.assertEqual(cycles.residue_extract(s, comp), [])
+
+    def test_residue_flags_outlier_not_everything(self) -> None:
+        s = structured_corpus()
+        outlier = s.add("qqq www eee rrr ttt yyy", source="seed")
+        comp = cycles.compress_mechanical(s)
+        res = cycles.residue_extract(s, comp)
+        self.assertIn(outlier, res)
+        self.assertLess(len(res), len(s.corpus))
 
 
 if __name__ == "__main__":

@@ -63,6 +63,17 @@ class TriangulateTests(unittest.TestCase):
         self.assertAlmostEqual(T._parse_lean("LEAN: 2.0"), 1.0)      # clamped
         self.assertAlmostEqual(T._parse_lean("no number here"), 0.0)
 
+    def test_model_judge_parses_model_reply(self) -> None:
+        v = T.model_judge(lambda p: "LEAN: -0.4\nWHY: too florid", "m1")("austerity", "q")
+        self.assertAlmostEqual(v.lean, -0.4)
+        self.assertEqual(v.stance, "too florid")
+
+    def test_dimensionalize_strips_numbering_and_falls_back(self) -> None:
+        axes = T.dimensionalize("q", lambda p: "1. austerity\n2) exactness", k=4)
+        self.assertEqual(axes, ["austerity", "exactness"])
+        self.assertEqual(T.dimensionalize("q", lambda p: "", k=4),
+                         ["overall fitness"])
+
 
 if __name__ == "__main__":
     unittest.main()

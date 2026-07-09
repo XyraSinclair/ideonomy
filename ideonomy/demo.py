@@ -34,9 +34,10 @@ def main() -> None:
     for q in combos:
         print(f"  {q}")
 
-    # P15 vary — render one idea through three operators.
-    print("\nP15 vary ('a score that must ratchet'):")
-    for op, prompt in operators.vary("a score that must ratchet",
+    # P15 vary — render one idea through three operators. The {x} templates
+    # read best with an article-free noun phrase.
+    print("\nP15 vary ('ratcheting scores'):")
+    for op, prompt in operators.vary("ratcheting scores",
                                      ["negate", "iterate", "pluralize"]).items():
         print(f"  [{op}] {prompt}")
 
