@@ -99,8 +99,12 @@ without gain).
 
 Failure modes the ratchet catches:
 
-- **Expansion runaway** — accumulating candidates without ever compressing.
-  Caught: codelen rises; force a distillation-only breath.
+- **Expansion runaway** — accumulating candidates that inflate the residue
+  instead of joining the structure. Caught: the compression ratio falls; the
+  expansion is reverted. (One floor regime to know: on a corpus with no
+  latent structure the ratio sits at exactly 1 — nothing is claimed, so
+  nothing can be protected — and containment falls to JUDGE and the cycle
+  budget, not the ratchet. The demo's Part 2 shows this honestly.)
 - **Premature compression** — collapsing to a tidy but shallow structure.
   Caught: `L(corpus | structure)` (residue) stays huge; the structure is
   rejected as under-fit however pretty it looks.
