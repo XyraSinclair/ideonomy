@@ -7,8 +7,8 @@ the MDL ratchet accepts improving breaths and reverts worsening ones, and the
 residue is extracted as the next frontier. This proves the rhythm and that
 the ratchet has teeth.
 
-Part 2 — the reflexive run: the engine breathes over its own 35 primitive
-glosses. These are lexically token-disjoint one-liners, so mechanical (no
+Part 2 — the reflexive run: the engine breathes over the organon's own
+primitive glosses. These are lexically token-disjoint one-liners, so mechanical (no
 model) compression correctly bottoms out — the ratchet refuses to pretend a
 pile of singletons is structure, and the run reports that this corpus needs
 the model hook to be compressed by meaning rather than by shared tokens.
@@ -84,7 +84,8 @@ def part2() -> None:
     state.residue = cycles.residue_extract(state, c0)
     ratio = cycles.raw_bits(state) / cycles.codelen(state, c0)
     singletons = sum(1 for ids in c0.groups.values() if len(ids) == 1)
-    print("\n\nPART 2 — reflexive run over the organon's own 35 primitives")
+    print(f"\n\nPART 2 — reflexive run over the organon's own "
+          f"{len(primitives.PRIMITIVES)} primitives")
     print(f"  groups={len(c0.groups)} ({singletons} singletons), "
           f"ratio={ratio:.3f}, residue={len(state.residue)}")
     cycles.run(state, cycles=3)

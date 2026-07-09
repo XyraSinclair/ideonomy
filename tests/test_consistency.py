@@ -104,6 +104,13 @@ class TestProseCounts(unittest.TestCase):
         self.assertEqual(n, 236)
         self.assertIn(f"({n} recovered)", read("README.md"))
 
+    def test_no_hardcoded_primitive_count_in_code(self):
+        """Prose inside .py files must not carry a hardcoded primitive count."""
+        for py in (ROOT / "ideonomy").glob("*.py"):
+            for bad in ("35 primitive", "36 primitive"):
+                self.assertNotIn(bad, py.read_text(),
+                                 f"{py.name} carries a stale primitive count")
+
 
 class TestLinks(unittest.TestCase):
     """Every relative markdown link in every tracked .md file resolves."""
