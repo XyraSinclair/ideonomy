@@ -1,10 +1,9 @@
 # Affordance entry: differentiated agenting tooling
 
-This file packages the repository as a **differentiated affordance** in the
-sense of `docs/strategy/differentiated_affordances_index.md` in the ExoPriors /
-Scry corpus: a concrete, nameable capability a person can exercise through their
-agent, distributed as minimal instructions an arbitrary stranger's agent can
-execute end to end.
+This file packages the repository as a **differentiated affordance**: a
+concrete, nameable capability a person can exercise through their agent,
+distributed as minimal instructions an arbitrary stranger's agent can execute
+end to end.
 
 ## The capability
 
@@ -36,7 +35,7 @@ git clone https://github.com/XyraSinclair/ideonomy
 cd ideonomy
 python3 -m ideonomy.cycles_demo          # see the engine breathe (offline, no model)
 cat skills/README.md                     # the 14 premier skills, each with its gate
-python3 -m unittest discover tests       # 18 offline tests, no network
+python3 -m unittest discover tests       # offline test suite, no network
 ```
 
 To use a skill, load its `SKILL.md` into your agent's context and follow the
@@ -51,11 +50,11 @@ procedure + gate. Start with the top three: `triangulate-without-oracle`,
   `PREMIER_SKILLS.md`, `ORGANON.md`, `CYCLES.md`, `docs/`.
 - **Rating dimensions** (the affordance-index judgement axes):
   - *steps-to-first-success:* one `git clone` + one command (low).
-  - *unattended reliability:* offline core is deterministic; 18 passing tests.
+  - *unattended reliability:* offline core is deterministic and fully tested.
     Model-backed paths depend on the operator's own model CLIs.
   - *fragility:* low for the offline engine; the model-backed skills inherit
     whatever model access the operator wires in.
-  - *platform coverage:* any environment with Python 3.9+ (3.11+ recommended);
+  - *platform coverage:* any environment with Python 3.11+;
     skills are model-agnostic (any CLI/callable is a model).
   - *clarity:* each skill is one page with an explicit trigger and gate.
 

@@ -1,6 +1,6 @@
 # Cycles: the respiratory engine
 
-The organon (`ORGANON.md`) lists 35 primitives across six phases. This file
+The organon (`ORGANON.md`) lists 37 primitives across six phases. This file
 adds the **orthogonal axis** that turns those primitives into an engine for
 open-ended cognitive work: the breath of **expansion** and **compression**.
 
@@ -114,17 +114,18 @@ a taxonomy you can *regenerate from a rule* is compressed twice, and the rule
 is usually the actual insight. Distillation is the breath out taken to its
 limit.
 
-## The three repos as one engine
+## One engine, three registers
 
 - **`ideonomy/cycles.py`** is the substrate-agnostic respiratory engine: it
   breathes over any corpus of text items with pluggable expand / judge /
   compress functions and the MDL ratchet built in. Mechanical defaults run
   offline; model hooks deepen every phase.
-- **`autotaxon`** is the **breathe-out half**, specialized: corpus → graded
-  faceted taxonomy, with its quality ledger as a domain-specific MDL proxy.
-- **`metabolize`** is the **full breath**, specialized to code, where the
-  JUDGE phase has hard oracles (tests, builds, re-scan) instead of model
-  panels — the strongest possible ratchet.
+- **The breathe-out half, specialized** — autotaxonomization: corpus → graded
+  faceted taxonomy, with a quality ledger as a domain-specific MDL proxy
+  (the ORGANON "Using the catalog" reference path).
+- **The full breath, specialized to code** — continuous codebase improvement,
+  where the JUDGE phase has hard oracles (tests, builds, re-scan) instead of
+  model panels — the strongest possible ratchet.
 
 Open-ended cognitive work — research, theory-building, strategy, design — is
 run as breaths of this engine with the corpus being claims, options,

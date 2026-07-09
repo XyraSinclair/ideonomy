@@ -193,9 +193,11 @@ model sometimes does them anyway.
    coverage-denominator · 7. P-6 coin-concept · 8. P-5 discriminating-alts ·
    9. P-7 mechanism-design · 10. P-8 localize-then-glue.
 
-The top three are scaffolded as executable skill files under
-[`skills/`](skills/). They are v0 — meant to be used, measured, and revised
-under P-35 (the catalog applies to itself).
+All fourteen are shipped as executable skill files under
+[`skills/`](skills/) — the twelve above plus the two the adversarial reviews
+forced (`audit-the-oracle-coverage`, `preserve-the-target`). They are young —
+meant to be used, measured, and revised under P-35 (the catalog applies to
+itself).
 
 ## Adversarial review (external, M4)
 

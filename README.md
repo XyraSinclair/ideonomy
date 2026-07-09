@@ -23,7 +23,7 @@ This repo holds three things:
    ACT → PERSIST. **[CYCLES.md](CYCLES.md)** adds the orthogonal respiratory
    axis — the breath of expansion and compression, ratcheted on
    minimum-description-length — that turns the catalog into an engine for
-   open-ended cognitive work. This is the kernel; sibling repos instantiate it.
+   open-ended cognitive work.
 2. **Gunkel's corpus as data** — the divisions of ideonomy
    ([`ideonomy/divisions.py`](ideonomy/divisions.py)), his generative
    operators ([`ideonomy/operators.py`](ideonomy/operators.py)), and his
@@ -34,14 +34,10 @@ This repo holds three things:
    callable is a model), multi-model by default, stdlib-only Python. See it
    breathe over its own catalog: `python3 -m ideonomy.cycles_demo`.
 
-## Sibling repos
-
-- [`../autotaxon`](../autotaxon) — autotaxonomization: corpus → faceted,
-  quality-scored taxonomy. The orient phase of the organon, industrialized.
-- [`../metabolize`](../metabolize) — continuous multi-model codebase
-  improvement. The full loop pointed at code, picking up where
-  [desloppify](https://github.com/peteromallet/desloppify) stops (multi-model
-  judgment, adversarial verification, continuity).
+Two specializations of the same loop — autotaxonomization (corpus → faceted
+taxonomy) and continuous codebase improvement (the loop pointed at code, hard
+oracles at JUDGE) — are documented as reference paths in
+[ORGANON.md](ORGANON.md#using-the-catalog).
 
 ## Quick start
 

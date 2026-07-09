@@ -2,6 +2,24 @@
 
 from __future__ import annotations
 
-from . import divisions, loop, models, operators, primitives
+from . import (
+    cycles,
+    divisions,
+    loop,
+    models,
+    operators,
+    primitives,
+    residue,
+    triangulate,
+)
 
-__all__ = ["divisions", "loop", "models", "operators", "primitives"]
+__all__ = [
+    "cycles",
+    "divisions",
+    "loop",
+    "models",
+    "operators",
+    "primitives",
+    "residue",
+    "triangulate",
+]

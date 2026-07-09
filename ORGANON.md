@@ -321,12 +321,12 @@ These compose with every phase above:
 ## Using the catalog
 
 A practical loop is a *path* through the phases with explicit choices at each
-step. Two worked instantiations live in sibling repos:
+step. Two worked paths, as reference designs:
 
-- [`autotaxon`](../autotaxon) — P1→P5→P6→P7→P8→P9→P11→P16→(P18,P25)→P30:
-  corpus to faceted taxonomy.
-- [`metabolize`](../metabolize) — P2/P3→P10→P6→P17→(P21,P22,P24)→P26–P29→P30–P33:
-  continuous codebase improvement.
+- **autotaxonomization** — P1→P5→P6→P7→P8→P9→P11→P16→(P18,P25)→P30:
+  corpus to faceted, quality-scored taxonomy.
+- **continuous codebase improvement** — P2/P3→P10→P6→P17→(P21,P22,P24)→P26–P29→P30–P33:
+  the full loop pointed at code, with hard oracles at JUDGE.
 
 The machine-readable form of this catalog is
 [`ideonomy/primitives.py`](ideonomy/primitives.py).
