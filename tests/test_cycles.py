@@ -106,6 +106,17 @@ class EdgeTests(unittest.TestCase):
         self.assertIn(outlier, res)
         self.assertLess(len(res), len(s.corpus))
 
+    def test_compression_never_worse_than_raw(self) -> None:
+        # A rule is a compression claim; it must pay or be dropped. Duplicate
+        # items and tie-promoted tokens were the two known violations.
+        for texts in (["alpha beta", "alpha beta"],
+                      ["alpha beta x", "alpha beta y", "alpha z"],
+                      ["a", "a b", "a b c", "zzz"]):
+            s = cycles.seed(texts)
+            comp = cycles.compress_mechanical(s)
+            self.assertLessEqual(cycles.codelen(s, comp), cycles.raw_bits(s),
+                                 f"structure worse than raw on {texts}")
+
 
 if __name__ == "__main__":
     unittest.main()

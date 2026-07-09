@@ -51,6 +51,11 @@ counter-argument in prose does not save it; execution does. If an attack lands,
 the answer is not "mostly right" — it failed the gate. If confidence was
 uniformly high and the attacks were mild, the gate has not really fired.
 
+The gate certifies only the attacks that were *run*: name the attack classes
+relevant to the claim's type first (wrong-input, wrong-assumption, adversarial
+environment, scale, replay), and label any class you did not attack as an
+uncovered class — surviving three attacks from one class is not surviving.
+
 ## Example
 
 Claim: "the migration preserves all user settings." Blind the plan, then attack

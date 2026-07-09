@@ -15,7 +15,7 @@ trusting it.*
 
 | # | Property | Label |
 |---|----------|-------|
-| A1 | Every count stated in prose (37 primitives, 14 skills, 6+6 axes, test count, division count) matches the machine-readable source, enforced by a test, not by care | covered — `tests/test_consistency.py` |
+| A1 | The load-bearing prose counts (primitives, skills, divisions, plugin versions) match the machine-readable source, enforced by tests, not by care; counts outside that enforced set are avoided rather than asserted | covered — `tests/test_consistency.py` |
 | A2 | ORGANON.md ↔ `primitives.py` agree on every key, name, and phase | covered — enforced by test |
 | A3 | No dead links: every intra-repo link resolves (test-enforced); external links verified live at release | covered — `tests/test_consistency.py` + manual sweep per release |
 | A4 | No stale claims (docs describing an earlier state of the repo) | covered — swept this release; consistency tests catch the recurring class |
@@ -58,7 +58,7 @@ trusting it.*
 |---|----------|-------|
 | E1 | License present and unambiguous | covered — MIT |
 | E2 | The revision discipline is stated: how the catalog changes (P35 utility-gated self-modification), what counts as evidence | covered — ORGANON/CYCLES/PREMIER_SKILLS |
-| E3 | Release tagged; repo description and topics accurate | covered — v0.2.0 |
+| E3 | Release tagged; repo description and topics accurate | covered — tag `v0.2.0` and repo metadata are created at publish of this revision; verify with `git tag` and the repo page |
 | E4 | Community scaffolding (CONTRIBUTING, issue templates, CI) | ruled-out for now — a one-author kernel; premature apparatus violates the ≥3-real-members guard. Revisit on the third external contributor |
 
 ## Summary

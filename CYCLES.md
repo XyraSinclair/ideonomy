@@ -47,8 +47,11 @@ structure forward across breaths is the residue.
 
 Every compression leaves a residue: items that resist the structure,
 anomalies, multiply-assigned members, gaps where a cell should be filled and
-isn't. The near-universal mistake is to treat residue as error to be
-minimized and forgotten. Here residue is the **highest-value seed for the
+isn't. (The mechanical engine in `cycles.py` represents the first kind —
+high-residual items and failed singletons under a hard partition; the
+multiply-assigned and missing-cell kinds need the model-backed compress hook,
+which is where they belong.) The near-universal mistake is to treat residue
+as error to be minimized and forgotten. Here residue is the **highest-value seed for the
 next expansion** — the unexplained is exactly where novelty and depth live.
 
 This is the precise sense in which the engine "metabolizes tension." Tension
@@ -78,11 +81,21 @@ codelen(corpus) = L(structure) + L(corpus | structure)
   doesn't. The large-residual items **are** the residue. Penalizes
   under-fitting: a trivial structure leaves everything unexplained.
 
-A breath is **accepted** (P30 ledger / P32 variant-archive) only if `codelen`
-decreases — the structure explains more with less — or coverage rises at equal
-codelen. Otherwise it is reverted and a different expansion bias is tried. The
-ratchet is what makes the loop a *metabolism* (compounding) rather than a
-*churn* (motion without gain).
+A breath is **accepted** (P30 ledger / P32 variant-archive) only if the
+corpus still compresses at least as well: the ratchet holds the **compression
+ratio** `raw / codelen`, not absolute codelen — adding items always raises
+absolute bits, so the scale-correct test is whether the new items joined the
+structure (ratio holds or rises) or inflated the residue (ratio falls).
+Otherwise the expansion is reverted and a different bias is tried. Two
+honesty notes on the engine's implementation (`cycles.py`): a group's
+distilled rule is kept only if it *pays* — encoding the members through the
+rule must beat encoding them raw — so a claimed compression can never be
+worse than no structure at all; and the code length has one free constant
+(the label cost), which is harmless to the ratchet because accept/revert
+decisions only ever compare structures under the same constant, but it means
+absolute codelen values are proxies, not measurements. The ratchet is what
+makes the loop a *metabolism* (compounding) rather than a *churn* (motion
+without gain).
 
 Failure modes the ratchet catches:
 

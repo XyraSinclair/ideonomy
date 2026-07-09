@@ -52,6 +52,11 @@ profitable unilateral deviation remains. Enforcement must be a machine-checked
 conjunction with a dual strict/lenient ledger, not an attestation that people
 "should behave." If the gamer can win by gaming, the mechanism failed.
 
+Unilateral deviations are the floor, not the ceiling: collusion, sybil
+identities, side-channels, and equilibrium-selection failure are separate
+deviation classes — check them or name them as uncovered (this is
+`audit-the-oracle-coverage` applied to your own equilibrium check).
+
 ## Example
 
 Suppose an agent benchmark rewards "bugs found." That score invites padding

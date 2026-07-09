@@ -85,6 +85,12 @@ drops — coverage up while the structure stays small. A reframe that grows
 coverage on paper but leaves a huge residual (you still need per-case work) or
 balloons the statement is over-abstraction; the ratchet reverts it.
 
+For prose problems this is a soft gate — "shorter" and "binds the same
+constraints" are judged, not computed (see the gate-hardness classification
+in PREMIER_SKILLS.md). When the stakes are high, have a different model or
+the human check clause 2 and the semantic-preservation clause: a reasoner
+grading its own reframe is the known hole.
+
 ## Example
 
 Asked to rank N candidate fixes by correctness, parsimony, and security where

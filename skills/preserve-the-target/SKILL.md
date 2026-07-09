@@ -59,6 +59,12 @@ the exact failure this exists to catch. The named property and the binding check
 are the receipt; without both, the move is unverified no matter how rigorous it
 looked.
 
+Known limit: this gate is self-attested — the same agent can name a surrogate
+target and certify its own binding, which reproduces the drift one level up.
+It catches *unintentional* drift, which is most drift. For high-stakes moves,
+the binding check must be performed by a different model or the human
+(M1 generator/critic split, M6 human-gate-last), not by the mover.
+
 ## Example
 
 Reframing "is our search good?" via `reframe-until-it-dissolves` into "does

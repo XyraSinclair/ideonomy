@@ -49,6 +49,11 @@ either zero, so the pieces glue, or a named nonzero invariant with a stated
 reason it cannot vanish. "It mostly works" fails the gate because gluing is the
 whole question.
 
+The cover itself is a claim: show that the patches exhaust the territory and
+that the overlaps you checked are all the overlaps there are
+(`prove-the-coverage-denominator` applied to the cover). A one-patch cover
+glues trivially and proves nothing.
+
 ## Example
 
 A rollout migrates user identifiers across three services. Each service passes

@@ -38,7 +38,8 @@ class State:
 
     # -- ledger (P30): dual reading so deferred debt stays visible ----------
     def score(self) -> dict[str, float]:
-        total = len(self.tensions) or 1
+        n = len(self.tensions)
+        total = n or 1                         # denominator guard only
         adjudicated = sum(          # genuinely metabolized: resolved or shown false
             1 for t in self.tensions.values()
             if t.status in ("resolved", "refuted")
@@ -48,7 +49,7 @@ class State:
             "strict": round(adjudicated / total, 4),
             "lenient": round((adjudicated + deferred) / total, 4),
             "accepted_debt": deferred,        # the strict/lenient gap, kept visible
-            "open": total - adjudicated - deferred,
+            "open": n - adjudicated - deferred,
         }
 
     def record(self, phase: str, note: str) -> None:

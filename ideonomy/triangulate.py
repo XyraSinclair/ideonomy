@@ -57,13 +57,16 @@ class AxisResult:
         return round(max(xs) - min(xs), 3) if xs else 0.0
 
     def contested(self, spread_threshold: float = 1.0) -> bool:
-        """Contested if judges disagree in sign, or the spread is wide."""
+        """Contested if judges disagree in sign, one is uncertain while
+        another is confident, or the spread is wide."""
         xs = self.leans
         if len(xs) < 2:
             return True                       # one read is not triangulation
         signs = {1 if x > 0.15 else (-1 if x < -0.15 else 0) for x in xs}
         if {1, -1} <= signs:                  # genuine sign disagreement
             return True
+        if 0 in signs and any(abs(x) >= 0.6 for x in xs):
+            return True                       # uncertain vs confident is a split
         return self.spread >= spread_threshold
 
 
@@ -149,7 +152,13 @@ def dimensionalize(question: str, model: Callable[[str], str], k: int = 4) -> li
     reply = model(prompt)
     axes = [ln.strip(" -*\t0123456789.)") for ln in reply.splitlines() if ln.strip()]
     axes = [a for a in axes if a]
-    return axes[:k] or ["overall fitness"]
+    if not axes:
+        # Refuse to manufacture the single vague axis this skill exists to
+        # prevent. No axes -> the caller must dimensionalize by hand (P5).
+        raise ValueError(
+            "dimensionalization returned no axes; name the value axes "
+            "yourself (P5) — refusing to fall back to a manufactured scalar.")
+    return axes[:k]
 
 
 def _parse_lean(text: str) -> float:
@@ -164,7 +173,10 @@ def _parse_lean(text: str) -> float:
 
 def _parse_why(text: str) -> str:
     m = re.search(r"WHY:\s*(.+)", text, re.IGNORECASE)
-    return (m.group(1).strip() if m else text.strip().splitlines()[-1][:160])
+    if m:
+        return m.group(1).strip()
+    lines = text.strip().splitlines()
+    return lines[-1][:160] if lines else "(no reason given)"
 
 
 def main(argv: Optional[list] = None) -> int:
@@ -183,6 +195,11 @@ def main(argv: Optional[list] = None) -> int:
     if len(args.judge) < 2:
         ap.error("triangulation needs >=2 independent --judge commands; with "
                  "one judge, name the judgment irreducible and its owner instead")
+    if len(set(args.judge)) < len(args.judge):
+        ap.error("duplicate --judge commands: identical judges are one judge, "
+                 "not a panel — independence is the point (M4). Vary the model "
+                 "or the framing. (Distinct commands are necessary, not "
+                 "sufficient; true independence is on you.)")
 
     judges_models = [CommandModel(c, name=f"judge-{i+1}") for i, c in enumerate(args.judge)]
     axes = args.axis or dimensionalize(args.question, judges_models[0])

@@ -68,8 +68,11 @@ Residue kinds map to the skills that produce them: `anomaly` (P-5/sensing),
 ## The gate
 
 Session N+1 must **retrieve and engage** session N's residue before expanding.
-Concretely: a session that closes having added/compressed but with zero seeded
-and zero resolved prior items is logged as a **churn breath**. A run of churn
+Concretely: a session that closes having added/compressed but with zero
+seeded, resolved, or adjudicated (dropped/deferred) prior items is logged as
+a **churn breath**. The classifier is an anti-forgetting aid, not an
+anti-adversarial one — a last-minute `seed` after unrelated work fools it;
+what keeps it honest at stakes is audit (M6), not the mechanism. A run of churn
 breaths means the work is not compounding — the ledger makes that visible
 rather than letting it hide. The dual strict/lenient score ratchets across
 sessions: strict = adjudicated/total, lenient counts deferred too, and the gap

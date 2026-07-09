@@ -62,8 +62,10 @@ You may not report a claim as "verified" until its parts are partitioned into
 covered / proxied / uncovered, **with at least one named thing the oracle does
 not certify**. An audit that finds the oracle covers everything is presumed to
 have not looked — partial oracles always miss something; name it or the gate
-fails. The proxied and uncovered parts must be routed, not folded into the
-covered set.
+fails. The one escape: an oracle that provably enumerates the claim's entire
+finite case space may be declared exact, and then the finiteness argument
+itself is what the audit must produce. The proxied and uncovered parts must
+be routed, not folded into the covered set.
 
 ## Example
 

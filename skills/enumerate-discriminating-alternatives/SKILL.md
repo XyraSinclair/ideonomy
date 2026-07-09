@@ -50,6 +50,11 @@ Exactly one hypothesis survives its discriminating test. If two or more
 hypotheses still survive, the next move is a new test, never a vote. A single
 plausible story with no killed rivals does not pass as explanation.
 
+Hypotheses may be conjunctive: when evidence suggests joint causation, promote
+the conjunction ("lock amplification AND retry storm") to a hypothesis of its
+own and test *it* — the gate demands one surviving hypothesis, not one
+surviving cause.
+
 ## Example
 
 An ingestion job slows down after a schema change. Four live hypotheses:

@@ -1,0 +1,87 @@
+{
+  "topic": "ideonomy",
+  "residue": {
+    "r2": {
+      "id": "r2",
+      "text": "C4: no logged compression curve on a real external corpus yet \u2014 the empirical depth claim is unproven until a breath log on outside material is committed",
+      "kind": "named_gap",
+      "status": "open",
+      "origin": "P-11",
+      "born_session": "s1",
+      "touched_session": "s1",
+      "notes": []
+    },
+    "r3": {
+      "id": "r3",
+      "text": "C5: triangulation harness ships without heterogeneous-panel receipts \u2014 run a real multi-model panel and commit the report",
+      "kind": "named_gap",
+      "status": "open",
+      "origin": "P-11",
+      "born_session": "s1",
+      "touched_session": "s1",
+      "notes": []
+    },
+    "r4": {
+      "id": "r4",
+      "text": "C6: this ledger's own longitudinal history starts here \u2014 one committed session is not yet a compounding record",
+      "kind": "named_gap",
+      "status": "open",
+      "origin": "P-11",
+      "born_session": "s1",
+      "touched_session": "s1",
+      "notes": []
+    },
+    "r5": {
+      "id": "r5",
+      "text": "P-9's gate is honesty-based, not machine-checkable; it needs a standing cross-model audit harness to stay real at scale",
+      "kind": "open_question",
+      "status": "open",
+      "origin": "P-9",
+      "born_session": "s1",
+      "touched_session": "s1",
+      "notes": []
+    },
+    "r6": {
+      "id": "r6",
+      "text": "preserve-the-target is self-attested: the same agent can name a surrogate target and certify its own binding. Documented in the skill; the open work is a standing external binding-check harness (M1/M6) for high-stakes moves",
+      "kind": "surviving_attack",
+      "status": "open",
+      "origin": "P-4",
+      "born_session": "s1",
+      "touched_session": "s1",
+      "notes": []
+    },
+    "r7": {
+      "id": "r7",
+      "text": "cross-model review judged publication should wait for empirical receipts (C4/C5); rejected \u2014 the repo names those gaps rather than claiming them. Revisit if readers take the status as overclaim",
+      "kind": "contested_axis",
+      "status": "open",
+      "origin": "P-9",
+      "born_session": "s1",
+      "touched_session": "s1",
+      "notes": []
+    }
+  },
+  "sessions": [
+    {
+      "id": "s1",
+      "opened": "2026-07-09T02:55:22",
+      "cited_prior": 0,
+      "added": [
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ],
+      "seeded": [],
+      "resolved": [],
+      "adjudicated": [],
+      "closed": "2026-07-09T03:46:25",
+      "breath": "churn",
+      "note": "v0.2.0 release session: consistency enforcement, engine bug fixes (metabolism classifier, MDL never-worse-than-raw, refute vote parsing), plugin packaging, three-round adversarial review (stranger/deslop/codex)"
+    }
+  ],
+  "_seq": 7
+}

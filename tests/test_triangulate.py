@@ -68,11 +68,23 @@ class TriangulateTests(unittest.TestCase):
         self.assertAlmostEqual(v.lean, -0.4)
         self.assertEqual(v.stance, "too florid")
 
-    def test_dimensionalize_strips_numbering_and_falls_back(self) -> None:
+    def test_dimensionalize_strips_numbering_and_refuses_empty(self) -> None:
         axes = T.dimensionalize("q", lambda p: "1. austerity\n2) exactness", k=4)
         self.assertEqual(axes, ["austerity", "exactness"])
-        self.assertEqual(T.dimensionalize("q", lambda p: "", k=4),
-                         ["overall fitness"])
+        # No axes -> refuse to manufacture a scalar (the P-9 discipline).
+        with self.assertRaises(ValueError):
+            T.dimensionalize("q", lambda p: "", k=4)
+
+    def test_uncertain_vs_confident_is_contested(self) -> None:
+        j1 = fixed("a", {"taste": 0.0})     # genuinely uncertain
+        j2 = fixed("b", {"taste": 0.9})     # confident
+        tri = T.triangulate("good?", ["taste"], [j1, j2])
+        self.assertEqual({a.axis for a in tri.contested()}, {"taste"})
+
+    def test_parse_why_empty_reply_does_not_crash(self) -> None:
+        v = T.model_judge(lambda p: "", "m1")("austerity", "q")
+        self.assertEqual(v.lean, 0.0)
+        self.assertTrue(v.stance)
 
 
 if __name__ == "__main__":

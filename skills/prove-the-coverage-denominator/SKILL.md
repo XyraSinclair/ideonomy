@@ -48,6 +48,12 @@ There are zero unlabeled elements of the stated denominator, or the work is
 explicitly reported as partial with the residual named. A claim of completeness
 with an implicit or shifting denominator does not pass.
 
+The denominator's *source* must be stated too — what fixed this as the full
+space (a spec, a directory listing, a census, a stakeholder)? A denominator
+chosen by the same move it gates is self-serving until checked against the
+real target (`preserve-the-target`); a conveniently narrow denominator passed
+cleanly is the vacuous firing this clause exists to block.
+
 ## Example
 
 A corpus ingest says "all government sources are covered." The denominator is

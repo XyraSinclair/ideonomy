@@ -21,7 +21,11 @@ _STOP = {"a", "an", "and", "are", "as", "at", "be", "by", "for", "from", "in",
 
 # Cost (in token-equivalents) of a dictionary pointer into the structure: a
 # group label is just an index, not a fresh symbol, so it is cheap. This is
-# the only free parameter in the code length; it is deliberately small.
+# the only free parameter in the code length, and the score is sensitive to
+# it: the same cluster can flip between paying and not paying as LABEL_BITS
+# moves. That is fine for the RATCHET, which only ever compares structures
+# under the same constant — absolute codelen values are not meaningful across
+# different constants, and the prose never treats them as such.
 LABEL_BITS = 1.0
 
 
@@ -138,10 +142,21 @@ def compress_mechanical(state: State, threshold: float = 0.45) -> Compression:
         for iid in members:
             for t in tokens(state.corpus[iid].text):
                 counts[t] = counts.get(t, 0) + 1
-        # MDL-optimal rule: include a token iff a strict majority of members
-        # carry it (then including saves more residual than it costs).
+        # Include a token iff a strict majority of members carry it — the
+        # neutral-or-better threshold (2*count - n - 1 >= 0): inclusion never
+        # raises the group's code length.
         need = len(members) // 2 + 1
-        rule[lbl] = {t for t, c in counts.items() if c >= need}
+        cand = {t for t, c in counts.items() if c >= need}
+        # The rule is a compression CLAIM; keep it only if it pays. If encoding
+        # the members via the rule costs at least as much as encoding them raw,
+        # drop the rule — this guarantees codelen(corpus) <= raw_bits(corpus),
+        # so a "compression" can never be worse than no structure at all.
+        with_rule = LABEL_BITS + len(cand) + sum(
+            len(tokens(state.corpus[iid].text) ^ cand) + LABEL_BITS
+            for iid in members)
+        raw = sum(float(len(tokens(state.corpus[iid].text)) or 1)
+                  for iid in members)
+        rule[lbl] = cand if with_rule < raw else set()
     return Compression(groups=groups, rule=rule)
 
 

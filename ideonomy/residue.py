@@ -7,10 +7,16 @@ that residue lives in context. Across sessions it evaporates unless it is
 persisted and *cited before the next expansion*. This module is that durable
 seed store, with the distinction the engine cares about made executable:
 
-    metabolism breath — opened on prior residue and resolved or seeded some of
-                        it: the work compounded.
+    metabolism breath — opened on prior residue and seeded, resolved, or
+                        adjudicated (dropped/deferred) some of it: the work
+                        compounded.
     churn breath      — compressed/added without ever engaging prior residue:
                         motion without gain.
+
+The classifier is an anti-forgetting aid, not an anti-adversarial one: an
+operator determined to game it (e.g. a last-minute `seed` after unrelated
+work) can — the ledger records what was touched, not whether the touching was
+sincere. Cross-model or human audit (M6) is the backstop where that matters.
 
 Organon: P31 episodic-memory + P32 variant-archive + P37 residue-seed + P30
 ledger. Stdlib-only, JSON-backed, model-agnostic. CLI: `python3 -m ideonomy.residue`.
@@ -62,6 +68,7 @@ class Session:
     added: list[str] = field(default_factory=list)
     seeded: list[str] = field(default_factory=list)
     resolved: list[str] = field(default_factory=list)
+    adjudicated: list[str] = field(default_factory=list)   # dropped/deferred here
     closed: str = ""
     breath: str = ""             # "metabolism" | "churn" | "" (open)
     note: str = ""               # free-text close summary
@@ -145,7 +152,10 @@ class Ledger:
         r.touched_session = sess.id
         if note:
             r.notes.append(note)
-        if not drop and not defer and rid not in sess.resolved:
+        if drop or defer:
+            if rid not in sess.adjudicated:
+                sess.adjudicated.append(rid)     # ruling out IS engagement
+        elif rid not in sess.resolved:
             sess.resolved.append(rid)
         return r
 
@@ -153,12 +163,13 @@ class Ledger:
         sess = self._require_open()
         sess.closed = now or _ts()
         # Metabolism iff prior residue existed, was surfaced, and was engaged —
-        # where "engaged" means seeding/resolving an item born in an EARLIER
-        # session. Resolving residue added this same session is motion within
-        # the session, not compounding across sessions.
+        # where "engaged" means seeding, resolving, dropping, or deferring an
+        # item born in an EARLIER session (ruling a prior gap out is
+        # adjudication, not churn). Touching only residue added this same
+        # session is motion within the session, not compounding across them.
         engaged = any(
             self.residue[rid].born_session != sess.id
-            for rid in (*sess.seeded, *sess.resolved)
+            for rid in (*sess.seeded, *sess.resolved, *sess.adjudicated)
             if rid in self.residue
         )
         sess.breath = "metabolism" if (sess.cited_prior and engaged) else "churn"

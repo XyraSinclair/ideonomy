@@ -78,6 +78,17 @@ class LedgerTests(unittest.TestCase):
         led.resolve(new.id)                       # engages nothing prior
         self.assertEqual(led.close_session(now="t3").breath, "churn")
 
+    def test_dropping_prior_residue_is_engagement_not_churn(self) -> None:
+        # Ruling out a prior false gap with a note is adjudication; the
+        # session must close as metabolism.
+        led = R.Ledger()
+        led.open_session(now="t0")
+        r = led.add("suspected gap", "named_gap")
+        led.close_session(now="t1")
+        led.open_session(now="t2")
+        led.resolve(r.id, note="checked: not a real gap", drop=True)
+        self.assertEqual(led.close_session(now="t3").breath, "metabolism")
+
     def test_forward_compat_load_ignores_unknown_fields(self) -> None:
         led = R.Ledger()
         led.open_session(now="t0")

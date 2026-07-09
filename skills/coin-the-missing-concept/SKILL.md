@@ -48,6 +48,10 @@ rise enough to erase the gain, and the definition must predict a real
 previously-unlisted case. If any of those fail, the concept is decorative and
 dies. A clever label with no compression benefit is not a concept; it is copy.
 
+This is a soft gate — for prose corpora the MDL terms are judged, not
+computed (see the gate-hardness classification in PREMIER_SKILLS.md). The
+out-of-sample prediction clause is the hard part of the gate; lean on it.
+
 ## Example
 
 A review keeps repeating "changes that fix the visible page but leave the
