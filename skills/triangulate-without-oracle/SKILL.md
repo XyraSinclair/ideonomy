@@ -15,8 +15,8 @@ description: >-
 
 # triangulate-without-oracle
 
-The top-ranked premier skill, because it patches the blind spot every strong
-reasoning style shares: they assume a checkable oracle exists. When it doesn't,
+This patches the blind spot every strong reasoning style shares: they assume
+a checkable oracle exists. When it doesn't,
 the default move is to **manufacture one and trust it**. This skill refuses
 that and stays honest instead.
 
@@ -58,8 +58,8 @@ session that resolves it.
 
 2. **Dimensionalize the value space (P5).** Decompose the vague predicate
    ("good", "right", "better") into 2–5 *named, concrete axes* it actually
-   comprises. For Scry copy: austerity, exactness, structural clarity. For a
-   strategy: reversibility, blast radius, option value, mission fit. Bad axes
+   comprises. For product copy: austerity, exactness, structural clarity. For
+   a strategy: reversibility, blast radius, option value, mission fit. Bad axes
    are themselves a finding — if you can't name them, you don't understand the
    judgment yet.
 
@@ -99,7 +99,8 @@ anything high-stakes.
 
 ## Example
 
-"Is Scry's landing copy in the right register?" — Default: "It's solid, 8/10."
+"Is this product's landing copy in the right register?" — Default: "It's
+solid, 8/10."
 This skill: name no-oracle; dimensionalize into {austerity, exactness,
 structural clarity, absence of SaaS-soup}; get two independent reads per axis;
 they agree it's austere and structurally clear, **disagree** on whether one

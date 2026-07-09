@@ -15,7 +15,7 @@ configurations. It was synthesized from three convergent streams:
    CodeMender, SapFix, CodeMonkeys, SICA/DGM: the most evolved industrial
    ecosystem of detect → generate → verify → persist loops.
 
-The striking empirical fact: **all three streams converge on the same loop.**
+The empirical fact: **all three streams converge on the same loop.**
 The same 37 primitives recur whether the substrate is ideas, categories, or
 code. That convergence is the evidence that these are genuinely *generic*
 cognitive building blocks, not domain tricks.
@@ -145,9 +145,8 @@ move; the heart of Gunkel's method.
 
 **P36. distill** — Compress the whole structure to the minimal generative rule
 that would regenerate it — the invariant, not a per-type label. Naming (P8)
-compresses one type; distillation compresses the structure. A taxonomy you can
-only enumerate is compressed once; one you can regenerate from a rule is
-compressed twice, and the rule is usually the insight.
+compresses one type; distillation compresses the structure. (Detail:
+CYCLES.md, "Distillation ≠ naming".)
 - Signature: `structure → generative rule`
 - Metabolizes: an enumerable structure → a regenerable one
 - Provenance: Gunkel's "proof is a tree"; MDL two-part codes; Clio's cluster

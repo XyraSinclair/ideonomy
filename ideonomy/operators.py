@@ -14,17 +14,19 @@ from collections.abc import Iterable, Sequence
 # P15 vary: the named variation operators Gunkel used, plus the standard
 # inventive-operator residue from morphological analysis / TRIZ.
 VARIATION_OPERATORS: dict[str, str] = {
-    "negate": "Assert the opposite or the absence of {x}. What is anti-{x}, or a good {x} where {x} is presumed bad?",
+    # Templates must stay grammatical for ANY noun phrase substituted as {x}
+    # ("ratcheting scores", "what you found") — no "anti-{x}", no "{x}s".
+    "negate": "Assert the opposite or the absence of {x}. What is the anti-form of {x}? Where would {x}, presumed bad, be good?",
     "invert": "Swap the roles, direction, or figure/ground of {x}.",
     "extremize": "Push {x} to its minimum and maximum. What survives at each pole?",
     "miniaturize": "Shrink {x} to its smallest viable instance.",
     "magnify": "Scale {x} up by orders of magnitude.",
     "relax": "Drop one constraint that {x} presumes. Which constraint frees the most?",
     "tighten": "Add one constraint that makes {x} crisper.",
-    "iterate": "Apply {x} to its own output. What does {x}-of-{x} look like?",
+    "iterate": "Apply {x} to its own output. What does applying {x} to {x} yield?",
     "temporalize": "Make {x} a process in time: its genesis, growth, decay.",
     "spatialize": "Give {x} a geometry: nearness, boundary, gradient.",
-    "pluralize": "Replace the single {x} with a population of interacting {x}s.",
+    "pluralize": "Replace {x} with a population of interacting instances of {x}. What emerges from their interaction?",
     "hybridize": "Cross {x} with its nearest serious rival.",
 }
 

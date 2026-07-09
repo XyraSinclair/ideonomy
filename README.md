@@ -23,9 +23,10 @@ Three layers, each usable alone:
    stay rigorous when *no* oracle exists, audit what a passing check actually
    certifies, prove the coverage denominator, carry residue across sessions,
    preserve the target through every transformation. Distilled from a
-   diverse genius-style panel, then twice adversarially reviewed by
-   independent frontier models — the surviving weaknesses are documented,
-   not hidden ([PREMIER_SKILLS.md](PREMIER_SKILLS.md)).
+   three-persona panel (Feynman, von Neumann, Grothendieck), then twice
+   adversarially reviewed by independent frontier models — the surviving
+   weaknesses are documented, not hidden
+   ([PREMIER_SKILLS.md](PREMIER_SKILLS.md)).
 
 2. **[ORGANON.md](ORGANON.md) — the catalog of 37 inference-time cognitive
    primitives**, synthesized from three streams that converge on the same
@@ -74,7 +75,8 @@ Any other agent that reads `SKILL.md` files:
 
 Or load any single skill by putting its `SKILL.md` in context — each is one
 page, self-contained, with its trigger in the frontmatter and its gate in the
-body. Start with the top three: `triangulate-without-oracle`,
+body (the `P…`/`M…` keys inside are provenance pointers into
+[ORGANON.md](ORGANON.md), not prerequisites). Start with the top three: `triangulate-without-oracle`,
 `build-the-oracle-before-the-answer`, `reframe-until-it-dissolves` — or
 install `route-to-the-right-move` and let it dispatch.
 
@@ -113,7 +115,10 @@ python3 -m ideonomy.residue --topic mywork open   # cross-session residue ledger
 python3 -m ideonomy.draw "your problem" --n 3     # forced non-default lenses, offline
 ```
 
-## Status, honestly
+(The residue ledger stores its state in `./.residue/<topic>.json`, created on
+first use; override with `--store`.)
+
+## Status
 
 The catalog, skills, and offline engines are substantive and tested. What is
 *not* yet demonstrated is the empirical depth claim: a logged compression

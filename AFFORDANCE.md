@@ -1,4 +1,4 @@
-# Affordance entry: differentiated agenting tooling
+# Affordance entry: differentiated agent tooling
 
 This file packages the repository as a **differentiated affordance**: a
 concrete, nameable capability a person can exercise through their agent,
@@ -7,16 +7,15 @@ end to end.
 
 ## The capability
 
-**Differentiated agenting tooling that serious builders should probably have
-access to** — a small, composable library of inference-time cognitive moves
-that default LLM workflows do *not* do adequately, each carrying an executable
+**A small, composable library of inference-time cognitive moves that default
+LLM workflows do *not* do adequately**, each carrying an executable
 anti-fool-yourself gate, plus two running engines and a meta-gate.
 
 What an agent can do with it, concretely:
 
 - Equip itself with 14 **premier skills** (`skills/`) — compound cognitive moves
-  distilled from a diverse genius-style panel and twice adversarially reviewed
-  by independent frontier models. Each is a `SKILL.md` a stranger's agent can
+  distilled from a three-persona panel (Feynman, von Neumann, Grothendieck)
+  and twice adversarially reviewed by independent frontier models. Each is a `SKILL.md` a stranger's agent can
   load and execute, with a named gate that says when the move actually worked.
 - Run **triangulate-without-oracle** (`python3 -m ideonomy.triangulate`) on a
   question that has no computable oracle (taste, strategy, ethics): dimensionalize
@@ -44,11 +43,11 @@ procedure + gate. Start with the top three: `triangulate-without-oracle`,
 
 ## Provenance and rating
 
-- **Source:** https://github.com/XyraSinclair/ideonomy (public, MIT-spirit).
+- **Source:** https://github.com/XyraSinclair/ideonomy (public, MIT).
 - **Lineage:** Patrick Gunkel's ideonomy + automatic taxonomy induction +
   automatic codebase improvement; method and reviews documented in
   `PREMIER_SKILLS.md`, `ORGANON.md`, `CYCLES.md`, `docs/`.
-- **Rating dimensions** (the affordance-index judgement axes):
+- **Rating dimensions:**
   - *steps-to-first-success:* one `git clone` + one command (low).
   - *unattended reliability:* offline core is deterministic and fully tested.
     Model-backed paths depend on the operator's own model CLIs.
@@ -60,7 +59,7 @@ procedure + gate. Start with the top three: `triangulate-without-oracle`,
 
 ## Freshness contract
 
-The library is a kernel meant to be used and revised (P-35 self-modify). The
+The library is a kernel meant to be used and revised (P35 self-modify). The
 catalog applies to itself; treat the git history as the freshness signal.
 Re-validate against `tests/` and the live skill files rather than this summary.
 
@@ -72,4 +71,4 @@ multi-model triangulation) requires the operator to supply model access. Two
 independent frontier-model reviews found the genuinely differentiated core to be
 precommit-the-oracle, mechanism-design-from-equilibrium, denominator accounting,
 cross-session residue, and the target-preservation pre-gate; the weaker moves
-and their tightened gates are documented honestly in `PREMIER_SKILLS.md`.
+and their tightened gates are documented in `PREMIER_SKILLS.md`.

@@ -5,10 +5,15 @@ engine's run on its own highest-leverage question. Full catalog and method:
 [`../PREMIER_SKILLS.md`](../PREMIER_SKILLS.md).
 
 Each is a Claude-Code-style `SKILL.md` (frontmatter `name` + `description` with
-its trigger, then the procedure and its executable gate). They are
-**differentiated affordances**: concrete, nameable cognitive moves a stranger's
-agent can execute end to end. Each gate is the anti-fool-yourself /
-anti-vacuity check without which the move degrades into confident slop.
+its trigger, then the procedure and its executable gate) — a concrete,
+nameable cognitive move an agent can execute end to end. Each gate is the
+anti-fool-yourself check without which the move degrades into confident slop.
+
+Notation, here and inside the skills: `P1`–`P37` are organon primitives
+([ORGANON.md](../ORGANON.md)), `M1`–`M6` are multi-model patterns (same file),
+and `P-0`–`P-11` are the premier skills themselves
+([PREMIER_SKILLS.md](../PREMIER_SKILLS.md)). These keys are provenance, not
+prerequisites — every skill executes from its own page.
 
 ## The universal pre-gate
 

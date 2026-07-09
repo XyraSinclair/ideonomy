@@ -17,7 +17,7 @@ trusting it.*
 |---|----------|-------|
 | A1 | Every count stated in prose (37 primitives, 14 skills, 6+6 axes, test count, division count) matches the machine-readable source, enforced by a test, not by care | covered — `tests/test_consistency.py` |
 | A2 | ORGANON.md ↔ `primitives.py` agree on every key, name, and phase | covered — enforced by test |
-| A3 | No dead links: every intra-repo link resolves; no links to private or nonexistent repos | covered — enforced by test |
+| A3 | No dead links: every intra-repo link resolves (test-enforced); external links verified live at release | covered — `tests/test_consistency.py` + manual sweep per release |
 | A4 | No stale claims (docs describing an earlier state of the repo) | covered — swept this release; consistency tests catch the recurring class |
 | A5 | Claims about external systems (Gunkel's counts, cited tools) carry provenance | covered — `docs/gunkel.md` |
 
@@ -36,7 +36,7 @@ trusting it.*
 | # | Property | Label |
 |---|----------|-------|
 | C1 | The core abstractions are load-bearing, not decorative: primitives compose into skills, skills carry gates, gates have executable harnesses where honest | covered |
-| C2 | The catalog applies to itself and the receipts exist in-repo | covered — this file; adversarial reviews in `PREMIER_SKILLS.md`; residue ledger |
+| C2 | The catalog applies to itself and the receipts exist in-repo | covered — this file; adversarial reviews in `PREMIER_SKILLS.md` + `docs/oracle_review_gpt55pro.md`; the release residue ledger `docs/residue-ideonomy.json` |
 | C3 | Weaknesses are documented as prominently as strengths | covered — gate-hardness classification, "rigor theater" caveat |
 | C4 | The engine has been run on at least one real external corpus with a logged compression curve | named-gap — bootstrap step 2 in CYCLES.md; honest status: not yet |
 | C5 | Multi-model triangulation exercised with real heterogeneous panels, results logged | named-gap — requires operator model access; harness ships, receipts don't |
@@ -48,7 +48,7 @@ trusting it.*
 |---|----------|-------|
 | D1 | Stdlib-only core; zero runtime dependencies | covered |
 | D2 | Every module has a stated reason to exist; no dead code | covered |
-| D3 | Packaging metadata is complete and installation paths are tested | covered — pyproject with license/urls/classifiers; plugin validated |
+| D3 | Packaging metadata is complete and installation paths exercised | covered — pyproject with license/urls/classifiers; `claude plugin validate` passes; `install.sh` and `pip install .` exercised on a fresh clone (Python 3.9) |
 | D4 | Skill files satisfy the agent-skill spec (frontmatter name+description with trigger conditions) | covered — enforced by test |
 | D5 | Prose is austere; no slop registers, no unearned adjectives | covered — de-slop passes; external reviews hunted this specifically |
 
@@ -61,7 +61,7 @@ trusting it.*
 | E3 | Release tagged; repo description and topics accurate | covered — v0.2.0 |
 | E4 | Community scaffolding (CONTRIBUTING, issue templates, CI) | ruled-out for now — a one-author kernel; premature apparatus violates the ≥3-real-members guard. Revisit on the third external contributor |
 
-## The honest summary
+## Summary
 
 Covered: the kernel is consistent, testable, installable, self-applied, and
 honestly scoped. Named gaps: C4–C6 — the *empirical* depth claims. The prose

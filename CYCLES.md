@@ -58,7 +58,7 @@ of compressing generates fresh tension (new residue, new gaps); that tension
 fuels the next expansion. A system metabolizes tension when each breath leaves
 it explaining more of its corpus with a smaller structure — and when the
 leftover it cannot yet explain is handed forward as the next question rather
-than swept under the rug.
+than quietly discarded.
 
 ## The ratchet: compression as the measure of understanding
 
@@ -84,7 +84,7 @@ codelen. Otherwise it is reverted and a different expansion bias is tried. The
 ratchet is what makes the loop a *metabolism* (compounding) rather than a
 *churn* (motion without gain).
 
-Failure modes the ratchet catches, named honestly:
+Failure modes the ratchet catches:
 
 - **Expansion runaway** — accumulating candidates without ever compressing.
   Caught: codelen rises; force a distillation-only breath.
@@ -96,7 +96,7 @@ Failure modes the ratchet catches, named honestly:
 
 ## Multi-model disagreement as a residue source
 
-The deepest version uses model diversity (M2) not just for robustness but as a
+The strongest version uses model diversity (M2) not just for robustness but as a
 *generator of tension*. Run the compression under independent models; where
 strong models derive **different** structures from the same corpus (M4
 cross-model triangulation), the disagreement is high-value residue — a place
@@ -133,11 +133,11 @@ mechanisms, or findings, and the human adjudicating verified survivors (M6).
 
 ## Conscientious bootstrap
 
-"Differentiatingly profound" is **earned, not asserted**. The bootstrap path:
+The depth claim is **earned, not asserted**. The bootstrap path:
 
 1. **Reflexive** (now). The engine breathes over its own substrate: gap-find
-   missing primitives in the organon, recompress the catalog, improve the
-   repos with metabolize. Self-application is the honest first proof — if the
+   missing primitives in the organon, recompress the catalog, improve this
+   repo's own code and prose. Self-application is the honest first proof — if the
    engine cannot deepen its own design, it will not deepen anyone else's.
    `cycles_demo.py` runs this breath offline.
 2. **One real corpus.** Point it at a single external open-ended problem and

@@ -196,8 +196,7 @@ model sometimes does them anyway.
 All fourteen are shipped as executable skill files under
 [`skills/`](skills/) — the twelve above plus the two the adversarial reviews
 forced (`audit-the-oracle-coverage`, `preserve-the-target`). They are young —
-meant to be used, measured, and revised under P-35 (the catalog applies to
-itself).
+meant to be used, measured, and revised under P35.
 
 ## Adversarial review (external, M4)
 
@@ -214,8 +213,8 @@ changes, recorded here rather than hidden:
   **Fix shipped:** a new skill, `audit-the-oracle-coverage`, the three-way
   partition exact / proxied / uncovered, mandatory between P-1 and P-9.
 
-- **"Executable gate" was overclaimed.** The gates are not uniform. Honest
-  classification:
+- **"Executable gate" was overclaimed.** The gates are not uniform. The
+  gate-hardness classification:
   - **Hard (machine-checkable / coded):** P-7 (best-response check), P-9
     (≥2 independent reads, enforced in `triangulate.py`), P-10 (cite-prior /
     metabolism-vs-churn, enforced in `residue.py`), P-11 (zero unlabeled),
@@ -258,18 +257,19 @@ changes, recorded here rather than hidden:
   question: *is there really an oracle here, or did I just build one that
   flatters me?*
 
-### Second pass: GPT-5.5 Pro (the real Oracle, browser-background)
+### Second pass: GPT-5.5 Pro Extended Thinking
 
-A second external review by GPT-5.5 Pro Extended Thinking **converged** with the
-first on every structural point — the partial/proxy-oracle middle (it independently
-proposed the same `P-11 + P-1 + P-9` decomposition fix), P-0/P-3/P-6 as weakest,
+A second external review ([full transcript](docs/oracle_review_gpt55pro.md))
+**converged** with the first on every structural point — the
+partial/proxy-oracle middle (it independently proposed the same
+`P-11 + P-1 + P-9` decomposition fix), P-0/P-3/P-6 as weakest,
 P-1/P-7/P-10/P-11 as the genuinely-differentiated core, and the verification
-stack (F) as "one protocol, P-1 the anchor, P-2/P-4 subroutines." Convergence of
-two independent strong models on the same de-slop verdict is the strongest signal
-available that those findings are real, not one model's bias.
+stack (F) as "one protocol, P-1 the anchor, P-2/P-4 subroutines." Two
+independent models converging on the same verdict is stronger evidence than
+either alone.
 
-It also sharpened the deepest critique into a **constructive, shippable
-invariant** — the highest-value outcome of the whole review:
+It also sharpened the deepest critique into a constructive, shippable
+invariant:
 
 - **Gate laundering → the target-preservation pre-gate.** Every skill
   *transforms* the target; a gate can fire cleanly on a transformed target that
@@ -289,16 +289,3 @@ invariant** — the highest-value outcome of the whole review:
   (structural safety: prove the cover before gluing patches), and `P-7 + P-4`
   (mechanism design must be adversarially red-teamed for unmodeled deviations,
   sybils, side-channels, equilibrium-selection failure).
-
-Tooling note: this pass was run fully in the background via a browser-engine
-oracle (GPT-5.5 Pro, ~5 min, zero foreground). The launcher mechanics are
-operator-local tooling, not part of this library.
-
-## Why this matters beyond the repos
-
-Each premier skill is a **differentiated affordance** in the exact sense the
-mission means it: a concrete, nameable capability a stranger's agent can
-execute end to end. A premier set of these is the kind of thing that makes
-querying *how to think well about X* return an executable move rather than a
-platitude — agent-first epistemic infrastructure for cognitive work, not just
-for text retrieval.
