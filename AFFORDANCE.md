@@ -65,7 +65,7 @@ Re-validate against `tests/` and the live skill files rather than this summary.
 
 ## Scope and honesty
 
-This is a **methods/tooling** affordance, not a data corpus. The offline engine
+This is a **methods/tooling** affordance. The offline engine
 and tests are real and verified; the deepest value (model-backed expansion,
 multi-model triangulation) requires the operator to supply model access. Two
 independent frontier-model reviews found the genuinely differentiated core to be

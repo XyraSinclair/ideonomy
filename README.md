@@ -13,6 +13,23 @@ someone could take seriously. The method's bottleneck was always evaluation —
 a human cannot read 84,496 two-word psychological states. Models can.
 Ideonomy is an LLM-era project that arrived forty years early.
 
+## Before and after
+
+Ask an agent whether a product's landing copy is in the right register.
+
+**Default:** "It's solid, 8/10." A confident score with nothing under it.
+
+**With [`triangulate-without-oracle`](skills/triangulate-without-oracle/SKILL.md)
+loaded:** the agent names that no computable answer exists, splits the judgment
+into axes — austerity, exactness, structural clarity — and gets two independent
+reads per axis. The reads agree the copy is austere and structurally clear, and
+disagree on whether one line overclaims. That disagreement is the actual review
+finding, and it goes to the human who owns the call, with the grounds named.
+No fabricated number.
+
+Every skill here packages one such move, with an explicit trigger and a gate
+that says whether the move actually worked.
+
 ## What's here
 
 Three layers, each usable alone:
@@ -25,8 +42,8 @@ Three layers, each usable alone:
    preserve the target through every transformation. Distilled from a
    three-persona panel (Feynman, von Neumann, Grothendieck), then twice
    adversarially reviewed by independent frontier models — the surviving
-   weaknesses are documented, not hidden
-   ([PREMIER_SKILLS.md](PREMIER_SKILLS.md)).
+   weaknesses are documented in
+   [PREMIER_SKILLS.md](PREMIER_SKILLS.md).
 
 2. **[ORGANON.md](ORGANON.md) — the catalog of 37 inference-time cognitive
    primitives**, synthesized from three streams that converge on the same
@@ -56,6 +73,13 @@ git clone https://github.com/XyraSinclair/ideonomy && cd ideonomy
 python3 -m ideonomy.cycles_demo     # watch the engine breathe over its own catalog — offline
 python3 -m unittest discover tests  # the whole suite, no network, no deps
 ```
+
+The demo prints a breath log: `grp` is how many groups the compression found,
+`codelen` the cost of writing that structure down plus encoding the corpus
+through it, and `raw` the cost of the corpus with no structure at all. `ratio`
+is raw over codelen — above 1.0 the structure pays for itself, and a cycle is
+kept only if the ratio holds or rises — while `resid` counts the items the
+structure fails to explain, which seed the next cycle.
 
 ## Install the skills
 
@@ -122,7 +146,7 @@ first use; override with `--store`.)
 
 The catalog, skills, and offline engines are substantive and tested. What is
 *not* yet demonstrated is the empirical depth claim: a logged compression
-curve on a real external corpus, and multi-model triangulation receipts. The
+curve on a real external corpus, and multi-model triangulation evidence. The
 full labeled denominator of what "canonical" means here — covered, named-gap,
 ruled-out, nothing unlabeled — is [docs/canonicality.md](docs/canonicality.md).
 The catalog applies to itself: gap-find it, vary it, and keep what survives

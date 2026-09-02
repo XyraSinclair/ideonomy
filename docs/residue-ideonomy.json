@@ -13,7 +13,7 @@
     },
     "r3": {
       "id": "r3",
-      "text": "C5: triangulation harness ships without heterogeneous-panel receipts \u2014 run a real multi-model panel and commit the report",
+      "text": "C5: triangulation harness ships without heterogeneous-panel evidence \u2014 run a real multi-model panel and commit the report",
       "kind": "named_gap",
       "status": "open",
       "origin": "P-11",
@@ -53,12 +53,12 @@
     },
     "r7": {
       "id": "r7",
-      "text": "cross-model review judged publication should wait for empirical receipts (C4/C5); rejected \u2014 the repo names those gaps rather than claiming them. Revisit if readers take the status as overclaim",
+      "text": "cross-model review judged publication should wait for empirical evidence (C4/C5); rejected \u2014 the repo names those gaps rather than claiming them. Revisit if readers take the status as overclaim",
       "kind": "contested_axis",
-      "status": "open",
+      "status": "seeded",
       "origin": "P-9",
       "born_session": "s1",
-      "touched_session": "s1",
+      "touched_session": "s2",
       "notes": []
     }
   },
@@ -81,6 +81,20 @@
       "closed": "2026-07-09T03:46:25",
       "breath": "churn",
       "note": "v0.2.0 release session: consistency enforcement, engine bug fixes (metabolism classifier, MDL never-worse-than-raw, refute vote parsing), plugin packaging, three-round adversarial review (stranger/deslop/codex)"
+    },
+    {
+      "id": "s2",
+      "opened": "2026-09-02T02:15:39",
+      "cited_prior": 6,
+      "added": [],
+      "seeded": [
+        "r7"
+      ],
+      "resolved": [],
+      "adjudicated": [],
+      "closed": "2026-09-02T02:15:39",
+      "breath": "metabolism",
+      "note": "public-copy session, seeded by r7's revisit clause (how strangers read the claims): scrubbed a banned lexeme from all public copy, lifted the triangulate-without-oracle worked example to the top of the README, interpreted the demo's breath-log columns, thinned the anti-definition contrast tic in README/AFFORDANCE/CYCLES. C4/C5/C6 remain open; no empirical gap closed here"
     }
   ],
   "_seq": 7

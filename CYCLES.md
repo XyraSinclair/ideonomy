@@ -43,7 +43,7 @@ A breath in widens the considered space; a breath out renders it into less.
 Neither half is the point. **The cycle is the point**, and what carries
 structure forward across breaths is the residue.
 
-## Residue is fuel, not error
+## Residue is fuel
 
 Every compression leaves a residue: items that resist the structure,
 anomalies, multiply-assigned members, gaps where a cell should be filled and
@@ -93,7 +93,7 @@ rule must beat encoding them raw — so a claimed compression can never be
 worse than no structure at all; and the code length has one free constant
 (the label cost), which is harmless to the ratchet because accept/revert
 decisions only ever compare structures under the same constant, but it means
-absolute codelen values are proxies, not measurements. The ratchet is what
+absolute codelen values are only proxies. The ratchet is what
 makes the loop a *metabolism* (compounding) rather than a *churn* (motion
 without gain).
 
@@ -150,7 +150,7 @@ mechanisms, or findings, and the human adjudicating verified survivors (M6).
 
 ## Conscientious bootstrap
 
-The depth claim is **earned, not asserted**. The bootstrap path:
+The depth claim has to be **earned**. The bootstrap path:
 
 1. **Reflexive** (now). The engine breathes over its own substrate: gap-find
    missing primitives in the organon, recompress the catalog, improve this
@@ -160,14 +160,14 @@ The depth claim is **earned, not asserted**. The bootstrap path:
 2. **One real corpus.** Point it at a single external open-ended problem and
    run breaths, *logging codelen every cycle*. The claim to depth is the
    measured compression curve plus a human confirming the surfaced structure
-   was non-obvious — never the prose.
+   was non-obvious.
 3. **Multi-model frontier.** Wire diverse model panels; test whether
    cross-model residue (M4) finds deeper frontiers than single-model.
 4. **Continuity.** Schedule breaths (P33), accumulate a variant-archive (P32)
    of compressions, let it run; report the ledger, including the breaths that
-   failed to compress — those are data, not embarrassments.
+   failed to compress.
 
 The discipline at every step: a breath that does not improve `codelen` is
-logged as a failed expansion, not hidden; the differentiation claim is carried
+logged as a failed expansion; the differentiation claim is carried
 by demonstrated compression on corpora the single-pass tools handle worse, not
 by adjectives.

@@ -36,10 +36,10 @@ trusting it.*
 | # | Property | Label |
 |---|----------|-------|
 | C1 | The core abstractions are load-bearing, not decorative: primitives compose into skills, skills carry gates, gates have executable harnesses where honest | covered |
-| C2 | The catalog applies to itself and the receipts exist in-repo | covered — this file; adversarial reviews in `PREMIER_SKILLS.md` + `docs/oracle_review_gpt55pro.md`; the release residue ledger `docs/residue-ideonomy.json` |
+| C2 | The catalog applies to itself and the evidence exists in-repo | covered — this file; adversarial reviews in `PREMIER_SKILLS.md` + `docs/oracle_review_gpt55pro.md`; the release residue ledger `docs/residue-ideonomy.json` |
 | C3 | Weaknesses are documented as prominently as strengths | covered — gate-hardness classification, "rigor theater" caveat |
 | C4 | The engine has been run on at least one real external corpus with a logged compression curve | named-gap — bootstrap step 2 in CYCLES.md; honest status: not yet |
-| C5 | Multi-model triangulation exercised with real heterogeneous panels, results logged | named-gap — requires operator model access; harness ships, receipts don't |
+| C5 | Multi-model triangulation exercised with real heterogeneous panels, results logged | named-gap — requires operator model access; harness ships, the evidence doesn't |
 | C6 | Longitudinal use: residue ledger with multiple metabolism breaths on a real topic | named-gap — the mechanism ships; its own history is young |
 
 ## D. Craft

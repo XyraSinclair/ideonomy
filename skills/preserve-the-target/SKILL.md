@@ -56,7 +56,7 @@ A move is accepted only when (a) a preserved-target property was named *before*
 the move, and (b) the post-move artifact is shown to still bind it. "The skill's
 gate fired" is necessary but not sufficient — gate-passed-but-target-drifted is
 the exact failure this exists to catch. The named property and the binding check
-are the receipt; without both, the move is unverified no matter how rigorous it
+are the evidence; without both, the move is unverified no matter how rigorous it
 looked.
 
 Known limit: this gate is self-attested — the same agent can name a surrogate
