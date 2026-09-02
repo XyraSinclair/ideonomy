@@ -75,21 +75,25 @@
       "id": "r10",
       "text": "trials: triangulate.py is the embryo (multi-judge, contested axes) but a trial needs roles \u2014 advocate, adversary, cross-examination rounds, burden of proof, a verdict with grounds \u2014 and balance guarantees so no party's model dominates",
       "kind": "named_gap",
-      "status": "open",
+      "status": "resolved",
       "origin": "",
       "born_session": "s8",
-      "touched_session": "s8",
-      "notes": []
+      "touched_session": "s13",
+      "notes": [
+        "trial.py shipped: roles, cross-examination, burden, bench independence, role-swap balance check, offline gates. Real heterogeneous-panel evidence remains under r3/C5"
+      ]
     },
     "r11": {
       "id": "r11",
       "text": "multi-party constraint solving: no engine yet lets parties hold declared constraints and negotiate an idea into their joint feasible region; models.panel is parallel opinions, not negotiation",
       "kind": "named_gap",
-      "status": "open",
+      "status": "resolved",
       "origin": "",
       "born_session": "s8",
-      "touched_session": "s8",
-      "notes": []
+      "touched_session": "s13",
+      "notes": [
+        "parley.py shipped: rotating proposal rights, sovereign constraint scoring, joint-feasibility accord, maximin impasse with binding constraints as residue. Real-model evidence remains under r3/C5"
+      ]
     },
     "r12": {
       "id": "r12",
@@ -155,7 +159,22 @@
       "closed": "2026-09-02T13:10:22",
       "breath": "metabolism",
       "note": ""
+    },
+    {
+      "id": "s13",
+      "opened": "2026-09-02T13:15:53",
+      "cited_prior": 10,
+      "added": [],
+      "seeded": [],
+      "resolved": [
+        "r10",
+        "r11"
+      ],
+      "adjudicated": [],
+      "closed": "2026-09-02T13:15:53",
+      "breath": "metabolism",
+      "note": ""
     }
   ],
-  "_seq": 12
+  "_seq": 13
 }
