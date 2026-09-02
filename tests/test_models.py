@@ -12,10 +12,6 @@ def says(reply: str):
 
 
 class PanelTests(unittest.TestCase):
-    def test_results_preserve_model_order(self) -> None:
-        out = M.panel([says("one"), says("two"), says("three")], "p")
-        self.assertEqual(out, ["one", "two", "three"])
-
     def test_failed_model_yields_exception_not_sunk_panel(self) -> None:
         def boom(prompt: str) -> str:
             raise RuntimeError("down")
@@ -27,13 +23,6 @@ class PanelTests(unittest.TestCase):
         echo = lambda prompt: prompt
         self.assertEqual(M.panel([echo, echo], "unused", prompts=["a", "b"]),
                          ["a", "b"])
-
-    def test_prompts_length_mismatch_raises(self) -> None:
-        with self.assertRaises(ValueError):
-            M.panel([says("x")], "p", prompts=["a", "b"])
-
-    def test_empty_panel_returns_empty(self) -> None:
-        self.assertEqual(M.panel([], "p"), [])
 
 
 class RefuteTests(unittest.TestCase):

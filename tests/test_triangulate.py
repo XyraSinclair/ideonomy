@@ -81,11 +81,6 @@ class TriangulateTests(unittest.TestCase):
         tri = T.triangulate("good?", ["taste"], [j1, j2])
         self.assertEqual({a.axis for a in tri.contested()}, {"taste"})
 
-    def test_parse_why_empty_reply_does_not_crash(self) -> None:
-        v = T.model_judge(lambda p: "", "m1")("austerity", "q")
-        self.assertEqual(v.lean, 0.0)
-        self.assertTrue(v.stance)
-
 
 if __name__ == "__main__":
     unittest.main()

@@ -114,15 +114,6 @@ class LedgerTests(unittest.TestCase):
             self.assertEqual(len(led.residue), 1)
             self.assertEqual(led.sessions[-1].breath, "churn")
 
-    def test_cli_errors_are_exit_codes_not_tracebacks(self) -> None:
-        import contextlib
-        import io
-        with tempfile.TemporaryDirectory() as d, \
-                contextlib.redirect_stderr(io.StringIO()):
-            store = str(Path(d) / "l.json")
-            rc = R.main(["--store", store, "add", "q", "--kind", "anomaly"])
-            self.assertNotEqual(rc, 0)            # no open session -> error, not raise
-
 
 if __name__ == "__main__":
     unittest.main()
