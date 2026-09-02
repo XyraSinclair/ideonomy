@@ -58,7 +58,11 @@ Three layers, each usable alone:
    respiratory engine ([`cycles.py`](ideonomy/cycles.py)), the cross-session
    residue ledger ([`residue.py`](ideonomy/residue.py)), the no-oracle
    triangulation harness ([`triangulate.py`](ideonomy/triangulate.py)), the
-   metabolic loop skeleton ([`loop.py`](ideonomy/loop.py)), and Gunkel's 236
+   trial engine ([`trial.py`](ideonomy/trial.py)) — advocate vs adversary
+   under equal terms, independent bench, burden of proof, role-swap balance
+   check — the multi-party constraint solver ([`parley.py`](ideonomy/parley.py))
+   — rotating proposals, sovereign constraint scoring, maximin at impasse —
+   the metabolic loop skeleton ([`loop.py`](ideonomy/loop.py)), and Gunkel's 236
    divisions ([`divisions.py`](ideonomy/divisions.py)) and generative
    operators ([`operators.py`](ideonomy/operators.py)), machine-usable —
    plus a seeded drawer ([`draw.py`](ideonomy/draw.py)) that forces
@@ -135,6 +139,12 @@ python3 -m ideonomy.demo --model 'claude -p {prompt}' --model 'ollama run llama3
 python3 -m ideonomy.triangulate "Is this landing copy in the right register?" \
     --axis austerity --axis exactness \
     --judge 'claude -p {prompt}' --judge 'codex exec {prompt}'
+python3 -m ideonomy.trial "this API should be deprecated" \
+    --advocate 'claude -p {prompt}' --adversary 'codex exec {prompt}' \
+    --judge 'ollama run llama3.3'                 # adversarial trial, swap-balanced
+python3 -m ideonomy.parley "name the release" \
+    --party ops='claude -p {prompt}' --party brand='codex exec {prompt}' \
+    --constraint 'ops:must be greppable' --constraint 'brand:must not be generic'
 python3 -m ideonomy.residue --topic mywork open   # cross-session residue ledger
 python3 -m ideonomy.draw "your problem" --n 3     # forced non-default lenses, offline
 ```

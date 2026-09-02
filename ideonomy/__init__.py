@@ -11,6 +11,8 @@ Submodules (import explicitly, e.g. `from ideonomy import cycles`):
 - models      — model adapters: any CLI/callable is a model
 - residue     — cross-session residue ledger (P-10)
 - triangulate — no-oracle triangulation harness (P-9)
+- trial       — ideonomic trials: adversarial adjudication with a bench
+- parley      — balanced multi-party constraint solving over idea-space
 
 Deliberately no eager submodule imports: `python3 -m ideonomy.<mod>` stays
 clean, and importing the package costs nothing.
@@ -25,7 +27,9 @@ __all__ = [
     "loop",
     "models",
     "operators",
+    "parley",
     "primitives",
     "residue",
     "triangulate",
+    "trial",
 ]
