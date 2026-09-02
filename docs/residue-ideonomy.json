@@ -5,20 +5,20 @@
       "id": "r2",
       "text": "C4: no logged compression curve on a real external corpus yet \u2014 the empirical depth claim is unproven until a breath log on outside material is committed",
       "kind": "named_gap",
-      "status": "open",
+      "status": "seeded",
       "origin": "P-11",
       "born_session": "s1",
-      "touched_session": "s1",
+      "touched_session": "s8",
       "notes": []
     },
     "r3": {
       "id": "r3",
       "text": "C5: triangulation harness ships without heterogeneous-panel evidence \u2014 run a real multi-model panel and commit the report",
       "kind": "named_gap",
-      "status": "open",
+      "status": "seeded",
       "origin": "P-11",
       "born_session": "s1",
-      "touched_session": "s1",
+      "touched_session": "s8",
       "notes": []
     },
     "r4": {
@@ -60,6 +60,46 @@
       "born_session": "s1",
       "touched_session": "s2",
       "notes": []
+    },
+    "r9": {
+      "id": "r9",
+      "text": "north star (operator, s3): deeply solve ideonomy \u2014 enumeration at full depth, extremely valuable idea production against real stakes, balanced multi-party constraint solvers, and ideonomic trials (adversarial adjudication of ideas). C4/C5 are now the active workstream, not passive gaps",
+      "kind": "open_question",
+      "status": "open",
+      "origin": "",
+      "born_session": "s8",
+      "touched_session": "s8",
+      "notes": []
+    },
+    "r10": {
+      "id": "r10",
+      "text": "trials: triangulate.py is the embryo (multi-judge, contested axes) but a trial needs roles \u2014 advocate, adversary, cross-examination rounds, burden of proof, a verdict with grounds \u2014 and balance guarantees so no party's model dominates",
+      "kind": "named_gap",
+      "status": "open",
+      "origin": "",
+      "born_session": "s8",
+      "touched_session": "s8",
+      "notes": []
+    },
+    "r11": {
+      "id": "r11",
+      "text": "multi-party constraint solving: no engine yet lets parties hold declared constraints and negotiate an idea into their joint feasible region; models.panel is parallel opinions, not negotiation",
+      "kind": "named_gap",
+      "status": "open",
+      "origin": "",
+      "born_session": "s8",
+      "touched_session": "s8",
+      "notes": []
+    },
+    "r12": {
+      "id": "r12",
+      "text": "test doctrine ruled (s3): tests defend thesis-level claims only \u2014 stdlib-defending tests pruned 71->58; new engines earn tests for fooling modes and mechanism semantics only",
+      "kind": "open_question",
+      "status": "open",
+      "origin": "",
+      "born_session": "s8",
+      "touched_session": "s8",
+      "notes": []
     }
   },
   "sessions": [
@@ -95,7 +135,27 @@
       "closed": "2026-09-02T02:15:39",
       "breath": "metabolism",
       "note": "public-copy session, seeded by r7's revisit clause (how strangers read the claims): scrubbed a banned lexeme from all public copy, lifted the triangulate-without-oracle worked example to the top of the README, interpreted the demo's breath-log columns, thinned the anti-definition contrast tic in README/AFFORDANCE/CYCLES. C4/C5/C6 remain open; no empirical gap closed here"
+    },
+    {
+      "id": "s8",
+      "opened": "2026-09-02T13:10:22",
+      "cited_prior": 6,
+      "added": [
+        "r9",
+        "r10",
+        "r11",
+        "r12"
+      ],
+      "seeded": [
+        "r2",
+        "r3"
+      ],
+      "resolved": [],
+      "adjudicated": [],
+      "closed": "2026-09-02T13:10:22",
+      "breath": "metabolism",
+      "note": ""
     }
   ],
-  "_seq": 7
+  "_seq": 12
 }
