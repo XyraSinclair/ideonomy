@@ -62,7 +62,11 @@ Three layers, each usable alone:
    under equal terms, independent bench, burden of proof, role-swap balance
    check — the multi-party constraint solver ([`parley.py`](ideonomy/parley.py))
    — rotating proposals, sovereign constraint scoring, maximin at impasse —
-   the metabolic loop skeleton ([`loop.py`](ideonomy/loop.py)), and Gunkel's 236
+   the persistent applicative list algebra ([`lists.py`](ideonomy/lists.py)) —
+   typed, provenanced lists that combine, gate, grow, and compound across
+   sessions — its first pristine seed, 48 mixable emotional registers
+   ([`registers.py`](ideonomy/registers.py)), the metabolic loop skeleton
+   ([`loop.py`](ideonomy/loop.py)), and Gunkel's 236
    divisions ([`divisions.py`](ideonomy/divisions.py)) and generative
    operators ([`operators.py`](ideonomy/operators.py)), machine-usable —
    plus a seeded drawer ([`draw.py`](ideonomy/draw.py)) that forces
@@ -147,6 +151,9 @@ python3 -m ideonomy.parley "name the release" \
     --constraint 'ops:must be greppable' --constraint 'brand:must not be generic'
 python3 -m ideonomy.residue --topic mywork open   # cross-session residue ledger
 python3 -m ideonomy.draw "your problem" --n 3     # forced non-default lenses, offline
+python3 -m ideonomy.registers "the launch post" --n 2   # forced register mixes, offline
+python3 -m ideonomy.lists ls                      # the cross-chat list store
+
 ```
 
 (The residue ledger stores its state in `./.residue/<topic>.json`, created on

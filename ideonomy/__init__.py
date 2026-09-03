@@ -13,6 +13,8 @@ Submodules (import explicitly, e.g. `from ideonomy import cycles`):
 - triangulate — no-oracle triangulation harness (P-9)
 - trial       — ideonomic trials: adversarial adjudication with a bench
 - parley      — balanced multi-party constraint solving over idea-space
+- lists       — the persistent applicative list algebra (typed, provenanced)
+- registers   — 48 mixable emotional registers, drawable like lenses
 
 Deliberately no eager submodule imports: `python3 -m ideonomy.<mod>` stays
 clean, and importing the package costs nothing.
@@ -24,11 +26,13 @@ __all__ = [
     "cycles",
     "divisions",
     "draw",
+    "lists",
     "loop",
     "models",
     "operators",
     "parley",
     "primitives",
+    "registers",
     "residue",
     "triangulate",
     "trial",
