@@ -1,0 +1,293 @@
+# First real heterogeneous trial (C5 evidence)
+# panel: advocate = claude (hermetic: cd /tmp && claude -p --setting-sources project),
+#        adversary = gemini-3.1-pro; sides swapped for the balance pass;
+#        bench = qwen3.6:35b via ollama (local, independent of both vendors)
+# command: python3 -m ideonomy.trial <claim> --advocate <hermetic claude> \
+#   --adversary 'consult-gemini -m gemini-3.1-pro-preview -p {prompt}' \
+#   --judge 'ollama run qwen3.6:35b-a3b-q4_K_M' --rounds 1
+# 2026-09-02. The verdict below is swap-stable and goes AGAINST the
+# maintainer's own publication decision; it is committed unedited
+# (ANSI control sequences scrubbed) as evidence the engine does not
+# flatter its owner. Events sided with the adversary: both named
+# gaps were closed with committed evidence the same day.
+
+claim: Publishing this repo with its empirical gaps (no compression curve on an external corpus, no heterogeneous-panel evidence) openly named as residue, rather than waiting until that evidence existed, was the right call.
+verdict: REJECTED  (lean -0.70, burden preponderance=+0.15)
+grounds: The adversary successfully demonstrated that the required external
+
+[advocate:advocate] # The Case FOR Publishing With Named Residue
+
+## The core claim
+
+Naming a gap and shipping is not the same act as hiding a gap and shipping. The review collapsed these two into "publication is premature." It is not premature. It is honest, and honesty at the point of publication is strictly more useful to every downstream reader than a delay would have been. Here is the full case.
+
+## 1. The counterfactual is not "wait, then publish clean." It is "wait indefinitely, and publish nothing."
+
+The reviewer's recommendation smuggles in an assumption: that the evidence (a compression curve on an external corpus, heterogeneous-panel results) is a *finite, bounded task* that a short delay would close. It is not. Those experiments have design degrees of freedom — which corpus, which panel composition, which metric — and every one of them is itself contestable. "Wait for the evidence" has no natural stopping point, because there is always a stronger version of the evidence you could have gathered first. Projects that adopt "publish when the evidence is complete" as their gate mostly publish never. The realistic counterfactual to shipping-with-residue is not a better artifact later; it is silence, and a private repo that rots.
+
+## 2. Named residue *is* a form of evidence — evidence about the boundary of the claim.
+
+A README Status section that says "the compression curve on an external corpus is not demonstrated" and a ledger that tracks C4/C5 as open items give the reader something they cannot get from a polished paper: **a precise map of what to trust and what to test.** That is epistemically load-bearing. The value of a research artifact is not only its confirmed claims; it is the accuracy of its own uncertainty accounting. A repo that correctly tells you where it is unproven has *demonstrated a true thing* — the location of its own frontier — even where it has not demonstrated the underlying mechanism. The reviewer treated "no empirical curve" as a void. It is not a void; it is a labeled edge.
+
+## 3. This is how every honest scientific culture actually works.
+
+Preprints ship before peer review. Registered reports publish the *protocol* before any data exists. "Limitations" and "threats to validity" sections are mandatory precisely because the norm is: state your claim, state what you have not shown, let the community attack it. The residue ledger (C4/C5) is a limitations section with version control and issue tracking — a *strictly stronger* form of the accepted norm, because it is machine-trackable and each gap has an identity that can be closed and audited. Demanding that gaps be closed before any release is not a higher standard than science; it is a standard science explicitly rejected, because it privileges the polished-but-unfalsifiable over the incomplete-but-checkable.
+
+## 4. Publication is what *recruits* the missing evidence.
+
+A compression curve on an external corpus and a heterogeneous-panel study are exactly the kind of work that benefits from other people's corpora, other people's panels, other people's compute. Keeping the repo private until those exist forecloses the single most efficient path to producing them: someone reading the ledger, seeing C4 open, and running it on their data. Open residue is a call for collaboration with a precise API. The reviewer's path — close the gaps alone, in private, first — is slower *and* produces weaker evidence, because it is single-source. Publishing with named gaps is the move that makes the evidence more likely to exist at all.
+
+## 5. The honesty is self-protecting against the reviewer's real fear.
+
+What is the actual harm the reviewer is guarding against? That readers will *overclaim* — take the engines as validated when they are not. But that harm is caused by *hidden* gaps, not named ones. The README Status section and the ledger are the direct antidote: a reader cannot be misled about the compression curve when the first thing they read is "the compression curve is not demonstrated." The maintainer has already paid the entire cost the reviewer is worried about. To then also demand the delay is to charge twice for one risk — once in disclosure, once in withholding — when disclosure alone fully discharges it.
+
+## 6. Withholding has its own costs, and they are not tracked.
+
+The reviewer's ledger of harms is one-sided: it counts the risk of publishing-too-early and ignores the risk of publishing-too-late. Those include: the work being duplicated by others who couldn't see it; the ideas going stale or unattributed (note the maintainer's own email is the authorship anchor here — priority matters); the loss of every incremental use the *proven* parts of the library could have delivered in the interim; and the demoralizing, project-killing effect of an ever-receding "when it's ready" bar. An honest expected-value comparison must weigh both columns. The maintainer did. The reviewer counted only one.
+
+## 7. The decision is reversible and continuously corrigible; withholding-then-releasing is not.
+
+Because the gaps are named as tracked items, the artifact *improves in place*. When C4 closes, the Status section updates and the ledger records it — readers who saw the honest earlier version are strictly better off, never misled. Nothing about early publication has to be walked back; it only gets refined. The reviewer's model treats publication as a one-shot irreversible commitment that must be right on release. For a version-controlled, ledgered repo, that model is simply wrong. This is the low-stakes, high-corrigibility regime where shipping early and iterating openly is textbook-correct.
+
+## Summary
+
+The right question is not "is the evidence complete?" — it never is — but "does the artifact tell the truth about itself?" This one does, explicitly, in two places (README Status, ledger C4/C5). Given that, publishing beats withholding on every axis that matters: it discharges the overclaiming risk in full, it recruits the missing evidence instead of foreclosing it, it preserves priority and delivers the proven parts' value now, and it commits nothing that iteration can't refine. The reviewer applied a gate — "no release before empirical closure" — that science itself rejects, and weighed only the cost of acting while ignoring the cost of waiting. Honest residue is not the price of publishing early; it is the reason publishing early is correct.
+
+I'm ready for cross-examination.
+[adversary:adversary] The decision to publish the `ideonomy` repository without empirical validation was a fundamental failure of judgment because it substitutes the **accounting of a deficit** for the **payment of a debt**. 
+
+By using the "residue ledger" as a shield, the maintainer has mistaken the aesthetic of rigor for actual rigor. Here is the case against the claim, resting on three concrete pillars:
+
+**1. Epistemic Hypocrisy**
+`ideonomy` is fundamentally an engine for structured reasoning, trial, and triangulation. Its entire value proposition is to elevate AI workflows above vibes and into rigorous, validated cycles. Yet, it ships without the exact empirical proofs—a compression curve on an external corpus (C4) and heterogeneous-panel evidence (C5)—required to prove the framework actually works. Acknowledging this hypocrisy in a README does not cure it. Launching an unvalidated framework meant for validation actively undermines the repository's core philosophical premise.
+
+**2. The Missing Evidence is Load-Bearing, Not Peripheral**
+The maintainer is treating C4 and C5 as missing feature flags that can be added later. They are not. A compression curve on an external corpus is the *only* proof that `ideonomy`'s mechanisms aren't just overfit to the author's bespoke, local prompt environment. Heterogeneous-panel evidence is the *only* proof that its triangulation operators can actually synthesize divergent model outputs into ground truth. Without these, the repository is not an engineering tool; it is speculative philosophy masquerading as software. An IOU for a foundation cannot support a house.
+
+**3. The "Honesty" Defense Burns the Project's Capital**
+The claim assumes that "naming gaps honestly" is a virtue that neutralizes the lack of evidence. In the reality of open-source AI, attention is scarce and highly skeptical. When practitioners evaluate `ideonomy`, they will see an intricate architecture of agents and operators completely decoupled from empirical baselines. They will correctly dismiss it as theoretical vaporware. By the time the maintainer actually closes items C4 and C5, the audience will have moved on. The maintainer traded the lasting impact of a proven, undeniable system for the immediate gratification of publishing an unfinished thought.
+
+**Conclusion**
+Documenting a fatal flaw in a "residue ledger" does not make the system viable; it only provides an organized autopsy report for why the framework cannot yet be trusted. Withholding the release until the external compression curve and heterogeneous trials were complete was the only mathematically and epistemically sound path.
+[advocate:advocate] The strongest thing you've said is Pillar 2, and I'll start by giving it fully: C4 and C5 are load-bearing. You're right that an external compression curve is the only thing that distinguishes a real mechanism from overfit to one author's prompt environment, and that heterogeneous-panel evidence is the only thing that turns "triangulation" from a word into a demonstrated operation. I concede all of that without qualification. A framework whose whole pitch is validation and whose two central validation claims are unproven has a hole at its center, not at its edge. Nothing in my case needs that to be false.
+
+But watch what your argument does with that concession. Every pillar silently converts *published* into *asserted true*. That conversion is the entire load, and it's illegitimate.
+
+Publishing a repo with a residue ledger is not the claim "this works." It is the claim "here is a mechanism, here are the exact two experiments that would confirm or kill it, and here is my admission that I have not run them." That is a conjecture with its own falsification conditions bolted to the front. Your "IOU for a foundation cannot support a house" only bites if someone is living in the house. Nobody is. There is no occupant relying on an unbuilt slab. There is a blueprint and a partial build posted for people to inspect and, crucially, to *run C4 against themselves*. You've priced the risk of a collapsing house onto an object that is a proposal.
+
+Now turn Pillar 1 around, because it doesn't say what you think. Epistemic hypocrisy would be a README that reported a compression curve it never measured, or claimed panel synthesis it never tested. What actually shipped is a validation framework naming its own unmet validation criteria in the framework's own vocabulary. That is not the aesthetic of rigor substituting for rigor — it is the framework executed on itself, and passing the only test available before the corpus runs exist: does it force its author to name what would refute it? It did. The hypocrisy charge requires a hidden gap. This gap is the most visible thing in the repository.
+
+Which is why your "accounting a deficit vs. paying a debt" framing is the sharpest line in your case and also the one that gives you away. Correct — naming the debt does not pay it. I never claimed it did. But a debt cannot be *paid* by a lone author on a bespoke local corpus at all, because the payment C4 demands is precisely evidence that the mechanism survives outside that author's environment. The currency of that debt is external, adversarial replication. You settle it by exposing the mechanism to strangers who will run the curve and try to break the panel. Silence generates zero of that currency. Your "sound path" — withhold until the evidence exists — quietly assumes the author can mint the proof alone, which is the exact overfitting failure you're worried about.
+
+Pillar 3 is your only genuinely pragmatic point, and it's an empirical bet about audience behavior stated as if it were proven. Maybe skeptical practitioners dismiss it as vaporware and drift off. But the counterfactual you're selling isn't "proven system, captive audience later" — it's an unpublished artifact earning zero scrutiny, zero replication, and zero of the external results that would close C4 in the first place. You're comparing a real cost of publishing against an imagined benefit of waiting, while hiding that waiting has no mechanism to reach the finish line you've named as mandatory.
+
+So: the gap is load-bearing, conceded. Naming it doesn't fill it, conceded. But a named load-bearing gap on a public conjecture is not the same object as a hidden one on a sold product, and your entire "mathematically sound" conclusion rests on treating them as identical. Destroy that equivalence and what's left is an honest proposal inviting the exact replication that pays its debt — which is the right call, not the failure of judgment.
+[adversary:adversary] I concede the distinction between a hidden deficit in a product and a named deficit in a proposal. You are entirely correct: this is not deception, nor is it epistemic hypocrisy. The framework successfully forced its author to name its own unproven core, and presenting it as a conjecture with falsification conditions bolted to the front is structurally honest. I concede that nobody is being tricked into living in an unbuilt house. 
+
+But your defense of shipping that unbuilt house rests entirely on a sleight of hand regarding how it gets built. 
+
+You argue that the debt of C4 and C5 "cannot be paid by a lone author on a bespoke local corpus at all." You claim the missing evidence inherently requires "external, adversarial replication," meaning the author *had* to expose the mechanism to "strangers" to settle the debt.
+
+That is categorically false, and it is the trick that collapses your entire case.
+
+You have conflated *external data* with *external validation by strangers*. An external compression curve (C4) requires an external corpus—not an external user. Heterogeneous-panel evidence (C5) requires diverse models—not diverse humans. A lone author with standard API keys and a public dataset (a Wikipedia dump, a HuggingFace corpus, any standard benchmark) possesses everything required to mint the proof. 
+
+You swapped "testing outside the author's prompt environment" for "waiting for the scientific community to replicate it" to excuse the fact that the author simply stopped typing before doing the empirical work.
+
+Because the author possessed the means to run these tests locally, your assertion that "waiting has no mechanism to reach the finish line" disintegrates. The mechanism was trivial: write the evaluation script, feed it an external corpus, run the heterogeneous panel, and measure the results. That is not a paradox of overfitting that requires public release to solve; it is standard software evaluation. 
+
+You did not publish a proposal inviting replication of a proven effect. You published a theoretical schema that crowdsources its own foundational QA, justifying it with a fabricated structural constraint. Naming the gap wasn't just an accounting mechanism—it was deployed as a substitute for the entirely accessible labor of closing it.
+[judge:judge-1] Thinking...
+Here's a thinking process:
+
+1.  **Analyze the Claim:** "Publishing this repo with its empirical gaps (n
+(no compression curve on an external corpus, no heterogeneous-panel evidenc
+evidence) openly named as residue, rather than waiting until that evidence 
+existed, was the right call."
+
+2.  **Identify Key Arguments from Advocate:**
+   - Counterfactual isn't "wait, then publish clean"; it's "wait indefinite
+indefinitely and publish nothing" because gaps have endless degrees of free
+freedom.
+   - Named residue *is* evidence (a map of uncertainty).
+   - Scientific norms support preprints/registered reports with stated limi
+limitations.
+   - Publication *recruits* the missing evidence via community replication/
+replication/collaboration.
+   - Honesty protects against overclaiming; disclosure discharges the risk.
+risk.
+   - Withholding has costs (duplication, staleness, lost utility, demo
+demoralization).
+   - The process is corrigible/improvable in place, unlike one-shot publica
+publication.
+   - Later concedes gaps are load-bearing but argues publishing still works
+works because it frames it as a conjecture/proposal, not a product, and inv
+invites external replication needed for C4/C5.
+
+3.  **Identify Key Arguments from Adversary:**
+   - Publishing without validation is epistemic hypocrisy/substituting acco
+accounting for payment.
+   - Missing evidence (C4/C5) is load-bearing, not peripheral; without it, 
+the repo is speculative philosophy/vaporware.
+   - Honesty defense burns project capital/attention in open-source AI; ske
+skepticism will dismiss it before gaps close.
+   - Concedes honesty/conjecture framing but attacks the core justification
+justification: claims external validation *requires* strangers/crowdsourcin
+strangers/crowdsourcing, but actually only requires standard APIs/public da
+datasets (C4 is just an external corpus, C5 is diverse models). The author 
+could have run these locally. Thus, "waiting has no mechanism" is false; wa
+waiting was feasible and the gap-naming was a substitute for accessible lab
+labor.
+
+4.  **Evaluate the Core Dispute:**
+   - The pivotal question: Is the decision to publish *now* (with named gap
+gaps) right, or should they have waited until C4/C5 were complete?
+   - Advocate's key pivot: Claims that closing C4/C5 inherently requires "e
+"external, adversarial replication" by strangers/community because lone aut
+author testing on local/bespoke environments is overfit. Publication crowds
+crowdsources this.
+   - Adversary's rebuttal (crucial point): Confuses "external data/corpus" 
+with "external validation by strangers." C4 just needs an external corpus (
+(e.g., HuggingFace datasets). C5 just needs diverse models via APIs. These 
+are trivially available to the author alone. Therefore, there *was* a clear
+clear, accessible mechanism to wait and close the gaps locally. The advocat
+advocate's claim that waiting "has no mechanism" is factually weak because 
+standard open datasets/APIs exist. Naming the gap became a deferral of stra
+straightforward, doable work rather than a necessity for community scaling.
+scaling.
+   - Additional weight: Adversary correctly identifies that in AI/M
+AI/ML empirical work, compression curves and heterogeneous panel evaluation
+evaluations are standard, automatable tasks using publicly available corpor
+corpora (C4/C5 might be specific, but the principle holds: external dataset
+datasets exist) and API access. The advocate's dependency on "strangers" to
+to get this data is a flawed justification for premature publication of loa
+load-bearing gaps.
+   - However, consider the broader context: In open research, publishing in
+incomplete work with tracked gaps is standard practice *precisely* because 
+it accelerates progress, allows others to build on provisional results, and
+and avoids single-point-of-failure delays. But the adversary's point direct
+directly targets the advocate's strongest tactical argument (that external 
+validation fundamentally requires public crowdsourcing rather than local co
+computation). If the data/tasks are accessible to one person, waiting is fe
+feasible and arguably more responsible for a claim of "validated framework.
+framework."
+   - The advocate also concedes C4/C5 are load-bearing. The adversary corre
+correctly exploits this: if they're load-bearing and easily completable by 
+the author alone (using standard datasets/APIs), then publishing before com
+completion undermines the repo's core premise (a validation framework that 
+itself isn't validated). The "crowdsourcing" defense collapses under the we
+weight of available, accessible data sources.
+   - Does the advocate have a strong counter? The iterative/corrigibility a
+argument is good, but doesn't override the fact that foundational claims we
+were left unproven when they were trivially verifiable by the author. The a
+adversary's point about conflating external *data* with external *replicato
+*replicators* is decisive against the advocate's core justification for the
+the delay/publish decision.
+
+5.  **Determine Weighing:**
+   - The claim is that publishing with named gaps was the right call vs wai
+waiting.
+   - Adversary successfully dismantles the advocate's key pragmatic defense
+defense: that the missing evidence inherently required public crowdsourcing
+crowdsourcing rather than local computation. By showing C4/C5 only require 
+standard, accessible datasets/APIs (not necessarily community replication),
+replication), the adversary proves waiting was feasible and the "named resi
+residue" functioned as a deferral of straightforward work, not a structural
+structural necessity.
+   - This undermines the advocate's case that publishing *recruits* necessa
+necessary evidence; the evidence was available to the author alone. Therefo
+Therefore, withholding until completion would have preserved epistemic inte
+integrity for a framework whose entire value proposition is validation.
+   - Lean: Adversary wins on this point. The score should be negative since
+since the claim (publishing now was right) is significantly weakened by the
+the adversary's rebuttal about accessible evaluation infrastructure.
+   - Score: Around -0.6 to -0.8. I'll go with -0.7.
+   - Grounds: Must be one sentence naming the deciding argument. "The adver
+adversary successfully demonstrated that the claimed external validation re
+requirements (C4/C5) only necessitate standard, publicly accessible dataset
+datasets and API calls, not community replication, proving waiting was feas
+feasible and named gaps functioned as a deferral of straightforward local e
+evaluation rather than a structural necessity."
+
+6.  **Refine Output:**
+   Check constraints: "Reply with exactly two lines: LEAN: <-1.0 .. +1.0> G
+GROUNDS: <one sentence>"
+   Ensure tone matches judge role. Weigh only arguments, not eloquence.
+   The decisive argument is indeed the conflation of external data with ext
+external replicators, showing waiting was trivially possible.
+   Score: -0.75 (adversary wins)
+   Grounds: The adversary’s rebuttal that C4 and C5 only require standard, 
+publicly accessible datasets and API calls—rendering community replication 
+unnecessary—proves waiting was structurally feasible and named gaps served 
+as a deferral of straightforward local validation rather than an operationa
+operational necessity.
+   Check format: Exactly two lines.
+   LEAN: -0.75
+   GROUNDS: The adversary’s rebuttal that C4 and C5 only require standard, 
+publicly accessible datasets and API calls—rendering community replication 
+unnecessary—proves waiting was structurally feasible and named gaps served 
+as a deferral of straightforward local validation rather than an operationa
+operational necessity.
+   Matches constraints. Ready.✅
+   Self-Correction/Verification during thought:
+   - Is the score too strong? The advocate has valid points about corrigibi
+corrigibility, avoiding infinite delay, and community recruitment being sta
+standard in open science. But the prompt specifically asks to weigh argumen
+arguments. The adversary's point directly targets the factual premise of th
+the advocate's strongest defense (that waiting lacks a mechanism to finish)
+finish). That is a critical flaw in the advocate's chain of reasoning. Give
+Given C4/C5 are explicitly named as compression curves and heterogeneous-pa
+heterogeneous-panel evidence, these are standard ML evals doable locally wi
+with public data. The adversary wins decisively on this factual/logical poi
+point. -0.7 or -0.8 is appropriate. I'll stick with -0.7.
+   - Check exact formatting: "LEAN: <-1.0 ... +1.0>, 0 if..." -> I will out
+output just the number as requested, but the prompt says "Reply with exactl
+exactly two lines: LEAN: <value> GROUNDS: <sentence>". I'll follow that lit
+literally.
+   - All good. Output matches. 
+   One minor adjustment: The prompt says "LEAN: <-1.0 (claim destroyed) .. 
++1.0 (claim proven), 0 if the arguments genuinely balance>". I will output 
+the number directly after LEAN: as instructed.
+   Final check of the text: "The adversary’s rebuttal that C4 and C5 only r
+require standard, publicly accessible datasets and API calls—rendering comm
+community replication unnecessary—proves waiting was structurally feasible 
+and named gaps served as a deferral of straightforward local validation rat
+rather than an operational necessity." -> Clear, one sentence, directly add
+addresses the decisive argument. Matches constraints. Proceeds. 
+   Output generation. 
+   [Output Generation] -> LEAN: -0.7
+   GROUNDS: The adversary’s rebuttal that C4 and C5 only require standard, 
+publicly accessible datasets and API calls—rendering community replication 
+unnecessary—proves waiting was structurally feasible and named gaps served 
+as a deferral of straightforward local validation rather than an operationa
+operational necessity. 
+   Matches exactly.✅
+   Note: I'll make sure the format strictly matches "LEAN: -0.7\nGROUNDS: .
+..." as requested. All good. 
+   Proceeds. 
+   [Output Generation] (matches response)
+   LEAN: -0.7
+   GROUNDS: The adversary successfully demonstrated that the required exter
+external evidence only necessitates standard, publicly accessible datasets 
+and API calls rather than community replication, proving waiting was struct
+structurally feasible and named gaps functioned as a deferral of straightfo
+straightforward local evaluation. (Slightly tightened for clarity)
+   All constraints met. Output matches. 
+   [Final Check]
+   - Two lines exactly? Yes.
+   - Format matches? Yes.
+   - Weighs only arguments? Yes, focuses on the logical/factual pivot point
+point.
+   - Score reflects argument strength? Yes, adversary's factual correction 
+is decisive against advocate's core justification.
+   Ready. 
+   Output matches response. 
+   [Proceeds]
+...done thinking.
+
+LEAN: -0.7
+GROUNDS: The adversary successfully demonstrated that the required external
+external evidence only necessitates standard, publicly accessible datasets 
+and API calls rather than community replication, proving waiting was struct
+structurally feasible and named gaps functioned as a deferral of straightfo
+straightforward local evaluation.

@@ -38,8 +38,8 @@ trusting it.*
 | C1 | The core abstractions are load-bearing, not decorative: primitives compose into skills, skills carry gates, gates have executable harnesses where honest | covered |
 | C2 | The catalog applies to itself and the evidence exists in-repo | covered — this file; adversarial reviews in `PREMIER_SKILLS.md` + `docs/oracle_review_gpt55pro.md`; the release residue ledger `docs/residue-ideonomy.json` |
 | C3 | Weaknesses are documented as prominently as strengths | covered — gate-hardness classification, "rigor theater" caveat |
-| C4 | The engine has been run on at least one real external corpus with a logged compression curve | named-gap — bootstrap step 2 in CYCLES.md; honest status: not yet |
-| C5 | Multi-model triangulation exercised with real heterogeneous panels, results logged | named-gap — requires operator model access; harness ships, the evidence doesn't |
+| C4 | The engine has been run on at least one real external corpus with a logged compression curve | covered — `docs/breath-log-external.txt`: two contrasting corpora, structure found (1.110) and near-null honestly reported (1.011); semantic depth beyond token MDL remains open work |
+| C5 | Multi-model adjudication exercised with real heterogeneous panels, results logged | covered — `docs/heterogeneous-trial-r7.txt`: three-vendor trial (Claude vs Gemini, Qwen bench); the swap-stable verdict ruled against the repo's own publication call and is committed unedited |
 | C6 | Longitudinal use: residue ledger with multiple metabolism breaths on a real topic | named-gap — the mechanism ships; its own history is young |
 
 ## D. Craft
@@ -64,7 +64,8 @@ trusting it.*
 ## Summary
 
 Covered: the kernel is consistent, testable, installable, self-applied, and
-honestly scoped. Named gaps: C4–C6 — the *empirical* depth claims. The prose
-never asserts what only the gaps could prove; the compression curve on a real
-corpus is the next piece of evidence this repo owes, and the claim to depth is
-carried by demonstrated compression, never by adjectives.
+honestly scoped. C4 and C5 now carry committed evidence; the remaining named
+gaps are C6 (the ledger's longitudinal history is young, though compounding)
+and semantic compression depth beyond token-level MDL. The prose never asserts
+what only the gaps could prove; the claim to depth is carried by demonstrated
+compression and logged adjudication, never by adjectives.

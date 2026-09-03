@@ -161,9 +161,17 @@ first use; override with `--store`.)
 
 ## Status
 
-The catalog, skills, and offline engines are substantive and tested. What is
-*not* yet demonstrated is the empirical depth claim: a logged compression
-curve on a real external corpus, and multi-model triangulation evidence. The
+The catalog, skills, and offline engines are substantive and tested. Two
+pieces of empirical evidence are now committed:
+[docs/breath-log-external.txt](docs/breath-log-external.txt) — the MDL engine
+run on two real external corpora, finding named structure where it exists
+(ratio 1.110) and honestly reporting near-null where it doesn't (1.011) — and
+[docs/heterogeneous-trial-r7.txt](docs/heterogeneous-trial-r7.txt) — the first
+real three-vendor trial (Claude vs Gemini argued, sides swapped for balance,
+local Qwen judged), whose swap-stable verdict went *against* the maintainer's
+own publication decision and is committed unedited: the trial engine does not
+flatter its owner. Still undemonstrated: compression depth beyond token-level
+MDL (semantic grouping with model-backed judges). The
 full labeled denominator of what "canonical" means here — covered, named-gap,
 ruled-out, nothing unlabeled — is [docs/canonicality.md](docs/canonicality.md).
 The catalog applies to itself: gap-find it, vary it, and keep what survives

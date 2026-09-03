@@ -29,6 +29,13 @@ class CommandModel:
         CommandModel("claude -p {prompt}")
         CommandModel("codex exec --full-auto {prompt}")
         CommandModel("ollama run llama3.3", via_stdin=True)
+
+    Hermeticity: agent CLIs (claude, codex, gemini) inject the invoking
+    user's global instructions and may read the working directory. For a
+    clean panel seat, isolate the call — e.g.
+    `cd /tmp && claude -p --setting-sources project {prompt}` — or the
+    seat argues with your context in its mouth and can leak it into
+    committed transcripts.
     """
 
     command: str

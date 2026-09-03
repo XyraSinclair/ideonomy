@@ -17,11 +17,13 @@
       "id": "r3",
       "text": "C5: triangulation harness ships without heterogeneous-panel evidence \u2014 run a real multi-model panel and commit the report",
       "kind": "named_gap",
-      "status": "seeded",
+      "status": "resolved",
       "origin": "P-11",
       "born_session": "s1",
-      "touched_session": "s8",
-      "notes": []
+      "touched_session": "s18",
+      "notes": [
+        "first heterogeneous trial committed (docs/heterogeneous-trial-r7.txt): claude (hermetic) vs gemini-3.1-pro with role swap, qwen3.6 bench \u2014 three vendors, real transcripts, parse gates held against visible thinking in the wild"
+      ]
     },
     "r4": {
       "id": "r4",
@@ -57,11 +59,13 @@
       "id": "r7",
       "text": "cross-model review judged publication should wait for empirical evidence (C4/C5); rejected \u2014 the repo names those gaps rather than claiming them. Revisit if readers take the status as overclaim",
       "kind": "contested_axis",
-      "status": "seeded",
+      "status": "resolved",
       "origin": "P-9",
       "born_session": "s1",
-      "touched_session": "s2",
-      "notes": []
+      "touched_session": "s18",
+      "notes": [
+        "adjudicated by the machine's first hermetic trial: swap-stable REJECTED (-0.70) \u2014 the bench sided with the reviewer, ruling the evidence was cheap and waiting was feasible. Events agreed: both gaps closed with committed evidence the same day. The stance loses; the verdict is committed unedited"
+      ]
     },
     "r9": {
       "id": "r9",
@@ -227,7 +231,22 @@
       "closed": "2026-09-02T18:42:54",
       "breath": "metabolism",
       "note": ""
+    },
+    {
+      "id": "s18",
+      "opened": "2026-09-02T18:59:28",
+      "cited_prior": 9,
+      "added": [],
+      "seeded": [],
+      "resolved": [
+        "r3",
+        "r7"
+      ],
+      "adjudicated": [],
+      "closed": "2026-09-02T18:59:28",
+      "breath": "metabolism",
+      "note": ""
     }
   ],
-  "_seq": 17
+  "_seq": 18
 }
