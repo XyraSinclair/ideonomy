@@ -1,0 +1,31 @@
+== corpus: man(1) one-liners (400 items) ==
+multi-groups=36  raw=2705  codelen=2438  ratio=1.110
+  [11,3,added,dataset,gdal,raster,version] (98): gdal-mdim-convert gdal-mdim-info gdal-mdim gdal-pipeline gdal-raster-as-features gdal-raster-aspect gdal-raster-calc
+  [aerospace,focused,window] (16): aerospace-balance-sizes aerospace-close-all-windows-but-current aerospace-close aerospace-flatten-workspace-tree aerospace-focus aerospace-fullscreen aerospace-layout
+  [] (5): afconvert afhash afinfo afplay dd
+  [alias,aliases,gh] (5): gh-alias-delete gh-alias-import gh-alias-list gh-alias-set gh-alias
+  [aerospace,conditions,list,print,satisfy] (4): aerospace-list-modes aerospace-list-monitors aerospace-list-windows aerospace-list-workspaces
+  [1,7,manual,page,version] (4): anvil cast chisel forge
+residue: 268 items resist the structure
+breath {'cycle': 1, 'items': 400, 'added': 0, 'groups': 233, 'codelen': 2438.0, 'raw': 2705.0, 'ratio': 1.11, 'residue': 268, 'expansion': 'reverted'}
+breath {'cycle': 2, 'items': 400, 'added': 0, 'groups': 233, 'codelen': 2438.0, 'raw': 2705.0, 'ratio': 1.11, 'residue': 268, 'expansion': 'reverted'}
+breath {'cycle': 3, 'items': 400, 'added': 0, 'groups': 233, 'codelen': 2438.0, 'raw': 2705.0, 'ratio': 1.11, 'residue': 268, 'expansion': 'reverted'}
+
+== corpus: python stdlib synopses (153 items) ==
+multi-groups=10  raw=957  codelen=947  ratio=1.011
+  [] (4): sre_compile sre_constants sre_parse token
+  [] (3): _bootlocale locale selectors
+  [3119,abc,abcs,abstract,according,base,classes,pep] (3): _collections_abc abc numbers
+  [] (3): bz2 lzma operator
+  [files,read,write] (3): csv gzip zipfile
+  [] (3): ftplib poplib telnetlib
+residue: 129 items resist the structure
+breath {'cycle': 1, 'items': 153, 'added': 0, 'groups': 136, 'codelen': 947.0, 'raw': 957.0, 'ratio': 1.011, 'residue': 129, 'expansion': 'reverted'}
+breath {'cycle': 2, 'items': 153, 'added': 0, 'groups': 136, 'codelen': 947.0, 'raw': 957.0, 'ratio': 1.011, 'residue': 129, 'expansion': 'reverted'}
+breath {'cycle': 3, 'items': 153, 'added': 0, 'groups': 136, 'codelen': 947.0, 'raw': 957.0, 'ratio': 1.011, 'residue': 129, 'expansion': 'reverted'}
+
+reading: the engine pays for structure only where structure exists —
+ratio 1.11 with named shared-token rules on the operational corpus,
+ratio 1.01 (near-null, honestly reported) on the diverse one. Depth
+beyond token-level MDL (semantic grouping via a model-backed judge)
+remains the r9 north-star work, not claimed here.
