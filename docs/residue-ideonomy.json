@@ -5,11 +5,13 @@
       "id": "r2",
       "text": "C4: no logged compression curve on a real external corpus yet \u2014 the empirical depth claim is unproven until a breath log on outside material is committed",
       "kind": "named_gap",
-      "status": "seeded",
+      "status": "resolved",
       "origin": "P-11",
       "born_session": "s1",
-      "touched_session": "s8",
-      "notes": []
+      "touched_session": "s17",
+      "notes": [
+        "breath log committed (docs/breath-log-external.txt): man(1) corpus ratio 1.110 with named rules; stdlib synopses 1.011 near-null honestly reported. The named gap (no committed log) is closed; semantic-depth compression remains r9 work"
+      ]
     },
     "r3": {
       "id": "r3",
@@ -211,7 +213,21 @@
       "closed": "2026-09-02T18:37:03",
       "breath": "metabolism",
       "note": ""
+    },
+    {
+      "id": "s17",
+      "opened": "2026-09-02T18:42:54",
+      "cited_prior": 10,
+      "added": [],
+      "seeded": [],
+      "resolved": [
+        "r2"
+      ],
+      "adjudicated": [],
+      "closed": "2026-09-02T18:42:54",
+      "breath": "metabolism",
+      "note": ""
     }
   ],
-  "_seq": 16
+  "_seq": 17
 }
