@@ -65,10 +65,10 @@
       "id": "r9",
       "text": "north star (operator, s3): deeply solve ideonomy \u2014 enumeration at full depth, extremely valuable idea production against real stakes, balanced multi-party constraint solvers, and ideonomic trials (adversarial adjudication of ideas). C4/C5 are now the active workstream, not passive gaps",
       "kind": "open_question",
-      "status": "open",
+      "status": "seeded",
       "origin": "",
       "born_session": "s8",
-      "touched_session": "s8",
+      "touched_session": "s14",
       "notes": []
     },
     "r10": {
@@ -103,6 +103,26 @@
       "origin": "",
       "born_session": "s8",
       "touched_session": "s8",
+      "notes": []
+    },
+    "r15": {
+      "id": "r15",
+      "text": "registers.py ships a claimed denominator: 8 families covering feeling-space, 48 inhabitants \u2014 plausible, unproven. Audit against an external affect taxonomy (e.g. Plutchik, GoEmotions, Scherer) and either close or extend",
+      "kind": "named_gap",
+      "status": "open",
+      "origin": "",
+      "born_session": "s14",
+      "touched_session": "s14",
+      "notes": []
+    },
+    "r16": {
+      "id": "r16",
+      "text": "the list store (.lists/) is local per checkout; pristine lists worth sharing need committed exports plus a promotion rule for when a list graduates from local to canonical",
+      "kind": "open_question",
+      "status": "open",
+      "origin": "",
+      "born_session": "s14",
+      "touched_session": "s14",
       "notes": []
     }
   },
@@ -174,7 +194,24 @@
       "closed": "2026-09-02T13:15:53",
       "breath": "metabolism",
       "note": ""
+    },
+    {
+      "id": "s14",
+      "opened": "2026-09-02T18:37:03",
+      "cited_prior": 8,
+      "added": [
+        "r15",
+        "r16"
+      ],
+      "seeded": [
+        "r9"
+      ],
+      "resolved": [],
+      "adjudicated": [],
+      "closed": "2026-09-02T18:37:03",
+      "breath": "metabolism",
+      "note": ""
     }
   ],
-  "_seq": 13
+  "_seq": 16
 }
