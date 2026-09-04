@@ -53,6 +53,8 @@ class Ideolist:
     status: str = "open"
     made_by: str = "seed"                    # operation that produced this list
     parents: list = field(default_factory=list)   # names of source lists
+    source: Optional[dict] = None            # provenance tier: e.g. {"tier":
+    # "canon", "url": ...} for Gunkel-extracted; None for session-local lists
 
     def __post_init__(self) -> None:
         if self.status not in STATUSES:
@@ -114,14 +116,17 @@ class Ideolist:
 
     # -------------------------------------------------------- persistence
     def to_dict(self) -> dict:
-        return {"name": self.name, "of": self.of, "items": self.items,
-                "status": self.status, "made_by": self.made_by,
-                "parents": self.parents}
+        d = {"name": self.name, "of": self.of, "items": self.items,
+             "status": self.status, "made_by": self.made_by,
+             "parents": self.parents}
+        if self.source is not None:
+            d["source"] = self.source
+        return d
 
     @classmethod
     def from_dict(cls, d: dict) -> "Ideolist":
-        known = {k: d[k] for k in
-                 ("name", "of", "items", "status", "made_by", "parents") if k in d}
+        known = {k: d[k] for k in ("name", "of", "items", "status",
+                                   "made_by", "parents", "source") if k in d}
         return cls(**known)
 
 

@@ -65,7 +65,12 @@ Three layers, each usable alone:
    the persistent applicative list algebra ([`lists.py`](ideonomy/lists.py)) —
    typed, provenanced lists that combine, gate, grow, and compound across
    sessions — its first pristine seed, 48 mixable emotional registers
-   ([`registers.py`](ideonomy/registers.py)), the metabolic loop skeleton
+   ([`registers.py`](ideonomy/registers.py)), the growing canon layer
+   ([`canon.py`](ideonomy/canon.py) + [`data/`](ideonomy/data/)) — Gunkel's
+   own lists recovered verbatim from the archived pre-redesign
+   ideonomy.mit.edu, each with per-URL provenance (the 638 primary
+   personality traits, 291 criticisms, 152 generic bads, the full "What
+   Ideonomy Can Do" table, the paths corpus…) — the metabolic loop skeleton
    ([`loop.py`](ideonomy/loop.py)), and Gunkel's 236
    divisions ([`divisions.py`](ideonomy/divisions.py)) and generative
    operators ([`operators.py`](ideonomy/operators.py)), machine-usable —

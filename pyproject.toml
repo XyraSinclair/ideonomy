@@ -29,3 +29,6 @@ Issues = "https://github.com/XyraSinclair/ideonomy/issues"
 
 [tool.setuptools.packages.find]
 include = ["ideonomy*"]
+
+[tool.setuptools.package-data]
+ideonomy = ["data/*.jsonl"]
