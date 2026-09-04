@@ -23,8 +23,9 @@ from typing import Optional
 from .lists import Ideolist
 
 
-def lists() -> "dict[str, Ideolist]":
-    """Every canon list, keyed by name, freshly loaded from package data."""
+def lists(tier: str = "canon") -> "dict[str, Ideolist]":
+    """Lists of one provenance tier ("canon" by default; "grown" for the
+    machine-extended layer), keyed by name, freshly loaded from package data."""
     out: "dict[str, Ideolist]" = {}
     data = resources.files(__package__) / "data"
     for entry in sorted(data.iterdir(), key=lambda e: e.name):
@@ -33,14 +34,15 @@ def lists() -> "dict[str, Ideolist]":
         for line in entry.read_text().splitlines():
             if line.strip():
                 lst = Ideolist.from_dict(json.loads(line))
-                out[lst.name] = lst
+                if (lst.source or {}).get("tier") == tier:
+                    out[lst.name] = lst
     return out
 
 
-def get(name: str) -> Ideolist:
-    lst = lists().get(name)
+def get(name: str, tier: str = "canon") -> Ideolist:
+    lst = lists(tier).get(name)
     if lst is None:
-        raise KeyError(f"no canon list named {name!r}")
+        raise KeyError(f"no {tier} list named {name!r}")
     return lst
 
 
@@ -50,6 +52,7 @@ def main(argv: Optional[list] = None) -> int:
     ap = argparse.ArgumentParser(
         prog="ideonomy.canon",
         description="Gunkel's recovered lists, shipped as data.")
+    ap.add_argument("--tier", default="canon", choices=["canon", "grown"])
     sub = ap.add_subparsers(dest="cmd", required=True)
     sub.add_parser("ls")
     p = sub.add_parser("show"); p.add_argument("name")
@@ -59,20 +62,20 @@ def main(argv: Optional[list] = None) -> int:
 
     try:
         if args.cmd == "ls":
-            all_ = lists()
+            all_ = lists(args.tier)
             for name, lst in sorted(all_.items()):
                 print(f"{len(lst.items):5d}  {name}  |  {lst.of}")
             print(f"total: {len(all_)} lists, "
                   f"{sum(len(l.items) for l in all_.values())} items")
         elif args.cmd == "show":
-            lst = get(args.name)
+            lst = get(args.name, args.tier)
             src = lst.source or {}
             print(f"{lst.name}  of: {lst.of}")
             print(f"source: {src.get('url', '?')} (via {src.get('via', '?')})")
             for x in lst.items:
                 print(f"  - {x}")
         elif args.cmd == "sample":
-            for x in get(args.name).sample(args.n, seed=args.seed):
+            for x in get(args.name, args.tier).sample(args.n, seed=args.seed):
                 print(f"- {x}")
     except KeyError as exc:
         print(f"error: {exc.args[0]}")
