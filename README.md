@@ -164,6 +164,32 @@ python3 -m ideonomy.lists ls                      # the cross-chat list store
 (The residue ledger stores its state in `./.residue/<topic>.json`, created on
 first use; override with `--store`.)
 
+## The database
+
+Two provenance tiers, never confused (`ideonomy/data/`, load via
+`python3 -m ideonomy.canon ls` and `... --tier grown ls`):
+
+- **canon** — Gunkel's own lists, recovered verbatim with per-source
+  provenance: the archived pre-redesign ideonomy.mit.edu text
+  (`canon-wayback.jsonl`), all 403 of his photographed charts transcribed by
+  vision models with legibility labels (`canon-charts.jsonl`), and monograph
+  pages stitched from page scans (`canon-monographs.jsonl` — "23 Diverse
+  Ideonomic Lists" recovered whole, every list's count verified against its
+  printed title). ~530 lists, ~31k items.
+- **grown** — the machine-extended edge, produced by the hill-climb
+  (`climb.py`): each list breathes through grow → typology → gap-fill → gate
+  → ratchet, where an independent strong-model pass induces the list's own
+  typology, names the types it *neglects* (the climb's gradient), and gates
+  every candidate for genuine-category / distinctness / combinatorial
+  phrasing, recording drops as residue with reasons. Plateau is flagged when
+  the keep-rate falls, so a list stops claiming easy growth. Grown lists
+  carry `source.tier == "grown"` and can never masquerade as canon.
+
+This is Gunkel's progressive loop (list → induce types → find missing items →
+refine) made executable, with the evaluation gate he lacked. The catalog
+applies to itself: the same gate-and-typology discipline the skills prescribe
+is what grows the database.
+
 ## Status
 
 The catalog, skills, and offline engines are substantive and tested. Two
