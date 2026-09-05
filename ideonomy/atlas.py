@@ -57,6 +57,13 @@ def catalog() -> dict:
                 record["seriation"] = {k: v for k, v in sidecar.items()
                                         if k not in ("name", "tier", "order")}
                 record["display_order"] = "Sidecar order; canon text is unchanged"
+            for edge in (item.source or {}).get("relations", []):
+                if (edge["from"] not in item.items or edge["to"] not in item.items
+                        or not edge["label"].strip()):
+                    raise ValueError(f"invalid relation endpoint or label: {name}")
+            for opening in (item.source or {}).get("priorities", []):
+                if opening["item"] not in item.items:
+                    raise ValueError(f"invalid priority item: {name}")
             records.append(record)
     return {"lists": records, "map": metadata, "stored_points": len(points)}
 
@@ -115,6 +122,10 @@ dl{display:grid;grid-template-columns:minmax(100px,auto) 1fr;gap:5px 16px;font-s
 #items{padding-left:2.4em}#items li{padding:10px 0 10px 7px;border-bottom:1px solid var(--line);white-space:pre-wrap;overflow-wrap:anywhere}
 #items li::marker{color:var(--muted);font-variant-numeric:tabular-nums}#items li.match{background:#fff2cf}
 .phase{display:block;font-size:12px;color:var(--muted);padding-bottom:6px}
+.relations{padding:0;list-style:none}.relations li{margin:16px 0}.relations p{font-size:14px}
+.item-link{border:0;background:transparent;color:var(--grown);text-decoration:underline;padding:2px;text-align:left}
+#relation-graph{display:block;width:100%;max-width:640px;height:auto}
+#connections-panel,#openings-panel{border-top:1px solid var(--line);margin-top:28px;padding-top:12px}
 summary{cursor:pointer;font-weight:600}details{margin:16px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.6 ui-monospace,monospace}
 #empty{padding:30px 0}.reading-link{display:inline-block;margin:8px 0}#counts{font-size:14px}
 @media(max-width:760px){header,main{padding:16px}.workspace{grid-template-columns:1fr;gap:20px}
@@ -149,9 +160,16 @@ canvas{height:240px}.controls{grid-template-columns:minmax(0,1fr) 110px}dl{grid-
 <div id="content" hidden>
 <h2 id="list-title" tabindex="-1"></h2><p id="list-type"></p><p id="list-meta" class="muted"></p>
 <a id="permalink" class="reading-link">Link to this list</a>
-<div id="axis"></div><dl id="metrics"></dl>
-<details><summary>Provenance and ordering metadata</summary><pre id="provenance"></pre></details>
+<div id="axis"></div>
+<p id="mode" class="muted"></p>
 <ol id="items"></ol>
+<section id="connections-panel" hidden><h3>Relational map</h3>
+<p class="muted">Conditional, authored passages. Numbers refer to list entries; position and distance carry no meaning.</p>
+<svg id="relation-graph" viewBox="0 0 640 360" role="img" aria-label="Directed relations between numbered list entries. Full relationships follow."></svg>
+<ul id="connections" class="relations"></ul></section>
+<section id="openings-panel" hidden><h3>Next openings</h3><ul id="openings" class="relations"></ul></section>
+<details><summary>Workshop notes, provenance, and measurements</summary>
+<p id="discovery"></p><dl id="metrics"></dl><pre id="provenance"></pre></details>
 </div>
 </article>
 </main>
@@ -192,6 +210,48 @@ function draw(){
     const active=plotted.find(p=>key(p.row)===selected);
     if(active){ctx.beginPath();ctx.arc(active.x,active.y,8,0,Math.PI*2);ctx.strokeStyle='#9b4c15';ctx.lineWidth=2;ctx.stroke();}
 }
+function itemLink(row,value){
+    const i=row.items.indexOf(value),button=document.createElement('button');
+    button.type='button';button.className='item-link';
+    button.textContent=(i+1)+'. '+text(value).split(':')[0];
+    button.addEventListener('click',()=>{
+        const item=$('entry-'+i);item.scrollIntoView({block:'center'});item.focus({preventScroll:true});
+    });
+    return button;
+}
+function relations(row){
+    const edges=row.source?.relations??[],svg=$('relation-graph');
+    svg.replaceChildren();$('connections').replaceChildren();$('connections-panel').hidden=!edges.length;
+    if(!edges.length)return;
+    const element=(tag,attrs={})=>{
+        const e=document.createElementNS('http://www.w3.org/2000/svg',tag);
+        for(const [k,v] of Object.entries(attrs))e.setAttribute(k,v);
+        return e;
+    };
+    const members=[...new Set(edges.flatMap(e=>[e.from,e.to]))];
+    members.sort((a,b)=>row.items.indexOf(a)-row.items.indexOf(b));
+    const points=new Map(members.map((item,i)=>{
+        const a=2*Math.PI*i/members.length-Math.PI/2;
+        return [item,{x:320+(members.length>1?200*Math.cos(a):0),y:180+(members.length>1?120*Math.sin(a):0)}];
+    }));
+    const defs=element('defs'),marker=element('marker',{id:'relation-arrow',viewBox:'0 0 10 10',refX:9,refY:5,markerWidth:6,markerHeight:6,orient:'auto-start-reverse'});
+    marker.append(element('path',{d:'M 0 0 L 10 5 L 0 10 z',fill:'#386e45'}));defs.append(marker);svg.append(defs);
+    for(const edge of edges){
+        const a=points.get(edge.from),b=points.get(edge.to),dx=b.x-a.x,dy=b.y-a.y,len=Math.hypot(dx,dy);
+        const bend=edges.some(e=>e.from===edge.to&&e.to===edge.from)?24:0;
+        const d=len?`M ${a.x+dx*21/len} ${a.y+dy*21/len} Q ${(a.x+b.x)/2-dy*bend/len} ${(a.y+b.y)/2+dx*bend/len} ${b.x-dx*24/len} ${b.y-dy*24/len}`:
+            `M ${a.x+12} ${a.y-16} C ${a.x+90} ${a.y-100} ${a.x-90} ${a.y-100} ${a.x-12} ${a.y-16}`;
+        const path=element('path',{d,fill:'none',stroke:'#386e45','stroke-width':2,'marker-end':'url(#relation-arrow)'});
+        const title=element('title');title.textContent=edge.label;path.append(title);svg.append(path);
+        const li=document.createElement('li'),label=document.createElement('p');
+        label.textContent=edge.label;li.append(itemLink(row,edge.from),' → ',itemLink(row,edge.to),label);$('connections').append(li);
+    }
+    for(const [value,p] of points){
+        svg.append(element('circle',{cx:p.x,cy:p.y,r:19,fill:'#fafbf7',stroke:'#386e45','stroke-width':2}));
+        const number=element('text',{x:p.x,y:p.y+7,'text-anchor':'middle','font-size':22,fill:'#242b2b'});
+        number.textContent=row.items.indexOf(value)+1;svg.append(number);
+    }
+}
 function show(row,focus=false){
     selected=key(row);$('empty').hidden=true;$('content').hidden=false;
     $('list-title').textContent=row.name;$('list-type').textContent=row.of;
@@ -199,20 +259,24 @@ function show(row,focus=false){
         (row.position===null?'not positioned — '+row.position_note:`stored map coordinates (${row.position.join(', ')})`);
     $('permalink').href='#'+encodeURIComponent(selected);
     const s=row.seriation;
-    $('axis').textContent=(s.axis?'Named axis (interpretive claim): '+s.axis:'No named axis recorded.')+
-        (s.named_by?' · Named by: '+s.named_by:'')+
-        (s.revelatory==null?'':' · Revelatory (model judgment): '+s.revelatory);
+    $('axis').textContent=s.axis?'Reading route · '+s.axis:'';
+    $('axis').hidden=!s.axis;$('mode').textContent=row.source?.mode??'';
     $('metrics').replaceChildren();
     const fields=[['Display',row.display_order],['Ordering method',s.method??'not recorded'],
         ['Smoothness',s.smoothness??'not measured'],['Random baseline',s.random_smoothness??'not measured'],
         ['Seriability (difference)',s.seriability??'not measured']];
     for(const [label,value] of fields){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;$('metrics').append(dt,dd);}
-    $('provenance').textContent=JSON.stringify({made_by:row.made_by,parents:row.parents,source:row.source,display_seriation:s},null,2);
+    $('provenance').textContent=JSON.stringify({made_by:row.made_by,parents:row.parents,source:row.source,display_seriation:s,position:row.position,position_note:row.position_note},null,2);
     const items=document.createDocumentFragment();
     const phases=row.source?.coverage?.phases??[];
     let phaseIndex=0;
     for(const [i,value] of row.items.entries()){
-        const li=document.createElement('li');li.textContent=text(value);
+        const li=document.createElement('li'),content=text(value),colon=content.indexOf(':');
+        li.id='entry-'+i;li.tabIndex=-1;
+        if(row.tier==='grown'&&colon>0){
+            const handle=document.createElement('strong');handle.textContent=content.slice(0,colon+1);
+            li.append(handle,document.createTextNode(content.slice(colon+1)));
+        }else li.textContent=content;
         if(phases[phaseIndex]?.start===i){
             const label=document.createElement('strong');label.className='phase';
             label.textContent=phases[phaseIndex++].name;li.prepend(label);
@@ -221,6 +285,16 @@ function show(row,focus=false){
         items.append(li);
     }
     $('items').replaceChildren(items);
+    relations(row);
+    const openings=row.source?.priorities??[];
+    $('openings').replaceChildren();$('openings-panel').hidden=!openings.length;
+    for(const opening of openings){
+        const li=document.createElement('li'),label=document.createElement('strong'),why=document.createElement('p'),question=document.createElement('p');
+        label.textContent=opening.horizon+' opening · ';why.textContent=opening.why;question.textContent=opening.next_question;
+        li.append(label,itemLink(row,opening.item),why,question);$('openings').append(li);
+    }
+    const discovery=row.source?.exploration;
+    $('discovery').textContent=discovery?discovery.first_question+' → '+discovery.changed_question:'';
     for(const button of $('results').querySelectorAll('button'))button.setAttribute('aria-current',String(button.dataset.key===selected));
     updateCounts();draw();if(focus)$('list-title').focus();
 }

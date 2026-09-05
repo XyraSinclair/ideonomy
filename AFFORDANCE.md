@@ -13,10 +13,10 @@ anti-fool-yourself gate, plus two running engines and a meta-gate.
 
 What an agent can do with it, concretely:
 
-- Equip itself with 14 **premier skills** (`skills/`) — compound cognitive moves
-  distilled from a three-persona panel (Feynman, von Neumann, Grothendieck)
-  and twice adversarially reviewed by independent frontier models. Each is a `SKILL.md` a stranger's agent can
-  load and execute, with a named gate that says when the move actually worked.
+- Equip itself with **premier skills** (`skills/`) — deep ideonomic fieldwork
+  alongside the original, independently reviewed three-persona distillation.
+  Each is a self-contained `SKILL.md` an agent can execute, with a named check
+  that separates an earned distinction from a merely fluent response.
 - Run **triangulate-without-oracle** (`python3 -m ideonomy.triangulate`) on a
   question that has no computable oracle (taste, strategy, ethics): dimensionalize
   the value space, gather ≥2 independent judgments per axis, expose disagreement,
@@ -33,7 +33,7 @@ What an agent can do with it, concretely:
 git clone https://github.com/XyraSinclair/ideonomy
 cd ideonomy
 python3 -m ideonomy.cycles_demo          # see the engine breathe (offline, no model)
-cat skills/README.md                     # the 14 premier skills, each with its gate
+cat skills/README.md                     # the live skill index, each with its gate
 python3 -m unittest discover tests       # offline test suite, no network
 ```
 

@@ -40,15 +40,14 @@ that says whether the move actually worked.
 
 Three layers, each usable alone:
 
-1. **[`skills/`](skills/) — 14 premier agent skills.** Compound cognitive
-   moves that default LLM workflows do badly, each with an explicit trigger
-   and an anti-fool-yourself gate: precommit the oracle before answering,
-   stay rigorous when *no* oracle exists, audit what a passing check actually
-   certifies, prove the coverage denominator, carry residue across sessions,
-   preserve the target through every transformation. Distilled from a
-   three-persona panel (Feynman, von Neumann, Grothendieck), then twice
-   adversarially reviewed by independent frontier models — the surviving
-   weaknesses are documented in
+1. **[`skills/`](skills/) — premier agent skills.** Start with
+   [`practice-deep-ideonomy`](skills/practice-deep-ideonomy/SKILL.md) for
+   surprising lists, revealing seriations, and maps: a first breath discovers
+   the grammar that generates the next. Keep speculative reach, practical
+   priority, and empirical confidence distinct. Other moves precommit an
+   oracle, stay rigorous without one, audit what a check certifies, and preserve
+   the target through transformations. The original three-persona
+   distillation and its independent reviews are in
    [PREMIER_SKILLS.md](PREMIER_SKILLS.md).
 
 2. **[ORGANON.md](ORGANON.md) — the catalog of 37 inference-time cognitive
@@ -181,6 +180,20 @@ a list hides its stale point rather than pretending the old projection measures
 the growth. Authored phases remain readable without embedding calls.
 Rebuild it without network access with `python3 -m ideonomy.atlas`.
 
+Three fieldwork specimens show the practice in motion:
+
+- [**Traces of the unlived**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Ftraces-of-the-unlived):
+  a ghost load is the upper floor never built, still governing the rooms below.
+- [**Discovery delights**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fdiscovery-delights):
+  an orchard in a rule is the moment understanding starts producing unfamiliar cases.
+- [**Question metamorphoses**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fquestion-metamorphoses):
+  an unborn witness is the instrument or setting that must exist before a difference can leave a trace.
+
+Each took two authored breaths; an independent Fable critic admitted the
+distinctions and conditional maps. Their encounter opened another question:
+**what kinds of witnesses must be built before a fact can become knowable?**
+That is an opening, not an already-enumerated fourth list.
+
 Two provenance tiers, never confused (`ideonomy/data/`, load via
 `python3 -m ideonomy.canon ls` and `... --tier grown ls`):
 
@@ -212,10 +225,18 @@ Grown-tier conventions, all carried in `source` with zero schema change:
 - **Registers** — each list is written in one named voice (`source.register`,
   e.g. "elegiac-anthropological", "clinical epistemology"); the register is a
   deliberate lean into a different part of the model, not an accident.
-- **Maps** — `source.kind == "map"` marks lists whose items are positioned
-  structures rather than flat instances. First instance: `advice-antinomies`,
-  where each item is `pole ↔ pole — hinge:` and the hinge is a checkable
-  discriminator (a map of both-sided advice is a map of hidden hinges).
+  Automated breaths retain the register, modality, and boundary while expiring
+  old measurements and content-specific review claims.
+- **Maps** — `source.kind == "map"` marks relational structure, not proof of
+  an embedding position. `advice-antinomies` uses `pole ↔ pole — hinge:`
+  discriminators. Directed maps use `source.relations`: `from` and `to` are
+  exact item identities and `label` states the conditional passage. Reordering
+  cannot silently change the endpoints. The atlas draws the graph and supplies
+  keyboard-navigable item links; diagram geometry is not a measured distance.
+- **Openings** — `source.priorities` names a near-term lead and a wild branch,
+  with reasons and next questions. These are attention choices, not confidence
+  scores. `source.mode` declares the analytical, phenomenological, speculative,
+  or invented-world register; `source.exploration` preserves the changed question.
 - **Seriation** — the item order can itself be a claim (Gunkel's seriation;
   cf. gwern's embedding-TSP `seriate.py`). Two rails: model-direct (an agent
   names candidate axes and sorts, e.g. `model-collapse-markers` as a disease

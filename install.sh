@@ -25,5 +25,5 @@ for d in "$here"/skills/*/; do
 done
 
 echo "installed $n skills -> $dest"
-echo "start with: route-to-the-right-move (the dispatcher), or the top three:"
-echo "  triangulate-without-oracle, build-the-oracle-before-the-answer, reframe-until-it-dissolves"
+echo "start with: practice-deep-ideonomy for exploration,"
+echo "  or route-to-the-right-move for the wider skill library"

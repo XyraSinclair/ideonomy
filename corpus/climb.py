@@ -191,22 +191,29 @@ def save_grown(lists_: dict) -> None:
 def breath(lst: Ideolist) -> Ideolist:
     have = list(lst.items)
     shown = "\n".join(f"- {x}" for x in have)
+    frame = f"Each item is: {lst.of}.\n"
+    for field in ("register", "mode", "boundary_claim"):
+        if field in (lst.source or {}):
+            frame += f"{field}: {json.dumps(lst.source[field], ensure_ascii=False)}\n"
 
     # 1. GROW (cheap)
     g = ask(CHEAP,
-            f"Extend this list. Each item is: {lst.of}.\n"
-            f"Existing items (do not repeat, do not rephrase):\n{shown}\n\n"
-            "Give exactly 15 NEW items, one per line, no numbering, no commentary. "
-            "Vary along dimensions the existing items neglect. Match the phrasing "
-            "discipline of the existing items exactly.")
+            f"Extend this list. {frame}"
+            f"Existing items:\n{shown}\n\n"
+            "Offer up to 15 distinct additions, one per line, no numbering or commentary. "
+            "Try a changed scale, reversal, remote analogy, or overlooked intermediate; "
+            "follow the move that reveals something. Match the register and conceptual "
+            "grain. A memorable name must carry a definite distinction, not just rename "
+            "an existing member.")
     cand = [x.strip(" -*\t") for x in g.splitlines() if x.strip()]
 
     # 2. TYPOLOGY (strong) — the gradient
     t = ask(STRONG,
-            f"Each item below is: {lst.of}.\n{shown}\n\n"
-            "Induce a typology: 5-9 named types that cover these items. Then name "
-            "the types this list NEGLECTS — genuine types of the same kind with no "
-            "or few members. Reply as JSON: "
+            f"{frame}Existing items:\n{shown}\n\n"
+            "Induce the most revealing typology these items support. Then name "
+            "neglected or underpopulated types within the same item kind. Prefer "
+            "gaps that would change how the field is understood, not simply add "
+            "easy examples. Put the most fertile gaps first. Reply as JSON: "
             '{"types": [{"name": str, "members": int}], "missing_types": [str], '
             '"underpopulated_types": [str]}', want_json=True)
     gaps = (t.get("missing_types", []) + t.get("underpopulated_types", []))[:3]
@@ -214,10 +221,11 @@ def breath(lst: Ideolist) -> Ideolist:
     # 3. GAP-FILL (cheap, targeted)
     for gap in gaps:
         g2 = ask(CHEAP,
-                 f"Each item is: {lst.of}.\nExisting items:\n{shown}\n\n"
+                 f"{frame}Existing items:\n{shown}\n\n"
                  f"The list neglects this type: {gap}\n"
-                 "Give exactly 6 NEW items of that neglected type, one per line, "
-                 "no numbering, matching the existing phrasing discipline.")
+                 "Offer up to 6 distinct additions of that type. Let an unusual "
+                 "case refine the distinction. One per line, no numbering or "
+                 "commentary, matching the register and conceptual grain.")
         cand += [x.strip(" -*\t") for x in g2.splitlines() if x.strip()]
 
     lower = {x.casefold() for x in have}
@@ -225,13 +233,15 @@ def breath(lst: Ideolist) -> Ideolist:
 
     # 4. GATE (strong)
     judged = ask(STRONG,
-                 f"You are gating candidates for a curated list. Each item must be: {lst.of}.\n"
+                 f"You are sharpening a curated list. {frame}"
                  f"Existing list:\n{shown}\n\nCandidates:\n"
                  + "\n".join(f"{i}. {c}" for i, c in enumerate(cand))
-                 + "\n\nFor each candidate judge: KEEP only if it is (a) a genuine "
-                 "category of its kind, not a vague vibe or a joke; (b) genuinely "
-                 "distinct from every existing item and every other kept candidate, "
-                 "not a rephrasing; (c) phrased parallel to the list's discipline. "
+                 + "\n\nFor each candidate judge: KEEP only if it is (a) a recognizable "
+                 "member with a definite distinction, including speculative or humorous "
+                 "members when the declared register permits; (b) distinct from every "
+                 "existing and other kept item, not a rephrasing; (c) phrased in the "
+                 "list's register and grain. Judge the offered mechanism, not a safer "
+                 "substitute. A declared possibility is not a claim of established fact. "
                  'Reply as JSON: {"verdicts": [{"i": int, "keep": bool, "why": str}]}',
                  want_json=True)
     keep, residue = [], []
@@ -242,15 +252,18 @@ def breath(lst: Ideolist) -> Ideolist:
 
     # 5. RATCHET + PERSIST
     rate = len(keep) / max(1, len(cand))
+    source = dict(lst.source or {})
+    for field in ("seriation", "coverage", "gate", "exploration",
+                  "priorities", "primitives_exercised"):
+        source.pop(field, None)
+    source.update(tier="grown", via=f"climb.py grow={CHEAP} judge={STRONG}",
+                  typology=t.get("types", []), gaps_targeted=gaps,
+                  plateau=rate < PLATEAU_KEEP_RATE)
     out = Ideolist(
         name=lst.name, of=lst.of, items=have + [k for k, _ in keep],
         status="open", made_by=f"climb(breath keep_rate={rate:.2f})",
         parents=[lst.name],
-        source={"tier": "grown",
-                "via": f"climb.py grow={CHEAP} judge={STRONG}",
-                "typology": t.get("types", []),
-                "gaps_targeted": gaps,
-                "plateau": rate < PLATEAU_KEEP_RATE})
+        source=source)
     LEDGER.mkdir(exist_ok=True)
     with (LEDGER / f"{lst.name}.jsonl").open("a") as f:
         f.write(json.dumps({

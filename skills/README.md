@@ -1,7 +1,7 @@
 # Premier agent skills
 
-Executable, distributable agent-skill files distilled from the respiratory
-engine's run on its own highest-leverage question. Full catalog and method:
+Executable agent skills from the respiratory engine's self-application and
+subsequent ideonomic fieldwork. Original catalog and method:
 [`../PREMIER_SKILLS.md`](../PREMIER_SKILLS.md).
 
 Each is a Claude-Code-style `SKILL.md` (frontmatter `name` + `description` with
@@ -11,9 +11,14 @@ anti-fool-yourself check without which the move degrades into confident slop.
 
 Notation, here and inside the skills: `P1`–`P37` are organon primitives
 ([ORGANON.md](../ORGANON.md)), `M1`–`M6` are multi-model patterns (same file),
-and `P-0`–`P-11` are the premier skills themselves
-([PREMIER_SKILLS.md](../PREMIER_SKILLS.md)). These keys are provenance, not
-prerequisites — every skill executes from its own page.
+and `P-0`–`P-11` name the original premier distillation
+([PREMIER_SKILLS.md](../PREMIER_SKILLS.md)), not every subsequent skill.
+These keys are provenance, not prerequisites; each skill executes from its own page.
+
+For exploratory idea-making, start with
+[`practice-deep-ideonomy`](practice-deep-ideonomy/SKILL.md): a live question
+becomes a list, the list discovers a grammar, and another breath follows what
+became visible. Seriations and maps earn their place by what they reveal.
 
 ## The universal pre-gate
 
@@ -30,6 +35,7 @@ below.
 
 | Skill | The move it forces | The gate |
 | --- | --- | --- |
+| [`practice-deep-ideonomy`](practice-deep-ideonomy/SKILL.md) | a live question grows inhabitants, discovers a grammar, and opens a second breath; order or map only when it reveals something | a separating case for close neighbors, a boundary case, and a defended form inference; modality and unresolved seeds stay visible |
 | [`triangulate-without-oracle`](triangulate-without-oracle/SKILL.md) ★ | rigor when there is NO computable oracle — dimensionalize the value space, gather independent judgments, expose disagreement, name the irreducible call | honesty about the absence of a gate: ≥2 independent reads per axis, or a named irreducible judgment with an owner |
 | [`build-the-oracle-before-the-answer`](build-the-oracle-before-the-answer/SKILL.md) ★ | commit the independent truth-check and its expected value *before* answering | a timestamped expected-value artifact exists before the answer; the oracle runs and matches |
 | [`audit-the-oracle-coverage`](audit-the-oracle-coverage/SKILL.md) | partition a passing check into covered / proxied / uncovered — the weak-oracle middle | at least one named thing the oracle does NOT certify; proxied/uncovered parts routed, not folded into "verified" |
