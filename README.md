@@ -194,6 +194,25 @@ distinctions and conditional maps. Their encounter opened another question:
 **what kinds of witnesses must be built before a fact can become knowable?**
 That is an opening, not an already-enumerated fourth list.
 
+A [Gemini 3.8 Flash experiment](corpus/flash-fieldwork-2026-09-05.json) explored
+eight territories in separate contexts, each followed by its own second breath.
+Twenty calls—including two failed attempts and two fresh, plainer-prompt
+reruns—produced 154 complete candidate proposals. Median client round-trip:
+16.4 seconds; provider cost estimated from returned tokens and posted prices:
+$0.178. This is not a controlled speed or quality comparison with another model.
+
+Two edited specimens entered the atlas:
+[**Institutions that can dream**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Finstitutions-that-can-dream)
+keeps alternatives alive and asks how an institution can tolerate their eventual
+vindication;
+[**Alien forms of intimacy**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Falien-forms-of-intimacy)
+derives closeness from invented forms of embodiment. Astra independently reviewed
+every self-kept candidate; these are repaired Flash proposals, not untouched outputs.
+The other fields and their critiques remain in the experiment, not the curated
+catalog. Flash was a productive sketcher but an unreliable self-curator: physical
+jargon repeatedly disguised unsupported mechanisms, and simpler prompts did not
+reliably cure the problem.
+
 Two provenance tiers, never confused (`ideonomy/data/`, load via
 `python3 -m ideonomy.canon ls` and `... --tier grown ls`):
 
