@@ -1,5 +1,11 @@
 # ideonomy
 
+**Source-available under [Harvest Commercial 1.0](LICENSE).** Commercial use of
+new protected contributions requires a separate paid license; no donation or
+self-assessed zero substitutes for an agreement. Prior MIT grants and
+third-party rights remain intact. Commercial licensing: [contact@exopriors.com](mailto:contact@exopriors.com),
+attention Xyra Sinclair.
+
 Patrick Gunkel's ideonomy — "the pure and applied science of ideas and their
 laws, and of the use of same to describe, generate, investigate, or otherwise
 treat all possible ideas related to any subject, problem, thing, or other
@@ -166,6 +172,11 @@ first use; override with `--store`.)
 
 ## The database
 
+Open the [offline catalog atlas](docs/catalog-map.html) to search names,
+types, and items, then read a list in its stored or canon-sidecar order.
+It derives coverage counts from the data; unpositioned lists remain readable.
+Rebuild it without network access with `python3 -m ideonomy.atlas`.
+
 Two provenance tiers, never confused (`ideonomy/data/`, load via
 `python3 -m ideonomy.canon ls` and `... --tier grown ls`):
 
@@ -175,9 +186,9 @@ Two provenance tiers, never confused (`ideonomy/data/`, load via
   vision models with legibility labels (`canon-charts.jsonl`), and monograph
   pages stitched from page scans (`canon-monographs.jsonl` — "23 Diverse
   Ideonomic Lists" recovered whole, every list's count verified against its
-  printed title). ~530 lists, ~31k items.
+  printed title). The atlas reports the current list and item coverage.
 - **grown** — the machine-extended edge, produced by the hill-climb
-  (`climb.py`): each list breathes through grow → typology → gap-fill → gate
+  ([`corpus/climb.py`](corpus/climb.py)): each list breathes through grow → typology → gap-fill → gate
   → ratchet, where an independent strong-model pass induces the list's own
   typology, names the types it *neglects* (the climb's gradient), and gates
   every candidate for genuine-category / distinctness / combinatorial
@@ -207,21 +218,38 @@ Grown-tier conventions, all carried in `source` with zero schema change:
   course, `somatic-atoms` by autonomic depth) and algorithmic —
   `ideonomy/seriate.py` is a stdlib-pure ordering algebra (Fiedler spectral
   seriation, greedy chaining, and `smoothness`, the objective all orders
-  compete on), driven at scale by the corpus repo's `seriate_drive.py`
+  compete on), driven at scale by [`corpus/seriate_drive.py`](corpus/seriate_drive.py)
   (embeddings → order → **seriability** score, the smoothness gain over
-  random order that measures how strongly a hidden 1-D dimension runs
-  through a list → a strong model names the axis and judges it revelatory
+  random order → a model names the axis and judges it revelatory
   vs mere clustering). A seriated grown list stores its axis and scores in
   `source.seriation` and ships in its order; canon stays verbatim — canon
   orders live as indices in `data/seriations.jsonl`. Self-application:
   `data/catalog-map.jsonl` seriates the catalog itself (list centroids →
   the database's master axis + 2D coordinates).
+  Smoothness alone does not establish a one-dimensional spectrum: clusters
+  can also admit smooth chains. Named axes and revelatory verdicts remain
+  interpretations, not measured discoveries.
 - **Boundary claims** — when growth discovers the list's universe has an
   edge, the claim is recorded (`source.boundary_claim`) and the excluded
   universe gets a sibling list (somatic-atoms ↔ interoceptive-atoms).
 
 The per-list breath ledger (residue, keep-rates, `by:` provenance for
-model-direct vs pipeline breaths) lives in the corpus repo's `climb-ledger/`.
+model-direct vs pipeline breaths) lives in [`corpus/climb-ledger/`](corpus/climb-ledger/).
+The portable growth, widening, and seriation drivers are in [`corpus/`](corpus/).
+They require `GEMINI_API_KEY` in the environment and make billable model calls;
+catalog-coordinate recomputation additionally requires NumPy. The atlas needs
+neither. Raw archives, credentials, embedding caches, and private staging history
+are not part of the publication bundle.
+
+The paired maps **cooperation-integrity-hinges** and
+**contribution-credit-hinges** apply the same discriminator form to existential
+cooperation and contribution accounting. Their authored orders follow the
+agreement lifecycle and attribution workflow, respectively. Astra drafted
+them; a Fable critic challenged the categories and exposed a vague settlement
+hinge and misplaced phase, repaired before admission. Their ledger records
+the repairs and limits: open conceptual hypotheses, not field-validated laws,
+exhaustive enumerations, or a claim of worldwide novelty. Their numerical
+seriation scores are unmeasured, and neither has fabricated map coordinates.
 
 This is Gunkel's progressive loop (list → induce types → find missing items →
 refine) made executable, with the evaluation gate he lacked. The catalog
@@ -275,4 +303,26 @@ Distilled research notes with full provenance: [docs/gunkel.md](docs/gunkel.md).
 This repo packaged as a capability a stranger's agent can execute end to end:
 [AFFORDANCE.md](AFFORDANCE.md).
 
-MIT licensed.
+## License and compensation
+
+[Harvest Commercial 1.0](LICENSE) is in force for new protected contributions.
+Personal non-commercial study, qualifying research and teaching, independent
+public-interest scrutiny, and narrowly necessary emergency use have a no-fee
+grant. Commercial use requires a separately executed license with payment terms
+agreed before use. Those terms may use fixed fees, minimum guarantees,
+milestones, royalties, or value-sharing grounded in an agreed Shapley model.
+Attribution, a donation, or an honest zero is not commercial permission.
+
+This is **source-available, not OSI-approved open source**. No license can
+create copyright over ideas, guarantee collection, or turn an undefined
+contribution score into a debt. The paid agreement defines the amount, scope,
+reporting, due dates, and dispute process.
+
+The [earlier MIT grant](LICENSE-MIT) remains available for material already
+published through commit `52d5ca477c23ab160318a21ab1e4f2a5b030af38`; it is
+not revoked or extended to later protected contributions. Private preparation
+history is not part of the public release.
+
+Gunkel's recovered material is third-party work: source URLs establish
+provenance, not permission to relicense it. No new grant from its rightsholders
+was established in preparing this release; Harvest does not supply one.

@@ -5,3 +5,4 @@ __pycache__/
 state*.json
 .residue/
 .lists/
+/corpus/embcache/

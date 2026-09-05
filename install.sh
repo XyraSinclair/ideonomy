@@ -20,6 +20,7 @@ for d in "$here"/skills/*/; do
     name=$(basename "$d")
     mkdir -p "$dest/$name"
     cp "$d/SKILL.md" "$dest/$name/SKILL.md"
+    cp "$here/LICENSE" "$here/LICENSE-MIT" "$dest/$name/"
     n=$((n + 1))
 done
 

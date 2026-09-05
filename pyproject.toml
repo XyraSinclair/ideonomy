@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ideonomy"
-version = "0.2.0"
+version = "0.3.0"
 description = "Computational ideonomy: Gunkel's science of ideas as inference-time cognitive machinery — the organon, the respiratory engine, and 14 gated agent skills"
 readme = "README.md"
 license = { file = "LICENSE" }

@@ -1,21 +1,213 @@
-MIT License
-
+HARVEST COMMERCIAL LICENSE 1.0
+Existential Cooperation Edition — September 2026
 Copyright (c) 2026 Xyra Sinclair
+License identifier: LicenseRef-Harvest-Commercial-1.0
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+PURPOSE
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+I am releasing this work under existential duress, for existential security
+and cooperation. Publication is not a declaration that creating it was cheap,
+that its value belongs to whoever captures it, or that its creator consents
+to being made economically disposable.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+I expect substantial compensation commensurate with this work's Shapley-value
+contribution: its share of what becomes possible with it, accounting for
+complementary contributions and alternatives that actually existed when they
+were needed. Credit and compensation should follow contribution, not merely
+control of distribution. The commercial-license requirement below makes this
+an economic boundary, not a request for optional gratitude.
+
+“Existential duress” states the reason for release. It is not an exception to
+this license, a representation of legal duress, or a unilateral revocation
+right. The operative grants and conditions below control.
+
+1. WORK, LICENSOR, AND PRIOR RIGHTS
+
+“Licensor” means Xyra Sinclair or a successor holding the relevant rights.
+“Work” means the licensor-controlled software, documentation, original
+compilation, and other copyrightable or database-right-protected material
+expressly distributed under this license, including protected modifications.
+
+For Ideonomy, the material already published through commit
+52d5ca477c23ab160318a21ab1e4f2a5b030af38 retains its prior grants, including
+the MIT grant reproduced in LICENSE-MIT to the extent the Licensor holds the
+rights concerned. This license applies to later protected contributions not
+otherwise licensed; it does not withdraw rights in an earlier version or
+impose new conditions on independently usable earlier material.
+
+Patrick Gunkel's works and other third-party material are excluded from this
+grant and retain their own rights and provenance. A source URL is not
+permission to relicense a work. No rights are claimed here over unprotected
+ideas, facts, methods, independent discoveries, or material the Licensor does
+not own. Statutory exceptions, including applicable fair use and text-and-data
+mining exceptions, are not restricted. No obligation arises from merely
+reading an idea or independently implementing an unprotected method.
+
+Where applicable law permits a rightsholder to reserve rights otherwise
+covered by a text-and-data-mining exception, the Licensor expressly reserves
+those rights for commercial purposes, including under Article 4(3) of
+Directive (EU) 2019/790. This reservation applies only to rights the Licensor
+holds, does not override prior grants, and does not limit mandatory exceptions,
+including qualifying scientific research under Article 3 of that Directive.
+
+2. NO-FEE PERMISSION
+
+Subject to this license, the Licensor grants a worldwide, non-exclusive,
+royalty-free permission to copy, use, modify, and redistribute the Work for:
+
+(a) personal, non-commercial learning and experimentation;
+(b) non-commercial teaching, scholarship, and research not primarily directed
+    toward commercial product or service development;
+(c) independent public-interest safety, security, accountability, or scientific
+    scrutiny, including criticism of the Work and its Licensor; and
+(d) narrowly necessary use to avert imminent death or serious physical harm.
+    Such emergency use need not await a licensing negotiation. It does not
+    authorize subsequent incorporation into an ordinary commercial service.
+
+Safety scrutiny does not become commercial merely because its findings are
+inconvenient, its researcher is employed, or its report receives ordinary
+publication revenue. The exception does not cover using the Work as a
+production component, commercial development tool, or commercial training
+corpus under the label of a safety evaluation.
+
+The permission covers applicable copyright and database rights held by the
+Licensor, including extraction and reuse within the permitted purposes.
+Patent and trademark rights are not granted. Compliant users' permission is
+not revocable at the Licensor's discretion.
+
+3. COMMERCIAL USE REQUIRES A SEPARATE PAID LICENSE
+
+No commercial-use permission is granted by this public license. Before any
+commercial use that requires rights in the Work, obtain a separate written
+commercial license executed by you and the Licensor, and comply with its
+payment and other terms. No agreement means no commercial permission.
+
+Commercial use includes use primarily intended for commercial advantage or
+monetary compensation, whether or not revenue has yet arrived. It includes
+internal business operations; paid consulting or services; incorporation into
+products, hosted services, or proprietary datasets; and using the Work to
+develop, train, fine-tune, or operate commercial models or agents, subject to
+Section 1's prior-rights and statutory-exception boundaries. Indirect use
+through a contractor, affiliate, agent, or intermediary is not an exemption.
+An organization's nonprofit status alone does not exempt its commercial use.
+This paragraph does not narrow Section 2's permissions.
+
+A donation, attribution, a valuation report, an unanswered request, or a
+self-selected zero does not purchase commercial permission. A separate
+agreement must expressly identify any fee waiver; none is implied here.
+Negotiations do not authorize commercial use while they are pending.
+
+Commercial licensing contact: contact@exopriors.com
+Subject: Ideonomy commercial license — attention Xyra Sinclair
+Provide a public-safe description of the intended use, beneficiaries, scope,
+and expected value. Do not send credentials or confidential source material.
+Only an agreement executed by the Licensor grants the additional rights.
+
+4. COMPENSATION AND THE SHAPLEY BASIS
+
+Commercial terms must specify the licensed scope, term, fees or computable
+payment mechanism, payment dates, reporting, confidentiality, and the process
+for resolving valuation and payment disputes. Material expansions of scope
+require the agreement's applicable expansion terms or a further agreement.
+
+The Licensor's compensation policy is substantial return proportionate to
+attributable value, not merely the cost of copying or replacing the artifact.
+A commercial agreement may implement this through an agreed fixed fee,
+minimum guarantee, milestones, royalties, or retrospective value-sharing.
+If compensation depends on realized value, the agreement must define the
+value function, contributor set, attribution method, valuation period,
+allowable costs, reporting evidence, and settlement procedure in advance.
+No undefined “fair share” is substituted for those payment terms.
+
+For contributions N and a stated value function v, the Shapley value of i is:
+
+    phi_i(v) = sum over S subset of N excluding i:
+      [|S|! (|N|-|S|-1)! / |N|!] * [v(S union {i}) - v(S)]
+
+This averages marginal contribution over coalition orders. One leave-one-out
+comparison, replacement cost, or an invented precision score is not an exact
+Shapley value. Account for complementary contributors, feasible coalitions,
+relevant beneficiaries, adverse effects, and substitutes actually available
+at the time of need. Do not manipulate the share by splitting one interest
+into nominal players or hiding upstream work inside a downstream player.
+
+Use explicitly described approximations and uncertainty ranges where exact
+computation is impractical. Do not turn survival, dignity, or incomparable
+public benefits into an invented monetary invoice. Shapley allocation depends
+on the chosen game; it is neither an automatic debt nor uniquely determined
+moral desert. The executed agreement, not a unilateral valuation, determines
+the payment obligation. This license promises no particular recovery amount.
+
+5. ATTRIBUTION, REDISTRIBUTION, AND PROVENANCE
+
+Keep this license and applicable copyright and source notices with copies or
+substantial portions of the Work. Mark material modifications and preserve
+the distinction between recovered source material and machine-grown work.
+Do not represent attribution as endorsement.
+
+When redistributing protected portions of the Work or modifications of them,
+pass on this license and do not purport to grant commercial rights you do not
+hold. Recipients obtain the no-fee permissions directly from the Licensor and
+must independently obtain any required commercial permission. This condition
+does not extend the license to separable independent work or alter a third
+party's license. Charging for redistribution requires commercial permission.
+
+6. THE HARVEST ACCOUNTING
+
+For use relying on Section 2, the Licensor may directly request a good-faith
+account of the Work's use, realized benefits, costs, and attributable value
+at most once in twelve months and never in the first 180 days of that use.
+A request must identify the Work, reporting period, Licensor, and a working
+reply address. Respond within 60 days after actual delivery.
+
+Report what is reasonably known; identify uncertainty and explain when a
+quantitative estimate is infeasible. No fabricated number, factorial
+computation, new experiment, registration, telemetry, disclosure of personal
+data, privileged material, trade secrets, or unlawful disclosure is required.
+An honest zero-value account is allowed for Section 2 use. It does not cure
+unlicensed commercial use or cancel payment owed under a commercial agreement.
+
+Individual accounts and confidential annexes may be published only with the
+provider's consent. An organization must provide a public-safe summary that
+the Licensor may attribute and publish, excluding personal data, trade
+secrets, and privileged material. The Licensor must redact third-party
+personal data before publication. Commercial agreements may replace this
+section with agreed confidential reporting.
+
+7. BREACH AND CURE
+
+Commercial use without the separate permission required by Section 3 is
+outside this grant from the outset. Stopping that use does not retroactively
+license it. The Licensor reserves available legal remedies for infringement
+and breach of an executed commercial agreement; no damages waiver or automatic
+zero-payment cure applies to unauthorized commercial exploitation.
+
+For a failure to satisfy Sections 5 or 6, the Licensor must give written
+notice identifying the specific deficiency and allow 30 days after delivery
+to cure before suspending the affected user's Section 2 permissions. Cure
+restores those permissions. An honestly explained valuation disagreement is
+not itself a breach. Suspension does not cancel independent prior grants or
+compliant downstream users' permissions. Commercial agreements govern their
+own termination and cure terms.
+
+8. DISCLAIMER AND LIMITATION OF LIABILITY
+
+TO THE EXTENT PERMITTED BY APPLICABLE LAW, THE WORK IS PROVIDED “AS IS”,
+WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NONINFRINGEMENT. THE AUTHORS
+AND COPYRIGHT HOLDERS ARE NOT LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY ARISING FROM THE WORK OR ITS USE, WHETHER IN CONTRACT, TORT, OR
+OTHERWISE. NOTHING EXCLUDES LIABILITY THAT CANNOT LAWFULLY BE EXCLUDED.
+
+9. INTERPRETATION
+
+This is a custom source-available license, not an OSI-approved open-source
+license. It is not an offer to sell rights in anyone else's work. An invalid
+provision is severed only to the extent necessary; severance does not create
+a commercial grant that Section 3 expressly withholds. No future license
+version, new fee, or changed policy applies automatically to an existing
+agreement. Separate executed commercial terms control within their scope.
+
+The text of this license may itself be copied and adapted without restriction.
+Using the license text alone does not incur the commercial-license requirement
+or the Harvest accounting obligation.
