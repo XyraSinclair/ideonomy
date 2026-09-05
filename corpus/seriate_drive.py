@@ -231,6 +231,9 @@ def run_catalog() -> None:
                                       "note": ax.get("note")}}) + "\n")
         for i in order:
             f.write(json.dumps({"name": names[i], "tier": tiers[i],
+                                "items_hash": hashlib.sha256(json.dumps(
+                                    sorted(all_lists[names[i]].items),
+                                    ensure_ascii=False).encode()).hexdigest(),
                                 "x": round(float(fiedler[i]), 6),
                                 "y": round(float(third[i]), 6)},
                                ensure_ascii=False) + "\n")

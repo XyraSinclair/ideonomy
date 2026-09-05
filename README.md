@@ -172,9 +172,13 @@ first use; override with `--store`.)
 
 ## The database
 
-Open the [offline catalog atlas](docs/catalog-map.html) to search names,
-types, and items, then read a list in its stored or canon-sidecar order.
+Browse the [published catalog atlas](https://xyrasinclair.github.io/ideonomy/catalog-map.html)
+or open its [offline copy](docs/catalog-map.html) to search names, types, and
+items, then read a list in its stored or canon-sidecar order.
 It derives coverage counts from the data; unpositioned lists remain readable.
+Stored positions are shown only while their item fingerprints match; changing
+a list hides its stale point rather than pretending the old projection measures
+the growth. Authored phases remain readable without embedding calls.
 Rebuild it without network access with `python3 -m ideonomy.atlas`.
 
 Two provenance tiers, never confused (`ideonomy/data/`, load via
@@ -250,6 +254,16 @@ hinge and misplaced phase, repaired before admission. Their ledger records
 the repairs and limits: open conceptual hypotheses, not field-validated laws,
 exhaustive enumerations, or a claim of worldwide novelty. Their numerical
 seriation scores are unmeasured, and neither has fabricated map coordinates.
+
+The September 5 growth checkpoint ran two further breaths on
+**pivot-invariants**, **interoceptive-atoms**, **impasse-inventions**, and
+**cooperation-integrity-hinges**: 164 candidates, 85 admitted, 79 recorded
+rejections. Independent Fable review admitted five proposed repairs as distinct
+additional mechanisms instead of replacements, for 90 net additions. It also
+rejected 15 substitutions that flattened the originals. The ledger preserves
+both decisions: a truthful boundary is not a license to domesticate the list.
+This exercised P11 gap-finding and P22 refutation; it did not exhaust the
+possible categories or establish empirical efficacy.
 
 This is Gunkel's progressive loop (list → induce types → find missing items →
 refine) made executable, with the evaluation gate he lacked. The catalog

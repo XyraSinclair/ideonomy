@@ -5,6 +5,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from importlib import resources
 from pathlib import Path
@@ -27,13 +28,23 @@ def catalog() -> dict:
         if "_meta" in row:
             metadata = row["_meta"]
         else:
-            points[(row["tier"], row["name"])] = [row["x"], row["y"]]
+            points[(row["tier"], row["name"])] = row
     records = []
     for tier in ("canon", "grown"):
         for name, item in sorted(lists(tier).items()):
             record = item.to_dict()
             record["tier"] = tier
-            record["position"] = points.get((tier, name))
+            point = points.get((tier, name))
+            record["position"] = None
+            record["position_note"] = "no stored projection"
+            if point is not None:
+                digest = hashlib.sha256(json.dumps(
+                    sorted(item.items), ensure_ascii=False).encode()).hexdigest()
+                if point.get("items_hash") == digest:
+                    record["position"] = [point["x"], point["y"]]
+                    record["position_note"] = "current item fingerprint"
+                else:
+                    record["position_note"] = "stored projection predates or cannot verify these items"
             record["seriation"] = (item.source or {}).get("seriation") or {}
             record["display_order"] = "Stored item order"
             if tier == "canon" and name in orders:
@@ -103,6 +114,7 @@ article{min-width:0;border-left:1px solid var(--line);padding-left:28px}#list-ti
 dl{display:grid;grid-template-columns:minmax(100px,auto) 1fr;gap:5px 16px;font-size:14px}dt{color:var(--muted)}dd{margin:0;overflow-wrap:anywhere}
 #items{padding-left:2.4em}#items li{padding:10px 0 10px 7px;border-bottom:1px solid var(--line);white-space:pre-wrap;overflow-wrap:anywhere}
 #items li::marker{color:var(--muted);font-variant-numeric:tabular-nums}#items li.match{background:#fff2cf}
+.phase{display:block;font-size:12px;color:var(--muted);padding-bottom:6px}
 summary{cursor:pointer;font-weight:600}details{margin:16px 0}pre{white-space:pre-wrap;overflow-wrap:anywhere;font:12px/1.6 ui-monospace,monospace}
 #empty{padding:30px 0}.reading-link{display:inline-block;margin:8px 0}#counts{font-size:14px}
 @media(max-width:760px){header,main{padding:16px}.workspace{grid-template-columns:1fr;gap:20px}
@@ -155,7 +167,7 @@ const haystacks=new Map(all.map(row=>[key(row),[row.name,row.of,...row.items.map
 const positioned=all.filter(row=>row.position!==null);
 let visible=all, selected=null, query='', plotted=[];
 const cv=$('map'), ctx=cv.getContext('2d');
-$('coverage').textContent=`${all.length} lists · ${positioned.length} positioned / ${all.length} total · ${all.length-positioned.length} not positioned. Stored map: ${data.stored_points} points.`;
+$('coverage').textContent=`${all.length} lists · ${all.reduce((n,row)=>n+row.items.length,0)} items · ${positioned.length} positioned / ${all.length} total · ${all.length-positioned.length} not positioned. Stored map: ${data.stored_points} points.`;
 $('map-claim').textContent='Stored catalog-axis claim: '+(data.map.axis||'not recorded')+
     (data.map.revelatory===undefined?'':' · Revelatory judgment: '+data.map.revelatory)+
     (data.map.note?' · '+data.map.note:'');
@@ -184,7 +196,7 @@ function show(row,focus=false){
     selected=key(row);$('empty').hidden=true;$('content').hidden=false;
     $('list-title').textContent=row.name;$('list-type').textContent=row.of;
     $('list-meta').textContent=`${row.tier} · ${row.items.length} items · ${row.status} · ${row.source?.kind||'list'} · `+
-        (row.position===null?'not positioned':`stored map coordinates (${row.position.join(', ')})`);
+        (row.position===null?'not positioned — '+row.position_note:`stored map coordinates (${row.position.join(', ')})`);
     $('permalink').href='#'+encodeURIComponent(selected);
     const s=row.seriation;
     $('axis').textContent=(s.axis?'Named axis (interpretive claim): '+s.axis:'No named axis recorded.')+
@@ -197,15 +209,30 @@ function show(row,focus=false){
     for(const [label,value] of fields){const dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=label;dd.textContent=value;$('metrics').append(dt,dd);}
     $('provenance').textContent=JSON.stringify({made_by:row.made_by,parents:row.parents,source:row.source,display_seriation:s},null,2);
     const items=document.createDocumentFragment();
-    for(const value of row.items){const li=document.createElement('li');li.textContent=text(value);if(query&&text(value).toLocaleLowerCase().includes(query))li.className='match';items.append(li);}
+    const phases=row.source?.coverage?.phases??[];
+    let phaseIndex=0;
+    for(const [i,value] of row.items.entries()){
+        const li=document.createElement('li');li.textContent=text(value);
+        if(phases[phaseIndex]?.start===i){
+            const label=document.createElement('strong');label.className='phase';
+            label.textContent=phases[phaseIndex++].name;li.prepend(label);
+        }
+        if(query&&text(value).toLocaleLowerCase().includes(query))li.className='match';
+        items.append(li);
+    }
     $('items').replaceChildren(items);
     for(const button of $('results').querySelectorAll('button'))button.setAttribute('aria-current',String(button.dataset.key===selected));
-    draw();if(focus)$('list-title').focus();
+    updateCounts();draw();if(focus)$('list-title').focus();
 }
 function choose(row){
     const fragment='#'+encodeURIComponent(key(row));
     if(location.hash!==fragment)location.hash=fragment;
     show(row,true);
+}
+function updateCounts(){
+    const n=visible.filter(row=>row.position!==null).length;
+    $('counts').textContent=`${visible.length} matching lists · ${n} positioned · ${visible.length-n} not positioned`+
+        (selected&&!visible.some(row=>key(row)===selected)?' · Reading a list outside these filters.':'');
 }
 function filter(){
     query=$('search').value.trim().toLocaleLowerCase();
@@ -218,10 +245,7 @@ function filter(){
         button.append(name,meta);button.addEventListener('click',()=>choose(row));li.append(button);fragment.append(li);
     }
     $('results').replaceChildren(fragment);
-    const n=visible.filter(row=>row.position!==null).length;
-    $('counts').textContent=`${visible.length} matching lists · ${n} positioned · ${visible.length-n} not positioned`+
-        (selected&&!visible.some(row=>key(row)===selected)?' · Reading a list outside these filters.':'');
-    if(selected)show(byKey.get(selected));else draw();
+    if(selected)show(byKey.get(selected));else{updateCounts();draw();}
 }
 function fromHash(){
     let id;try{id=decodeURIComponent(location.hash.slice(1));}catch{ id=''; }
