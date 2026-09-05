@@ -19,6 +19,35 @@ someone could take seriously. The method's bottleneck was always evaluation —
 a human cannot read 84,496 two-word psychological states. Models can.
 Ideonomy is an LLM-era project that arrived forty years early.
 
+## Where the information lives
+
+A model's default generations sample the mode of its training distribution:
+ask for ideas and you get the densest neighborhood, fluently. Ideonomic work
+is the deliberate traversal of the rest of the space, and everything in this
+repo stores its information in one of five places:
+
+- **The denominator.** A list is a bounded claim about a region of idea-space:
+  which universe it enumerates and how much of that universe it has actually
+  covered. Coverage is labeled — covered, named-gap, ruled-out — never
+  implied.
+- **The partition.** An induced typology is a structural claim, tested by
+  whether the types exclude each other and whether naming a neglected type
+  yields real new members. The neglected types are the gradient the growth
+  climbs.
+- **The order.** A seriation axis or relational map asserts geometry the
+  underlying embedding does not certify; axes and verdicts stay labeled as
+  interpretation, and canon order is never overwritten.
+- **The gate.** Generation is cheap and discrimination scarce, so value
+  concentrates in what was refused and why. Every drop is recorded as residue
+  with its reason, and residue seeds the next pass.
+- **The ratchet.** Structure is kept only while it pays for itself in
+  description length; a cycle that does not hold the compression ratio is
+  reverted, so the corpus cannot bloat its way to the appearance of progress.
+
+Gunkel could work the first three by hand. The last two are what models make
+affordable, and they are where this repo differs from its siblings: gates and
+accumulation, not another random-lens picker.
+
 ## Before and after
 
 Ask an agent whether a product's landing copy is in the right register.
@@ -28,10 +57,9 @@ Ask an agent whether a product's landing copy is in the right register.
 **With [`triangulate-without-oracle`](skills/triangulate-without-oracle/SKILL.md)
 loaded:** the agent names that no computable answer exists, splits the judgment
 into axes — austerity, exactness, structural clarity — and gets two independent
-reads per axis. The reads agree the copy is austere and structurally clear, and
-disagree on whether one line overclaims. That disagreement is the actual review
-finding, and it goes to the human who owns the call, with the grounds named.
-No fabricated number.
+reads per axis. The reads agree on two axes and disagree on whether one line
+overclaims. That disagreement is the actual review finding, and it goes to the
+human who owns the call, with the grounds named. No fabricated number.
 
 Every skill here packages one such move, with an explicit trigger and a gate
 that says whether the move actually worked.
@@ -40,59 +68,50 @@ that says whether the move actually worked.
 
 Three layers, each usable alone:
 
-1. **[`skills/`](skills/) — premier agent skills.** Start with
+1. **[`skills/`](skills/) — agent skills.** Each is one page, self-contained,
+   with its trigger in the frontmatter and its gate in the body. Start with
    [`practice-deep-ideonomy`](skills/practice-deep-ideonomy/SKILL.md) for
-   surprising lists, revealing seriations, and maps: a first breath discovers
-   the grammar that generates the next. Keep speculative reach, practical
-   priority, and empirical confidence distinct. Other moves precommit an
-   oracle, stay rigorous without one, audit what a check certifies, and preserve
-   the target through transformations. The original three-persona
-   distillation and its independent reviews are in
-   [PREMIER_SKILLS.md](PREMIER_SKILLS.md).
+   list-making that discovers its own grammar, or the oracle trio —
+   `triangulate-without-oracle`, `build-the-oracle-before-the-answer`,
+   `audit-the-oracle-coverage` — for judgment with and without a computable
+   check. The original three-persona distillation and its independent
+   adversarial reviews are in [docs/premier-skills.md](docs/premier-skills.md).
 
-2. **[ORGANON.md](ORGANON.md) — the catalog of 37 inference-time cognitive
-   primitives**, synthesized from three streams that converge on the same
-   tension-metabolizing loop (SENSE → ORIENT → GENERATE → JUDGE → ACT →
-   PERSIST): Gunkel's ideonomy, automatic taxonomy induction, and automatic
-   codebase improvement. **[CYCLES.md](CYCLES.md)** adds the orthogonal
-   respiratory axis — expansion↔compression breaths ratcheted on
-   minimum-description-length — that turns the catalog into an engine.
+2. **[ORGANON.md](ORGANON.md) — 37 inference-time cognitive primitives** in
+   one tension-metabolizing loop (SENSE → ORIENT → GENERATE → JUDGE → ACT →
+   PERSIST), synthesized from three streams that converge on it: Gunkel's
+   ideonomy, automatic taxonomy induction, and automatic codebase improvement.
+   **[CYCLES.md](CYCLES.md)** adds the orthogonal expansion↔compression axis,
+   ratcheted on minimum description length, that turns the catalog into an
+   engine.
 
 3. **[`ideonomy/`](ideonomy/) — the engines and Gunkel's corpus as data.**
-   Stdlib-only Python 3.9+, zero dependencies, fully offline-testable: the
-   respiratory engine ([`cycles.py`](ideonomy/cycles.py)), the cross-session
-   residue ledger ([`residue.py`](ideonomy/residue.py)), the no-oracle
-   triangulation harness ([`triangulate.py`](ideonomy/triangulate.py)), the
-   trial engine ([`trial.py`](ideonomy/trial.py)) — advocate vs adversary
-   under equal terms, independent bench, burden of proof, role-swap balance
-   check — the multi-party constraint solver ([`parley.py`](ideonomy/parley.py))
-   — rotating proposals, sovereign constraint scoring, maximin at impasse —
-   the persistent applicative list algebra ([`lists.py`](ideonomy/lists.py)) —
-   typed, provenanced lists that combine, gate, grow, and compound across
-   sessions — its first pristine seed, 48 mixable emotional registers
-   ([`registers.py`](ideonomy/registers.py)), the growing canon layer
-   ([`canon.py`](ideonomy/canon.py) + [`data/`](ideonomy/data/)) — Gunkel's
-   own lists recovered verbatim from the archived pre-redesign
-   ideonomy.mit.edu, each with per-URL provenance (the 638 primary
-   personality traits, 291 criticisms, 152 generic bads, the full "What
-   Ideonomy Can Do" table, the paths corpus…) — the metabolic loop skeleton
-   ([`loop.py`](ideonomy/loop.py)), and Gunkel's 236
-   divisions ([`divisions.py`](ideonomy/divisions.py)) and generative
-   operators ([`operators.py`](ideonomy/operators.py)), machine-usable —
-   plus a seeded drawer ([`draw.py`](ideonomy/draw.py)) that forces
-   non-default lenses from their 2,832-pair cross-product.
-   Model-agnostic by construction: any CLI or callable is a model
-   ([`models.py`](ideonomy/models.py)).
+   Stdlib-only Python 3.9+, zero dependencies, fully offline-testable.
+   Engines: [`cycles.py`](ideonomy/cycles.py) (MDL-ratcheted
+   expansion/compression), [`triangulate.py`](ideonomy/triangulate.py)
+   (independent judgments per axis when no oracle exists),
+   [`trial.py`](ideonomy/trial.py) (advocate vs adversary, swap-balanced,
+   independent bench), [`parley.py`](ideonomy/parley.py) (multi-party
+   constraint solving, maximin at impasse),
+   [`residue.py`](ideonomy/residue.py) (cross-session ledger),
+   [`lists.py`](ideonomy/lists.py) (typed, provenanced list algebra),
+   [`seriate.py`](ideonomy/seriate.py) (spectral ordering with an explicit
+   smoothness objective). Corpus: Gunkel's divisions
+   ([`divisions.py`](ideonomy/divisions.py)) and generative operators
+   ([`operators.py`](ideonomy/operators.py)) machine-usable, and his lists
+   recovered verbatim with per-URL provenance in the canon layer
+   ([`canon.py`](ideonomy/canon.py) + [`data/`](ideonomy/data/)). Any CLI or
+   callable is a model ([`models.py`](ideonomy/models.py)).
 
-## Sixty seconds
+## Quick start
 
 ```bash
 git clone https://github.com/XyraSinclair/ideonomy && cd ideonomy
-python3 -m ideonomy.cycles_demo     # watch the engine breathe over its own catalog — offline
+python3 -m ideonomy.cycles_demo     # the MDL engine over its own catalog — offline
 python3 -m unittest discover tests  # the whole suite, no network, no deps
 ```
 
-The demo prints a breath log: `grp` is how many groups the compression found,
+The demo prints a cycle log: `grp` is how many groups the compression found,
 `codelen` the cost of writing that structure down plus encoding the corpus
 through it, and `raw` the cost of the corpus with no structure at all. `ratio`
 is raw over codelen — above 1.0 the structure pays for itself, and a cycle is
@@ -116,11 +135,11 @@ Any other agent that reads `SKILL.md` files:
 ```
 
 Or load any single skill by putting its `SKILL.md` in context — each is one
-page, self-contained, with its trigger in the frontmatter and its gate in the
-body (the `P…`/`M…` keys inside are provenance pointers into
-[ORGANON.md](ORGANON.md), not prerequisites). Start with the top three: `triangulate-without-oracle`,
-`build-the-oracle-before-the-answer`, `reframe-until-it-dissolves` — or
-install `route-to-the-right-move` and let it dispatch.
+page, self-contained (the `P…`/`M…` keys inside are provenance pointers into
+[ORGANON.md](ORGANON.md), not prerequisites). Start with the top three:
+`triangulate-without-oracle`, `build-the-oracle-before-the-answer`,
+`reframe-until-it-dissolves` — or install `route-to-the-right-move` and let it
+dispatch.
 
 ## Use the library
 
@@ -141,9 +160,9 @@ print(divisions.lens_prompt("ANOMALIES", "the git commit graph"))
 # The organon, machine-readable.
 [p.key for p in primitives.PRIMITIVES if p.phase == "JUDGE"]
 
-# The respiratory engine: breathe over any corpus of text items.
+# The respiratory engine: expand -> judge -> compress over any corpus of text.
 state = cycles.seed(["symmetry of grief", "cascade of negotiation"])
-cycles.run(state, cycles=5)               # expand -> judge -> compress, MDL-ratcheted
+cycles.run(state, cycles=5)               # MDL-ratcheted
 ```
 
 Model-backed, with any CLIs you have (heterogeneous panels are the point):
@@ -163,7 +182,6 @@ python3 -m ideonomy.residue --topic mywork open   # cross-session residue ledger
 python3 -m ideonomy.draw "your problem" --n 3     # forced non-default lenses, offline
 python3 -m ideonomy.registers "the launch post" --n 2   # forced register mixes, offline
 python3 -m ideonomy.lists ls                      # the cross-chat list store
-
 ```
 
 (The residue ledger stores its state in `./.residue/<topic>.json`, created on
@@ -172,46 +190,12 @@ first use; override with `--store`.)
 ## The database
 
 Browse the [published catalog atlas](https://xyrasinclair.github.io/ideonomy/catalog-map.html)
-or open its [offline copy](docs/catalog-map.html) to search names, types, and
-items, then read a list in its stored or canon-sidecar order.
-It derives coverage counts from the data; unpositioned lists remain readable.
-Stored positions are shown only while their item fingerprints match; changing
-a list hides its stale point rather than pretending the old projection measures
-the growth. Authored phases remain readable without embedding calls.
-Rebuild it without network access with `python3 -m ideonomy.atlas`.
-
-Three fieldwork specimens show the practice in motion:
-
-- [**Traces of the unlived**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Ftraces-of-the-unlived):
-  a ghost load is the upper floor never built, still governing the rooms below.
-- [**Discovery delights**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fdiscovery-delights):
-  an orchard in a rule is the moment understanding starts producing unfamiliar cases.
-- [**Question metamorphoses**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fquestion-metamorphoses):
-  an unborn witness is the instrument or setting that must exist before a difference can leave a trace.
-
-Each took two authored breaths; an independent Fable critic admitted the
-distinctions and conditional maps. Their encounter opened another question:
-**what kinds of witnesses must be built before a fact can become knowable?**
-That is an opening, not an already-enumerated fourth list.
-
-A [Gemini 3.8 Flash experiment](corpus/flash-fieldwork-2026-09-05.json) explored
-eight territories in separate contexts, each followed by its own second breath.
-Twenty calls—including two failed attempts and two fresh, plainer-prompt
-reruns—produced 154 complete candidate proposals. Median client round-trip:
-16.4 seconds; provider cost estimated from returned tokens and posted prices:
-$0.178. This is not a controlled speed or quality comparison with another model.
-
-Two edited specimens entered the atlas:
-[**Institutions that can dream**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Finstitutions-that-can-dream)
-keeps alternatives alive and asks how an institution can tolerate their eventual
-vindication;
-[**Alien forms of intimacy**](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Falien-forms-of-intimacy)
-derives closeness from invented forms of embodiment. Astra independently reviewed
-every self-kept candidate; these are repaired Flash proposals, not untouched outputs.
-The other fields and their critiques remain in the experiment, not the curated
-catalog. Flash was a productive sketcher but an unreliable self-curator: physical
-jargon repeatedly disguised unsupported mechanisms, and simpler prompts did not
-reliably cure the problem.
+or its [offline copy](docs/catalog-map.html) to search names, types, and
+items, then read a list in its stored or canon-sidecar order. Coverage counts
+are derived from the data, and a stored projection is shown only while its
+item fingerprints match — growing a list hides its stale point rather than
+pretending the old map still measures it. Rebuild without network access:
+`python3 -m ideonomy.atlas`.
 
 Two provenance tiers, never confused (`ideonomy/data/`, load via
 `python3 -m ideonomy.canon ls` and `... --tier grown ls`):
@@ -220,90 +204,38 @@ Two provenance tiers, never confused (`ideonomy/data/`, load via
   provenance: the archived pre-redesign ideonomy.mit.edu text
   (`canon-wayback.jsonl`), all 403 of his photographed charts transcribed by
   vision models with legibility labels (`canon-charts.jsonl`), and monograph
-  pages stitched from page scans (`canon-monographs.jsonl` — "23 Diverse
-  Ideonomic Lists" recovered whole, every list's count verified against its
-  printed title). The atlas reports the current list and item coverage.
+  pages stitched from page scans (`canon-monographs.jsonl`). Canon text is
+  never edited; even its seriation orders live in a sidecar
+  (`data/seriations.jsonl`).
 - **grown** — the machine-extended edge, produced by the hill-climb
-  ([`corpus/climb.py`](corpus/climb.py)): each list breathes through grow → typology → gap-fill → gate
-  → ratchet, where an independent strong-model pass induces the list's own
-  typology, names the types it *neglects* (the climb's gradient), and gates
-  every candidate for genuine-category / distinctness / combinatorial
-  phrasing, recording drops as residue with reasons. Plateau is flagged when
-  the keep-rate falls, so a list stops claiming easy growth. Grown lists
-  carry `source.tier == "grown"` and can never masquerade as canon.
+  ([`corpus/climb.py`](corpus/climb.py)): grow → induce the list's own
+  typology → name the types it neglects → gap-fill → gate every candidate for
+  genuine-category, distinctness, and combinatorial phrasing → ratchet, with
+  drops recorded as residue and a plateau flagged when the keep-rate falls.
+  Grown lists carry `source.tier == "grown"` and can never masquerade as
+  canon.
 
-Within the grown tier, the operative quality standard is itself a grown list:
-**list-excellences** — the dimensions along which an ideonomic list is judged
-(denominator honesty, joint-carving, recognition shock, mutual exclusion,
-depth gradient, …). Every fable-direct breath self-gates against it and
-records residue; older machine-grown lists are periodically re-gated against
-it, with cuts logged as ledger residue.
+Grown-tier conventions all ride in `source` with zero schema change:
+**registers** (each list written in one named voice, a deliberate lean rather
+than an accident), **maps** (`source.kind == "map"`, relations with exact item
+endpoints so reordering cannot silently change them), **openings**
+(`source.priorities` names a near-term lead and a wild branch — attention
+choices, not confidence scores), **seriation** (model-direct or spectral via
+[`corpus/seriate_drive.py`](corpus/seriate_drive.py); the axis, smoothness,
+and seriability score are stored in `source.seriation`, and smoothness alone
+is not treated as proof of a one-dimensional spectrum), and **boundary
+claims** (a discovered edge of the universe is recorded and the excluded
+universe gets a sibling list). The operative quality bar is itself a grown
+list — **list-excellences** — and every authored breath self-gates against it,
+recording residue.
 
-Grown-tier conventions, all carried in `source` with zero schema change:
-
-- **Registers** — each list is written in one named voice (`source.register`,
-  e.g. "elegiac-anthropological", "clinical epistemology"); the register is a
-  deliberate lean into a different part of the model, not an accident.
-  Automated breaths retain the register, modality, and boundary while expiring
-  old measurements and content-specific review claims.
-- **Maps** — `source.kind == "map"` marks relational structure, not proof of
-  an embedding position. `advice-antinomies` uses `pole ↔ pole — hinge:`
-  discriminators. Directed maps use `source.relations`: `from` and `to` are
-  exact item identities and `label` states the conditional passage. Reordering
-  cannot silently change the endpoints. The atlas draws the graph and supplies
-  keyboard-navigable item links; diagram geometry is not a measured distance.
-- **Openings** — `source.priorities` names a near-term lead and a wild branch,
-  with reasons and next questions. These are attention choices, not confidence
-  scores. `source.mode` declares the analytical, phenomenological, speculative,
-  or invented-world register; `source.exploration` preserves the changed question.
-- **Seriation** — the item order can itself be a claim (Gunkel's seriation;
-  cf. gwern's embedding-TSP `seriate.py`). Two rails: model-direct (an agent
-  names candidate axes and sorts, e.g. `model-collapse-markers` as a disease
-  course, `somatic-atoms` by autonomic depth) and algorithmic —
-  `ideonomy/seriate.py` is a stdlib-pure ordering algebra (Fiedler spectral
-  seriation, greedy chaining, and `smoothness`, the objective all orders
-  compete on), driven at scale by [`corpus/seriate_drive.py`](corpus/seriate_drive.py)
-  (embeddings → order → **seriability** score, the smoothness gain over
-  random order → a model names the axis and judges it revelatory
-  vs mere clustering). A seriated grown list stores its axis and scores in
-  `source.seriation` and ships in its order; canon stays verbatim — canon
-  orders live as indices in `data/seriations.jsonl`. Self-application:
-  `data/catalog-map.jsonl` seriates the catalog itself (list centroids →
-  the database's master axis + 2D coordinates).
-  Smoothness alone does not establish a one-dimensional spectrum: clusters
-  can also admit smooth chains. Named axes and revelatory verdicts remain
-  interpretations, not measured discoveries.
-- **Boundary claims** — when growth discovers the list's universe has an
-  edge, the claim is recorded (`source.boundary_claim`) and the excluded
-  universe gets a sibling list (somatic-atoms ↔ interoceptive-atoms).
-
-The per-list breath ledger (residue, keep-rates, `by:` provenance for
-model-direct vs pipeline breaths) lives in [`corpus/climb-ledger/`](corpus/climb-ledger/).
-The portable growth, widening, and seriation drivers are in [`corpus/`](corpus/).
-They require `GEMINI_API_KEY` in the environment and make billable model calls;
-catalog-coordinate recomputation additionally requires NumPy. The atlas needs
-neither. Raw archives, credentials, embedding caches, and private staging history
-are not part of the publication bundle.
-
-The paired maps **cooperation-integrity-hinges** and
-**contribution-credit-hinges** apply the same discriminator form to existential
-cooperation and contribution accounting. Their authored orders follow the
-agreement lifecycle and attribution workflow, respectively. Astra drafted
-them; a Fable critic challenged the categories and exposed a vague settlement
-hinge and misplaced phase, repaired before admission. Their ledger records
-the repairs and limits: open conceptual hypotheses, not field-validated laws,
-exhaustive enumerations, or a claim of worldwide novelty. Their numerical
-seriation scores are unmeasured, and neither has fabricated map coordinates.
-
-The September 5 growth checkpoint ran two further breaths on
-**pivot-invariants**, **interoceptive-atoms**, **impasse-inventions**, and
-**cooperation-integrity-hinges**: 164 candidates, 85 admitted, 79 recorded
-rejections. Independent Fable review admitted five proposed repairs as distinct
-additional mechanisms instead of replacements, for 90 net additions. It also
-rejected 15 substitutions that flattened the originals. The ledger preserves
-both decisions: a truthful boundary is not a license to domesticate the list.
-This exercised P11 gap-finding and P22 refutation; it did not exhaust the
-possible categories or establish empirical efficacy.
+The per-list ledger (residue, keep-rates, `by:` run labels) is in
+[`corpus/climb-ledger/`](corpus/climb-ledger/). The growth, widening, and
+seriation drivers in [`corpus/`](corpus/) require `GEMINI_API_KEY` and make
+billable model calls; the atlas and everything in `ideonomy/` need neither.
+Dated fieldwork records — specimen admissions, a Gemini 3.8 Flash sketching
+experiment, growth checkpoints, each with its repairs and limits — are in
+[docs/fieldnotes.md](docs/fieldnotes.md).
 
 This is Gunkel's progressive loop (list → induce types → find missing items →
 refine) made executable, with the evaluation gate he lacked. The catalog
@@ -312,21 +244,19 @@ is what grows the database.
 
 ## Status
 
-The catalog, skills, and offline engines are substantive and tested. Two
-pieces of empirical evidence are now committed:
+The catalog, skills, and offline engines are substantive and tested. Committed
+empirical evidence:
 [docs/breath-log-external.txt](docs/breath-log-external.txt) — the MDL engine
 run on two real external corpora, finding named structure where it exists
-(ratio 1.110) and honestly reporting near-null where it doesn't (1.011) — and
-[docs/heterogeneous-trial-r7.txt](docs/heterogeneous-trial-r7.txt) — the first
-real three-vendor trial (Claude vs Gemini argued, sides swapped for balance,
-local Qwen judged), whose swap-stable verdict went *against* the maintainer's
-own publication decision and is committed unedited: the trial engine does not
+(ratio 1.110) and reporting near-null where it doesn't (1.011) — and
+[docs/heterogeneous-trial-r7.txt](docs/heterogeneous-trial-r7.txt) — a real
+three-vendor trial (Claude vs Gemini argued, sides swapped for balance, local
+Qwen judged) whose swap-stable verdict went *against* the maintainer's own
+publication decision and is committed unedited: the trial engine does not
 flatter its owner. Still undemonstrated: compression depth beyond token-level
-MDL (semantic grouping with model-backed judges). The
-full labeled denominator of what "canonical" means here — covered, named-gap,
-ruled-out, nothing unlabeled — is [docs/canonicality.md](docs/canonicality.md).
-The catalog applies to itself: gap-find it, vary it, and keep what survives
-refutation (P11, P15, P22, P35).
+MDL (semantic grouping with model-backed judges). The full labeled denominator
+of what "canonical" means here — covered, named-gap, ruled-out, nothing
+unlabeled — is [docs/canonicality.md](docs/canonicality.md).
 
 ## Lineage and related work
 
@@ -354,8 +284,6 @@ distinguishes it from its siblings:
   idea-quality problem (`discriminator.py`).
 
 Distilled research notes with full provenance: [docs/gunkel.md](docs/gunkel.md).
-This repo packaged as a capability a stranger's agent can execute end to end:
-[AFFORDANCE.md](AFFORDANCE.md).
 
 ## License and compensation
 

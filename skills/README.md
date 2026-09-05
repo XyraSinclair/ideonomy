@@ -1,18 +1,19 @@
-# Premier agent skills
+# Agent skills
 
 Executable agent skills from the respiratory engine's self-application and
 subsequent ideonomic fieldwork. Original catalog and method:
-[`../PREMIER_SKILLS.md`](../PREMIER_SKILLS.md).
+[`../docs/premier-skills.md`](../docs/premier-skills.md).
 
 Each is a Claude-Code-style `SKILL.md` (frontmatter `name` + `description` with
 its trigger, then the procedure and its executable gate) — a concrete,
 nameable cognitive move an agent can execute end to end. Each gate is the
-anti-fool-yourself check without which the move degrades into confident slop.
+anti-fool-yourself check without which the move degrades into fluent
+assertion.
 
 Notation, here and inside the skills: `P1`–`P37` are organon primitives
 ([ORGANON.md](../ORGANON.md)), `M1`–`M6` are multi-model patterns (same file),
-and `P-0`–`P-11` name the original premier distillation
-([PREMIER_SKILLS.md](../PREMIER_SKILLS.md)), not every subsequent skill.
+and `P-0`–`P-11` name the original distillation
+([docs/premier-skills.md](../docs/premier-skills.md)), not every subsequent skill.
 These keys are provenance, not prerequisites; each skill executes from its own page.
 
 For exploratory idea-making, start with
@@ -78,6 +79,6 @@ The failure all three exist to prevent is the same: drawing false confidence
 from a check that does not actually certify the claim. `route-to-the-right-move`
 makes the three-way branch explicit. The review's full findings — including the
 gate-hardness classification and the "rigor theater" caveat — are in
-[`../PREMIER_SKILLS.md`](../PREMIER_SKILLS.md#adversarial-review-external-m4).
+[`../docs/premier-skills.md`](../docs/premier-skills.md#adversarial-review-external-m4).
 
 The catalog applies to itself (P35): use these, measure them, revise them.

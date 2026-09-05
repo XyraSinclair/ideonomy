@@ -93,7 +93,7 @@ class TestProseCounts(unittest.TestCase):
 
     def test_skill_count_claims(self):
         n = len(skill_dirs())
-        for doc in ("AFFORDANCE.md", "README.md"):
+        for doc in ("README.md",):
             text = read(doc)
             for claim in re.findall(r"(\d+)\s+(?:premier\s+)?(?:agent\s+)?skills", text):
                 self.assertEqual(int(claim), n,

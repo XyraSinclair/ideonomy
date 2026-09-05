@@ -28,7 +28,7 @@ invariants below (`tests/test_consistency.py`), so a green run is the gate.
   `skills/` and must name the primitives they compose.
 - **The catalog applies to itself.** Substantive changes should say which
   primitives they exercised (P11 gap-find, P22 refute, P35 self-modify) and
-  honest failures are recorded, not hidden (`PREMIER_SKILLS.md` shows the
+  honest failures are recorded, not hidden (`docs/premier-skills.md` shows the
   form).
 - **Stdlib only** in `ideonomy/`. Any model dependency stays behind
   `models.CommandModel` (any CLI is a model).

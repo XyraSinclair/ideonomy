@@ -67,7 +67,7 @@ auditable.
 
 **P3. fault-model** — Define the defect/possibility class explicitly *before*
 searching for instances. "What counts as bad (or interesting)" is a
-configurable artifact, not an implicit vibe.
+configurable artifact, not an implicit disposition.
 - Signature: `domain → class definitions → targeted search/generation`
 - Metabolizes: unfalsifiable taste → testable class membership
 - Provenance: ACH's targeted mutants; CodeMender vulnerability classes;

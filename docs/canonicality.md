@@ -36,7 +36,7 @@ trusting it.*
 | # | Property | Label |
 |---|----------|-------|
 | C1 | The core abstractions are load-bearing, not decorative: primitives compose into skills, skills carry gates, gates have executable harnesses where honest | covered |
-| C2 | The catalog applies to itself and the evidence exists in-repo | covered — this file; adversarial reviews in `PREMIER_SKILLS.md` + `docs/oracle_review_gpt55pro.md`; the release residue ledger `docs/residue-ideonomy.json` |
+| C2 | The catalog applies to itself and the evidence exists in-repo | covered — this file; adversarial reviews in `docs/premier-skills.md` + `docs/oracle_review_gpt55pro.md`; the release residue ledger `docs/residue-ideonomy.json` |
 | C3 | Weaknesses are documented as prominently as strengths | covered — gate-hardness classification, "rigor theater" caveat |
 | C4 | The engine has been run on at least one real external corpus with a logged compression curve | covered — `docs/breath-log-external.txt`: two contrasting corpora, structure found (1.110) and near-null honestly reported (1.011); semantic depth beyond token MDL remains open work |
 | C5 | Multi-model adjudication exercised with real heterogeneous panels, results logged | covered — `docs/heterogeneous-trial-r7.txt`: three-vendor trial (Claude vs Gemini, Qwen bench); the swap-stable verdict ruled against the repo's own publication call and is committed unedited |
@@ -57,7 +57,7 @@ trusting it.*
 | # | Property | Label |
 |---|----------|-------|
 | E1 | License present and unambiguous | covered — MIT |
-| E2 | The revision discipline is stated: how the catalog changes (P35 utility-gated self-modification), what counts as evidence | covered — ORGANON/CYCLES/PREMIER_SKILLS |
+| E2 | The revision discipline is stated: how the catalog changes (P35 utility-gated self-modification), what counts as evidence | covered — ORGANON/CYCLES/docs/premier-skills |
 | E3 | Release tagged; repo description and topics accurate | covered — tag `v0.2.0` and repo metadata are created at publish of this revision; verify with `git tag` and the repo page |
 | E4 | Community scaffolding (CONTRIBUTING, issue templates, CI) | ruled-out for now — a one-author kernel; premature apparatus violates the ≥3-real-members guard. Revisit on the third external contributor |
 

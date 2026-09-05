@@ -1,5 +1,5 @@
 #!/bin/sh
-# Install the ideonomy premier skills into an agent's personal skills dir.
+# Install the ideonomy agent skills into an agent's personal skills dir.
 #
 #   ./install.sh                 # -> ~/.claude/skills/<skill-name>/
 #   SKILLS_DIR=/path ./install.sh

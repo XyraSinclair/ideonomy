@@ -1,8 +1,8 @@
 {
   "name": "ideonomy",
   "displayName": "Ideonomy",
-  "version": "0.4.0",
-  "description": "Deep ideonomy: surprising lists, revealing seriations and maps, with cognitive skills for sharp exploration, independent judgment, and preserving what matters.",
+  "version": "0.4.1",
+  "description": "Gunkel's ideonomy as inference-time machinery: gated agent skills, list and seriation engines, and the recovered canon.",
   "author": {
     "name": "Xyra Sinclair"
   },

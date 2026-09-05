@@ -21,7 +21,7 @@ do badly?* The method was itself a breath —
 A **compound move** composes ≥2 organon primitives (`ORGANON.md`) into a
 capability no single prompt gives. Every premier skill carries an **executable
 gate** — the anti-fool-yourself / anti-vacuity oracle without which the move
-degrades into confident slop.
+degrades into fluent assertion.
 
 ## The eight families
 
@@ -194,7 +194,7 @@ model sometimes does them anyway.
    9. P-7 mechanism-design · 10. P-8 localize-then-glue.
 
 All fourteen are shipped as executable skill files under
-[`skills/`](skills/) — the twelve above plus the two the adversarial reviews
+[`skills/`](../skills/) — the twelve above plus the two the adversarial reviews
 forced (`audit-the-oracle-coverage`, `preserve-the-target`). They are young —
 meant to be used, measured, and revised under P35.
 
@@ -259,7 +259,7 @@ changes, recorded here rather than hidden:
 
 ### Second pass: GPT-5.5 Pro Extended Thinking
 
-A second external review ([full transcript](docs/oracle_review_gpt55pro.md))
+A second external review ([full transcript](oracle_review_gpt55pro.md))
 **converged** with the first on every structural point — the
 partial/proxy-oracle middle (it independently proposed the same
 `P-11 + P-1 + P-9` decomposition fix), P-0/P-3/P-6 as weakest,
