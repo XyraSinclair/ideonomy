@@ -202,11 +202,20 @@ Grown-tier conventions, all carried in `source` with zero schema change:
   where each item is `pole ↔ pole — hinge:` and the hinge is a checkable
   discriminator (a map of both-sided advice is a map of hidden hinges).
 - **Seriation** — the item order can itself be a claim (Gunkel's seriation;
-  cf. gwern's embedding-TSP `seriate.py`, done here model-direct with a named
-  axis). A seriated list stores its axis and the rejected candidate axes in
-  `source.seriation`; the order ships as part of the object. First instances:
-  `model-collapse-markers` as a disease course, `somatic-atoms` by autonomic
-  depth (performable → unfakeable).
+  cf. gwern's embedding-TSP `seriate.py`). Two rails: model-direct (an agent
+  names candidate axes and sorts, e.g. `model-collapse-markers` as a disease
+  course, `somatic-atoms` by autonomic depth) and algorithmic —
+  `ideonomy/seriate.py` is a stdlib-pure ordering algebra (Fiedler spectral
+  seriation, greedy chaining, and `smoothness`, the objective all orders
+  compete on), driven at scale by the corpus repo's `seriate_drive.py`
+  (embeddings → order → **seriability** score, the smoothness gain over
+  random order that measures how strongly a hidden 1-D dimension runs
+  through a list → a strong model names the axis and judges it revelatory
+  vs mere clustering). A seriated grown list stores its axis and scores in
+  `source.seriation` and ships in its order; canon stays verbatim — canon
+  orders live as indices in `data/seriations.jsonl`. Self-application:
+  `data/catalog-map.jsonl` seriates the catalog itself (list centroids →
+  the database's master axis + 2D coordinates).
 - **Boundary claims** — when growth discovers the list's universe has an
   edge, the claim is recorded (`source.boundary_claim`) and the excluded
   universe gets a sibling list (somatic-atoms ↔ interoceptive-atoms).
