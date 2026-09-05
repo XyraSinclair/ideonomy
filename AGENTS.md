@@ -32,6 +32,11 @@ invariants below (`tests/test_consistency.py`), so a green run is the gate.
   form).
 - **Stdlib only** in `ideonomy/`. Any model dependency stays behind
   `models.CommandModel` (any CLI is a model).
+- **The public register is austere.** Front-page copy (README, plugin
+  metadata, install.sh) carries no internal model pet names (run labels
+  belong in ledger data and `docs/fieldnotes.md`), no agent-facing
+  internal-speak, no self-congratulatory naming, and no changelog
+  accretion — dated fieldwork narratives go to `docs/fieldnotes.md`.
 
 ## Release
 
