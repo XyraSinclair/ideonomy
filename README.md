@@ -46,13 +46,13 @@ repo stores its information in one of five places:
 
 Gunkel could work the first three by hand. The last two are what models make
 affordable, and they are where this repo differs from its siblings: gates and
-accumulation, not another random-lens picker.
+accumulation.
 
 ## Before and after
 
 Ask an agent whether a product's landing copy is in the right register.
 
-**Default:** "It's solid, 8/10." A confident score with nothing under it.
+**Default:** "It's solid, 8/10."
 
 **With [`triangulate-without-oracle`](skills/triangulate-without-oracle/SKILL.md)
 loaded:** the agent names that no computable answer exists, splits the judgment
@@ -60,9 +60,6 @@ into axes — austerity, exactness, structural clarity — and gets two independ
 reads per axis. The reads agree on two axes and disagree on whether one line
 overclaims. That disagreement is the actual review finding, and it goes to the
 human who owns the call, with the grounds named. No fabricated number.
-
-Every skill here packages one such move, with an explicit trigger and a gate
-that says whether the move actually worked.
 
 ## What's here
 
