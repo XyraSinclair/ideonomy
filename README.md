@@ -185,6 +185,35 @@ Two provenance tiers, never confused (`ideonomy/data/`, load via
   the keep-rate falls, so a list stops claiming easy growth. Grown lists
   carry `source.tier == "grown"` and can never masquerade as canon.
 
+Within the grown tier, the operative quality standard is itself a grown list:
+**list-excellences** — the dimensions along which an ideonomic list is judged
+(denominator honesty, joint-carving, recognition shock, mutual exclusion,
+depth gradient, …). Every fable-direct breath self-gates against it and
+records residue; older machine-grown lists are periodically re-gated against
+it, with cuts logged as ledger residue.
+
+Grown-tier conventions, all carried in `source` with zero schema change:
+
+- **Registers** — each list is written in one named voice (`source.register`,
+  e.g. "elegiac-anthropological", "clinical epistemology"); the register is a
+  deliberate lean into a different part of the model, not an accident.
+- **Maps** — `source.kind == "map"` marks lists whose items are positioned
+  structures rather than flat instances. First instance: `advice-antinomies`,
+  where each item is `pole ↔ pole — hinge:` and the hinge is a checkable
+  discriminator (a map of both-sided advice is a map of hidden hinges).
+- **Seriation** — the item order can itself be a claim (Gunkel's seriation;
+  cf. gwern's embedding-TSP `seriate.py`, done here model-direct with a named
+  axis). A seriated list stores its axis and the rejected candidate axes in
+  `source.seriation`; the order ships as part of the object. First instances:
+  `model-collapse-markers` as a disease course, `somatic-atoms` by autonomic
+  depth (performable → unfakeable).
+- **Boundary claims** — when growth discovers the list's universe has an
+  edge, the claim is recorded (`source.boundary_claim`) and the excluded
+  universe gets a sibling list (somatic-atoms ↔ interoceptive-atoms).
+
+The per-list breath ledger (residue, keep-rates, `by:` provenance for
+model-direct vs pipeline breaths) lives in the corpus repo's `climb-ledger/`.
+
 This is Gunkel's progressive loop (list → induce types → find missing items →
 refine) made executable, with the evaluation gate he lacked. The catalog
 applies to itself: the same gate-and-typology discipline the skills prescribe
