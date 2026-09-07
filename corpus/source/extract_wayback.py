@@ -18,7 +18,7 @@ import pathlib
 import re
 import sys
 
-ROOT = pathlib.Path(__file__).parent / "raw" / "wayback" / "pages"
+PAGES = pathlib.Path(__file__).parent / "raw" / "wayback" / "pages.jsonl"
 OUT = pathlib.Path(__file__).parents[2] / "ideonomy" / "data" / "canon-wayback.jsonl"
 
 TAG = re.compile(r"<[^>]+>")
@@ -37,9 +37,11 @@ NAV_PAGE = re.compile(r"(^|/)(index|mds|legacy-index)\.html$|menu", re.I)
 
 
 records, seen = [], set()
-for page in sorted(ROOT.rglob("*.html")):
-    t = page.read_text(errors="replace")
-    rel = str(page.relative_to(ROOT))
+for page in sorted(map(json.loads, PAGES.read_text(encoding="utf-8").splitlines()), key=lambda r: r["path"]):
+    if not page["path"].endswith(".html"):
+        continue
+    t = page["html"]
+    rel = page["path"]
     if NAV_PAGE.search(rel):
         continue
     title = clean((re.search(r"<title>(.*?)</title>", t, re.S | re.I) or [None, ""])[1])
@@ -55,7 +57,7 @@ for page in sorted(ROOT.rglob("*.html")):
             if len(cand) >= 4 and not re.search(r"back to|homepage", cand, re.I):
                 head = cand
                 break
-        head = head or page_head or title or page.stem
+        head = head or page_head or title or pathlib.Path(rel).stem
         raw_items = re.split(r"<li\b[^>]*>", body, flags=re.I)[1:]
         if not raw_items:
             continue

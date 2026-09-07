@@ -1,8 +1,9 @@
-"""Polite Wayback fetcher: reads 'timestamp url' lines, saves id_ raw captures."""
-import pathlib, sys, time, urllib.request, urllib.parse
+"""Polite Wayback fetcher: reads 'timestamp url' lines, appends id_ raw captures to pages.jsonl."""
+import json, pathlib, sys, time, urllib.request, urllib.parse
 
 root = pathlib.Path(__file__).parent
 lines = [l.split(None, 1) for l in (root / "wb_tier1.txt").read_text().splitlines() if l.strip()]
+have = {json.loads(l)["path"] for l in (root / "pages.jsonl").read_text(encoding="utf-8").splitlines()} if (root / "pages.jsonl").exists() else set()
 done = fail = 0
 for ts, url in lines:
     url = url.strip()
@@ -10,17 +11,17 @@ for ts, url in lines:
     rel = (p.path.lstrip("/") or "index.html")
     if rel.endswith("/"):
         rel += "index.html"
-    out = root / "pages" / rel
-    if out.exists():
+    if rel in have:
         done += 1
         continue
-    out.parent.mkdir(parents=True, exist_ok=True)
     wb = f"https://web.archive.org/web/{ts}id_/{url}"
     for attempt in range(3):
         try:
             req = urllib.request.Request(wb, headers={"User-Agent": "ideonomy-archive-mirror (contact: contact@exopriors.com)"})
             data = urllib.request.urlopen(req, timeout=45).read()
-            out.write_bytes(data)
+            with (root / "pages.jsonl").open("a", encoding="utf-8") as fh:
+                fh.write(json.dumps({"path": rel, "timestamp": ts, "html": data.decode("utf-8", "replace")}, ensure_ascii=False) + "\n")
+            have.add(rel)
             done += 1
             break
         except Exception as e:

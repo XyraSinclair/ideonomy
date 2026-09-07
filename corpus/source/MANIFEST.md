@@ -31,7 +31,7 @@ Full-size coverage audited 2026-09-03: every `picNNN.html` wrapper has its
 
 | Artifact | Contents | Status |
 |---|---|---|
-| `raw/wayback/pages/` | 269 HTML pages (all 301 tier-1 URLs, 0 failures): `/divisions/`, `/essays/`, `/investigable/`, `/analogy/`, `/maps/`, `/whatcan*/`, `/slides/`, top-level |  acquired; **extracted** — 19 lists / 1,931 items in the repo's `canon-wayback.jsonl` (the staging pass was a subset plus two site-navigation lists, not kept) |
+| `raw/wayback/pages.jsonl` | 269 captures, one `{path, timestamp, html}` record each (all 301 tier-1 URLs, 0 failures): `/divisions/`, `/essays/`, `/investigable/`, `/analogy/`, `/maps/`, `/whatcan*/`, `/slides/`, top-level |  acquired; **extracted** — 19 lists / 1,931 items in the repo's `canon-wayback.jsonl` (the staging pass was a subset plus two site-navigation lists, not kept) |
 | Non-`<li>` list matter on those pages | mds.html (144 items), tables, `<br>`-separated lists, ~169k words prose | partial — staging parser only caught `<ol>/<ul>` blocks ≥10 items |
 | `/wiki/` (2,645 archived URLs) | Default MediaWiki install, no content ("MediaWiki has been successfully installed"; About page empty) | ruled-out — verified empty 2026-09-03 |
 | `raw/wayback/ideonomy_cdx_full.txt` | Full CDX index (10,591 rows) | acquired — reference |

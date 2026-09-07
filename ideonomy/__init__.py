@@ -7,7 +7,6 @@ Submodules (import explicitly, e.g. `from ideonomy import cycles`):
 - operators   — Gunkel's generative operators as pure functions
 - draw        — seeded non-default lens draws (division x operator)
 - cycles      — the respiratory engine (expand<->compress, MDL ratchet)
-- loop        — the metabolic loop skeleton
 - models      — model adapters: any CLI/callable is a model
 - residue     — cross-session residue ledger (P-10)
 - triangulate — no-oracle triangulation harness (P-9)
@@ -29,7 +28,6 @@ __all__ = [
     "divisions",
     "draw",
     "lists",
-    "loop",
     "models",
     "operators",
     "parley",

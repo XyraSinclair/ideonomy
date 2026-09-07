@@ -165,7 +165,6 @@ cycles.run(state, cycles=5)               # MDL-ratcheted
 Model-backed, with any CLIs you have (heterogeneous panels are the point):
 
 ```bash
-python3 -m ideonomy.demo --model 'claude -p {prompt}' --model 'ollama run llama3.3'
 python3 -m ideonomy.triangulate "Is this landing copy in the right register?" \
     --axis austerity --axis exactness \
     --judge 'claude -p {prompt}' --judge 'codex exec {prompt}'
