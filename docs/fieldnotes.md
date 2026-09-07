@@ -131,3 +131,61 @@ The briefs and the five critiques are in
 ledgers carry each breath and the repair as a third line. These are authored
 conceptual fieldwork with independent editorial review, not empirical
 taxonomies; each map's `boundary_claim` states its limits.
+
+## Business fleet: nine Fable maps (2026-09-07)
+
+A standing direction: more ideonomy of business — pricing, markets,
+cooperation, deal flow. Nine territories ran through the same pipeline as the
+morning fleet (two authored breaths, a fresh-context Fable critic, a Fable
+repairer), all headless on pool accounts, all verified `claude-fable-5-1` on
+every artifact write. The register was set to operator-grade mechanism, no
+consultant vocabulary. Every map was admitted with repairs; every critic
+found at least one real defect, most often a declared type the author had
+applied selectively:
+
+- [What a price does](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fwhat-a-price-does)
+  — work a price does besides clearing; a rack rate is paid by no one and
+  exists so every real price can be a favor. Loop: a fee collected often
+  enough becomes the open price of an option, and the door no longer shuts.
+- [Market births](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fmarket-births)
+  — what must exist before a thing can be priced; a grade that erases the
+  farm. The critic added the commonest third path to the queue fork: the host
+  sells the jump and keeps the queue.
+- [Deal deaths](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fdeal-deaths)
+  — how a deal both sides want fails to close; paper as insult, a retrade that
+  turns price into character. Loop: a price found too precisely can only be
+  repaired by a retrade the other side reads as character.
+- [Deal-flow attractors](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fdeal-flow-attractors)
+  — why flow bends toward a node; forty jewelers on one street each receive
+  more than one alone. The critic split the tollgate: compulsory passage
+  through one desk is not the same as passage through any of a thousand.
+- [Where margin hides](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fwhere-margin-hides)
+  — margin that lives away from the sticker; the medallion is a hiding place
+  that survived every competitor and got priced. Unresolved: the rented
+  right (the airport concession) is a medallion paid yearly.
+- [Pricing-unit metamorphoses](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fpricing-unit-metamorphoses)
+  — the priced unit changes kind; the assay eats the item, the reader becomes
+  the ton, a streaming payout is a quotient, not a price.
+- [Cooperation ignitions](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fcooperation-ignitions)
+  — the first cooperative move between strangers; a beach with no faces, a
+  hostage before the ask, a sin in common. The critic showed the "no enforcer"
+  clause was not the criterion actually applied (an earn-out has a court).
+- [Clean exits](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fclean-exits)
+  — leaving with something named surviving; sell the seat, not the house;
+  leave the comb. The critic repaired the passage from deal to trade: a
+  runoff book is a seat sold below zero.
+- [Market deaths](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fmarket-deaths)
+  — a market that still quotes but no longer is one; a warm corpse, a witness
+  starving, a test before the pool. Two members failed the map's own
+  boundary rule (a fenced right clearing at a tenth is alive) and were
+  repaired.
+
+Briefs and critiques are in
+[`../corpus/fable-maps-2026-09-07-business/`](../corpus/fable-maps-2026-09-07-business/).
+Openings the fleet left for the next expedition, recorded in each map's
+`priorities` and the critics' unresolved seeds: the tollgate that *must* buy;
+the party who can be bound as a market precondition; the customary ignition
+nobody lights any more; whether a copy of the lot exists as a second axis of
+market death. These are authored conceptual fieldwork with independent
+editorial review, not empirical taxonomies.
+
