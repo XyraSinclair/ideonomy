@@ -30,7 +30,7 @@ def lists(tier: str = "canon") -> "dict[str, Ideolist]":
     data = resources.files(__package__) / "data"
     for entry in sorted(data.iterdir(), key=lambda e: e.name):
         # canon-*.jsonl and grown.jsonl hold Ideolists; other data files
-        # (e.g. list-specs.jsonl) are their own artifact and are not lists.
+        # (the catalog map, seriation sidecar) are their own artifact and are not lists.
         if not (entry.name.startswith("canon-") or entry.name == "grown.jsonl"):
             continue
         for line in entry.read_text().splitlines():

@@ -31,7 +31,7 @@ The [September 7 fleet](#five-fable-maps-2026-09-07) took that opening up as
 
 ## Gemini 3.8 Flash sketching experiment (2026-09-05)
 
-A [Gemini 3.8 Flash experiment](../corpus/flash-fieldwork-2026-09-05.json)
+A [Gemini 3.8 Flash experiment](flash-fieldwork-2026-09-05.json)
 explored eight territories in separate contexts, each followed by its own
 second breath. Twenty calls — including two failed attempts and two fresh,
 plainer-prompt reruns — produced 154 complete candidate proposals. Median
