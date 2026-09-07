@@ -1,0 +1,87 @@
+{
+ "slug": "deal-flow-attractors",
+ "critic": "Fable critic (fresh context, 2026-09-07)",
+ "verdict": "admit-with-repairs",
+ "strongest_objection": "Tollgate that may not buy anchors the whole axis as the annihilated end, the one attractor for which one is the only number that works, yet two of its four illustrative cases falsify that fate: notaries and title companies exist in thousands of copies, any deal must pass one of them rather than the one, and a second notary splits the flow exactly as a second fast payer does. The item bundles two mechanisms, compulsory passage through a singular desk (land registry, pilotage association, sole clearinghouse), which a copy unmakes, and compulsory passage through a class of desks, which is conserved per threshold and belongs in the middle of the itinerary. The sight-without-seat mechanism survives and the axis survives, but the item as written contradicts its own endpoint and must lose the class-of-desks examples or name them in its discriminator. The next most wrong thing is the fork edge's consequent, 'no node can hold both attractors': every major auction house runs a saleroom and a private-sales desk precisely to catch both branches, so the fork is per deal, and a node that wants both must wall them.",
+ "items": [
+  {
+   "item": "Tollgate that may not buy: when every deal in a class must pass one desk, the notary, the land registry, the title company, the port pilot, that desk sees every deal first without anyone sending it, and the same compulsion that grants the sight forbids the seat, since a registry that traded on what it registered would lose the rule that makes passage compulsory; it costs the franchise and the conflict rules that keep it, it decays by bypass, and a second registry does not halve the flow but unmakes both, because a title recorded in two books is recorded in neither; not leverage-discoveries' identity register, which is about what a small edit there moves, since here the question is what the desk may do with what it sees.",
+   "decision": "repair",
+   "why": "Notary and title company are compulsory classes, not compulsory singletons; they are copied in thousands and split rather than annihilate, so the item's copy fate, which opens the axis, is contradicted by half its own examples. Replace them with singular desks and push the class case into the discriminator, where it teaches the distinction that the axis needs.",
+   "repair": "Tollgate that may not buy: when every deal in a class must pass one desk, the land registry, the port's pilotage association, the exchange's sole clearinghouse, that desk sees every deal first without anyone sending it, and the same compulsion that grants the sight forbids the seat, since a registry that traded on what it registered would lose the rule that makes passage compulsory; it costs the franchise and the conflict rules that keep it, it decays by bypass, and a second registry does not halve the flow but unmakes both, because a title recorded in two books is recorded in neither; not the notary or the title company, which every deal must pass but not this one, since a compulsory class of desks splits on copying like the fast payer and only the singular desk is unmade by its copy; not leverage-discoveries' identity register, which is about what a small edit there moves, since here the question is what the desk may do with what it sees."
+  },
+  {
+   "item": "Room where comparisons happen: the keeper of Lloyd's underwriting floor, the spot market at the port, the saleroom hosts the operation of comparing, and each side comes because the other side is already there, so deals arrive as a byproduct of the comparison; the keeper pays in neutrality, since a room whose keeper trades on what it sees empties, and in the upkeep of liquidity; it decays when comparison moves elsewhere, and a second room does not split the flow evenly but thins both until one tips, since a comparison of half the market is worth less than half; not Forty jewelers, where the compared parties are themselves the attractor, since here the byproduct goes to the host.",
+   "decision": "repair",
+   "why": "'A room whose keeper trades on what it sees empties' is stated as a law, but the saleroom is one of the item's own cases and auction houses guarantee lots, take third-party guarantees, and hold principal positions without emptying; what empties a room is undisclosed or unwalled dealing by the keeper. The mechanism survives with the condition made explicit.",
+   "repair": "Room where comparisons happen: the keeper of Lloyd's underwriting floor, the spot market at the port, the saleroom hosts the operation of comparing, and each side comes because the other side is already there, so deals arrive as a byproduct of the comparison; the keeper pays in neutrality, or in dealing that is walled and disclosed, since a room whose keeper is believed to trade against what it sees empties, and the auction house that guarantees lots keeps its floor only by publishing that it does, and in the upkeep of liquidity; it decays when comparison moves elsewhere, and a second room does not split the flow evenly but thins both until one tips, since a comparison of half the market is worth less than half; not Forty jewelers, where the compared parties are themselves the attractor, since here the byproduct goes to the host."
+  },
+  {
+   "item": "Cheap probe: the dealer who quotes on anything within the hour, the investor who says no in a day and never gossips, is shown everything first because a showing costs the sender nothing, so first refusal arrives by default; it costs answering everything, including junk, fast and silently, and it decays the day a no costs the sender something, a leak, a sulk, a delay; a threshold, so conserved on copying, though the first showing goes to whichever probe is cheapest that morning; not the last resort, since the probe says no more often than anyone.",
+   "decision": "keep",
+   "why": "Tested as my closest neighbor against Paying in speed: both are fast thresholds conserved on copying in the same stretch and neither item's discriminator mentions the other. They separate; see neighbor_test."
+  },
+  {
+   "item": "Paying in speed: the factor, the same-day scrap buyer, the insurer that settles claims in two days draws every seller with a time preference, and the seller pays for the speed in price; it costs a float and the risk of paying before verifying, and it decays the day it slows; a threshold, so conserved on copying; not certainty, since the fast payer may haggle at the gate, and the seller who needs the money by Friday will take that.",
+   "decision": "keep",
+   "why": "Tested against Cheap probe; speed of the answer and speed of the money are bought by different sellers and a node can hold either without the other."
+  },
+  {
+   "item": "Counterparty of last resort: the pawnbroker, the scrap yard, the salvage buyer, the central bank's window says yes to anything at some price, so flow bends there from two directions, the rejected and the certainty-seeking; it costs the capital to take whatever comes and the adverse selection of receiving what everyone else declined, and it decays on a single no, since always is gone the first time it is not true; on copying the always is conserved and the last is not, as two floors are a market and neither is last; not the whole-carcass buyer, who refuses the half, since this one takes any size at its price.",
+   "decision": "keep",
+   "why": "Kept, with a modality note: 'decays on a single no' is an aphorism carried as a mechanism, since pawnbrokers refuse goods outside their class daily and the window has eligibility rules; the always is always-within-the-class-it-claimed. The item's mechanism is right and the line is too good to domesticate, so it stays and the modality note records the reading."
+  }
+ ],
+ "neighbor_test": {
+  "left": "Cheap probe: the dealer who quotes on anything within the hour, the investor who says no in a day and never gossips, is shown everything first because a showing costs the sender nothing, so first refusal arrives by default; it costs answering everything, including junk, fast and silently, and it decays the day a no costs the sender something, a leak, a sulk, a delay; a threshold, so conserved on copying, though the first showing goes to whichever probe is cheapest that morning; not the last resort, since the probe says no more often than anyone.",
+  "right": "Paying in speed: the factor, the same-day scrap buyer, the insurer that settles claims in two days draws every seller with a time preference, and the seller pays for the speed in price; it costs a float and the risk of paying before verifying, and it decays the day it slows; a threshold, so conserved on copying; not certainty, since the fast payer may haggle at the gate, and the seller who needs the money by Friday will take that.",
+  "separating_case": "An investor who answers every deck within a day and never gossips, but whose wire when the answer is yes takes ninety days of documents, is a cheap probe and not a fast payer; a scrap yard that pays cash at the gate the moment the load is weighed but will not quote by phone and makes you drive the load in is a fast payer and not a cheap probe. The seller shopping for information sends to the first, the seller shopping for liquidity drives to the second, and the first showing and the first sale go to different nodes on the same morning. They do not collapse."
+ },
+ "boundary_case": "The best price: the buyer who simply pays the most, or the seller who charges least, is where deals go, and it is tempting to call it the master attractor beneath all eighteen. Ruled out: price is the currency every item says the seller pays the attractor in, so the best price is the denominator the bending is measured against and not a bending; where a standing best price bends flow it does so as a floor (Counterparty of last resort) or through the shelf's inference. The ruling exposes a clause the of-sentence carries only implicitly and should state: an attractor is what bends flow toward a node at a price the seller would not otherwise accept.",
+ "seriation": {
+  "holds": true,
+  "note": "The axis has real endpoints and the hinge Awake at the hour → Forty jewelers teaches: two things called bottlenecks, one holding the searcher's horizon at one under copying and the other widening it. Two notes. First, once Tollgate loses the notary and title company its opening is clean; as written the opening item contains members of the conserved stretch. Second, The open file is a station the axis statement does not name: a second copy of the node carries nothing and the original is untouched, which is neither split nor conserved-with-rent-competed but copy-inert, and the axis reads better if that fifth station is named between split-and-tipping and conserved per threshold, since the changed question's fourth location (the pair) is otherwise invisible in the itinerary."
+ },
+ "edges": [
+  {
+   "from_handle": "Room where comparisons happen",
+   "to_handle": "Confessional",
+   "decision": "repair",
+   "why": "The antecedent is real and the fork is real, but the consequent 'no node can hold both attractors' is falsified by every major auction house, which runs a saleroom and a private-sales desk to catch both branches. The incompatibility is per deal, and per node it is a wall, not an exclusion.",
+   "repair_label": "If the seller's cost of being seen exceeds the price the comparison would add, the deal leaves the room for the confessional, and no single sale can take both branches; a node that offers both, the auction house with a private-sales desk, must wall one from the other, since the room's pull is exactly the visibility the confessional must lack; a distressed seller stands at this fork with one deal."
+  },
+  {
+   "from_handle": "Written first look",
+   "to_handle": "Counterparty of last resort",
+   "decision": "repair",
+   "why": "The chilling mechanism is documented and the edge is the best in the map, but 'becomes a last resort' overreaches: the holder of a chilled first look is a monopsonist who may still say no, and the last resort's defining property is that it does not. The seller faces the holder as if it were a floor; the holder is not one. Also form_inference calls this a loop; nothing returns, it is a one-way decay passage.",
+   "repair_label": "If the written first look is known to the other bidders, they stop bidding, since nobody pays for diligence on a deal the holder can match, so the holder receives not a first look but the only look, and the seller faces it as a last resort, a floor it cannot test, though the holder keeps the one right the true last resort lacks, to say no; the contract written to bend flow toward the holder empties the field it needed."
+  },
+  {
+   "from_handle": "Name others need",
+   "to_handle": "Cheap probe",
+   "decision": "repair",
+   "why": "An over-lent name gives cheap yeses, not the cheap probe's fast silent no; the decay lands on the cheap probe only if the name also answers fast and quietly, which over-lending does not supply. Without that condition the over-lent name decays toward the last resort of endorsement, which the edge does not say. Supplying the condition makes the antecedent honest.",
+   "repair_label": "If the name is lent freely and still answers fast and quietly, senders stop needing it and start testing with it, so the seen-with attractor decays into the cheap probe, which keeps the first showings and loses the rent; if the over-lent name also answers slowly, it keeps neither."
+  },
+  {
+   "from_handle": "Name others need",
+   "to_handle": "Public loser",
+   "decision": "keep",
+   "why": "Kept as authored reasoning: the antecedent can fail and the incompatibility is a real claim, but 'the anchor bids only where it will win' is behavioral speculation, since a lead investor seen losing a contested round is not visibly diminished. Recorded under modality rather than cut."
+  }
+ ],
+ "form_inference_holds": true,
+ "modality_problems": [
+  "Tollgate that may not buy: notary and title company are stated as instances of the singular compulsory desk; both are compulsory classes with thousands of copies, so the annihilation-by-copy claim is false for them as written.",
+  "Room where comparisons happen: 'a room whose keeper trades on what it sees empties' is asserted as law; auction houses guarantee and take principal positions on their own floors and do not empty, so the condition is undisclosed or unwalled dealing.",
+  "Room → Confessional: 'no node can hold both attractors' is asserted as fact and is falsified by auction-house private-sales desks; the fork is per deal.",
+  "gate.checks.form_inference names Written first look → Counterparty of last resort a loop; no edge returns, so it is a one-way passage or decay, and the map's true forms are one fork, one level passage, two incompatibilities, and one dependency.",
+  "Written first look → Counterparty of last resort: 'becomes a last resort' equates a monopsonist who may refuse with a floor that may not; the seller's position resembles facing a floor, the holder does not become one.",
+  "Counterparty of last resort: 'decays on a single no' is an aphorism carried as mechanism; the always is always within the class the node claimed, and pawnbrokers refuse outside it daily.",
+  "Name others need → Public loser: 'the anchor bids only where it will win' is authored behavioral speculation asserted as observed practice."
+ ],
+ "duplication": "none; adjacent to deal-flow-sources' 'Referral loops from past counterparties' (Named in the no adds the refuser as referrer, the moment of learning, and the cost of taking filtered flow), to leverage-discoveries' bottleneck hour and identity register (both discriminated in the items), and to ghost-leverages' toll at a gate with a free bypass (discriminated in The open file). The map's fleet neighbor deal-deaths is about endings, not arrivals.",
+ "best_unresolved_seed": "The tollgate that must buy: compulsory cession to the national reinsurer, the union hiring hall, the procurement set-aside, the state's pre-emptive right over antiquities leaving the country. Flow compelled by rule toward a node that may and must take the seat, at every deal in the class rather than the one deal the paper names. It sits between Tollgate that may not buy and Written first look on the axis, costs the obligation to take the class's worst risks plus the political franchise, decays with the statute, and splits by quota on copying. The map's first two items are its two halves, sight without seat and seat for one deal, and the whole is missing; it would also carry the of-sentence's implicit clause into the open, since here the seller's price is set by rule rather than accepted.",
+ "independent_review_line": "Fable critic: admitted after repairing the tollgate's illustrative cases, which contradicted the copy fate that anchors the axis, conditioning the room's neutrality claim and the room-confessional fork on the walled dealing auction houses actually practice, relabeling two edges whose consequents overreached their antecedents, and noting that the claimed loop is a one-way passage."
+}
