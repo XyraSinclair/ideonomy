@@ -1,4 +1,4 @@
-"""OCR campaign: all scanned Gunkel PDFs -> per-page text, resumable.
+"""OCR campaign: all scanned Gunkel PDFs -> one JSONL of pages per document, resumable.
 
 Two-stage doctrine: cheap local OCR for every page now; pages whose OCR is
 sparse (charts, handwriting) get routed to the vision rail later. Runs
@@ -8,6 +8,7 @@ nice'd; page PNGs are transient.
 """
 import argparse
 import concurrent.futures
+import json
 import pathlib
 import subprocess
 import tempfile
@@ -27,31 +28,29 @@ def pages_of(pdf: pathlib.Path) -> int:
 
 def ocr_pdf(pdf: pathlib.Path) -> str:
     stem = pdf.stem.replace(" ", "_")
-    outdir = OUT / stem
-    outdir.mkdir(parents=True, exist_ok=True)
+    out = OUT / f"{stem}.jsonl"
+    OUT.mkdir(parents=True, exist_ok=True)
+    have = {json.loads(l)["page"] for l in out.read_text().splitlines()} if out.exists() else set()
     n = pages_of(pdf)
-    done = 0
-    with tempfile.TemporaryDirectory() as tmp:
+    with tempfile.TemporaryDirectory() as tmp, out.open("a") as fh:
         for p in range(1, n + 1):
-            txt = outdir / f"page{p:03d}.txt"
-            if txt.exists():
-                done += 1
+            if p in have:
                 continue
             base = pathlib.Path(tmp) / f"p{p}"
             subprocess.run(["nice", "-n", "19", "pdftoppm", "-png", "-r", "300",
                             "-f", str(p), "-l", str(p), str(pdf), str(base)],
                            capture_output=True)
             pngs = sorted(pathlib.Path(tmp).glob(f"p{p}-*.png"))
-            if not pngs:
-                txt.write_text("")   # rasterization failed; mark visited
-                continue
-            subprocess.run(["nice", "-n", "19", "tesseract", str(pngs[0]),
-                            str(txt.with_suffix(""))], capture_output=True)
-            pngs[0].unlink(missing_ok=True)
-            if not txt.exists():
-                txt.write_text("")
-            done += 1
-    return f"{stem}: {done}/{n} pages"
+            text = ""   # rasterization or OCR failure leaves an empty page, marked visited
+            if pngs:
+                r = subprocess.run(["nice", "-n", "19", "tesseract", str(pngs[0]), "stdout"],
+                                   capture_output=True, text=True)
+                text = r.stdout
+                pngs[0].unlink(missing_ok=True)
+            fh.write(json.dumps({"page": p, "text": text}, ensure_ascii=False) + "\n")
+            fh.flush()
+            have.add(p)
+    return f"{stem}: {len(have)}/{n} pages"
 
 
 def main():

@@ -11,8 +11,8 @@ import pathlib
 import re
 
 ROOT = pathlib.Path(__file__).parent
-PAGES = ROOT / "extracted" / "charts" / "23-diverse"
-OUT = pathlib.Path.home() / "projects" / "ideonomy" / "ideonomy" / "data" / "canon-monographs.jsonl"
+PAGES = ROOT / "extracted" / "charts" / "23-diverse.jsonl"
+OUT = ROOT.parents[1] / "ideonomy" / "data" / "canon-monographs.jsonl"
 SRC_PDF = "https://www2.cs.uh.edu/~gnawali/gunkel/23%20Diverse%20(But%20Very%20Old)%20Ideonomic%20Lists.pdf"
 
 CONT = re.compile(r"^\s*$|continu|untitled|unnamed|unknown|numbered list|^items \d", re.I)
@@ -34,11 +34,10 @@ def flush():
         out.append(current)
     current = None
 
-pages = sorted(PAGES.glob("page-*.json"),
-               key=lambda p: int(re.search(r"(\d+)", p.stem).group(1)))
-for f in pages:
-    page_no = int(re.search(r"(\d+)", f.stem).group(1))
-    rec = json.loads(f.read_text())
+pages = sorted((json.loads(l) for l in PAGES.read_text().splitlines()),
+               key=lambda r: int(re.search(r"(\d+)", r["image"]).group(1)))
+for rec in pages:
+    page_no = int(re.search(r"(\d+)", rec["image"]).group(1))
     for lst in rec.get("lists", []):
         title = (lst.get("name") or rec.get("title") or "").strip()
         title = title.strip('":').strip().strip('"')

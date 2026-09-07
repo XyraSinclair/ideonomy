@@ -10,7 +10,8 @@ import re
 
 ROOT = pathlib.Path(__file__).parent
 CHARTS = ROOT / "extracted" / "charts"
-OUT = pathlib.Path.home() / "projects" / "ideonomy" / "ideonomy" / "data" / "canon-charts.jsonl"
+OUT = ROOT.parents[1] / "ideonomy" / "data" / "canon-charts.jsonl"
+SETS = ["mapsandlists-set1", "mapsandlists-set2", "scanned-charts"]
 
 
 def slug(s: str, limit: int = 64) -> str:
@@ -20,12 +21,15 @@ def slug(s: str, limit: int = 64) -> str:
 
 records, seen = [], set()
 n_files = 0
-for f in sorted(CHARTS.rglob("pic*.json")):
+for set_name in SETS:
+  for line in (CHARTS / f"{set_name}.jsonl").read_text().splitlines():
+    rec = json.loads(line)
+    if "raw" in rec:      # unparsed transcription kept for retry
+        continue
     n_files += 1
-    rec = json.loads(f.read_text())
     if rec.get("legibility") == "illegible":
         continue
-    set_name = f.parent.name
+    stem = rec["image"]
     for i, lst in enumerate(rec.get("lists", []), 1):
         items = [x.strip() for x in lst.get("items", []) if x and x.strip()]
         if len(items) < 5:
@@ -34,7 +38,7 @@ for f in sorted(CHARTS.rglob("pic*.json")):
         if key in seen:
             continue
         seen.add(key)
-        name = f"charts.{set_name.replace('mapsandlists-', 'maps')}.{f.stem}.{slug(lst.get('name') or rec.get('title') or f.stem) or i}"
+        name = f"charts.{set_name.replace('mapsandlists-', 'maps')}.{stem}.{slug(lst.get('name') or rec.get('title') or stem) or i}"
         records.append({
             "name": name,
             "of": lst.get("of") or lst.get("name") or rec.get("title", ""),

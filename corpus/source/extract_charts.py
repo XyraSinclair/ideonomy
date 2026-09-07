@@ -1,8 +1,8 @@
 """Vision-extraction campaign: 403 full-size Gunkel chart photos -> JSON.
 
-Resumable: skips images whose output JSON already exists and parses. Each
+Resumable: skips images that already have a parsed record. Each
 image goes through codexpool (read-only sandbox) with a strict
-transcribe-verbatim prompt; parse failures are kept as .raw.txt for retry.
+transcribe-verbatim prompt; parse failures are kept as {"raw": ...} records for retry.
 
     python3 extract_charts.py [--workers 4] [--limit N]
 """
@@ -13,6 +13,7 @@ import pathlib
 import re
 import subprocess
 import sys
+import threading
 
 ROOT = pathlib.Path(__file__).parent
 RAW = ROOT / "raw" / "ideonomy.mit.edu"
@@ -55,12 +56,24 @@ def parse_json(text: str):
     return None
 
 
+def done(set_name: str) -> set:
+    out = OUT / f"{set_name}.jsonl"
+    if not out.exists():
+        return set()
+    return {r["image"] for r in map(json.loads, out.read_text().splitlines()) if "raw" not in r}
+
+
+_EMIT = threading.Lock()
+
+
+def emit(set_name: str, rec: dict) -> None:
+    OUT.mkdir(parents=True, exist_ok=True)
+    with _EMIT, (OUT / f"{set_name}.jsonl").open("a") as fh:
+        fh.write(json.dumps(rec, ensure_ascii=False) + "\n")
+
+
 def one(job):
     set_name, img = job
-    out = OUT / set_name / (img.stem + ".json")
-    out.parent.mkdir(parents=True, exist_ok=True)
-    if out.exists():
-        return "skip"
     if RAIL == "gemini":
         cmd = ["consult-gemini", "-p",
                PROMPT + " @" + str(img.relative_to(ROOT))]
@@ -76,11 +89,11 @@ def one(job):
         return f"timeout {img.name}"
     rec = parse_json(r.stdout)
     if rec is None or "title" not in rec:
-        out.with_suffix(".raw.txt").write_text(r.stdout + "\n--STDERR--\n" + r.stderr[-2000:])
+        emit(set_name, {"image": img.stem, "raw": r.stdout + "\n--STDERR--\n" + r.stderr[-2000:]})
         return f"unparsed {img.name}"
     rec["source_image"] = f"https://ideonomy.mit.edu/{set_name}/{img.name}"
     rec["rail"] = RAIL
-    out.write_text(json.dumps(rec, indent=1, ensure_ascii=False))
+    emit(set_name, {"image": img.stem, **rec})
     n = sum(len(l.get("items", [])) for l in rec.get("lists", []))
     return f"ok {set_name}/{img.name} [{rec.get('legibility')}] {n} items"
 
@@ -95,14 +108,14 @@ def main():
     global RAIL, DIRS
     RAIL = args.rail
     DIRS = [d for d in args.dirs.split(",") if d]
-    jobs = list(images())
+    have = {}
+    jobs = [(s, img) for s, img in images()
+            if img.stem not in have.setdefault(s, done(s))]   # done-set read once, before workers
     if args.limit:
         jobs = jobs[:args.limit]
     done = fails = 0
     with concurrent.futures.ThreadPoolExecutor(args.workers) as ex:
         for res in ex.map(one, jobs):
-            if res == "skip":
-                continue
             done += 1
             if not res.startswith("ok"):
                 fails += 1

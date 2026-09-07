@@ -19,7 +19,7 @@ import re
 import sys
 
 ROOT = pathlib.Path(__file__).parent / "raw" / "wayback" / "pages"
-OUT = pathlib.Path.home() / "projects" / "ideonomy" / "ideonomy" / "data" / "canon-wayback.jsonl"
+OUT = pathlib.Path(__file__).parents[2] / "ideonomy" / "data" / "canon-wayback.jsonl"
 
 TAG = re.compile(r"<[^>]+>")
 
