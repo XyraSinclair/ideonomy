@@ -1,0 +1,100 @@
+{
+ "slug": "witness-architectures",
+ "critic": "Fable critic (fresh context, 2026-09-07)",
+ "verdict": "admit-with-repairs",
+ "strongest_objection": "The map's declared center, the hide/tally pair, is drawn on the wrong axis. The hide's third case, an assessor who does not know which patient got the drug, is not the witness concealed from the witnessed (outward, key kept) but the witness kept from seeing the allocation (inward) with a sealed key that is opened at the end; it violates the item's own discriminator and it is exactly the middle case the map needs, since the tally is 'inward, key destroyed'. Folding the assessor into the hide collapses a three-way structure (outward with key / inward with sealed key / inward with no key) into a binary, and the hide→tally edge then asserts an incompatibility on the direction axis ('neither concealment can audit the other'), which is not an incompatibility at all, while the author's own separating case (suggestion box with a hidden camera) shows the real one: the key the hide keeps is the key the tally must destroy. Two further defects are local but real: Half kept back's mechanism sentence is false as written (the consuming reading registers perfectly well; what cannot register without the reserve is the reading's own error or a later question), and Ledger that makes the debt is contradicted by the map's own wild priority, which calls a debt every villager remembers 'a ledger-looking fact that is not' ledger-made, so the item's headline case is one the author already knows fails. None of this breaks the type or the walk; the item type is real, most neighbors separate under pressure, and the tally→ledger hinge survives. Repairs suffice.",
+ "items": [
+  {
+   "item": "Common meter: two observers can discover that they differ only against a third thing both compare to, a standard bar, a shared clock, a benchmark bolted into bedrock for the next century's surveyor; not a counterpart that differs from the object, but a reference that stays put while the object and the observer both move.",
+   "decision": "keep",
+   "why": "Neighbor tested against Second ear (below); survives. The fixed third thing that looks at no event is not a second instrument looking at the same event."
+  },
+  {
+   "item": "Second ear: a single instrument cannot tell the world from its own twitch, so the record is the coincidence of two detectors of different make far enough apart to share no twitch, as the paired gravitational-wave sites do; not replication for confidence, but the only witness to the difference between signal and instrument.",
+   "decision": "repair",
+   "why": "The mechanism says the two detectors are 'of different make', but the illustrative case, the paired gravitational-wave sites, are near-identical instruments; their independence comes from distance, not make. Different make is a real second route to independence (different systematics), so keep it as an alternative rather than asserting it of the case.",
+   "repair": "Second ear: a single instrument cannot tell the world from its own twitch, so the record is the coincidence of two detectors far enough apart, or different enough in make, to share no twitch, as the paired gravitational-wave sites are separated by a continent; not replication for confidence, but the only witness to the difference between signal and instrument."
+  },
+  {
+   "item": "Enough bodies: a difference in rate leaves no trace in a population too small for the rare case to occur even once, as a one-in-a-hundred-thousand harm cannot appear in a trial of three thousand; not instrument sensitivity but the count of chances, so the missing witness is a denominator.",
+   "decision": "repair",
+   "why": "'Cannot appear' is a false certainty: a one-in-a-hundred-thousand harm appears at least once in a trial of three thousand about three percent of the time. The mechanism is expected count below one, and the wording should keep that modality.",
+   "repair": "Enough bodies: a difference in rate leaves no trace in a population too small for the rare case to be expected even once, as a one-in-a-hundred-thousand harm will almost never occur in a trial of three thousand; not instrument sensitivity but the count of chances, so the missing witness is a denominator."
+  },
+  {
+   "item": "Half kept back: a reading that consumes its specimen can register only if a duplicate was reserved before the reading, as radiocarbon dating burns the sample and split-sample rules keep a sealed half; the witness architecture includes one copy to destroy and one to keep, and the reservation must precede the question.",
+   "decision": "repair",
+   "why": "The mechanism sentence is false as stated: a reading that consumes its specimen registers fine without a duplicate. What cannot leave a trace without the reserve is the difference between the reading and the specimen (the reading's own error) or the answer to a question asked later, which is also how the Trigger's blind spot edge uses the item. The strange part, one copy to destroy and one to keep, reserved before the question is known, is preserved.",
+   "repair": "Half kept back: a reading that consumes its specimen leaves no trace of its own error, and none for any question asked afterward, unless a duplicate was reserved before the reading, as radiocarbon dating burns the sample and split-sample rules keep a sealed half; the witness architecture includes one copy to destroy and one to keep, and the reservation must precede the question."
+  },
+  {
+   "item": "Writable counterexample: a refutation cannot exist until a notation exists in which the offending object can be stated, as a continuous nowhere-differentiable curve was unstatable before functions could be arbitrary rules and limits could be written uniformly; not a proof but a language, and the difference was real for decades before it could be written.",
+   "decision": "repair",
+   "why": "'Unstatable' and 'the difference was real for decades before it could be written' assert history: Bolzano set down a continuous nowhere-differentiable function around 1830, four decades before Weierstrass published one, so the object was statable earlier than the sentence claims. The mechanism (a refutation needs a notation) is sound; the metaphysical 'the difference was real' should become a claim about the belief that stood, which is what is actually documented.",
+   "repair": "Writable counterexample: a refutation cannot exist until a notation exists in which the offending object can be stated, as a continuous nowhere-differentiable curve could not be set down until functions could be arbitrary rules and limits could be written uniformly; not a proof but a language, and the belief it refuted stood for decades because nothing then writable could contradict it."
+  },
+  {
+   "item": "The hide: the witness must be concealed from the witnessed for the natural difference to appear, as in a birdwatcher's blind, a one-way mirror, or an assessor who does not know which patient got the drug; built blindness pointing outward, and the concealed part remains recoverable by someone holding the key.",
+   "decision": "repair",
+   "why": "The blinded assessor breaks the item's own discriminator. A birdwatcher's blind and a one-way mirror conceal the witness from the witnessed (outward). A blinded assessor is kept from seeing the allocation (inward) with a sealed key opened at unblinding, which is the tally's direction with the hide's key. Keeping it here hides the three-way structure the map's center rests on. Remove the assessor from the hide and name it in the tally's discriminator as the middle case.",
+   "repair": "The hide: the witness must be concealed from the witnessed for the natural difference to appear, as in a birdwatcher's blind or a one-way mirror, where the watched party behaves as if unwatched; built blindness pointing outward, and the concealed part remains recoverable by someone holding the key."
+  },
+  {
+   "item": "Blindfolded tally: some aggregate facts register truthfully only through a witness built so that it cannot see the parts, as a secret ballot records the electorate only because no one can record a voter; built blindness pointing inward, and unlike the hide there is no key, since recoverability would falsify the aggregate.",
+   "decision": "repair",
+   "why": "The discriminator 'unlike the hide there is no key' compares on the key axis while the hide differs on the direction axis, so two axes are conflated. Naming the blinded assessor as the inward-with-sealed-key case makes the tally's distinction exact: it is what remains when opening the key would falsify the aggregate.",
+   "repair": "Blindfolded tally: some aggregate facts register truthfully only through a witness built so that it cannot see the parts, as a secret ballot records the electorate only because no one can record a voter; built blindness pointing inward, and unlike the hide's key and the blinded assessor's sealed envelope there is no key at all, since recoverability would falsify the aggregate."
+  },
+  {
+   "item": "Ledger that makes the debt: past the level of recording, some differences exist only because their witness exists, as a debt without a ledger or a marriage without a registry is not an unrecorded fact but no fact, so building the witness constitutes what it records; analytical about performative facts, with no claim that physical measurement creates what it measures.",
+   "decision": "repair",
+   "why": "The map's own wild priority names 'a debt every villager remembers without a book' as a fact that is not ledger-made, which contradicts the item's case that 'a debt without a ledger... is no fact'. The debt a ledger makes is the bank's debt: the bank owes exactly what its ledger says and nothing else. That case keeps the handle, the mechanism, and the performative-only guard, and removes the counterexample the author already supplied.",
+   "repair": "Ledger that makes the debt: past the level of recording, some differences exist only because their witness exists, as a bank balance without the bank's ledger or a marriage without the registry that defines it is not an unrecorded fact but no fact, so building the witness constitutes what it records; analytical about performative facts, with no claim that physical measurement creates what it measures."
+  }
+ ],
+ "neighbor_test": {
+  "left": "Common meter: two observers can discover that they differ only against a third thing both compare to, a standard bar, a shared clock, a benchmark bolted into bedrock for the next century's surveyor; not a counterpart that differs from the object, but a reference that stays put while the object and the observer both move.",
+  "right": "Second ear: a single instrument cannot tell the world from its own twitch, so the record is the coincidence of two detectors of different make far enough apart to share no twitch, as the paired gravitational-wave sites do; not replication for confidence, but the only witness to the difference between signal and instrument.",
+  "separating_case": "Two atomic clocks in two laboratories are found to disagree. Compared only with each other (Second ear), the record shows that a difference exists but cannot say which clock drifted, because coincidence separates world from instrument only for an event both should have seen. Compared each against a caesium standard that looks at no event (Common meter), the record says which one moved. Conversely, a burst seen in two separated detectors is witnessed by their coincidence, and no standard bar has anything to say about whether the burst was real. The two survive: Second ear is two witnesses of one event, Common meter is one reference for two witnesses, and Untouched twin, for the record, is the transpose of both, one witness of two cases."
+ },
+ "boundary_case": "A significance threshold (p below 0.05, or five sigma) is a tempting member: it feels like a rule that must exist before a difference 'counts'. It is out. The difference has already left its trace in the data; the threshold decides how loud a trace must be before the same witness calls it, which is a sensitivity dial like the better microscope. Deputized injury shows the contrast that makes the ruling: a poisoned commons is not a faint harm but a harm with no eligible bearer, so no amount of evidence lets the tribunal take it up. The type admits categorical gates on what a witness can register at all, not thresholds on how much. The probe also exposes that 'trace' in the of-sentence means registration by the deciding witness, not physical mark, which the of-sentence could say.",
+ "seriation": {
+  "holds": true,
+  "note": "The endpoints are real (a witness that need only keep pace; a witness that is the fact) and the claimed hinge, Blindfolded tally → Ledger that makes the debt, teaches: once only the sum can be seen, the sum is the only fact. One stretch is arbitrary: Writable counterexample → Cage for the proof → Burial lottery → Half kept back sits between comparison and anticipation without belonging to either named stage. Argued reorder: move Burial lottery to follow Enough bodies (both are denominators of chance, the population that must be large enough and the regime that must occur, and both are adequacy the witness did not design); move Writable counterexample and Cage for the proof to follow Trigger's blind spot. That places them in the anticipation stage, and the new adjacency Trigger's blind spot → Writable counterexample teaches something the current order hides: a trigger discards what it was not told to expect, and a notation cannot state what it was not built to express, which is the same blindness one level up, in the language rather than the buffer. Update seriation.note accordingly; the hinge and endpoints are unchanged."
+ },
+ "edges": [
+  {
+   "from_handle": "The hide",
+   "to_handle": "Blindfolded tally",
+   "decision": "repair",
+   "why": "The label claims incompatibility because 'neither concealment can audit the other', but two arrangements failing to audit each other is not an incompatibility, and it is drawn on the direction axis where the two items merely differ. The real incompatibility is on the key axis, and the author's own separating case shows it: a hidden camera over the ballot box is a hide whose kept key makes the ballot no longer secret. The antecedent can fail (the hide and the tally may serve different records).",
+   "repair_label": "If one record must serve both as what the hidden witness saw and as a tally of the parties, the key the hide keeps is the key the tally must destroy, so past that point one arrangement cannot be both; a hidden camera over the ballot box is a hide that unmakes the tally."
+  },
+  {
+   "from_handle": "Refractory blink",
+   "to_handle": "Trigger's blind spot",
+   "decision": "repair",
+   "why": "form_inference calls this a loop, but a single edge that ends at the trigger is a displacement, not a loop. The loop is real and can be drawn without an eighth edge: a trigger must decide before it writes and the detector is deaf while it reads out, so selection brings back a dead time of its own. Relabel so the edge states the return.",
+   "repair_label": "If dead time is shortened until every arrival is seen, the flood exceeds storage and forces a trigger; and since the trigger must decide before writing and the detector is deaf while it reads out, selection brings back a dead time of its own, so curing blindness of capacity returns it as selection and then as latency one stage later."
+  },
+  {
+   "from_handle": "Cage for the proof",
+   "to_handle": "Writable counterexample",
+   "decision": "keep",
+   "why": "The conditional is real and its antecedent can fail (the cage may yield a proof). But form_inference calls it a loop, and as drawn it is a return one level up shown by a single edge, which is a passage between levels; 'forcing was a new notation for writing models' is a stretch for a technique, acceptable in the analytical register. Reword form_inference from 'two loops' to one loop (blink→trigger, once relabeled) and one return-up-a-level."
+  }
+ ],
+ "form_inference_holds": true,
+ "modality_problems": [
+  "Second ear asserts the coincident detectors are 'of different make' while its case, the paired gravitational-wave sites, are near-identical instruments made independent by distance; repaired.",
+  "Enough bodies says a one-in-a-hundred-thousand harm 'cannot appear' in a trial of three thousand; it appears at least once about three percent of the time, and the mechanism is expected count below one; repaired.",
+  "Writable counterexample asserts history ('unstatable', 'real for decades before it could be written') that Bolzano's c. 1830 construction contradicts; repaired to a claim about the belief that stood.",
+  "Half kept back's mechanism ('can register only if a duplicate was reserved') is false as written; the consuming reading registers, its error and later questions do not; repaired.",
+  "Ledger that makes the debt uses 'a debt without a ledger' as its case while the map's own wild priority names a remembered village debt as not ledger-made; repaired to the bank's debt.",
+  "form_inference claims two loops; as drawn both are single edges. One can be closed by relabel (trigger dead time), the other is honestly a return one level up.",
+  "Blindfolded tally → Ledger's 'the tally stops recording the electorate's will and constitutes it' is the map's one genuinely speculative claim; it is guarded by the ledger item's performative-only clause and should stay read as analytical, not as a finding about elections."
+ ],
+ "duplication": "No grown list has this item type. Two overlaps to name: Room for strangers is the constructive twin of traces-of-the-unlived's Unassembled witness (same mechanism, same tenant-class case, read from what must be built rather than what preemption prevents); it earns its place here because the standing edge needs it, but the record should say so. The whole map is the cultivation of question-metamorphoses' Unborn witness ('What must first be built so their difference can leave a trace?'); that is lineage, not duplication, and since the brief fixes parents to [], the ledger should carry it.",
+ "best_unresolved_seed": "The middle built-blindness the map contains only by accident: a witness kept from seeing the parts under a sealed key that is opened after it has spoken (the blinded assessor, the sealed-bid auction, the double-blind peer review). Between the hide (key kept) and the tally (key destroyed) lies an axis of when the key may be turned, and it asks whether a timed key is a third kind of witness or a tally with an expiry, and whether any inward-blind witness can be audited without being unmade, which is the map's own crossfield opening restated as an architecture.",
+ "independent_review_line": "Fable critic: admitted after repairing seven items (moving the blinded assessor out of The hide and into Blindfolded tally's discriminator, replacing the ledger's self-refuted debt case, correcting Half kept back's mechanism, and fixing three modality overclaims) and relabeling two edges so the claimed incompatibility sits on the key axis and the claimed loop is actually drawn."
+}

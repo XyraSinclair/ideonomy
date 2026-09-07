@@ -1,0 +1,110 @@
+{
+  "slug": "forms-of-return",
+  "critic": "Fable critic (fresh context, 2026-09-07)",
+  "verdict": "admit-with-repairs",
+  "strongest_objection": "The mechanisms are real and the loop between Reconsolidation and Reunion pageant survives every attack I made on it, but the map keeps reaching for absolutes its own cases falsify, and the worst instance is on the load-bearing passage edge: Natal stream to Restitution to a descendant is labeled 'if the returner cannot survive to be the one who arrives', which is true of the salmon and false of the bronzes, whose returner is intact and whose recipient (the burned palace, the kingdom folded into a state) is what did not survive. The passage between levels is genuine, but the antecedent as written fails on the item it points at, so the edge does not carry it. The same habit produces 'every witness of the last passage is dead' (people saw Halley's comet in 1910 and again in 1986), 'a return that skips a frame is a crash' (an exception skips frames by design and carries no answer, which is the actual point), 'never onto the money' (a restocking fee does exactly that), a typewriter 'head' that goes back to the margin (the carriage moves; the typebars are fixed), a returned letter proving the destination 'no longer exists' (the addressee moved; the address is there), and a pigeon that senses 'a signature of the destination from afar' (the gradient-map hypothesis has the bird reading its own position in a field and remembering home's value, and how pigeons home is still contested). Each is a clause repair, not a cut; nothing here needs another breath, and I could not make any item collapse into its neighbor.",
+  "items": [
+    {
+      "item": "Natal stream: a salmon returns by an olfactory imprint of the water it hatched in, spawns, and dies, so the return is completed by offspring who never departed; a returner who survives its arrival is migrating, not returning in this sense.",
+      "decision": "repair",
+      "why": "My closest-neighbor test (below) shows the imprint half of this item is shared with Pigeon in a box: a smolt shipped in a sealed tank and released at sea still homes on the olfactory gradient, so navigation does not separate them. What earns the item is the strange half, that the arrival spends the returner and the one who is home afterward never left; the sentence should lead with that and name the pigeon as what it is not.",
+      "repair": "Natal stream: a salmon homes on the smell of the water it hatched in and, arriving, spawns and dies, so the one who is home afterward is offspring who never departed and the returner is spent by its own arrival; a homing that leaves the returner alive to be boxed and flown out again is Pigeon in a box, not this."
+    },
+    {
+      "item": "Carriage return: the typewriter head goes back to the left margin while the platen advances one line, landing on the same column of a row that did not exist before; one coordinate is exactly regained and the other is irreversibly advanced, so no point is ever revisited, which separates it from any cycle.",
+      "decision": "repair",
+      "why": "On a typewriter the carriage carrying the platen moves and the typebars are fixed; a moving head belongs to a daisy-wheel printer or teletype. The helix mechanism is exact and worth keeping; the illustrative case is wrong about which part moves.",
+      "repair": "Carriage return: the typewriter carriage goes back to the left margin while the platen advances one line, so the next stroke lands on the same column of a row that did not exist before; one coordinate is exactly regained and the other is irreversibly advanced, so no point is ever revisited, which separates it from any cycle."
+    },
+    {
+      "item": "Halley's appointment: the comet returns to the same sky every seventy-six years while every witness of the last passage is dead, so the return is kept as a prediction handed to successors, as Halley named a return he could not live to see; a seasonal return, seen twice by one person, is not this.",
+      "decision": "repair",
+      "why": "A seventy-six-year period is about one life, and witnesses of 1910 saw 1986; 'every witness is dead' is false as stated. The mechanism (a return kept as a prediction handed to people who never saw the departure) holds without the absolute, and the discriminator should be on where the sameness is kept, not on whether some witness happened to survive.",
+      "repair": "Halley's appointment: the comet returns to the same sky every seventy-six years, about one life, so the return is kept as a prediction handed to successors who never saw the last passage, as Halley named a return he could not live to see; a return kept by a witness who saw it before, as a season is, is not this, even when a rare witness lives to see the comet twice."
+    },
+    {
+      "item": "Stack unwind: a recursive call returns through every frame it passed, in reverse order, and each frame adds its share so that the answer exists only on the way back; a return that skips a frame is a crash, not a shortcut.",
+      "decision": "repair",
+      "why": "A thrown exception or longjmp skips frames by design and is not a crash; what it does is abandon the answer, which is exactly the mechanism's point that the answer exists only on the way back. The discriminator should say that.",
+      "repair": "Stack unwind: a recursive call returns through every frame it passed, in reverse order, and each frame adds its share so that the answer exists only on the way back; a return that skips frames, as a thrown exception does, arrives with no answer, so it is an escape, not a shortcut."
+    },
+    {
+      "item": "Pigeon in a box: a homing pigeon carried away in a closed box returns without any record of the outward road, computing a route from the destination alone; the return is navigated, not retraced, so it succeeds only if the destination has a signature that can be sensed from afar.",
+      "decision": "repair",
+      "why": "'Computing a route from the destination alone' and 'a signature that can be sensed from afar' state a contested navigation mechanism as fact and misdescribe the leading hypothesis, in which the bird reads its own position in a gradient field that spans the region and compares it with remembered home values; the destination need not emit anything. 'Navigated, not retraced' is the strange, correct core and must stay.",
+      "repair": "Pigeon in a box: a homing pigeon carried away in a closed box returns without any record of the outward road, so the return is navigated, not retraced, from a field that spans both places and a remembered value of home within it (how pigeons do this is still contested); it fails wherever the field does not reach, not wherever the road was long."
+    },
+    {
+      "item": "Open-box refund: the buyer returns the item and receives the full price while the item goes back on the shelf marked open-box at a discount; fungible value returns whole and the particular returns marked, so the cost of the interval is priced onto the thing, never onto the money.",
+      "decision": "repair",
+      "why": "A restocking fee prices the interval onto the money, so 'never onto the money' is false; the mechanism is that this return chooses the thing rather than the money, and the restocking fee is the cleanest thing for it not to be.",
+      "repair": "Open-box refund: the buyer returns the item and receives the full price while the item goes back on the shelf marked open-box at a discount; fungible value returns whole and the particular returns marked, so the cost of the interval is priced onto the thing, where a restocking fee would price it onto the money instead."
+    },
+    {
+      "item": "Reunion pageant: at a class reunion the place performs its former self for the returners and the returners perform their former selves for each other, on a set date, with a script; sameness is manufactured at arrival by coordinated pretense, which is a mechanism and not a mood.",
+      "decision": "repair",
+      "why": "The closing clause 'which is a mechanism and not a mood' is the author defending the item, not a discriminator. The carrier (a date and a script) is real, so replace the defense with what the item is not.",
+      "repair": "Reunion pageant: at a class reunion the place performs its former self for the returners and the returners perform their former selves for each other, on a set date, with a script, so sameness is manufactured at arrival by coordinated pretense; a return that finds its sameness ready-made, as a reprise does, needs no pageant, and a pageant with no returners is a festival."
+    },
+    {
+      "item": "Reprise: the theme returns note for note after the development and sounds like a homecoming only because the hearer has been away; the notes are unchanged and the hearer is not, which separates it from reconsolidation, where the notes drift and the hearer feels no change.",
+      "decision": "repair",
+      "why": "A theme returning 'after the development' names the sonata recapitulation, which is not note for note (the second group comes back transposed). A rondo refrain is the honest case for a return that is literally unchanged.",
+      "repair": "Reprise: the theme returns note for note after a contrasting section, as a rondo refrain does, and sounds like a homecoming only because the hearer has been away; the notes are unchanged and the hearer is not, which separates it from reconsolidation, where the notes drift and the hearer feels no change."
+    },
+    {
+      "item": "Return to sender: a letter comes back stamped addressee unknown, so the return is a verdict that the destination no longer exists, learned only because the envelope could not stay; not a bounce from a closed road, where the destination may still be there.",
+      "decision": "repair",
+      "why": "'Addressee unknown' means the addressee is not at that address; the address exists. The verdict is that name and place have come apart during the interval, which is stranger and more exact than nonexistence.",
+      "repair": "Return to sender: a letter comes back stamped addressee unknown, so the return is a verdict that the addressee and the address came apart during the interval, learned only because the envelope could not stay; not a bounce from a closed road, where the destination may still be there and reachable later."
+    }
+  ],
+  "neighbor_test": {
+    "left": "Natal stream: a salmon returns by an olfactory imprint of the water it hatched in, spawns, and dies, so the return is completed by offspring who never departed; a returner who survives its arrival is migrating, not returning in this sense.",
+    "right": "Pigeon in a box: a homing pigeon carried away in a closed box returns without any record of the outward road, computing a route from the destination alone; the return is navigated, not retraced, so it succeeds only if the destination has a signature that can be sensed from afar.",
+    "separating_case": "Ship a salmon smolt to sea in a sealed tank and release it: it still homes on the olfactory gradient without any record of the outward road, so as navigation the two items coincide (both navigated, not retraced, from a sensed field). The pair separates only on what the arrival does to the returner: the salmon is spent and the stream is afterward occupied by offspring who never left, while the pigeon lands in its loft and can be boxed and flown out again tomorrow. They do not collapse, but Natal stream must be written on that difference, which is the repair above."
+  },
+  "boundary_case": "Revenge, or 'what goes around comes around': tempting because the language says the wrong comes back to its author and because, like Scar in the washbasin, the sameness is kept by a witness who remembers. Ruled out: nothing that departed comes back; the avenger manufactures a new injury addressed by memory, so it is a delivery keyed by memory, not a return across an absence. What revenge does belong to is the place's side of the interval, which the map only glimpses from the returner's side at Agamemnon's bath, where Clytemnestra's plan is precisely this nonmember seen from the returning end.",
+  "seriation": {
+    "holds": true,
+    "note": "The axis has real endpoints (sameness in the returner's own code; sameness supplied by nothing) and the Writ returned to Hard reset hinge is a genuine consequential adjacency. One stop is out of place: Scar in the washbasin, whose sameness lives in the recognizer and dies with the last witness, sits third among the body-kept returns, between Natal stream and Carriage return, an adjacency that teaches nothing. Move it to sit immediately before Reunion pageant, after Reprise, so the itinerary walks recognition received into recognition performed, which is the passage the map's own Scar to Reunion pageant edge claims. The seriation note should record that Scar is kept in the returner's body but licensed only by a reader, which is why it belongs at the seam between record-kept and witness-kept sameness."
+  },
+  "edges": [
+    {
+      "from_handle": "Writ returned",
+      "to_handle": "Hard reset",
+      "decision": "repair",
+      "why": "'One record cannot do both' is either tautological (filing and erasing are contradictory by definition) or false by the item's own example, since git revert returns the content and files the interval at once. The real claim is that exactness of history, not of content, is what forces the choice.",
+      "repair_label": "If the return must leave the place exactly as it was in history as well as in content, the endorsement cannot be kept and filing becomes erasing; git revert shows the compromise, exact in content while the history still shows the trip."
+    },
+    {
+      "from_handle": "Natal stream",
+      "to_handle": "Restitution to a descendant",
+      "decision": "repair",
+      "why": "The antecedent 'if the returner cannot survive to be the one who arrives' holds for the salmon and fails for the bronzes, whose returner is intact and whose recipient is what did not survive. The passage between levels is real but is carried by either end of the return failing to persist as an individual.",
+      "repair_label": "If either end of the return does not survive the interval as an individual, the salmon spent at arrival or the palace burned before the bronzes came back, the return passes from an individual to a lineage and must nominate who stands at that end."
+    },
+    {
+      "from_handle": "Halley's appointment",
+      "to_handle": "Reprise",
+      "decision": "repair",
+      "why": "'If the period exceeds a single life' is an antecedent that fails on Halley's own number: seventy-six years is about a life, and some witnesses hear the comet twice. That is the more interesting fact: at the boundary the same return is a reprise for the rare witness and an appointment for everyone else, and only past a life does the incompatibility become total.",
+      "repair_label": "If the period approaches a life, one return splits its audience: the rare witness of both passages hears a reprise while everyone else receives an appointment; past a life, only the appointment remains, since a reprise needs the same hearer on both sides of the absence."
+    }
+  ],
+  "form_inference_holds": true,
+  "modality_problems": [
+    "Halley's appointment: 'every witness of the last passage is dead' is false (1910 and 1986 were both seen by many living people); repaired to 'about one life'.",
+    "Pigeon in a box: a contested navigation mechanism ('computing a route from the destination alone', 'a signature sensed from afar') is asserted as fact and misstates the gradient-map hypothesis; repaired with the contest marked.",
+    "Carriage return: the illustrative case has the wrong part moving (head instead of carriage).",
+    "Stack unwind: 'a return that skips a frame is a crash' treats exceptions and longjmp as crashes; they are designed escapes that carry no answer.",
+    "Open-box refund: 'never onto the money' is falsified by restocking fees.",
+    "Return to sender: 'the destination no longer exists' overstates 'addressee unknown', which means the addressee is not at that address.",
+    "Reprise: 'note for note after the development' names the sonata recapitulation, which transposes; repaired to a rondo refrain.",
+    "Reentry burn: 'shed its whole orbital energy as heat' is loose (most of it goes into the shocked air, not the capsule) but the asymmetry it carries is correct; left as is.",
+    "Reconsolidation's contested status is declared in the item, the mode, and the limits; no promotion to fact found."
+  ],
+  "duplication": "none; traces-of-the-unlived shares the interest in witnesses and carriers (the ledger already cites it as a cross-field opening) but its item type is alternatives that did not occur, not returns; invariant-kinds is about conserved quantities under transformation, which the first breath abandoned as the criterion.",
+  "best_unresolved_seed": "The place's side of the interval. The changed question asked what the return does with the absence; its mirror, what the place does with the absence, is only glimpsed here from the returner's end (Agamemnon's bath fills the slot with a plan; Return to sender lets name and address drift apart; Reunion pageant rehearses). A list of what a place does with an absence, with revenge, forgetting the address, keeping the room as it was, and reassigning the slot as first inhabitants, would let this map's edges be read from both ends, and the author's sonar seed is a special case of it in which the place answers with a delay.",
+  "independent_review_line": "Fable critic: admitted after repairing nine clauses that stated absolutes or contested mechanisms their own cases falsify, relabeling three edges whose antecedents failed on the items they pointed at, and moving Scar in the washbasin beside Reunion pageant where the axis places it; no item cut, no neighbor pair collapsed."
+}

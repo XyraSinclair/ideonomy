@@ -1,0 +1,102 @@
+{
+ "slug": "fertile-forgettings",
+ "critic": "Fable critic (fresh context, 2026-09-07)",
+ "verdict": "admit-with-repairs",
+ "strongest_objection": "The map's central discovery, the sign change at the hinge where fertility starts to depend positively on visibility, is carried on its far side by Discharge, and Discharge confuses being witnessed with being foreseeable. The item says the erasure is 'recorded and scheduled' and 'must be known in advance to be fertile', and the Law-to-Discharge edge says being recorded is what keeps creditors dealing. The best-documented scheduled release says the opposite: Deuteronomy 15:9 warns lenders against refusing loans as the seventh year approaches, and Hillel's prozbul had to be invented because a foreseeable, free release dried up credit. The Mesopotamian edicts the item cites were public but sudden, proclaimed at accession precisely so they could not be priced in; modern discharge is foreseeable but costly to the debtor. So the condition on the far side of the hinge is witnessed-but-not-forecast (or forecast-and-priced), not known-in-advance, and the axis 'who must see it fall' needs a second coordinate the map does not have: who may foresee it. The structure survives this (Athens and Ceremony of ash still need witnesses), but the item and the edge assert the wrong condition as fact. Secondary: the `of` promises that each item names who must witness the fall, and the first twelve items name no witness at all; the clause should be made conditional on the capacity appearing outside the forgetter.",
+ "items": [
+  {
+   "item": "Night gardener: sleep weakens the synapses the day strengthened, so that tomorrow's learning has range to move in, whereas a cortex that kept every potentiation would saturate and learn nothing new (synaptic-homeostasis hypothesis, speculative); the erasure leaves only room, and nothing of the particular is kept.",
+   "decision": "repair",
+   "why": "As written the erasure 'leaves only room, and nothing of the particular is kept', which is exactly the 'merely make room' case the map's own first_question excludes, and it misstates the hypothesis it cites: synaptic homeostasis claims proportional downscaling that preserves relative strengths while the weakest traces fall below threshold, so the carrier is a ratio kept and noise dropped, not bare room.",
+   "repair": "Night gardener: sleep downscales the synapses the day strengthened, and because the scaling is proportional the strong traces stay strong relative to the weak ones while the weakest fall below threshold and are gone, so tomorrow's learning has range and the day's signal stands out from its noise, whereas a cortex that kept every potentiation would saturate and learn nothing new (synaptic-homeostasis hypothesis, speculative); the erasure leaves a ratio and room, not the particulars, and a scaling that preserved nothing would be mere room, which the map does not count as a carrier."
+  },
+  {
+   "item": "Loosened grip: an estimator that discounts old evidence at a fixed rate can follow a parameter that drifts, whereas one with perfect memory converges on a stale average and becomes unable to register the change; the capacity is tracking through time, and it exists only because evidence expires.",
+   "decision": "repair",
+   "why": "'One with perfect memory converges on a stale average' is true only of an equal-weighted estimator; a full-memory estimator with a drift prior tracks while archiving everything, because the discounting lives in the estimate, not the archive. That is the map's own forgetful-functor boundary (original kept beside the image) knocking from inside, and the item should say where the loss actually is.",
+   "repair": "Loosened grip: an estimator that discounts old evidence at a fixed rate can follow a parameter that drifts, whereas one that weights all evidence equally converges on a stale average and becomes unable to register the change; a full log kept beside the estimate changes nothing, since the capacity lives in what the estimate has let go and not in what the archive holds; the capacity is tracking through time, and it exists only because evidence expires in the estimate."
+  },
+  {
+   "item": "Thermal amnesia: a gas that kept the memory of how it was poured would have no temperature; mixing destroys every microstate detail except the conserved quantities, and one number then describes the whole and an engine can be designed around it; what survives is exactly the invariants, and few-variable description is bought by that loss.",
+   "decision": "repair",
+   "why": "'Mixing destroys every microstate detail' is physical language hiding the fact that Hamiltonian dynamics is reversible: the detail is spread into correlations no instrument can follow, not destroyed, and a spin echo recovers dephased magnetization that looked forgotten. The item is a member only once the loss is a loss of access, and saying so both keeps it and ties it to the map's axis, since the loss is located in the observer.",
+   "repair": "Thermal amnesia: a gas that kept the memory of how it was poured would have no temperature; mixing spreads every microstate detail into correlations no instrument can follow, leaving only the conserved quantities in reach, and one number then describes the whole and an engine can be designed around it; the detail is not destroyed but lost to access, which is why a spin echo can call dephased spins back before the loss is complete and why a gas that could still be echoed still holds extractable work rather than a temperature (analytical); what survives is exactly the invariants, and few-variable description is bought by that loss."
+  },
+  {
+   "item": "Blastema: a salamander's limb cells forget their tissue identity, dedifferentiate into a bud, and regrow the limb, while mammalian cells that retain their identity can only scar (Yamanaka reprogramming erases the same epigenetic record to recover pluripotency); the loss is of an identity record, and the capacity is a reopened possibility space.",
+   "decision": "repair",
+   "why": "'Forget their tissue identity' overclaims a documented case: axolotl blastema cells retain a memory of their tissue of origin (dermis, cartilage, muscle do not cross lineage; Kragl et al. 2009). The erasure is of differentiated state with lineage left standing, which is a sharper survivor for the seriation than the vague 'identity record', and it makes the Yamanaka contrast exact: reprogramming erases the deeper record too.",
+   "repair": "Blastema: a salamander's limb cells forget their differentiated state, dedifferentiate into a bud, and regrow the limb, while mammalian cells that keep their state can only scar; what the bud's cells keep is lineage, since axolotl blastema cells remember whether they came from dermis, cartilage, or muscle and do not cross (Yamanaka reprogramming erases that deeper record as well and recovers pluripotency at the price of lineage); the loss is of a state record with the lineage record left standing, and the capacity is a possibility space reopened exactly as far as the erasure went."
+  },
+  {
+   "item": "Dead metaphor's harvest: muscle was a little mouse, and once the mouse is forgotten 'muscle memory' can be said without a rodent in it; a language grows its abstract vocabulary by forgetting its pictures, because a word still carrying its image resists combination (nobody can grasp a slippery idea while grasp is still a hand); a cliché is not a member, since its image survives and still resists.",
+   "decision": "repair",
+   "why": "The mechanism 'a word still carrying its image resists combination' is asserted as fact; it is an analytical reading with no measurement behind it and should carry its modality like the neighbouring items do. The etymology and the cliché discriminator are fine.",
+   "repair": "Dead metaphor's harvest: muscle was a little mouse, and once the mouse is forgotten 'muscle memory' can be said without a rodent in it; a language grows its abstract vocabulary by forgetting its pictures, on the reading that a word still carrying its image resists combination (analytical, unmeasured: nobody can grasp a slippery idea while grasp is still a hand); a cliché is not a member, since its image survives and still resists."
+  },
+  {
+   "item": "Rediscoverable coast: the sagas' Vinland never entered the charts of those who could sail, so the same coast could be discovered again, an event that mobilizes ships, funding, and names as a known coast cannot; the place is unchanged, and the capacity exists only in a population from which the record is absent.",
+   "decision": "cut",
+   "why": "Not a loss of retained information in the population where the capacity appears: the sagas were kept by the Norse and never reached the Iberians, so this is non-transmission, and the map's own fifth boundary claim ('something that existed and was then lost') and third ('whether Vinland's non-integration was loss or indifference') already concede it. The mechanism reduces to 'a known coast cannot be discovered', which is nearer a tautology than a carrier, and the mobilization it credits to the forgetting is confounded with Iberian readiness, since Columbus was not looking for Vinland. If the author wants the slot back it needs a documented erasure, not a non-arrival, and it must beat the readiness confound; Founding oblivion carries the 'fertile only unremarked' step alone."
+  },
+  {
+   "item": "Discharge: a bankruptcy discharge or a Mesopotamian debt cancellation erases what is owed and returns bonded households to the population that fields armies and borrows again; the erasure is itself recorded and scheduled, and lending survives because lenders can count on it; a forgetting that must be known in advance to be fertile.",
+   "decision": "repair",
+   "why": "See strongest objection: 'scheduled' is false for the Mesopotamian edicts (sudden, at accession), and 'must be known in advance to be fertile' is contradicted by the seventh-year release, the one clean slate that was known in advance, which killed lending until the prozbul. The fertile condition is witnessed and either sudden or priced.",
+   "repair": "Discharge: a bankruptcy discharge or a Mesopotamian clean-slate edict erases what is owed and returns bonded households to the population that fields armies and borrows again; the erasure must be public, since a creditor who cannot see the debt fall keeps collecting, but it must not be both foreseeable and free, because lenders stop lending ahead of a release they can see coming (Deuteronomy warns against refusing loans as the seventh year nears, and Hillel's prozbul let lenders opt out once they had), so the recurring erasure is either sudden (the edicts came unannounced at accession) or priced (a discharge costs the debtor standing for years); witnessed, not forecast, is the condition."
+  }
+ ],
+ "neighbor_test": {
+  "left": "Night gardener: sleep weakens the synapses the day strengthened, so that tomorrow's learning has range to move in, whereas a cortex that kept every potentiation would saturate and learn nothing new (synaptic-homeostasis hypothesis, speculative); the erasure leaves only room, and nothing of the particular is kept.",
+  "right": "Fixation fade: a solver stuck on a wrong approach finds the answer after a break because the misleading retrieval route decays and a rival route can reach threshold (the forgetting-fixation account of incubation); what is lost is one path, and the capacity appears only after that path, not the problem, is forgotten.",
+  "separating_case": "Both are decay in the same tissue and the map draws no edge between them, so they are the closest pair. They separate on rank: synaptic homeostasis downscales proportionally and preserves the ordering of traces, while fixation fade needs a rank reversal between a primed wrong route and a weaker right one. Take Smith and Blankenship's misleading-hint paradigm: a delay filled with unrelated work lets the hint's priming decay to baseline and the right route wins (Fixation fade). An equal delay spent asleep, if the homeostasis hypothesis is right, halves both routes and leaves the solver exactly as stuck, so any sleep benefit to insight must come through a different carrier (replay or selective pruning), not through Night gardener. One case, opposite predictions, and a test the incubation literature could run."
+ },
+ "boundary_case": "Spin echo. Dephasing spins in a gradient look like a textbook fertile forgetting: the magnetization decays to a clean exponential with one time constant, a few-variable description bought by losing the phases. A single pi pulse brings the whole signal back, so the record was never gone; it was in the phases all along. Ruling: out, on the same ground as extinction learning and the forgetful functor, and it supplies the general test the map lacks: a claimed erasure is ash only if no echo can be run on it. Applied back to the members it presses on Thermal amnesia (member only after the correlations are beyond any echo, which is a fact about the observer) and reassures Ceremony of ash (a burned laptop admits no echo, which is why it must be watched rather than trusted).",
+ "seriation": {
+  "holds": true,
+  "note": "Endpoints are real, and after the Night gardener repair the left endpoint is 'a ratio' rather than bare room, which is still the least structured survivor. The hinge adjacency (Founding oblivion to Law against remembering) teaches, and the Edict of Nantes shows it on one massacre: decreed forgotten in 1598 ('comme de chose non advenue'), which bought Huguenots standing and was revoked in 1685; drift-forgotten by Renan's 1882, which bought belonging. The middle run from Thermal amnesia to Grudge (invariant, genome, partner, word, order, formula, relationship) is ordered by no test and is an itinerary in the honest sense; the route really has three regimes, capacity in the forgetter, capacity in successors without witness (Organelle, Dead metaphor, Exceptions, Singer), capacity in witnesses, and the note should say so. With Rediscoverable coast cut the sign change is carried by the last three, and the positive side must be restated as witnessed-not-forecast per the Discharge repair."
+ },
+ "edges": [
+  {
+   "from_handle": "Founding oblivion",
+   "to_handle": "Law against remembering",
+   "decision": "repair",
+   "why": "The antecedent is real and can fail, and history actually ran it: the Edict of Nantes decreed the oblivion of the very massacre Renan asks the citizen to forget by drift. Naming it turns the label from an assertion into a documented case that sorts standing from belonging.",
+   "repair_label": "If a polity announces or legislates the forgetting of its founding violence, then the silent erasure becomes a public one and the grievance is recalled by the act itself: the Edict of Nantes decreed Saint Bartholomew 'as a thing that never happened' and bought Huguenots standing that was revoked in 1685, while the drift Renan describes bought belonging three centuries later; belonging cannot be decreed, only standing can."
+  },
+  {
+   "from_handle": "Law against remembering",
+   "to_handle": "Discharge",
+   "decision": "repair",
+   "why": "The consequent 'its being recorded is what lets creditors keep dealing' is contradicted by the seventh-year release, which was recorded, foreseeable, and free, and dried up lending. The passage between levels holds; the condition stated is wrong.",
+   "repair_label": "If an erasure of standing must recur rather than happen once, then it has to become a public and recorded institution, since a creditor who cannot see the debt fall keeps collecting; but if its date is also foreseeable and its cost to the debtor nil, lenders stop dealing before it comes (the seventh-year release needed Hillel's prozbul), so the recurring erasure must be either sudden or priced, and recording alone is not what keeps the pardoned in trade."
+  },
+  {
+   "from_handle": "Loosened grip",
+   "to_handle": "Funes' cure",
+   "decision": "keep",
+   "why": "A genuine fork the line hides, and the antecedent (stationarity) can fail cleanly."
+  },
+  {
+   "from_handle": "Singer's leak",
+   "to_handle": "Exceptions lost in transit",
+   "decision": "keep",
+   "why": "Holds, with the honest observation that both are channel failures rather than erasures of a kept thing; the edge label says so and the map's type clause 'could not exist while the thing was kept' is what admits them."
+  }
+ ],
+ "form_inference_holds": true,
+ "modality_problems": [
+  "Night gardener: 'nothing of the particular is kept' contradicts the hypothesis cited, which preserves relative synaptic strengths under proportional downscaling.",
+  "Loosened grip: 'one with perfect memory converges on a stale average' is true only of equal weighting; a full-memory drift model tracks.",
+  "Thermal amnesia: 'mixing destroys every microstate detail' is reversible-dynamics jargon standing in for loss of access; echo experiments recover the detail.",
+  "Blastema: 'forget their tissue identity' overstates a documented case; axolotl blastema cells retain lineage (Kragl et al. 2009).",
+  "Dead metaphor's harvest: 'a word still carrying its image resists combination' is an unmarked analytical claim.",
+  "Founding oblivion: 'a decree or commemoration of it restores the memory' is the author's extension, not Renan's, and the Edict of Nantes decreed oblivion of that massacre; the extension survives only in the sharpened standing-versus-belonging form.",
+  "Discharge: 'recorded and scheduled' is false for the Mesopotamian edicts, and 'must be known in advance to be fertile' is contradicted by the seventh-year release and the prozbul.",
+  "Rediscoverable coast: 'never entered the charts' is non-transmission asserted as a loss.",
+  "Ceremony of ash: 'no usable system' conflates soundness (a fact about the burned secret) with trust (what the witnesses buy); minor, and the item's 'physical fact' phrasing nearly says it."
+ ],
+ "duplication": "none; traces-of-the-unlived is the declared mirror and is kept apart correctly, ghost-leverages is the reverse case (retention without function), and invariant-kinds touches only Thermal amnesia's survivor, not its carrier.",
+ "best_unresolved_seed": "A second coordinate the hinge needs: not only who must see the erasure fall but who may foresee it. Sort the witnessed members by foreseeability and cost: the Mesopotamian edict (public, sudden, free), the seventh-year release (public, foreseen, free, and it died), bankruptcy (public, foreseen, priced), the trusted-setup ceremony (public, foreseen, free, and it lives because nobody can profit from foreseeing an erasure that is not theirs). That table predicts which announced forgettings survive their announcement, and it would tell Founding oblivion and Law against remembering apart by mechanism instead of by example.",
+ "independent_review_line": "Fable critic: admitted after repairing five mechanism claims (synaptic downscaling keeps a ratio, discounting lives in the estimate, thermal detail is lost to access not destroyed, blastema cells keep lineage, discharge must be witnessed but not forecast), relabeling both hinge edges with the Edict of Nantes and the seventh-year release, and cutting Rediscoverable coast as a non-transmission rather than a loss."
+}

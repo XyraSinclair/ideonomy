@@ -1,0 +1,110 @@
+{
+ "slug": "passages-between-levels",
+ "critic": "Fable critic (fresh context, 2026-09-07)",
+ "verdict": "admit-with-repairs",
+ "strongest_objection": "The map's showpiece, the Dither → Guillotine hinge, overclaims in the one place it is asserted as established rather than proposed. Image dither recovers a gradient because neighbouring pixels share nearly the same true value and the eye averages them, so the noise is effectively resampled many times per true value. A single cut score applied once per person gives one binary per person and no such repeats: jittering the cut makes the population density within the jitter's width of the cut recoverable from grouped pass rates, and nothing else, because everyone far below the cut still fails every time. The author's separating case says the dithered verdicts 'trace the whole score distribution', the edge label promises 'a recoverable gradient', and the near priority is built on the same reading. The mechanism survives in bounded form and is still usable (an institution that jitters its cut learns how many marginal cases it has, which is what a cut-score institution most needs), and the seriation hinge survives because any way back at all separates the two classes; but the claim must be cut to the width of the noise. Second, structurally: the criterion the fieldwork actually used to admit and reject members, a taker on the far side whose operations differ from the sender's, never made it into the declared type, so the type as written admits a fossil and a trackway that the ledger rejected on that unstated ground. Beyond these, I tried to collapse the closest pairs (brake light with stampede, alembic with scatter, terrain with crack, Smith with ancestor) and could not; the strange members hold.",
+ "items": [
+  {
+   "item": "Backward brake light: a traffic jam travels upstream as a density wave while every car travels downstream, and it descends to each driver only as the brake light ahead, its shape, cause, and even its direction of motion lost; not “the whole constrains the part”, since this whole moves in a direction no part moves, and what the part receives is an imperative, not a description.",
+   "decision": "keep",
+   "why": "Neighbour tested against Prudence pooled into a stampede; separated by the carrier (nearest-neighbour relay with delay, which produces a wave moving against the members) versus one broadcast trigger. The mechanism is the Lighthill–Whitham backward wave and is real."
+  },
+  {
+   "item": "Prudence pooled into a stampede: each depositor's sensible withdrawal becomes a run when one shared trigger fires them together, so a solvent bank dies of an upward-arriving event that no depositor performed; the carrier is synchrony rather than a medium, nothing is integrated, and what the crossing strips is the prudence itself, sound in each and fatal in all.",
+   "decision": "keep",
+   "why": "Neighbour tested against Backward brake light; survives because its own text names the carrier as one shared trigger firing everyone at once, which is exactly what the relay in the brake light lacks. The Diamond–Dybvig story is respectable, but the strip clause (prudence itself is what the crossing removes) is the item's own and earns it."
+  },
+  {
+   "item": "Investiture: an office descends into one person so that the person's acts count as the institution's acts, a nation signing only through a hand, while the office keeps its continuity across successive bodies; downward from whole to member, the acts are lost as the person's own and the whole gains the ability to act at all; unlike Looping diagnosis it changes what the acts count as, not what the holder believes.",
+   "decision": "repair",
+   "why": "The declared type demands a named carrier; this item names none in its text (the boundary claim calls it 'rite' on the author's behalf). Naming the counting-as rule also sharpens the discriminator against Looping diagnosis, which the item already gestures at.",
+   "repair": "Investiture: an office descends into one person so that the person's acts count as the institution's acts, a nation signing only through a hand, while the office keeps its continuity across successive bodies; the carrier is the counting-as rule fixed by oath or appointment, the direction is downward from whole to member, the acts are lost as the person's own and the whole gains the ability to act at all; unlike Looping diagnosis it changes what the acts count as, not what the holder believes."
+  },
+  {
+   "item": "Grimm's law has no speaker: no one changes their consonants, yet a language's consonants shift over centuries because each generation acquires a slightly different system and the previous one dies, so the carrier is replacement of the members rather than change within them; upward from speakers to language, any agent of the change is lost and a law that describes a population while binding no one is gained; unlike the trail there is no medium, only succession.",
+   "decision": "repair",
+   "why": "'No one changes their consonants' states the acquisition-based model of sound change as fact. Lifespan change within individual speakers is documented (Labov's apparent-time versus real-time studies), and gradual community-wide phonetic drift is a competing carrier in which the medium is speech itself. The strange mechanism (a carrier that is pure succession, no medium) should be kept, with its modality visible and its domain bounded to the share of change that succession carries.",
+   "repair": "Grimm's law has no speaker: no speaker sets out to change their consonants, yet a language's consonants shift over centuries because each generation acquires a slightly different system and the previous one dies, so the carrier, on the acquisition account of sound change, is replacement of the members rather than change within them; upward from speakers to language, any agent of the change is lost and a law that describes a population while binding no one is gained; unlike the trail there is no medium, only succession, and where speakers drift within a lifetime the medium returns and the item no longer applies."
+  },
+  {
+   "item": "Smith no longer smiths: a nickname describing one person's trade becomes a surname carried by descendants who do not smith, description turning into identifier by inheritance across generations; upward from person to line, the truth of the description is lost, a line that strangers can trace is gained, and the crossing is one-way because the name keeps nothing from which the trade could be recovered; not a dead metaphor, which loses its image but keeps a meaning.",
+   "decision": "repair",
+   "why": "'The name keeps nothing from which the trade could be recovered' is false for the item's own case: Smith, Cooper, and Fletcher keep the word, and a stranger recovers the trade at once. What the crossing loses is the referent, which ancestor and whether the line still does it, and that is the sharper one-way claim.",
+   "repair": "Smith no longer smiths: a nickname describing one person's trade becomes a surname carried by descendants who do not smith, description turning into identifier by inheritance across generations; upward from person to line, the truth of the description is lost, a line that strangers can trace is gained, and the crossing is one-way because the name keeps the word and drops the referent, so a stranger can read that someone once smithed but never who, nor whether the line still does; not a dead metaphor, which loses its image but keeps a meaning."
+  },
+  {
+   "item": "Drift's monument: a coin flip in one individual, a neutral mutation, becomes an unalterable character of the species once every alternative has been lost from the population; the carrier is fixation, the crossing is upward and one-way because what is lost is precisely the alternatives and with them the way back, and a trait with no reason is gained; unlike Error's promotion nothing selected it, so its permanence is an absence, not a function.",
+   "decision": "repair",
+   "why": "'Unalterable character of the species' overclaims: fixation removes the standing alternatives, but new mutation reopens the choice, and back-mutation or replacement of fixed alleles is ordinary. The one-way claim is exact for the alternatives that were lost, not for the character forever.",
+   "repair": "Drift's monument: a coin flip in one individual, a neutral mutation, becomes a character of the whole species once every alternative has been lost from the population, so that until a new mutation reopens the choice nothing can be preferred instead; the carrier is fixation, the crossing is upward and one-way because what is lost is precisely the alternatives and with them the way back, and a trait with no reason is gained; unlike Error's promotion nothing selected it, so its permanence is an absence, not a function."
+  },
+  {
+   "item": "Ancestor manufacture: a death becomes, through funerary and genealogical rite, a different kind of object at the level of the lineage, an ancestor who can be invoked, owed, and blamed; upward, the person (body, voice, the power to answer back) is lost and a standing claim on the living is gained, one-way because the death itself is the carrier; not memory, which keeps the person's kind, since an ancestor is a creditor.",
+   "decision": "repair",
+   "why": "The item names two carriers that contradict each other: the crossing happens 'through funerary and genealogical rite', then is one-way 'because the death itself is the carrier'. The rite is the taker's operation and the carrier; the death is the precondition nothing on the far side can undo. Separating them keeps the item's best line (an ancestor is a creditor) and makes the one-way claim mechanical.",
+   "repair": "Ancestor manufacture: a death becomes, through funerary and genealogical rite, a different kind of object at the level of the lineage, an ancestor who can be invoked, owed, and blamed; upward, the person (body, voice, the power to answer back) is lost and a standing claim on the living is gained; the carrier is the rite, and the crossing is one-way because the rite can only be performed on a death, which nothing on the far side can undo; not memory, which keeps the person's kind, since an ancestor is a creditor."
+  },
+  {
+   "item": "Baldwin's callus: a behavior practised in every generation, kneeling on hard ground, crosses from a life into a lineage when selection favors developmental programs that grow the callus before the habit does, so a habit arrives as an organ (the ostrich's callosities are the classical, contested illustration); the carrier is selection on plasticity, the choice is lost, reliability and freed learning capacity are gained; not Lamarck, since no callus is copied, only the disposition to grow one is bred for.",
+   "decision": "keep",
+   "why": "Kept, with a naming note the author may act on: the mechanism as written (selection favouring developmental programs that grow the callus before the habit does) is Waddington's genetic assimilation, which the boundary claim names correctly; the handle says Baldwin, whose effect is the adjacent claim that learned behaviour shields and guides selection. Both are in the same family and the contested marking is honest, so this is not a repair."
+  },
+  {
+   "item": "Scatter as reading: the spread of a crowd's guesses is noise to every guesser, yet to whoever holds the whole distribution its width measures how ill-posed the question was, as temperature is a census no molecule takes; not the wisdom-of-crowds mean, which is still a guess, since a width is a kind of thing no member can have, bought by losing whose guess was whose.",
+   "decision": "keep",
+   "why": "Tested against Order-book alembic, since both turn a crowd's guesses into a number no member has: the same order book yields both a last price and a bid–ask spread, and the spread is a width, so the two are separate readings of one crossing rather than one item twice. Carrier is only implied (whoever holds the census); acceptable under the taker reading but the author may name it."
+  }
+ ],
+ "neighbor_test": {
+  "left": "Backward brake light: a traffic jam travels upstream as a density wave while every car travels downstream, and it descends to each driver only as the brake light ahead, its shape, cause, and even its direction of motion lost; not “the whole constrains the part”, since this whole moves in a direction no part moves, and what the part receives is an imperative, not a description.",
+  "right": "Prudence pooled into a stampede: each depositor's sensible withdrawal becomes a run when one shared trigger fires them together, so a solvent bank dies of an upward-arriving event that no depositor performed; the carrier is synchrony rather than a medium, nothing is integrated, and what the crossing strips is the prudence itself, sound in each and fatal in all.",
+  "separating_case": "Two bank runs on the same solvent bank. In the first, a broadcast headline reaches every depositor at once and each withdraws without seeing any other act: one trigger, one simultaneous step, no wave, and the bank dies of a synchrony none of them performed. That is the stampede, and its carrier is the shared trigger. In the second, no headline exists; each depositor withdraws because they see the queue outside the branch, which grew because others saw it. That is the brake light: a nearest-neighbour relay with delay, whose aggregate (the queue) travels through the crowd in a direction no depositor moves, and what each receives is an imperative with the cause stripped. The two are separable, and the case exposes a fault in the edge between them: answering a local imperative with the same move produces the relayed wave, which is the brake light itself, not the synchrony the label claims."
+ },
+ "boundary_case": "Fossilization, or the dinosaur trackway the ledger rejected. A bone crosses from the level of the organism to the level of the mineral by permineralization, everything but shape is lost, and what arrives is a rock in the shape of a bone that no organism could have been. By the letter of the declared type it is in: there is a carrier (mineral replacement), a direction (down, then up to whoever reads it), and the exclusion clause does not bite because shape is carried across, exactly as the prion's fold is. Crack to border admits the same move (a next-level process uses the broken shape). Yet the ledger rejected the trackway because it 'obliges no one and constrains nothing', a criterion the type never states. Ruling: the type as written admits the fossil; the map's practice excludes it; the difference is the taker criterion from exploration.changed_question, which should be written into `of` ('...and something at the far level operates on what arrives'). With that clause, a trackway with no reader is rubble with a shape, a trackway read by a palaeontologist is a passage, and membership becomes reader-relative, which boundary_claim 4 already admits. Without the clause the type also admits a rumour becoming a news report or laundered cash becoming a legitimate asset as 'sideways' crossings, since 'sideways when law reads medicine' already lets non-levels in.",
+ "seriation": {
+  "holds": true,
+  "note": "The axis has real endpoints (a price that returns as a margin call before the day ends; a death that returns as a creditor) and the hinge adjacency teaches, in bounded form: noise before a cut moves a crossing from carrier-destroyed to reader-needed. Two placements are unexplained. The bow that can be withheld sits after the hinge among carrier-consumed passages, but its way back exists whenever the polity's expectation lapses, which is a reader-class return, so it belongs before the hinge near Looping diagnosis and Investiture; the seriation note's roll-call of later items skips it, which suggests the author noticed. Rule turned terrain is placed in the reader-needed class although its own text says the trail 'returns to each ant as an environment'; defensible only on the reading that the rule never returns as a rule, which the item should say."
+ },
+ "edges": [
+  {
+   "from_handle": "Backward brake light",
+   "to_handle": "Prudence pooled into a stampede",
+   "decision": "repair",
+   "why": "The antecedent produces the wrong consequent. If every member answers the local imperative with the same move, the imperatives relay with delay and form a wave: that is the brake light again, not synchrony. Synchrony needs what the stampede item itself names, one trigger every member hears at once. The corrected antecedent can fail (a relayed trigger gives a wave, not a step), so it is a real conditional.",
+   "repair_label": "If the relayed local imperative is replaced by one trigger that every member hears at once, the wave collapses into a single simultaneous move, and the aggregate acquires a dynamics none of its members intended."
+  },
+  {
+   "from_handle": "Dither's bargain",
+   "to_handle": "Gradient guillotined",
+   "decision": "repair",
+   "why": "The incompatibility is real and adjacency alone could not show what an institution must do about it, so the edge earns its place; but 'a recoverable gradient' promises more than a single jittered cut delivers. Image dither works because neighbouring pixels resample the same true value; a cut score applied once per person recovers only the density within the noise's width of the cut, from grouped pass rates, and nothing about scores far from it.",
+   "repair_label": "Cannot hold together at one threshold: noise added before the cut converts a guillotine into a bargain within the noise's own width, so an institution that wants crisp verdicts and still wants to know how many marginal cases it has must either jitter its cut, and accept that only the region near the cut comes back, or archive the gradient elsewhere."
+  },
+  {
+   "from_handle": "Drift's monument",
+   "to_handle": "Error's promotion",
+   "decision": "keep",
+   "why": "Kept as the fork claim, with a note: once a character is fixed there is no variation for a selector to choose between, so what arrives later is a use (exaptation) and purifying selection against new mutants, not the amplifier-plus-selector of Error's promotion. The label's point stands and is sharper for it: the monument becomes a function without ever having been chosen."
+  },
+  {
+   "from_handle": "Prudence pooled into a stampede",
+   "to_handle": "Order-book alembic",
+   "decision": "keep",
+   "why": "Antecedent can fail (a deposit run is not matched or cleared anywhere; a fire sale is), and the loop it closes is the relation a bare sequence hides. Holds."
+  }
+ ],
+ "form_inference_holds": true,
+ "modality_problems": [
+  "Dither → Guillotine: gate.checks.separating_case asserts that dithered verdicts 'trace the whole score distribution'; a single jittered cut recovers only the density within the noise's width of the cut, and only from grouped pass rates. The near priority's next_question would test exactly this, which is the right modality; the separating case and edge label are not.",
+  "Grimm's law has no speaker: the acquisition-based model of sound change is stated as fact ('no one changes their consonants'); lifespan change in individual speakers is documented and community-wide phonetic drift is a competing carrier.",
+  "Drift's monument: 'unalterable character of the species' overstates fixation; new mutation reopens the choice.",
+  "Smith no longer smiths: 'keeps nothing from which the trade could be recovered' is false for transparent occupational surnames; the word survives, the referent does not.",
+  "Ancestor manufacture: two contradictory carriers in one item (the rite, then 'the death itself').",
+  "Investiture: no carrier named in the item text, against the declared type; the boundary claim supplies 'rite' on the item's behalf.",
+  "Baldwin's callus: the mechanism described is Waddington's genetic assimilation under Baldwin's name; the contested marking is honest, the naming is loose.",
+  "Error's promotion: 'the template's authority is lost' is interpretive; the germline template persists, and only within the germinal centre does the mutated clone become the reference for later rounds. Kept as authored compression."
+ ],
+ "duplication": "none at the map level. Nearest neighbours in grown.jsonl: Looping diagnosis sits beside narrative-feedbacks (a narrative validated by the target's reaction) and beside Forecast with teeth in question-metamorphoses, which the ledger already declined to duplicate; the classification loop is between levels where those are reflexive, so it stands. traces-of-the-unlived shares the carrier vocabulary but not the item type.",
+ "best_unresolved_seed": "The mirror of dither: noise added not to save a way back but to choose which one dies. Randomized response and differential privacy add noise before aggregation so that the aggregate survives the crossing and the way back to any individual is consumed, which is the guillotine's loss aimed at the members and the bargain's gain kept for the whole. The map's axis treats the way back as one thing; this case shows a carrier that keeps the return to the level and destroys the return to the member, and asks whether every passage has two ways back that a carrier can trade against each other. The author's near priority explicitly sets privacy noise aside; it is the next item, not a distraction.",
+ "independent_review_line": "Fable critic: admitted after repairing five items (an unnamed carrier, a contradictory carrier, and three overclaims stated as fact) and two edge labels, including bounding the dither hinge's recoverability claim to the width of the noise; no item cut, closest pairs tested and held."
+}

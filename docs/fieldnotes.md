@@ -26,6 +26,8 @@ accepted the distinctions and conditional maps:
 Their encounter opened another question — what kinds of witnesses must be
 built before a fact can become knowable? — recorded as an opening, not an
 already-enumerated fourth list.
+The [September 7 fleet](#five-fable-maps-2026-09-07) took that opening up as
+**witness-architectures**.
 
 ## Gemini 3.8 Flash sketching experiment (2026-09-05)
 
@@ -74,3 +76,50 @@ originals. The ledger preserves both decisions: a truthful boundary is not a
 license to domesticate the list. This exercised P11 gap-finding and P22
 refutation; it did not exhaust the possible categories or establish empirical
 efficacy.
+
+## Five Fable maps (2026-09-07)
+
+Five Fable-run authors worked five territories in separate contexts, two
+breaths each; five Fable critics in fresh contexts ran the sharpening check
+against the text; five repairers applied the critiques. Every author,
+critic, and repair turn was verified as `claude-fable-5-1` from the
+transcripts, including the specific write that produced each admitted file.
+The interactive quota ran out mid-fleet and four agents died before writing;
+their jobs reran headless on other pool accounts, so no artifact came from a
+downgraded turn. All five maps were admitted with repairs, none without:
+
+- [Witness architectures](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fwitness-architectures)
+  — what must exist before a difference can leave a trace, including what the
+  witness must be built not to see; a blindfolded tally records the
+  electorate only because no one can record a voter. The critic found the
+  map's own center drawn on the wrong axis: a blinded assessor is a witness
+  kept from the allocation with a sealed key, a third case between the hide
+  and the tally, not a variant of the hide.
+- [Fertile forgettings](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Ffertile-forgettings)
+  — losses that produce a capacity the kept thing forbade; a ceremony of ash
+  is a proof system sound only if someone visibly forgot. The critic showed
+  the hinge item confused witnessed with foreseeable erasure (the seventh-year
+  release was foreseen, free, and dried up credit); the far side of the hinge
+  now reads witnessed-but-not-priced. Rediscoverable coast was cut as a
+  non-transmission rather than a loss.
+- [Clocks that are not clocks](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fclocks-that-are-not-clocks)
+  — states that retain readable time with no device built to keep it; a
+  lattice of rites makes some elders incomparable. Seven illustrations let
+  built timekeepers back in (a postmark, a dead man's switch, a Lamport tally)
+  and were replaced under the map's own exclusion.
+- [Passages between levels](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fpassages-between-levels)
+  — crossings that arrive as a different kind of thing, with a taker on the
+  far side; a prion's fold survives the meal. The dither hinge's recoverable
+  gradient was bounded to the width of the noise, and the taker criterion the
+  fieldwork had used silently was written into the declared type.
+- [Forms of return](https://xyrasinclair.github.io/ideonomy/catalog-map.html#grown%2Fforms-of-return)
+  — comings-back distinguished by where the licensing sameness is kept; a
+  writ returns inscribed with its own interval. Nine absolutes the map's own
+  cases falsified were repaired (people saw Halley's comet in both 1910 and
+  1986).
+
+The briefs and the five critiques are in
+[`../corpus/fable-maps-2026-09-07/`](../corpus/fable-maps-2026-09-07/); the
+ledgers carry each breath and the repair as a third line. These are authored
+conceptual fieldwork with independent editorial review, not empirical
+taxonomies; each map's `boundary_claim` states its limits.

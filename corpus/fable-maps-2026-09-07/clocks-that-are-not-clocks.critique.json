@@ -1,0 +1,103 @@
+{
+ "slug": "clocks-that-are-not-clocks",
+ "critic": "Fable critic (fresh context, 2026-09-07)",
+ "verdict": "admit-with-repairs",
+ "strongest_objection": "The item type excludes any device built to keep time, but the map does not enforce its own exclusion. Built timekeepers leak back in through the illustrations and one item: Lag as ruler reads staleness off a postmark, which is a stamped date; Milk on the step takes its upper bound from a dead man's switch, which is a timer; Vector clock credits Lamport timestamps with reporting that no order exists, which only vector timestamps do; and Contract calendar's amount owed was itself written by whatever calendar the parties had, so nothing retains the duration except the agreement, which makes it a stipulated clock rather than a retaining state. The boundary ruling compounds this: it throws out the tally stick as a record and a device, yet admits Vector clock, which is a bundle of tallies, and the ledger separately rejects the deli ticket as the degenerate vector clock. A tally of events is the one-participant vector clock and belongs inside; a tally of days is a clock face cut by hand and belongs outside. None of this breaks the map, whose handles, hinge (Lag to Frozen dictionary) and spine (rite to lattice to vector clock) are real and worth keeping; it means the exclusion clause has to be applied to the map's own examples before the atlas records it.",
+ "items": [
+  {
+   "item": "Half-life ledger: a memoryless transformation at a known rate turns a starting ratio into an elapsed time, as radiocarbon reads the years since a tree stopped exchanging carbon with the air; it dates the moment the thing was sealed off from its reservoir, not the thing, so a reused beam dates a forest's death and not the house.",
+   "decision": "keep",
+   "why": "Neighbor tested against Sunburn of stones; separable. Dates the sealing event, is unpausable, and needs a starting ratio from outside the thing, which the first edge admits."
+  },
+  {
+   "item": "Sunburn of stones: an ambient flux accumulates in whatever lies open to it, as cosmic rays build nuclides in a boulder from the day a glacier uncovered it, so the dose reads the moment of uncovering; it dates exposure rather than existence, and a stone rolled onto its other face reads as newborn.",
+   "decision": "repair",
+   "why": "Closest neighbor of Half-life ledger: both integrate a known rate since a boundary event and date the event, not the thing. What separates them is that exposure dose can be paused by shielding and so reads time in the open rather than elapsed time, which also makes it kin to Wear as biography. The current discriminator misses this and overstates the rolled stone: a cobble turned over carries nearly its full dose, since cosmic rays penetrate about a metre of rock; only a thick boulder reads newborn.",
+   "repair": "Sunburn of stones: an ambient flux accumulates in whatever lies open to it, as cosmic rays build nuclides in a boulder from the day a glacier uncovered it, so the dose reads the moment of uncovering; it dates time in the open rather than existence, so a thick boulder rolled to put its shielded underside skyward reads as newborn, and one buried for a millennium and dug out again reads its exposed years, not its age, which no decay clock can be made to do."
+  },
+  {
+   "item": "Free-running hunger: an internal oscillator entrained to an external cycle keeps its phase after the cue is removed, as a ground squirrel in a windowless room still fattens in autumn, so a body reads where in the year it is without seeing the year; it reads a phase, never a count, and in the dark it slowly drifts, which is how one knows it is a memory of the cycle and not the cycle.",
+   "decision": "repair",
+   "why": "Reads a phase, which the declared type does not list (ordering, duration, deadline), and it is the one member that is functionally a clock: an oscillator with a period, unbuilt but otherwise exactly what the type excludes. As written, its licensed inference ('a memory of the cycle and not the cycle') is something any drifting wall clock also shows. What a clock cannot give is the reading from the drift itself: an entrained oscillator that has free-run in the dark, once re-exposed to the sky, reads how long the cue was gone from the size of its phase gap. Naming that makes it a member on the type's own terms. The type's `of` should also admit 'a phase' explicitly.",
+   "repair": "Free-running hunger: an internal oscillator entrained to an external cycle keeps its phase after the cue is removed, as a ground squirrel in a windowless room still fattens in autumn, so a body reads where in the year it is without seeing the year; it reads a phase, never a count, and because it drifts in the dark at its own period, the gap between body and sky when the sky is seen again reads how long the cue was gone, a reading a clock that was never entrained cannot give."
+  },
+  {
+   "item": "Larder countdown: a stock consumed at a rate reads as the time remaining before it is gone, as a winter's grain or a candle reads a deadline rather than an elapsed duration; the deadline is conditional on consumption, so it can be moved by eating less, which no elapsed time can.",
+   "decision": "keep",
+   "why": "Second neighbor pair tested, against Queue clock: both are stock over rate. Separable: the larder reads the end of the whole stock for the one who controls the rate; the queue reads one unit's turn under a first-in-first-out order, so it is Superposition plus a throughput, read by strangers who alter it by leaving. A granary refilled at harvest never empties yet still answers when this sack will be eaten, which is the queue reading and not the larder reading."
+  },
+  {
+   "item": "Queue clock: the length of a line reads as the wait of the next arrival, given the throughput, as the line at the mill tells the whole town the same afternoon; the reading is shared and reflexive, since those who read it as too long leave and shorten it, so this clock is changed by being read.",
+   "decision": "keep",
+   "why": "See Larder countdown. Reflexivity is a property of the reading rather than of the retention, but the inference it licenses (a clock changed by being read) is genuinely one no clock provides."
+  },
+  {
+   "item": "Vector clock: each participant counts its own irreversibles and learns the others' counts only when messages arrive, so events order by what could have influenced what, as Lamport and vector timestamps do in a distributed system; for some pairs it reports that no order exists, which is a fact about causation no clock can state, and it never yields a duration.",
+   "decision": "repair",
+   "why": "Lamport timestamps give a total order consistent with causation and cannot report that two events are unordered; only vector timestamps do. The sentence as written asserts the vector clock's distinctive reading of Lamport clocks too. Fixing this also settles the tally-stick boundary: a single tally is the Lamport case.",
+   "repair": "Vector clock: each participant counts its own irreversibles and learns the others' counts only when messages arrive, so events order by what could have influenced what, as vector timestamps do in a distributed system; for some pairs it reports that no order exists, which is a fact about causation no clock can state and no single tally, whether a Lamport timestamp or a notched stick, can state either, and it never yields a duration."
+  },
+  {
+   "item": "Contract calendar: a stipulated rate applied to a stipulated origin makes an amount owed read as elapsed time, as interest is the only calendar a village keeps; nothing physical ages, so a dispute about how long it has been becomes a dispute about the rate, and the duration is enforceable exactly to the extent the agreement is.",
+   "decision": "repair",
+   "why": "Two problems. The illustration ('the only calendar a village keeps') is an invented village stated as ethnography inside a register declared as observed. More seriously, by the declared type nothing here retains a duration: the amount owed was computed by whatever calendar the parties had, so the item is a stipulation that assigns durations, not a state that keeps one. It earns its place as the axis's stipulation station and as the only member whose duration is negotiable, but it must say so rather than pose as a mechanism.",
+   "repair": "Contract calendar: a stipulated rate applied to a stipulated origin makes an amount owed read as elapsed time, as interest would in a village that kept no calendar but its debts; nothing physical ages and the amount was written by whatever calendar the parties had, so the duration lives only in the agreement, a dispute about how long it has been becomes a dispute about the rate, and the duration is enforceable exactly to the extent the agreement is."
+  },
+  {
+   "item": "Drift against corpus: a shared, unreversed drift of usage places a document at a position in a sequence of other documents, as spelling and letterforms date a manuscript; it yields position and coevality, never duration, because nobody knows the rate at which a language moves.",
+   "decision": "repair",
+   "why": "'Nobody knows the rate at which a language moves' overstates: glottochronology claims one and is disputed. The honest form is that no trusted rate exists, which preserves the point (position and coevality, never duration).",
+   "repair": "Drift against corpus: a shared, unreversed drift of usage places a document at a position in a sequence of other documents, as spelling and letterforms date a manuscript; it yields position and coevality, never duration, because no trusted rate exists for how fast a language moves."
+  },
+  {
+   "item": "Lag as ruler: a state preserved in transit arrives as old as the journey, as starlight and a postmark do, so the reader learns how stale the news is and what the source was, not what it is; nothing accumulates in the thing, the delay is the whole reading, and it is silent about the source's present.",
+   "decision": "repair",
+   "why": "A postmark is a date stamped by a device, so the illustration reads time off a clock inside an item type that forbids it. Starlight reads the delay from distance at a known speed; the letter needs an equivalent, a road of known length.",
+   "repair": "Lag as ruler: a state preserved in transit arrives as old as the journey, as starlight and a letter carried up a road of known length do, so the reader learns how stale the news is and what the source was, not what it is; nothing accumulates in the thing, the delay is the whole reading, and it is silent about the source's present."
+  },
+  {
+   "item": "Milk on the step: an expected cadence that goes unanswered reads as a bound on time since the last presence, as bottles accumulating on a doorstep give a lower bound and an unfired dead man's switch an upper bound; nothing is written into the absent person, the cadence does the counting, and the reading is a bound, never a value.",
+   "decision": "repair",
+   "why": "The discriminator is false for its own headline case. Bottles accumulating under a daily cadence are a ratchet count that a presence normally clears: n bottles read n days since the last clearing, to within one cadence, which is a value with the same resolution as a ring count, not a bound. The reading falls to a bound only where nothing accumulates (the Sunday call that did not come) or on the upper side; and the upper-side illustration, a dead man's switch, is a timer, a built device. The repair keeps the handle and both halves, and makes the count-to-bound fall the actual distinction.",
+   "repair": "Milk on the step: an expected cadence that goes unanswered reads time since the last presence, as bottles accumulating on a doorstep count the days since anyone took one in and a houseplant not yet wilted bounds them from above; nothing is written into the absent person, a neighbor's cadence does the counting, and where nothing accumulates, as with the Sunday call that did not come, the reading falls from a count to a bound held only in the reader's expectation."
+  }
+ ],
+ "neighbor_test": {
+  "left": "Half-life ledger: a memoryless transformation at a known rate turns a starting ratio into an elapsed time, as radiocarbon reads the years since a tree stopped exchanging carbon with the air; it dates the moment the thing was sealed off from its reservoir, not the thing, so a reused beam dates a forest's death and not the house.",
+  "right": "Sunburn of stones: an ambient flux accumulates in whatever lies open to it, as cosmic rays build nuclides in a boulder from the day a glacier uncovered it, so the dose reads the moment of uncovering; it dates exposure rather than existence, and a stone rolled onto its other face reads as newborn.",
+  "separating_case": "Two boulders uncovered by the same glacial retreat, one of them later buried under a landslide for a thousand years and then dug out; beside them, two logs killed by the same retreat, one of them stored in a dry cave. The logs' radiocarbon agrees: decay cannot be paused, so both read years since death. The boulders' cosmogenic dose disagrees by the buried millennium: production stops under shielding, so the dose reads years in the open, not years since uncovering. Separable, and the separation shows what the current Sunburn discriminator misses: it reads exposure-time, kin to Wear as biography's use-time, not elapsed time."
+ },
+ "boundary_case": "A candle with hour marks cut into the wax. The map already uses a candle as a Larder countdown illustration, and an unmarked candle is a member: light runs out at a rate, the deadline is movable by trimming the wick. The marked candle is the medieval candle clock, a device built to keep time, and is out. The same wax crosses the boundary by stipulation alone, which shows the type's exclusion turns on intent to be read as time, not on physics, and it places Contract calendar exactly on the line: a stipulation applied to a quantity, with the wax removed. Ruling: unmarked candle in, marked candle out, and the tally stick ruling should be sharpened the same way, a tally of events in (the one-participant vector clock), a tally of days out (a clock face cut by hand).",
+ "seriation": {
+  "holds": true,
+  "note": "The endpoints are real (a tree carries its own comparison; an absent person carries none) and the two adjacencies the note defends, Lag to Frozen dictionary and rite to lattice to vector clock, genuinely teach. The opening third is mislabeled, though: Half-life ledger, Succession dial and Sunburn of stones all need a second state from outside (a starting ratio, a temperature record, a flux), while Superposition, placed eighth, needs nothing but the pile and belongs beside Ratchet count at the opening. Free-running hunger to Larder countdown to Superposition is an arbitrary stretch; no adjacency there teaches anything. Moving Superposition to second position and letting Hunger sit with the exposure/use items (Sunburn, Wear) as things read against the world's cycle would make the itinerary match its own axis."
+ },
+ "edges": [
+  {
+   "from_handle": "Lattice of rites",
+   "to_handle": "Contract calendar",
+   "decision": "repair",
+   "why": "The antecedent is misstated. The lattice partially orders persons, not durations; the reason interest cannot run there is that rites yield no intervals at all, which a society with a single fixed line of rites shares, so the incompatibility as labeled is not specific to the lattice. What the lattice adds is that precedence among claims, which a line of rites could still settle by seniority, becomes undecidable between incomparable elders.",
+   "repair_label": "If the only marks of time are unrepeatable rites, there is no interval for a rate to multiply, so interest cannot run in that society at all; a fixed line of rites could still rank creditors by seniority, but the lattice cannot, so priority among claims is undecidable exactly where elders are incomparable."
+  },
+  {
+   "from_handle": "Lattice of rites",
+   "to_handle": "Vector clock",
+   "decision": "keep",
+   "why": "The antecedent does real work and could fail: in the lattice as stated, nobody learns anything about anyone else's rites, so it is a set of independent bits, not a vector clock; the passage happens only if rites are witnessings that carry counts between people. The boundary claim already flags this as authored analogy. Keep, since the conditional is honest about what must change."
+  }
+ ],
+ "form_inference_holds": true,
+ "modality_problems": [
+  "Contract calendar: 'the only calendar a village keeps' presents an invented village as an observed case inside a register declared observed.",
+  "Lag as ruler: a postmark is a date stamped by a device; the item type forbids reading time off a built timekeeper.",
+  "Milk on the step: a dead man's switch is a timer, a built device; and bottles yield a count with one-cadence resolution, not a bound.",
+  "Vector clock: Lamport timestamps cannot report that no order exists; only vector timestamps can.",
+  "Sunburn of stones: a stone rolled over reads as newborn only if it is thicker than the cosmic-ray attenuation depth, roughly a metre or two; a cobble carries nearly its full dose.",
+  "Drift against corpus: 'nobody knows the rate' overstates; glottochronology claims one, disputed.",
+  "Wear as biography: the hoarded coin's disagreement is read against a mint year, which is a stamped date; the Wear-to-Half-life edge repairs this by recruiting a sealed-date reading, so the item may stand, but the illustration leans on a device."
+ ],
+ "duplication": "none; nearest is traces-of-the-unlived's Missing alarm, which the ledger names as a cross-field opening, not an overlap. No grown list has time-retention as its item type.",
+ "best_unresolved_seed": "Superposition says it yields nothing across piles, and Vector clock is exactly the across-piles order, yet no edge joins them. An object that moved from pile A to pile B is a message: everything below it in B is after everything below its origin in A. That is how an intrusive sherd cross-dates two middens, and it makes stratigraphy across sites a vector clock with strata as counts and moved objects as messages. Write that edge, then ask what the incomparable pairs are: layers in two sites that no object ever crossed between, whose order no digging can settle.",
+ "independent_review_line": "Fable critic: admitted after repairing seven items whose illustrations or claims let built timekeepers back in (a postmark, a dead man's switch, a Lamport tally, a village that computes its own interest), correcting Milk on the step's bound-versus-count claim, relabeling the lattice-to-interest incompatibility, and sharpening the tally-stick boundary."
+}
