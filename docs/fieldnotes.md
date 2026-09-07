@@ -52,6 +52,14 @@ Verdict: Flash was a productive sketcher but an unreliable self-curator —
 physical jargon repeatedly disguised unsupported mechanisms, and simpler
 prompts did not reliably cure the problem.
 
+## Somatic decompositions (September 2026)
+
+[`somatic-decompositions.json`](somatic-decompositions.json) records a fork
+breath that decomposed each of the 78 **somatic-signals** items into
+**somatic-atoms**, with a boundary claim and a note on the generative
+grammar. It is an experiment record, not an admitted map: the
+decompositions were never gated into the catalog.
+
 ## Paired hinge maps (September 2026)
 
 The paired maps **cooperation-integrity-hinges** and
