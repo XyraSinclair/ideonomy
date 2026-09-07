@@ -1,0 +1,62 @@
+(2)
+
+In a sense one could distinguish the new technique from the old by
+saying that it forces one to make (analogical and descriptive) decisions
+about each polar thing that are extremely superficial (purely dyadic,
+and, in effect, ‘discrete rather than continuous') and yet that are
+also, as a result, maximally diverse, multidimensional, broad, and
+protean; that are minimally biased; that are quantitatively maximal; etc.
+
+If one is simply using a partial set of all of the possible pairings
+of things, the method enables one to rank-order (or weight) far larger
+sets of things in the same amount of time (or in far less time per pole).
+In fact, when | first developed the method, my first application of it
+was to the rank-ordering of the mutual analogousness of a set of 907
+maximally diverse things (such as hormone, ocean, sieve, and orchestra).
+
+It is to be observed that the effect of each of the dyads is to
+define a peculiar and unique bipolar dimension. One such ''dimension",
+in the case of the set of emotions, would be ''Anger-ness vs Pity-ness".
+Although such a dimension may seem arbitrary, trivial, and wanting in
+simplicity, it can be shown to be—or found to be—alimost arbitrarily
+special, necessary, fundamental, and simple in an infinite-dimensional
+mathematical space (of the sort that is now used constantly by physicists).
+
+For 50 emotions, the number of such abstract or virtual dimensions
+would be 50 (with the pairs number = the emotions number) or (with the
+complete set of pairs, given by nCr with r = 2) 1,225 (or 24.5 times
+greater). This means that each emotion would be explicitly characterized
+in a 50-dimensional space (at minimum) or (at maximum) a 1,225-dimensional
+space. (The implicit dimensionalities, of course, might be anything.)
+
+It is appropriate at this point to emphasize the formidable number
+of binary decisions that are necessary if each member of a set of things
+is to be analogized to all of the irredundant pairs of that set of
+things, which is given by the formula nCr with r = 3. For 50 emotions
+the required number of decisions is 19,600 (or 16 times what it would be
+with the pairs number per emotion = the emotions number). That is a
+sizable number, to be sure, and yet it is only 23% the number of seconds
+in a 24-h day (86,400).
+
+When one orders, classifies, differentiates, or analogizes a set of
+things via such an enormous number of decisions or such enormous
+dimensionalities, it results in a fantastically specific, full, and
+complex semantic characterization of those things.
+
+Part of the reason for investigating these dyadic multidimensional
+scaling possibilities lies in the value they might conceivably have to
+neurology, noology, and artificial intelligence. The brain, for example,
+may naturally employ dyadic techniques; and even if it does not, that,
+too, would be worth knowing.
+
+One of the wonderful things that happens in the course of ordering
+a set of things by such random pairs and one pole at a time, is that as
+one passes on to successive poles and re-encounters the identical set
+of pairs, the set of monads embraced by the dyads gradually takes on a
+higher significance. The things, in effect, become ever less thing-like
+and ever more symbol-like. The successive cycles weave and interweave the
+things, and the meanings of the things, and ultimately the things acquire
+such an extreme order of complexity, and exhibit such ambiguity and
+interdependence, that they seem to surrender their importance and
+specificity to the sequential process itself.
+

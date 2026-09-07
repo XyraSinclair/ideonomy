@@ -17,6 +17,9 @@ invariants below (`tests/test_consistency.py`), so a green run is the gate.
   (`route-to-the-right-move`) may only reference skills that exist.
 - **Every relative markdown link must resolve.** No links to private or
   sibling repos.
+- **`corpus/` is one place.** Production drivers and ledgers at the top;
+  acquisition and extraction staging under `corpus/source/` with its
+  `MANIFEST.md` as the coverage denominator. Raw scans stay gitignored there.
 
 ## Doctrine
 

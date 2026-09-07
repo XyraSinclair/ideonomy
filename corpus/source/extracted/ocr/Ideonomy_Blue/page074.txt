@@ -1,0 +1,114 @@
+New Scientist 23/30 December 1989 59
+
+realism can be drawn on a computer screen with a minimum of
+
+sstares" ; programming fuss. With credentials like these, the tree looks
+MPA painist this fitsto ‘kground, it is set to become a symbol for the world of fractals.
+
+thatthe image of the tree should be prominent in contempo- Trees figure prominently in computer science. A classic case
+
+rary science. The finest specimen is thePbiologist’s evolution- arises when programmers instruct a computer to play games.
+
+ary tree—of which more ater—but sap ngs abound in every: A game tree begins with the current state of play and depicts
+
+, discipline-qhe alchemical legacy allows ‘chemists, for exam- the various routes that the game can take. The tree comes
+
+| “ple, to talk of Saturn’s tree, which is a branched mass of lead equipped with a root (the current position) and leaves (the
+
+deposited from a solution ofalead salt. [A sree formation of possible outcomes of the game). Programmers refer to “bushy
+
+silver is called-Diana’s tree. Elsewhere, fa tree is the name trees” in games such as chess, where there are a large number
+giyen to a mass of crystals formed during e ectroplating. of options at each stage. Computers cope with the arduousness
+
+ot to be outdone, engineers have cultivated groves oftheir of such games by discounting pointless moves in advance.
+own. Trees of steel, or Christmas trees, are the assemblies Pyrsuing the metaphor, programmers call this “tree-pruning”.
+
+built over oil wells to regulate the flow of oil. {Chtemical tudents of linguistics must also acquire a talent for
+engineers use ajree pump—named for its suggestive Shape— _ silviculture. For them, a ‘phrase structure tree” is a diagram
+| to transfer hot, corrosive fluids without the aid of susceptible explaining the anatomy fa sentence. The tree grows
+devices such as valves or pistons. The fluid travels along the _ progressively as they diss¢ct thessentence into its elements.
+
+central trunk under the impetus of a second fluid blown into Analysing the first sentence of this p raph would yield the
+
+and sucked from alternate branches. following tree:
+Zin eecrcal circles, “treeing” is a defect of cables, marked
+by the appearance of hollow, ramifying channels in insulation.
+LA ‘tree discharge”. is a sort of branching spark [Lightning
+evelops asa tree before becoming a bolt [Suggestive y shaped
+| eircuits: inside *Semputers are sometimes called trees. [in
+telecommunications, a tree is a branching array of telephone
+lines, with exchanges at the forks and individual handsets as
+the leaves. Whenever we make a trunk call toa private branch:
+
+__—_ Sentence
+
+Students of linguistics must also acquire a talent for silviculture
+
+Imost any branching structure qualifies?
+
+exchange, we reinforce the imagery. asa tree #Inside our bodies,|blood courses through vascular
+ro statisticians draw tree diagrams to portray all the trees, a biliary tree delivers bile to the intestine and|a spinal
+ossible routes chance pfay taxe Spinning a coin twice, for tree growsin the backbone AWe harbour atree in the brain, the
+
+y
+example, would yield“ tree along thé fellowing lines: arbor vitae; or tree of life, which is the pattern revealed by a
+vertical section of the cerebellum {Sea cucumbers breathe by
+drawing oxygen-rich water into their respiratory treesdWhen
+cells are producing an abundance of ribosomal RNA, their
+chromosomes take on the look of Christmas trees bedecked
+with molecular tinsel. [What with dendronsi} dendrites: and zB
+Te is this more true than inghe.atea
+
+classification itd» evolution, PT He Plree. of
+Finventionotttte 3rd Century AD, is argu :
+= isle Porphyry was a Mhidd é. Bastern"
+“Bhilososopher who popularised the work of other writers and
+wrote several books, including one about vegetarianism. His
+heory of graphs. The tree is '& device for specifying mankind’s place in the scheme
+
+~ of things: It works a little Ike the keys that help biologists
+
+to identify animals and plants Sharing. ab
+the ‘first, stage’ is to. divide’ all: of cre :
+arid incorporeas Subsequent divisions split. {
+into amimate and inanimate} the animate.
+‘and “iiisensitivezand, finally, the sensitive into fational and*
+jrfationals Mafi—a rational, sensitive living body—thén pops -
+‘Opt at the of the tree: ms
+
+‘ + “wexo's most illustrious role in biology, as a symbol of
+
+has{6 treesy.a tree being any path through the gra hthattakes both natural diversity and evolutionary change, emerg
+
+den ritic ulcers, biology is thick with metgphonca
+
+r geometers, trees belong to t
+following graph:
+
+| in/all the corners without creating loops. Examples are: _ It emergence marked a major shift in biological
+Pe of nature with its ascent from sponges to human being
+
+/\ Oy VAN — lr.) ees
+along a single line of “increasing pe ection”. Again, it was a
+
+A collection of such trees is, sensibly enough, a “forest”. linear es e, with every grade of life in its proper place, that
+c
+
+3 Rad been ¢ yured of ladders, chain
+Horsf A typical example was the ancient
+Elsewhere in mathematics, realistic trees invariably deco- inspired@Aiexander Pope’s lines:
+rate any discourse on fractal geometry, the study of objects Vast chane of Being, which from God began}
+
+whose shape repeats itself on different scales. Trees are prime =” atures aethereal, human, angel, man
+
+examples, because sprigs, twigs, branches, boughs and boles east, bird, fish, insect! what no eye can see,
+
+are progressively larger versions of the same basic shape. No glass can reach! from Infinite to thee,
+
+Because of their repetitive structure, trees of surprising From thee to Noththgp . . ; >
+
+QMALSo EV AVATIANS TREES OF OR S¥en AST
+Lunga (bron check.) 5 Likert VM, mieersle, Ms. cas— bn ing —
+ite al Leora Hier Moms > Fazer
+p J PRACTICRL ° og
+

@@ -1,0 +1,22 @@
+BOOK: Ideonomy.
+CHAPTER: Multidimensional Scaling of Ideas.
+
+(1)
+The method whose application to ideonomy | will describe in this chapter
+is not one upon which | have any expertise. Consequently there is much in
+its connection about which | will have nothing to say, and much of what |
+
+do have to say may be poorly expressed, superficial, or simply wrong.
+
+Yet so clear is the value to ideonomy of the statistical method known as
+nonmetric multidimensional scaling, that | am compelled to discuss it at
+some length. The method offers something to the science of ideas that no
+other method manages to offer, and it is necessary for the creation of
+materials, and for the production of data, that are essential for the
+implementation of many other ideonomic techniques and endeavors.
+
+Moreover, the existing literature on MDS (as the method is commonly
+abbreviated) does not illustrate other than in a minimal and irrelevant way
+the powers and possibilities of MDS for treating generic ideas,
+
+(2)

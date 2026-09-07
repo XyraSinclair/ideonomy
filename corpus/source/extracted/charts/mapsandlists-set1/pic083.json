@@ -1,0 +1,40 @@
+{
+ "title": "",
+ "kind": "diagram",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "labels",
+   "of": "form or structural motif",
+   "items": [
+    "ladders",
+    "lattices/screens",
+    "networks",
+    "trees",
+    "lines",
+    "bundles",
+    "tessellations",
+    "line-clumps",
+    "radiations",
+    "polygons/polyhedra",
+    "diaper patterns",
+    "clusters/splatters",
+    "fields/waves/interactions",
+    "protuberances/lobes",
+    "surfaces",
+    "holes/hollows",
+    "containers",
+    "blobs/clumps",
+    "spheres",
+    "cylinders",
+    "rings/discs",
+    "swirls/spirals/helices",
+    "knots",
+    "curves",
+    "chains"
+   ]
+  }
+ ],
+ "notes": "No title is visible. One label near the tangled-line drawing is unreadable and omitted.",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set1/pic083.jpg"
+}

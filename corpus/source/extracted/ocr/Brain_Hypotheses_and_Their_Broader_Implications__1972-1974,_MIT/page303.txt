@@ -1,0 +1,35 @@
+Some questions are about the structure of the input to a cell, the cause
+and nature of the complexity of output histograms, and the extent to which
+the complex inputs, outputs, and-aileslanses of a cell are functions of
+extracellular circuitry and the nature of this control. The stability of
+responses may be quantitated in various ways and considered as to the above.
+It seems rather clear that the diameter and other measurements of axons will
+govern the not only pulse velocity but also the efficacy and specific effect
+of the terminal pulse, and all these things need to be systematically
+determined. The interspike intervals of histograms need measurement and
+then expression in terms of the number, distribution, and efficacy of the
+total pulses received by cells per burst-to-burst and intra-burst epoch; eg
+the frequency-density may be such that cells respond as they do to large
+and interesting spatiotemporal clusters, or there may be phenomena of
+"wasted queues” where only a few pulses of hundreds may fire and take the
+cell, “leaders” that may regularly take the cell by some economy or ideal,
+"successive leaders” with regular drifts, "mixers" freer of order, &. One
+can imagine isoporie and anisoporic "coders" and "hoops" that could be
+"troglodytic, vagabondish, or escapistic’. Another question pertains to
+the spatiotemporal combinations that could fire a cell, variously, and their
+souree of regularity; eg possibly sets of same-twig, interbranchlet,
+interbranch, & EPSPs (even with ISPs) will alone or specifically in
+combination fire the cell, and equilibrial functions and structures will
+be set up or above between cells (see my list of equilibria under #67 in
+“order in Experience”), There may be a possibility and a dominance of
+a eertain quota, distribution, and timing of pulses throughout or over an
+arbor leading to peculiar summative firing or potentiation. Furthermore,
+cells in tissue may have worked out extreme efficiencies for achieving
+various effects. The raison d'etre for the quantitative and qualitative
+organization of spikes and bursts may be practical cell firing and,
+paradoxically, pewrougrene organization. The specific patterns of an
+individual cell's firings may trigger, control, or contribute to 10,000
+cells in the distance. What determines latency, intensity, frequency,
+sensitivity, reliability, variability, regularity, interval, complexity,
+specific organization, trend, probability, & of firing-—-mainly, miitiply,
+totally, little, not at all, cooperatively, and just how?

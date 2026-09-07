@@ -1,0 +1,62 @@
+(8)
+
+There are several different ways of locating the best dyads in the
+full space. Here 'best'! can mean indefinitely many alternative things,
+depending on the criterion or combined criteria that interest one or
+that may operate in a given instance or with respect to some purpose. it
+might, for example, mean highest-ranking in personally or ‘universally'
+perceived comicality, meaningfulness, expressive power or elegance,
+archetypal human meaning, ideogenetic effect, inexplicable fascination,
+revelatory quality, familiarity, unusualness, semantic complexity,
+absurdity, or even ugliness.
+
+Obviously the simplest way to locate the best dyads is to peruse the
+entire 92,510-item list. In a general sense, this could also be
+described as the best possible approach. Certainly it is the one
+method that insures direct inspection of every candidate, or of every
+named locus in the space. But it has its defects, including the long
+and hard mental task it imposes, the strains it places upon human memory,
+and the errors it must result in owing to the diachronic instability of
+the perusing mind. Moreover, its executional inelegance will--given
+human nature—diminish the inspiration and profitable excitement of the
+user. The absolute need for such thoroughness might also be questioned.
+
+Yet the examination of almost 100,000 items is not necessarily as
+big a chore as it might seem on first consideration. In an eight-hour
+workday there are 28,800 work-seconds, and so, if the big list could be
+read at 120 words per minute, say, or about the speed the average person
+reads a book, then 25.7 work-hours—or a bit over 3 workdays —would
+suffice to acquaint one with the total set of dyads. Of course this is
+ideal, and it makes no allowance for the time required to winnow any
+favored item, for backtracking, or for periodically ‘clearing the mind!
+or reminding oneself of the basic task and criteria. Let us say therefore
+that the task of perusing and winnowing a 92,510-dyad (or 185,020-word)
+list might demand something in the range of 1-3 work-weeks to be done
+properly.
+
+The initial winnow or ‘skimming of the scream' might cull the 10%
+
+(or 9,251) of the dyads judged best. Successive 10% winnows could yield
+the diminishing series of 925 (or 1%) overall best, 93 (or 0.1%) overall
+best, 9 (or 1/10,000) overall best, and 1 supremely best dyads. This
+would enlarge the total worktime required (to perform 102,788 dyadic
+winnowings) by a factor of 1.1. The result would be the scaling of the
+92,510 dyads on a 6-point logarithmic scale of degrees of 'goodness' (by
+some criterion).
+
+Of course 6 degrees can hardly be compared with the 92,510-degree
+scale that would, in effect, be produced by the superhumanly laborious
+complete linear ordering of the entire set of kaleidoscopic dyads.
+
+Another way to locate the best dyads would cause one to initially
+sample a small portion of the full idea space. One would winnow the best
+dyads in this sample and then use a computer to rank the terms that
+figured in the best dyads according to their relative frequency of
+occurrence (with separate rankings for the first and second dyadic terms).
+An alternative approach here would be to directly rank (or, say, to scale
+cardinally) the perceived individual or universal (combinatorial) goodness
+of the first and second terms. In either case, the resultant rankings
+would then to used to predict the best dyads, or the goodness of dyads,
+not just in the small sample subset but throughout the entire 92 ,510-dyad
+
+space (or table).

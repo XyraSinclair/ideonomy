@@ -1,0 +1,62 @@
+| should say a few words about how | chose the faces | did for scaling
+and about what was in my mind when | did the scaling (or the preliminary
+rank-ordering).
+
+1 excluded women's faces because | was afraid that gender would wind
+up dominating and trivializing the weighting.
+
+When rank-ordering the pictures | tried to ignore age differences,
+facial hair differences, glasses, and dress. In the case of age, for
+example, this was often difficult, and sometimes it forced me to
+reconstruct faces imaginatively.
+
+During the rank-ordering of the analogousness of each of the faces to
+all of the others, | discovered to my amusement that the face of one
+individual (indicated by "A'' in the figure) almost always ranked near the
+top in similarity. Apparently this man has a universal face. Perhaps he
+is a politician? Less facetiously, there may be certain faces that have
+the status of common denominators in certain, or all, sets of faces; and
+perhaps, more generally, there may be visual objects, ideas, things, or
+variables possessed of a similar status.
+
+tf there are such things, they may be important to find for the sake
+of ideonomy. They might, for example, provide clues for the interpretation
+Or proper organization of other variables. For a given idea-set, there may
+be several rather different, or multipolar, 'common denominators' of this
+sort.
+
+As a caution, however, | should probably also mention that the visual contrast
+was especially poor in the photograph of the face that | have been
+describing as universal, so its seeming universality may merely have been
+an accidental result of the lower information content of such a washed
+photograph. (As has so often been the case in my ideonomic research,
+drastic shortage of time relative to the scope of the research has
+forbidden me to be systematic or careful. |! do not like sloppy science
+any more than any other scientist.)
+
+Another interesting observation | would make is that the first time
+| looked at the MDS map shown here, | was momentarily startled by a
+certain inability to distinguish any of the different faces. Apparently
+my brain was not used to finding a set of things like that so perfectly
+ordered in space. Of course after an instant consciousness of the
+dissimilarities of the faces reemerged. All of this illustrates the
+power of MDS to heighten the mind's awareness of what things are and are
+not.
+
+EMOTIONS
+
+The set of nonmetric multidimensional scaling exercises that | will
+now describe were far more elaborate and ina Seasé whore truly ideonomic
+in character. .
+
+They concerned the perceived mutual analogousness of diverse emotions.
+| used various random subsets of a more nearly diapasonal set of 140
+named emotions.
+
+These were prepared for MDS mapping by the computer, not by the
+more traditional rank-ordering method used above for the nine faces, but
+rather by the more elegant Triadic Method.
+
+Scaling a set of ideas or things via the Triadic Method is always an
+education and often a revelation.
+

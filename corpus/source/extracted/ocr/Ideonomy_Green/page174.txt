@@ -1,0 +1,66 @@
+The things treated suddenly exhibit similarities, divergences, forms
+of order, properties, simplicity, complexity, problems, incompleteness,
+etc_that one would never have suspected. Great insight is gained into
+their relationships, nature, and possibilities. Many illusions are
+shed and new perspectives acquired. An avenue is furnished into one's
+own mind.
+
+So in the course of deciding whether emotion A (say grief) was more
+similar overall to emotion B (jealousy perhaps) or emotion C (pride?),
+and the like, | came to realize that individual feelings are not the
+simple or atomic things they are ordinarily taken to be, but on the
+contrary are infinitely complex, and such that they contain entire
+hierarchies.
+
+One consequence of their hierarchic character is that some supposedly
+different emotions (e.g. amusement and disgust; or jollyness, bitterness,
+and sarcasm, considered as affects) may actually be the same emotion but
+at radically different scales (e.g. at 2-3 orders of magnitude greater
+‘temporal rate', say if there is high-frequency repetition of emotion,
+or of some physiological correlate of emotion, in the human brain).
+
+Should this situation obtain, it would illustrate a very general
+ideonomic principle to the effect that things are often far simpler
+than assumed, and that many things taken to be different are often
+basically similar if not even identical.
+
+Further ideonomic reflection upon this also led on to the following
+ideas.
+
+If emotions have characteristic temporal periods, then what are the
+most extreme—the shortest and the longest—periods? And might we be
+mistaking these extreme-most emotions for novel psychic phenomena, or
+creating artificial boundaries between coessential phenomena? Thus might
+feelings, character traits, and character types all in reality form a
+continuum, or be part of the same temporal spectrum? Character traits
+and types might just be the slowest of all emotions, or emotions with
+periods approaching, equaling, or exceeding the human lifetime.
+
+Conversely, emotions might simply be the fastest, briefest, or most
+variable of personality traits.
+
+Before rejecting this proposal, one should at least ask oneself what
+the longest emotion is, whether we are in a position to know, or whether
+any reason can be given for why there should be a limit.
+
+One could go further and hypothesize that ethological differences—
+differences in the behavior and behavioral character of different
+animal species—more or less represent a more extreme part of the same
+continuum.
+
+What | also saw as | treated emotions Triadically was that different
+emotions turn into one another and subsume their (supposed) opposites,
+This was part of the reason | described emotions above as being
+infinitely complex. Certainly each emotion is a world that encompasses
+as much as we customarily attribute to all emotions taken together.
+
+To be properly understood, every single emotion must, at minimum, be
+completely mapped onto every other individual emotion, Although doing
+this is feasible, | will not discuss the ways of doing it here.
+
+Figure shows the simplest two-dimensional MDS map that resulted
+from my Triadic scaling of 36 emotions using a set of 50 scaling dyads.
+The scaling dyads were what is termed "'virtually intra-set'' because the
+36 emotions that were actually scaled represented a subset of the emotions
+that occurred monadically in the scaling dyads.
+

@@ -1,0 +1,63 @@
+Only some, in fact only a tiny fraction (4%) of the possible scaling dyads
+that could have been constructed from the same set of different emotions
+were actually used. The subset that was used was chosen at random by
+means of random numbers; only inverse dyads were excluded, these being
+excluded for the obvious reason that they were tautologous.
+
+Emotions were the very first things | mapped via MDS. It was fascinating
+to follow the evolution and transformation of the map of emotion space
+as | gradually scaled in more and more emotions. It was only necessary
+
+to make fifty binary, comparisonal decisions to add a new emotion.
+
+| found that | could usually predict the rough location of a new
+emotion. Of course this does not imply that | could have constructed
+the entire map ab initio. The MDS computation was necessary to discover
+the basic dimensions and structure of the map in the first place. Once
+this clearly meaningful pattern was made visible, contextual relationships
+provided countless clues for where a new emotion, or a new set of
+emotions, should go.
+
+The 36 emotions in the figure are distributed in the usual circular
+pattern, or concentrated at a unit radius from the origin of the diagram,
+More precisely, but as is again typical, the structure of the population
+of variables in the lowest~two-dimensional diagram is semicircular: a
+horseshoe with a gap. The pattern is more elliptical than circular; it
+is flattened vertically or stretched horizontally, The horizontal
+dimension, or Dimension 1, must therefore be especially obvious,
+intuitively, or much more important in the weighting than the next most
+implicit qualitative dimension, Dimension 2.
+
+In the case of emotions Dimension 1 is easy to interpret, for what
+one would describe as good or pleasant emotions occur leftward in the
+plot, and bad or unpleasant feelings—feelings of an opposite nature
+occur to the right. The nicest emotions, such as happiness, enthusiasm,
+and love, occur—-and even tend to cluster—at the extreme left; conversely,
+the worst emotions occur and cluster at the extreme right (pain, shame,
+dullness, etc).
+
+Upon closer inspection one realizes that the distribution is more
+multipolar than bipolar. The bad emotions on the right show a tendency
+to form two or three clusters. The northeastern cluster comprises fear,
+anxiety, terror, timidity. The southeastern cluster includes anger,
+irritation, disgust, indignation, etc, Finally in the mideastern clump
+one sees shame, hollowness, dullness, pain, and anguish,
+
+Notice the naturalness, coherence, and semantic distinctness of these
+groupings. Not only are they strong evidence for the validity of MDS
+and the Triadic Method, but they attest to the power and precision of
+same. It is amazing that the seemingly crude device of the Triadic Method
+is able to discover such fundamental, complex, and delicate structure in
+an idea-set.
+
+Emotions of an opposite nature tend to be found 180° from one another
+or diametrically across the plot origin. Opposite admiration and wonder,
+for example, are irritation and boredom. Caution lies opposite security.
+Envy and admiration are opposite. So are respect and impatience,
+
+Of special interest is the general field of emotions lying opposite
+or far from mischievousness. Evidently mischievousness partakes of the
+qualities of its neighbor security, and therefore opposes caution,
+anxiety, and respect; mischievousness often presupposes a certain
+bumptious or gay sureness, a careless flaunting of respect.
+

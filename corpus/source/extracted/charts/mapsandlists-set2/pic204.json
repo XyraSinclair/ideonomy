@@ -1,0 +1,51 @@
+{
+ "title": "TAXONOMY OF FORMS OF ENERGY",
+ "kind": "list",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "Taxonomy of Forms of Energy",
+   "of": "forms of energy",
+   "items": [
+    "Acoustic",
+    "Adhesive",
+    "Binding",
+    "Capillary",
+    "Chemical",
+    "Cohesive",
+    "Elastic",
+    "Electrical",
+    "Electromagnetic",
+    "Electrostatic",
+    "Exchange",
+    "Frictional",
+    "Gravitational",
+    "Heat",
+    "Inertial",
+    "Kinetic",
+    "Lattice",
+    "Luminous",
+    "Magnetic",
+    "Magnetostatic",
+    "Mass",
+    "Mechanical",
+    "Nuclear",
+    "Osmotic",
+    "Phonon",
+    "Potential",
+    "Radiant",
+    "Rest",
+    "Rotational",
+    "Sound",
+    "Strain",
+    "Surface",
+    "Thermal",
+    "Translational",
+    "Vibrational"
+   ]
+  }
+ ],
+ "notes": "Some items near the edge are slightly blurry but readable. The list appears to be in alphabetical order.",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set2/pic204.jpg",
+ "rail": "gemini"
+}

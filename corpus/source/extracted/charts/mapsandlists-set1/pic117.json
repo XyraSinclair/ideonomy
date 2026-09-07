@@ -1,0 +1,260 @@
+{
+ "title": "GEOMORPHOLOGICAL MAP SYMBOLS",
+ "kind": "list",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "Forms Due to Volcanicity",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Slopes of volcanic cones with gradients of 2–4°",
+    "Remnants of volcano slopes (see §B1)",
+    "Rim of crater",
+    "Inner slope of crater (see §B1)",
+    "Rim of caldera",
+    "Inner slopes of caldera",
+    "Parasitic cones",
+    "Lava tongues (confined to valleys)",
+    "Lava flows",
+    "Lava fields",
+    "Lava bridges or tunnels, spatters cones, driblet cones, lava cascades and tumuli"
+   ]
+  },
+  {
+   "name": "Forms Due to Denudation",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Remnants of a structural surface",
+    "Remnants of an erosion surface",
+    "Remnants of pediments formed by erosion and denudation"
+   ]
+  },
+  {
+   "name": "Constructional Forms Due to Denudation",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Scree or talus heaps",
+    "Talus slopes",
+    "Talus cones",
+    "Landslide, -slip tongues",
+    "Solifluction tongues",
+    "Slopes with terracettes",
+    "Boulder tongues",
+    "Mudflow tongues",
+    "Rock streams or rock glaciers",
+    "Laves torrentielles (Muren) pebbly mudflows",
+    "Colluvial fans",
+    "Creep-built (colluvial) plain",
+    "Solifluction-built plains",
+    "Forms of proluvial origin",
+    "Proluvial fans",
+    "Plains due to proluvial accumulation (playa, sabkha)"
+   ]
+  },
+  {
+   "name": "Destructional Forms Due to River Erosion",
+   "of": "geomorphological map symbol",
+   "items": [
+    "River bed of permanent streams",
+    "Fluvial breakthroughs",
+    "Riverine mud banks",
+    "Natural embankments (levees)",
+    "Interfluvial agradational spurs"
+   ]
+  },
+  {
+   "name": "Fluvial-denudational Forms",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Valley sides cut during the Würm glaciations",
+    "Sides of structural gaps cut in quartzite",
+    "Sides of antecedent gaps",
+    "Sides of epigenetic gaps",
+    "Sides of gaps formed by headward erosion",
+    "Sides of overflow gaps",
+    "Sides of dry cols (wind gaps)",
+    "Sides of inherited gaps",
+    "Cutoff, severed spurs",
+    "Pseudo-cutoff hills",
+    "Epigenetic hills",
+    "Valley spurs",
+    "Funnel-shaped valley head",
+    "Kettle-shaped valley head",
+    "Break of slopes separating various generations of valleys of differing age",
+    "Small valleys produced in cooperation with solifluction",
+    "Small valleys produced by periodic water acting in cooperation with denudation",
+    "Steep slopes of asymmetrical valleys",
+    "Barrancos (ravines)"
+   ]
+  },
+  {
+   "name": "Fluvioglacial Forms",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Valley, channel sides cut by proglacial water during the former glaciations",
+    "Sides of glacier margin valley trains (Urstromtal) cut by proglacial and extraglacial water during the former glaciations",
+    "Sides of inherited gaps dating from the former glaciations"
+   ]
+  },
+  {
+   "name": "Karst Forms reproduced in insoluble rock-cover",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Swallow, sinkholes due to solution",
+    "Swallow, sinkholes due to collapse",
+    "Small karst depressions"
+   ]
+  },
+  {
+   "name": "Forms Due to Solution and Water Erosion",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Slopes of karst gorges",
+    "Sides of blind karst valleys",
+    "Steep terminal walls of blind valleys",
+    "Corrosion notches (niches)",
+    "Flat floors of central poljes covered with gravel",
+    "Flat floors of central poljes covered with sand",
+    "Flat floors of central poljes covered with silt",
+    "Flat floors of central poljes with rocky bottom",
+    "Flat floors of marginal poljes",
+    "Sides of poljes",
+    "Surfaces due to karst planation (see destructional surfaces)",
+    "Hanging karst valley steps",
+    "Karst gateways",
+    "Karst spurs",
+    "Segments of karst gorges formed by collapse of cavern roof",
+    "Mogotes (haystacks), hums"
+   ]
+  },
+  {
+   "name": "Karst Forms Due to Deposition of Calcium Carbonate",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Travertine bars",
+    "Travertine terraces"
+   ]
+  },
+  {
+   "name": "Forms Due to Deposition of Mineral Salts by Heated Underground Water",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Cones, funnels",
+    "Rims"
+   ]
+  },
+  {
+   "name": "Suffosional (Piping) Forms",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Suffosional (subcutaneous) dimpling",
+    "Suffosional pits",
+    "Suffosional blind valleys",
+    "Suffosional shafts",
+    "Suffosional cavern entrances"
+   ]
+  },
+  {
+   "name": "Glacial Forms",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Destructional Forms Due to Glacial Erosion",
+    "Roches moutonnées",
+    "Lateral morainic ridges",
+    "Lateral morainic ridges due to ablation (lateral pseudo-moraine)",
+    "Transverse ablation morainic ridges",
+    "Medial morainic ridges",
+    "Ridges of block moraines (“bear-den moraines”)"
+   ]
+  },
+  {
+   "name": "Nivation Forms",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Nivation cirques and niches",
+    "Nivation hollows and nivation troughs",
+    "Nivation terraces",
+    "Nivation pavement",
+    "Avalanche scars",
+    "Avalanche tracks"
+   ]
+  },
+  {
+   "name": "Constructional Forms Due to Nivation",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Fans and avalanche heaps",
+    "Protalus ramparts, nivation ridges, winter talus ridges",
+    "Protalus steps"
+   ]
+  },
+  {
+   "name": "Forms Due to Frost Action",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Patterned ground",
+    "Polygonal ground",
+    "Soil stripes",
+    "Pingo",
+    "Thufur (tussock) fields",
+    "Planed surfaces due to cryoplanation",
+    "Terraces due to cryoplanation"
+   ]
+  },
+  {
+   "name": "Thermokarst",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Forms Due to Melting Out of Buried Ice Blocks",
+    "Kettles",
+    "Large basins",
+    "Channels due to melting out of buried ice masses",
+    "Groups of kettles",
+    "Forms Due to Melting Out of Hydrolaccoliths",
+    "Ablation troughs surrounded by a mound (post-pingo)",
+    "Shallow ablation pits"
+   ]
+  },
+  {
+   "name": "Eolian (Aeolian) Forms",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Destructional Forms Due to Wind Erosion",
+    "Wind-excavated depressions (blow-outs)"
+   ]
+  },
+  {
+   "name": "Marine Forms",
+   "of": "geomorphological map symbol",
+   "items": [
+    "Ancient abandoned cliff",
+    "Wave-cut platform",
+    "Wave-cut terrace plain",
+    "Stacks",
+    "Headlands (spurs)",
+    "Sea arches",
+    "Sea caves",
+    "Submarine outer edge of wave-cut platform",
+    "Priele (tidal channels)",
+    "Wave-cut notches, nips",
+    "Constructional Forms Due to Marine Deposition",
+    "Beach",
+    "Bay mouth bar",
+    "Spit",
+    "Bay bar",
+    "Tombolo",
+    "Coastal terrace plain",
+    "Beach ridge",
+    "Barrier or offshore bar",
+    "Floors of watten (tidal flats, sand, mud)",
+    "Bottoms of lagoons",
+    "Submarine bars",
+    "Alluvial fans at priele (tide channel) mouths",
+    "Ridges formed by sand filling up priele",
+    "Tidal deltas"
+   ]
+  }
+ ],
+ "notes": "Some headings and entries are faded, obscured, or too small to read reliably and have been omitted.",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set1/pic117.jpg"
+}

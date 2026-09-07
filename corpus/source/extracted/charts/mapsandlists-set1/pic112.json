@@ -1,0 +1,164 @@
+{
+ "title": "EXTERIORITY:",
+ "kind": "list",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "Dimensionality of Space:",
+   "of": "a dimensionality of space",
+   "items": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "Hyper",
+    "Infinite",
+    "Superinfinite",
+    "Fractal",
+    "Indeterminate"
+   ]
+  },
+  {
+   "name": "Dimensionality of Thing Or Locus Whose Exteriority Is Being Referred To:",
+   "of": "a dimensionality of the thing or locus whose exteriority is being referred to",
+   "items": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "Hyper",
+    "Infinite",
+    "Superinfinite",
+    "Fractal",
+    "Indeterminate"
+   ]
+  },
+  {
+   "name": "Dimensionality of Thing Or Locus Relative To Which Something Is Exterior:",
+   "of": "a dimensionality of the thing or locus relative to which something is exterior",
+   "items": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "Hyper",
+    "Infinite",
+    "Superinfinite",
+    "Fractal",
+    "Indeterminate"
+   ]
+  },
+  {
+   "name": "Dimensionality of The Exteriority Per Se:",
+   "of": "a dimensionality of exteriority per se",
+   "items": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "Hyper",
+    "Infinite",
+    "Superinfinite",
+    "Fractal",
+    "Indeterminate"
+   ]
+  },
+  {
+   "name": "Whether Each of The Above Are:",
+   "of": "a characteristic of the dimensionalities above",
+   "items": [
+    "Unique or Not.",
+    "Possessed of One Property or Many.",
+    "Actual or Imagined.",
+    "Concrete or Abstract.",
+    "Morphic or Nonmorphic.",
+    "Temporary or Permanent.",
+    "Fundamental or Arbitrary.",
+    "All of What There Is—Or Part of Something More.",
+    "Solid, Semi-solid, or Empty.",
+    "Invariant, Variable, or Both.",
+    "Natural or Artificial."
+   ]
+  },
+  {
+   "name": "Various Senses [Exemplificatory] of “Exteriority”:",
+   "of": "a sense or exemplification of exteriority",
+   "items": [
+    "Beyond",
+    "Superficial",
+    "Surface",
+    "Neighborhood",
+    "Next",
+    "Ultimate",
+    "Remainder",
+    "Universal",
+    "Independent",
+    "Covering",
+    "Enclosing",
+    "Not-Content-Inside",
+    "Intra-superficial",
+    "Epi-superficial",
+    "If-Any-Exteriority;",
+    "Out-Ever?",
+    "Appearance",
+    "Subjective or Illusory character;",
+    "Objective character.",
+    "Open (not-closed)",
+    "Outermore",
+    "Outermost",
+    "Connected-To-Externalia",
+    "Outer texture or configuration.",
+    "Wholly-outside.",
+    "Character-Relative-To-Externalia",
+    "Cosmic or Absolute",
+    "Exogenous.",
+    "Before and/or After Temporally;",
+    "Before and/or After Spatially."
+   ]
+  },
+  {
+   "name": "Things Possessing/Examples of Exteriority(s):",
+   "of": "a thing possessing or exemplifying exteriority",
+   "items": [
+    "Object",
+    "Phenomenon or phenomena.",
+    "Ideas",
+    "Cell",
+    "Atmosphere",
+    "Organ",
+    "Nation",
+    "Stone",
+    "Ocean",
+    "Path",
+    "Event",
+    "Era",
+    "Society",
+    "Culture",
+    "Mind/Self/environment",
+    "Subject",
+    "Space manifold",
+    "Set (math.)",
+    "Point (math.)",
+    "Line segment",
+    "Circle",
+    "Cluster",
+    "Building",
+    "View",
+    "Knowledge",
+    "Being",
+    "Region.",
+    "Interface",
+    "Relationship",
+    "Specification",
+    "Language",
+    "Atom"
+   ]
+  }
+ ],
+ "notes": "",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set1/pic112.jpg"
+}

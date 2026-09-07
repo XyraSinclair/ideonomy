@@ -1,0 +1,66 @@
+WHAT THE VALUE OF ''EXPERT SYSTEMS'' IS AND WHERE IT LIES
+
+NOTE: So-called ''expert systems" or "intelligent assistants'' are computer
+programs, possibly along with some ancillary equipment, that have been
+given something of the working [knowledge , skills, techniques, habits,
+
+and logic] of one or more types of human specialists in some area of
+(Science, technology, mathematics, business, scholarship, education, art,
+government, or the like], or in some mix thereof, and that are variously
+able to (mimic, equal, surpass, supplement, complement, train, check, or
+obviate--or amplify the [powers, knowledge, skills, productivity,
+efficiency, perception, learning, memory, logic, imagination, judgment,
+creativity, reliability, standards, flexibility, range, speed,
+
+pleasure, or utility] of--human experts, professionals, craftsmen,
+geniuses, technicians, apprentices, students, amateurs, and igngramuses]
+at tasks wholly or partly of a cognitive nature or that involve{ complex
+or higher-order sensorimotor skills, reactions to or interactions with
+«complex, multidimensional, multilevel, changing, unpredictable, or vague>
+circumstances, events that may happen <suddenly, swiftly, or on a wildly
+varying scale, learning or sophisticated use of long and deep experience,
+manipulation of knowledge, intuition, interpretation, evaluation,
+synthetic analysis, personal character or style, use and synthesis of
+many kinds of expertise, making and synthesis of decisions at many
+levels, or the like}. Currently the development and application of such
+expert systems is one of the most active areas in artificial intelligence;
+the [disciplinary, industrial, and social} promise is clearly enormous, but
+the inevitable limits that the evolution and use of expert systems will
+one day face are presently unknown and uncertain.
+
+1. Where fpossibilities, or their combinations, permutations, or
+transformation are too numerous or complex for human experts
+to function {comfortably, well, reliably, or at all}
+
+2. Where new, nonexistent types of human experts are required.
+
+3. Where experts are too--or 'more'--expensive, owing to [scarcity,
+standard salary, or the costs of years of education, training,
+or experienc}
+
+4. Where the demand or need for, or potential utilization of, fexperts,
+expertise, knowledge, skills, intelligence, Ec) is limitless or
+transcends actual supply to an unknown extent or order.
+
+5. Where the number of experts that society could use exceeds the
+absolute size of the population, or at least exceeds the number
+that competition between human specialties will ever permit.
+
+6. Where the proliferation of [specialties, special knowledge, and
+special needs] in a world of progressive industrial diversity
+is diminishing available specialists virtually everywhere.
+
+7. Where the moral value of and need for experts is high but their
+actual economic value--or the money available to hire and
+develop them--is small. (In poor and undeveloped regions, for
+poor subpopulations, for charitable purposes, for human
+development and culture, in the case of the U.N., for much
+academic research, &c; the needed expertise being fagricultural,
+medical, economic, administrative, industrial, scientific,
+educational, artistic, military, geological, meteorological,
+and sociological.)
+
+8. Where other needs exist for expertise that is not affordable (in
+small, barely competitive firms, in government; for less
+valuable expertise or uses of expertise).
+

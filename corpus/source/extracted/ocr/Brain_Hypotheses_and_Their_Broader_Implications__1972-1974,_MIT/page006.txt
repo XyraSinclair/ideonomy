@@ -1,0 +1,70 @@
+LoGIC DICTIONARY
+Pat Gunkel
+
+lagios: A science that deals with the canons and criteria of validity in thought
+
+and demonstration and that traditionally comprises the principles of definition
+and classification and correct use of terms and the principles of correct
+predication and the principles of reasoning and demonstration: the science of
+the normative formal principles of reasoning: the science of correct reasoning
+- see formal logic, material logic; a system of formal principles of deduction
+or inference; semiotic or a branch of semiotic, esp syntactics; the formal
+principles of a branch of knowledge; a particular mode of argumentation or
+reasoning viewed as valid or faulty according to its apparent agreement with
+or departure from accepted principles of logic; relevance or propriety (as of
+a quality, a procedure) judged as present or absent according to apparent
+conformity or lack of conformity with the dictates of logic; interrelation or
+connexion or sequence (as of facts or events) esp when seen by rational analysis
+as inevitable, necessary, or predictable; something that convinces or proves
+or that obviates argument or makes argument useless and is by its nature quite
+apart from or beyond or opposed to the use of reason as a means of arriving at
+
+decis or settling disputes or attaining truth.
+logical entailment: implication. (A)One of several formal logical
+
+relationships or a statement containing propositions in such a relationship =
+(Na logical relationship of the form symbolically rendered "if p then g" in which
+p and q are propositions and in which p is false or gq is true or both, also
+a statement in this form (called also material implication) {a logical relationship
+of the form symbolically rendered "if p then strictly g" in which g is deducible
+from p, also qa statement in this form (called also logical implication, strict
+implication) the symbol used to indicate one of these two formal relationships
+and if..ethen” or the logical operation implicit in one of them.
+
+The subject of a sentence that expresses the actual agent of an
+expressed or implied action (as father in "it is your father speaking") or is the
+thing about which something is otherwise predicated (as to do right in "it is
+something hard to do right") = called also real subject.
+
+The process of reaching or defining a conception by the successive
+
+ination of what is extraneous.
+privative proposition. Esp one that asserts the absence of
+
+something to be of the essence of the subject.
+Expressive or indicative of antithesis, opposition, adverse circumstance,
+reservation, or contrary suggestion (an adversative proposition; the adversative
+conjunctions but, only, still, yet; an adversative clause such as although it was
+raini in "although it was raining, the race started").
+
+Has the subject limited by exceptions "except", "but", "some".
+*only*, “alone”,
+
+Eg "as", “inasmuch as ", “sofar as".
+
+Eg “because”, “since", "by reason of", "on account of", "hence",
+"thus", "so", "for".
+
+A proposition so related to another that although both may be false they
+cannot both be true: a universal proposition affirming what another universal
+proposition denies or denying what another affirms (as “every vine is a tree” and
+"no vi a tree") - distinguished fran converse; compare opposition.
+
+e relation of contraries - see opposition.
+
+A proposition so related to another that if either of the two is true
+the other mst be false and if either is false the other mst be true: a proposition
+having the same terms as another proposition but opposite in quality and quantity
+(eg “all a is b" is the contradictory of "some a is not b”); a term that is the
+exact negative of another (eg ‘hhite"™ and "not white” are contradictories )
+

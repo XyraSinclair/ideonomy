@@ -1,0 +1,65 @@
+i994 5-7
+65
+
+The first serious use in Space of various electrostatic and electromagnetic
+drives will occur in 1995. Known possibilities for electrostatic propulsion
+include a nuclear reactor, photovoltaic cells, or solar collectors as the
+power source; the Brayton gas-turbine cycle, Rankine turbine cycle, semiconductors
+(thermocouples), or thermionic diodes for converting the power; and various
+ionic or colloid devices for the thrust. Known possibilities for electromagnetic
+propulsion include the thermal adiabatic arcjet, magnetohydrodynamic (MHD) arcjet,
+magnetoplasmadynamic (MPD) arcjet, or electropulsed methods. The characteristics
+currently assumed for electrostatic (ion) propulsion are a aha impulse
+of 5,000-60,000 second, a thrust-to-weight ratio of 10 °-10°7, and a typical
+thrust duration of months. The characteristics assigned electromagnetic systems
+are a specific impulse of 5,000-25,000 second, and ditto. Clearly these drives
+would seem to have special ranges of applicability. Per contra, chemica 2
+propulsion involves a range of specific impulse of 120-450 second, a 10 °-10
+thrust-to-weight ratio, and typical thrust duration of minutes; fission propulsion,
+respectively, 500-1,100 second, 102-!, and minutes. Given their uncertain
+nature, feasibility, cost, developmental requirements, drive characteristics,
+applications, trade-offs, &c, it is really a little early to comment on future
+events related to such drives. Even so, they may be the key to important
+developments, and they are widely discussed.
+
+Maybe in 1995, hypersonic transports (HST) will lift objects to or toward
+orbits. [It is uncertain at what height and velocity release will occur, and
+what independent drive the objects may carry. The purpose will be financial economy.
+
+In 1995 scramjets will operate at 17-25 or more Mach. One function may be
+that just mentioned. Another will be aerospace scramjets.
+
+1996 may be taken to stand for the year when controlled fission drives will
+become operational in spacecraft &r atmospheric assistance thereof. Possibilities
+include gaseous core, solid core, nuclear-electric, huge particle-reflecting
+hemispheres, &c. Such drives could come into Spacial and subspacial use far
+sooner were there not the opposition existing. Nuclear drives will greatly
+expand unmanned and manned interplanetary flight and operations. The imminence
+of controlled fusion and fusion drives in 1996 will have a complex positive and
+negative bearing on fission developments in terms of both power generation and
+propulsion in Space.
+
+Pulsed nuclear ('"Orion'') propulsion will be tried out in Space in 1996 with
+fission bombs. The blast effects of small, repeated atomic explosions wil]
+be used to propel space vehicles. High instantaneous accelerations, loss of
+fissionable fuel, and radiobiological hazards are serious problems that have
+to be solved. Nuclear pulses may ultimately be used to propel planetesimals
+of mineralogical value elsewhere in the Solar System without radiation hazard.
+
+Revolutionary spacial offensive systems can be foreseen arising in 1997. The
+spacial defensive systems expected, say, in 1991 are a two-sided coin: they
+may induce both sides to evolve offensive systems and they may also have a
+certain utility in tactical and strategic offense. Certainly their and other
+hardware can provide valuable offensive systems. Gigawatt and terrawatt basers
+may be used to destroy missiles in flight, military materiel and personnel on
+land and water, nonmilitary construction, populations, and the countryside,
+at least in theory or threat. Mighty basers may also be used intraspacially to
+destroy military and nonmilitary installations and means. Bombs can be placed
+and maintained in orbit, deep Space, on in Spacial bases. Manned and unmanned
+fleets can be placed in Spacial loci. A defensive or offensive Doomsday Machine
+can be orbited and either announced or not; Spacial Doomsday Machines might be
+especially effective or cheap. Many possibilities must be possible for a
+sinister mentality, and may already be contemplated or exist, or should arise
+unpredictably by 199] and later. The Outer Space Treaty of 1967 seems to
+forbid such systems, but it is ambiguous and sofar unchecked. Countless qualitative
+and quantitative possibilities will be possible or occur before 2176.

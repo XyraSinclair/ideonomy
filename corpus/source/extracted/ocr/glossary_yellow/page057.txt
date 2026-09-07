@@ -1,0 +1,61 @@
+56
+
+statistical <symmetries and moments>, interest index, e/v meritoriousness
+indices].
+
+eIntra-set, adj.: In a set {as intra-set ideas}; [Being, of, involving, or
+treated as] [all or part of] something [existing or functioning]
+within a (given) ideoset; Confined to an ideoset. — See e.g. under
+Multidimensional scaling. — Ant. extra-set.
+
+ Meta-ideoset = metaset: An ideoset which, in a relative or absolute
+sense, represents a higher [order, level, or kind] of ideoset; and
+which contains ideas, or relates to cognitive processes, that [by nature, function,
+interest, or operation] tend to be [different from, independent of, orthogonal to,
+subsumptive of, or transcendent of] what [indicatedly or virtually] lies below,
+higher-level, higher-order, or more [general, abstract, developed, important,
+fundamental, nomothetic, transformed, ideonomic, coordinative, managerial,
+supervisory, synthetic, e/uc].
+
+Thus various meta-ideosets help to: classify ideas; interpret, summarize,
+
+or criticize [ideas and thoughts] that have been, or are being, produced at a
+{lower or earlier] level; organize, plan, and guide ideonomic inquiry and
+endeavors; reveal the underlying structure, relationships, and patterns of
+ideas; categorize categorizations, define definitions, describe descriptions,
+analogize analogies, combine combinations, criticize criticisms, generalize
+generalizations, suggest methods for handling methods; etc.
+
+eRe-set, vb. & adj.: 1(vb.): To [recreate, transelement, permute,
+revaluate, transvaluate, e/uc] [an ideoset or set of ideosets]; 2(n.):
+Ideic [set or superset] that [has been, is being, or is to be] re-set.
+
+Subset = sub-ideoset: Ideoset that is [or represents] a : [component,
+subpopulation, percentage (fraction), qualitative division, sub-range, cut,
+subarea, element, share, sample, extract, subordinate, affiliate,
+transformation or rearrangement, dual (part of a “duality”), derivative,
+residue, endosymbiont, dependent, specialization, dimension, subspace,
+submanifold, sub-symmetry, internal <subcluster or sub-constellation>,
+internal singularity, guest, simplex, analog, homunculus (<smaller or
+internal> isomorph), corollary, tendency, potential, <discrete, separable,
+independent, autonomous, definable, or virtual> part, condensation, instance
+or instantiation, sub-whole, subtype, subcategory, polyad, <partial or complete>
+permutation, internal <path or sub-series>, divisor, <least or greatest>
+common denominator, modulus, e/vc]: of an‘ [ideoset, superset, holoset,
+archoset, hierarchy of ideosets, family of ideosets, intersection of ideosets,
+e/vc], of a[larger or more general, diverse, multidimensional, complete,
+complex, evolved, <self-connected, self-mapped, or recursive>, dense,
+continuistic, discontinuous, “chaotic”, structured, determinate, <explicit or
+perceptible>, active, externally connected, important, e/vc] ideoset, or of such
+‘more natural’ things as [ideonomic organons <e.g. lists, tables, atlases, maps,
+or software>, ideonomic <spaces, metastructures, or subdivisions>, the
+Ideocosm, books, and even thoughts, thought processes, minds, entire sciences,
+art-work, human experiences and situations].
+
+eSuperset = super-ideoset: An ideoset that contains [ideosets or
+subsets]; — or that [in an absolute sense or relative to a lesser ideoset] [is or is
+perceived or treated as being or has the potential to become or behaves as though
+it were] [more, more or less, maximally, infinitely, or ever more] : [populous
+<e.g. in terms of subsets, ideas, referents, relations, types, taxa, data,
+possibilities, words, monads, basic patterns, laws, phenomena, levels, regions,
+ideostructures, e/vc>, containing, high-level, general, specific and detailed,

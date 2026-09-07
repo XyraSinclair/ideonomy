@@ -1,0 +1,58 @@
+DESCRIPTIONS OF CHAPTERS
+
+Part 1, ORIGINS
+
+Chapter 1, The Prospect
+
+Imaginary future newspaper headlines listed and discussed as a dramatic
+introduction to the future possibilities of metacomputers, followed by an
+explicit statement of the book's theme. Sketch of what the future might
+be like in the absence of metacomputers, followed by a brief portrait of
+the future in general--as it is apt to be--and of a world renaissance the
+authors foresee. Chronology of future metacomputer-related events. A
+discussion of the book's structure and content. Other things that might
+be touched on are: reasons for the book and for studies of the future;
+interest and importance of the subject; key terms and concepts; origins
+of the authors' interest in the theme; conventional prospects--by contrast
+with what the book foresees; noteworthy recent developments; the computer
+revolution; awakening international competition to develop A.|.; the
+difference between metacomputers and today's computers; and the infinite
+future niveaux that may result from metacomputers.
+
+Chapter 2, What Man Is
+
+Purpose of this chapter and the next. General comments on the nature of
+man and the basic dimensions of human nature, or a positive description
+of man's senses, effectors, mind, and ideals. What it is that computers
+must achieve if they are to resemble, or equal, man.
+
+Chapter 3, What Man Isn't
+
+By contrast, a description of man's physical, psychological, intellectual,
+moral, and cultural defects and limitations, or of the shortcomings of
+human reason, sanity, perception, behavior, civilization, and virtue. Man
+as he is compared with man as he is idealized; man's imperfection qua man.
+Assertion that what Nature achieved in man was more the idea or possibility
+of man, or a human prototype, than a genuine human being or a being capable
+of genuine humanity. Needs and possibilities transcending man as he is
+
+and illustrating how there can be something more human than Homo sapiens.
+
+Chapter 4, Man and Computer Compared
+
+A multidimensional comparison of the human brain and mind with the modern
+computer. Analogies, dissimilarities, and inequalities.
+
+Chapter 5, Roads To Metacomputers
+
+Characterization of the various forms of research, and technical approaches,
+that--singly or conjointly--may one day lead to the successful development
+of metacomputers as human as, and more human than, man. The problems and
+goals of such research. Past and current research, and neglected possibilities.
+Hypotheses as to the nature of human intelligence that might be applicable
+to metacomputers. Various definitions of intelligence. Possible advances
+in computer hardware, software, power, learning, and mimicry of man, or
+through the contribution of the computer to computer research or to its own
+evolution. Novel types of computers. Scenarios depicting alternative
+future origins of metacomputers, and problems and events that may bear on
+their development.

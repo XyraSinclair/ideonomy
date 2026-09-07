@@ -1,0 +1,64 @@
+{
+ "title": "Topological Spaces; Topological Linear Spaces",
+ "kind": "diagram",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "Topological Spaces",
+   "of": "topological space property",
+   "items": [
+    "Countably compact, second countability axiom",
+    "Countably compact Lindelöf",
+    "Pseudocompact, metrizable",
+    "Compact, first countability axiom",
+    "Compact",
+    "Pseudocompact, normal",
+    "Countably compact, first countability axiom",
+    "Sequentially compact",
+    "Countably compact",
+    "Pseudocompact",
+    "Compact, Hausdorff, second countability axiom",
+    "Compact, Hausdorff",
+    "Uniformly locally compact, Hausdorff Lindelöf",
+    "Uniformly locally compact, Hausdorff",
+    "Locally compact, Hausdorff, second countability axiom",
+    "Locally compact, Hausdorff",
+    "Locally compact, second countability axiom",
+    "Metrizable",
+    "Completely metrizable",
+    "Locally compact, pseudocompact, Hausdorff",
+    "Strongly pseudocompact, Hausdorff",
+    "Paracompact, Hausdorff",
+    "Locally compact, paracompact",
+    "Strongly paracompact",
+    "Paracompact",
+    "Locally compact"
+   ]
+  },
+  {
+   "name": "Topological Linear Spaces",
+   "of": "topological linear space property",
+   "items": [
+    "Euclidean",
+    "Hilbert",
+    "Reflexive Banach",
+    "Banach",
+    "Normed",
+    "Nuclear (F)",
+    "Reflexive (F)",
+    "Nuclear (LF)",
+    "Reflexive (LF)",
+    "Nuclear reflexive",
+    "Reflexive bornological",
+    "Nuclear quasicomplete quasibarreled",
+    "Montel",
+    "Reflexive",
+    "Nuclear quasicomplete",
+    "Semireflexive",
+    "Nuclear"
+   ]
+  }
+ ],
+ "notes": "Several labels in the photographed implication diagrams are too blurred or cropped to transcribe reliably and have been omitted.",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set1/pic032.jpg"
+}

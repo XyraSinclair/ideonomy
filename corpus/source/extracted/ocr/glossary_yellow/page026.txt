@@ -1,0 +1,201 @@
+Bads : -cac : Cacology
+Beauties : -cal- : Calology
+Behaviors : -eth Ethology
+Beliefs : -pist- : Pistology
+
+Binary Being : -catady- Catadyology
+
+Capacities : -hican- : Hicanology
+
+Causes : -et- Etiology
+
+Chains -orm- Ormology
+
+Chains of C :  -anyorm- Anyarmology
+Chances -tych- : Tychology
+
+Changes : -trop- : Tropology
+
+Chaoses : -cha- : Chaology
+
+Circumstances -symphor- Symphorology
+
+Clusters : -botry- : Botryology
+Co-Probabilities : -synic- : Synicology
+Coevolutions -syndiatyx- : Syndiatyxology
+Commonalities -metoch- Metochology
+Complexities -symploc- Symplocology
+Concepts -enno- : Ennoology
+
+Conflicts -syrrhagm- : Syrrhagmology
+Connections : -desm- : Desmology
+Coneervations -men- : Menology
+Contents and Parts : -nd- : Endology
+Controls and Governments -crat- : Cratology
+Controversies -erism- Erismology
+Convergences : -syrrh- Syrrhology
+Cooperations : -synerg- : Synergology
+Coordinate Syst : -pantoth : Pantothenology
+Corollaries : -dioc- : Diocology
+
+Courses -drom- Dromology
+
+Criterions -criteri- Criteriology
+Criticisms -mom- : Momology
+
+Cycles : -nost- : Nostology
+Debates and Arguments : -agon- : Agonology
+Decisions : -leg- : Legology
+
+Defects : -atele- : Ateleology
+Definitions -orism- : Orismology
+Descriptions -graph- : Graphology
+Differences -heter- Heterology
+Disequilibriums -astat- : Astatology
+Digjunctions -clast- : Clastology
+Disproofs : -catadict- : Catadictology
+Divergences : dich- : Dichology
+Doctrines -dogm- : Dogmology
+Domains -temen- : Temenology
+Ecologic Things : -ec- Ecology
+Economic Things -oni- Oniology
+Effects -any- Anyology
+
+Elements -stoichi- Stoichiology
+Emergents -blast- Blastology
+Environments -periont- Periontology
+Epoches : -epoch- Epochology
+Equalities : -is : Isology
+Equilibriums -stat- Statology
+Equivalences -isaxi- Isaxiology
+Errors -sphalm- Sphalmology
+Evaluations -crin- Crinology
+Events -synantem- Synantemology
+Examples : -tis- Tisology
+Excellences -arist- : Aristology
+Excuses -skeps- Skepsology
+Expectations lp : Elpology
+Experiences -idr- :_ Idrology
+Experiments -pir- Pirclogy
+Extensions -ectat- Ectatology
+Extremes -malist- Malistology
+Fields -gun- Gunology
+
+First Principles -arche- Archelogy
+Flows -rhe- Rheology
+
+25
+
+: Inequalities
+
+Anetology : -anet-
+Anisology : -anis-
+
+Anohyperology : -anohypar- Higher Realities
+Anontology : -anont- : Naughts
+
+Anticelology : -anticel- : Negative Analogies
+Antisyzygology : -antisyzyg- : Antisyzygies
+Anyodictyology : -anyodicty- Networks of Consequences
+Anyology : -any : Effects
+
+Anyormology : -anyorm- Chains of Consequences
+Anystology : -anyst- : Abilities
+
+Aoristology : -oorist- : Uncertainties and Doubts
+Apatemology : -apat : Tactics
+
+Apatology : -apai- Tlusions
+
+Apirology : -apir- Infinities
+
+Apironology -apiron- : Infinite Complexities
+Apopsology : -apops- : Perspectives
+
+Aporology : -apor- : Problems
+
+Archelogy -arche- : First Principles
+
+Aristology -arist- Excellences
+
+Arnesology -arnes- : Negations
+
+Artiology : -arti- : Present (the present)
+Ateleology : -atele- Defects
+
+Autanyology : sautany- Self-Effects
+Autodochology : todoch Self-Relationships
+Autopereology : -autopere- Self-Transcendences
+Axiology : -ad- : Values
+
+Axiomology : -axiom- : Principles
+
+Balbology : -balb- : Goals
+
+Blastology : -blast- : Emergents ’
+
+Blethrology : -blethr- : Leveds
+
+Botryology : -botry- : Clusters
+
+Brachistology -brachist- Shortcuts and Thalwegs
+Bulemology : -bulem- Purposes
+
+Bymology : -bym- : Impossibilities
+
+Cacology : -<ac- : Bads
+
+Caerology : -caer- Opportunities
+
+Calology : -cal- : Beauties
+Canology : -can- Rules
+Catadictology : -ctadict- : Disproofs
+
+Catadyology : -caiady- : Binary Being
+Catohyparology : -catohypar- Ultrafundamentals
+Chaology : -cha- : Chaoses
+
+Chiazology : -chiaz- : Vergences
+Choremology : -chorem- : Manifolds
+Chorology -chor- : Spaces
+
+Chraology -chra- “: Uses
+
+Chreology -chre- : Needs
+
+Chresmology -chresm : Answers
+Clastology -clast- : Disjunctions
+
+Climology -lim- : Hierarchies
+Condacology -condac- Games
+
+Cosmology -cosm : Universes
+
+Cratology -crat- Controls and Governments
+Crinology -crin- Evaluations
+
+Criteriology -criteri- Criterions
+Cybelology -cybel- Orders
+
+Cyreology : -cyre- Discoveries
+
+Deontology -deont- Oughts
+
+Desmology -desm- Connections
+Diaplastology -diaplast- Transformations
+Dichology -dich- Divergences
+
+Dictology : -dict- : Proofs
+
+Dictyology : -dicty- Networks
+
+Didagmology -didagm- : Learning and Teaching
+Digmology : -digm- Patterns
+
+Diocology : -dioc- Corollaries
+
+Dochology -doch- Relations
+
+- Dogmology -dogm- : Doctrines
+
+Draology : -~dra- Functions

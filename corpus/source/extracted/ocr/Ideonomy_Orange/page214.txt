@@ -1,0 +1,67 @@
+RELEVANT TERMS
+Veba): base,
+PA, Combr a ins Potm ,
+ite atterbutive ,
+
+nce-word Stem:
+
+WAYS OF ORGAN! ZING ''WordSprings"!
+
+By ''WordSprings'' are meant not simply computer programs but any devices
+whatever for the systematic and massive production of new, novel, or
+transformed words.
+
+The major methods of generation, which are themselves quite diverse and may be
+combined, include: ‘the combination of whole words, with or without
+a separating space, hyphen, or other connective; *the combination of
+pieces of words, from one's own or some other preexistent language,
+either by the attachment of the pieces to whole words or solely amongst
+themselves; ?the permutation, or systematic linear reordering, of such
+combined or combinable words or pieces of words or PIECES OF PIECES
+of words, whether consecutively or self-referentially or not; “the
+adaptation or transformation of existing words (as opposed to their
+combination or combinatorial alteration); %*the combination or
+transformation of the elements (words, pieces of words, characters,
+or special markings), not of an existing, but rather of some new
+artificial language or would-be language; *%such combinations or
+transformations of words or word elements on the basis, variously, of
+rules (linguistic, logical, computational, ideonomic, or otherwise),
+statistics, chance, esthetics, artificial intelligence (including
+neural nets), cognitive goals, intuition, Ongoing Speculation,
+etymological history, or the like; the generation of words that are
+meant to function on the basis of old, novel, or supplemented grammar;
+
+®the prior generation of a set of new concepts or of new modes of thought,
+and subsequent generation of words guided by, or answering to the
+needs or possibilities of, the preconceived ideas or logics; variously
+(and either linguistically or cognitively), the convergent, divergent,
+or _vergent synthesis of the new words; “the generation of words either
+irreversibly or reversibly (and in either reversible or irreversible
+patterns); "the generation of words through the modification of, or
+through reference to, existing (whole) text;"the generation of words
+better or alone able to describe or treat of predetermined phenomena
+and partaking of the special aspects of those phenomena (by reflecting
+same in their composition, structure, or statistics);the generation of
+candidate new words accompanied by their composite or rule-based
+definition, automatically produced; "the generation of new words
+accompanied by their diverse possible subsenses; “the generation of new
+words on the basis of ''group'' transformations; *the coevolution of new
+words through their instantaneous and diachronous interdetermination and
+interaction;”the generation of new words through progressive
+reformation and approximation; "the generation of automatically defined
+words composed of elements that have been equipped beforehand with novel,
+stipulative senses, perhaps representing logically canonical variations,
+derivations, or extensions of the original senses of those elements;
+Mand so forth.
+
+"WordSprings'' may also incorporate or be based upon an extensive
+class of methods that extrinsically modify or supplement the external
+aspect of existing words, and that may even leave those words qua words
+unchanged: e.g. by controlling intonation or the ways in which the words
+are spoken or heard, adding letters or pseudo-letters or other marks,
+coupling music or quasi-musical sounds to the words, varying the visual
+brightness and color of the words (as or when they are seen), accompanying
+the words with pictures or ideograms, modulating visual textures, varying
+type sizes and fonts, future automatic handwriting software (assuming
+chirographic patterns are or could be communicative), etc. —
+

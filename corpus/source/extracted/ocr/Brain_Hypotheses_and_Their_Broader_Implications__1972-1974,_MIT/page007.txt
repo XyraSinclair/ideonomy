@@ -1,0 +1,95 @@
+@
+
+e relation existing between subcontrary propositions: the relation
+of two propositions with identical terms which is such that both may be true but
+both cannot be false =~ see opposition.
+
+The relation of the terms or clauses of a logical proposition or
+judgment expressing alternatives; a statement of such a proposition usu taking the
+form:
+
+Pv gq meaning p or g or both.
+
+P+ q meaning p or q but not both.
+
+A statement that is true only if both its statements are true - called
+also joint assertion; the binary connective used in logic; the logical operation
+of forming a conjunction.
+
+Relating two arguments or terms (of functions and propositions) (eg a binary
+relation).
+
+The connecting link or relation between the subject and predicate of a
+
+strictly form lated proposition, esp such a link when it is a form of the verb to be
+as “he is a shoemaker" instead of "he makes shoes").
+
+A syllogism in which some statement supporting one or both of the
+
+ye remi is introduced with the premises themselves.
+
+(lit. to keep in mind, consider) An argument or truncated syllogism in
+which one of the propositions, usu a premise, is understood but not stated (as
+we are dependent; therefore we should be humble); Aristotelianism: a rhetorical
+syllogism which is probable and persuasive but may not be valid.
+
+Gives
+
+(Eg the intension of “triangle” implies or includes that
+gure”) = contrasted with extension.
+
+(lit. heap) An abridged form of stating a series of syllogisms in a series
+of propositions so arranged that the predicate of each one that precedes forms
+the subject of each one that follows and the conclusion unites the sub ject of
+the first proposition with the predicate of the last proposition ~ compare
+Goclenian sorites.
+
+A sorites in which the order of the premises is reversed.
+
+A logical bond, specif a dyadic or polyadic predicate or propositional
+ction = compare asymmetric, intransitive, irreflexive, one-one, reflexive,
+
+8 etric, transitive.
+Tay Being of such nature that the terms may be interchanged without altering
+
+the value, character, or truth - used esp of mathematical relations, functions,
+and equations (eg e-f(a*b) is symmetric with respect to a and b but not generally
+
+ct to a and c).
+So constituted as to never hold when related arguments are interchanged
+
+(as in the relation x is the father of v).
+
+Gtrensttive.! Passing or leading successively on to members of a class or a series of
+evelonments, specif of or relating toa logical relationship between x, y, and a
+
+such that if x has a specified relationship to y and y to z then x has this
+
+relationship to Zo
+“Titransitive, “chavacterte ing a logical relationship between the three statements
+Xy Vs
+
+and z that occurs when x is related to y as y but not x is related to Ze
+
+Glenys a relation: existing between an entity and itself (eg identity is a
+re ive relation; all members of a class are in reflexive relationship with one
+another).
+
+Of a relation: never relating a term to itself.
+Of a relation: constituted so that if one thing is given only one thing
+a
+
+e the other term (eg in a monogamous society the relation "husband=-wife” is
+one~one ) .
+
+Lancs id a relation: constituted so that if the first term is given any of many
+ngs can be the second term whereas if the second term is given only one thing
+
+can be the first term (eg the relation "father-child” is one=many) = compare
+one-one, many-one.
+
+Of a relation: constituted so that if one term is given only one thing can
+
+e second term whereas if the second term is any of many things can be the ie
+term (eg the relation "sired=by" is many-one SNe many offspring may be sired by one
+

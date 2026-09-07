@@ -1,0 +1,60 @@
+[On 1GNAL|
+
+“MULTIDIMENSIONAL MAPS OF
+‘RADIATION’ FORM-SPECIES”
+
+Patrick Gunkel
+Two nMDS maps are to be discussed: 'The primary map shown in
+
+Fig. 4245, and entitled “nMDS Map of the Mutual Analogousness of 20 (of
+152) Species of the Form-Genus ‘Radiation”™, and 2“Analytic-Regions
+Countermap For Fig. 4245” (see Fig. 5257). Both are from the ideonomic
+division FORMS AND MORPHOLOGY.
+
+Among the over-two-hundred quasi-finite, quasi-canonical genera of
+form distinguished by the organon “Form Genera” (Fig. 6688, elsewhere) is
+the present generic form, Radiation. Actually a radiational shape is surely
+one of the most basic, and therefore truly canonical, of all the ‘types’ of
+forms which have been named or that are identifiable.
+
+A set of one-hundred-fifty-two quasi-finite, quasi-canonical species of
+this genus were polychromatically sketched in the pictorial organon
+“Species of the Form-Genus ‘Radiation” (Fig. 3688). Keep in mind that the
+original coloration was essential to understanding the major or minor
+structure of some of the forms in Fig.s 3688 et 4245.
+
+A subset of twenty Radiation species (hereafter simply referred to as
+Radiations, or R) were essentially selected at random from the full, 152-
+item set, of which they therefore represent a ~13% sample. The author then
+nMDS scaled and mapped these on the basis of a complete rank-ordering of
+their estimated overall (or holistically intuited) inter-analogousness; which
+required him to make 20? = 400 (explicit or recordative) ordinal decisions.
+
+In the Fig. 4245 primary map, the twenty are shown pictorially in
+their computationally predicted positions in the lowest-dimensional 2-
+dimensional nMDS space. Each bears the number it had originally in Fig.
+3688.
+
+The Radiations are distributed about the plot origin over a roughly
+circular disc. Three inhabit the central field; these are circumvallated by
+the rest, which form a fairly linear, albeit jagged, annulus.
+
+The [extant and tendential] [structure and dynamics] of this primary
+map have been interpreted in the geographic color-coded annotation of the
+accompanying analytic-regions countermap (Fig. 5257).
+
+Readers are cautioned that it was not always possible to inscribe these notes in their precisely
+appropriate bicoordinate loci, or to indicate, conversely, the corresponding thematic loci by the use of
+such rigid lettering. Overmeticulousness would have caused [intersection, superposition, and warping]
+of inscriptions. In principle, such thematic fields or ideic structures may even be [uneven, multipolar,
+
+textured, discontinuous, cyclic, perforated, etc]. The azimuthal placement of the notes was generally
+better than their radial placement (which in a few instances was arbitrary!).
+
+This particular analytic-regions countermap actually has an
+historical significance: it was the first diagram of this sort constructed in
+the ideonomy project. After creating it I was astonished to notice how the
+previously rather confusing and seemingly chaotic spatial patterns of the
+primary map had suddenly become so utterly simple, symmetric, rich with
+meaning, and necessary.
+

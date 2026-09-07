@@ -1,0 +1,59 @@
+DH HH Ww WH WT HH HH HH He E- Ee HE FS wa
+
+(9)
+
+This method has been demonstrated to work by experiments with other
+idea spaces, but, despite its economies, it has its drawbacks. The
+gravest defect of the method is that it tends to be insensitive to dyads
+whose source of interest is sui generis, or poorly characterized by the
+criteria that operated in the sample or that distinguished the sample's
+dyads. The particular type and degree of problems the method has will
+depend upon which of its sub-methods are actually used.
+
+A third way to locate the best dyads in the full space is by employing
+some form of multidimensional scaling. This might mean that one would
+rank all the first and second terms of all the dyads in a sample of the
+space for their perceived degree of similarity or analogy to a few (say
+5%-10%) of those first or second terms (once again with the first and
+second terms being treated separately, or ranked only with respect to
+other first and second terms). As has been shown repeatedly elsewhere,
+
+these very fractional rankings or weightings can be used by a computer
+
+to predict scaling (say for 'goodness') in the larger set of ideonomic
+propositions. Such multidimensional scaling, moreover, can also predict
+multiple types of 'goodness', or complex locational clustering of
+propositions in a multidimensional 'goodness' space (convolvedly implicit
+in one's—naive or nonmetric—intuitive rankings beforehand).
+
+Without looking at the total space | can nonetheless scan a part of
+it a few times larger than the 168-dyad sample we have already considered
+for the sake of identifying one or two dyads correspondingly 'better'
+than the best dyads apt to occur in the lesser sample and for enabling
+readers to understand the predicted growth in goodness of dyads of
+higher and higher rank. Two such higher dyads might be ''busy boredom!!
+and ''suave adoration''.
+
+That predicted by the second method that was discussed above can easily
+be tested by taking "busy'' as the first term of the first dyad and
+"adoration'' as the second term of the second dyad and checking to see
+the breadth of interest possessed by those new dyads that can be formed
+by substituting these floating first and second terms for the existing
+first or second terms, respectively, of the dyads that happen to be
+represented in the 168-dyad sample.
+
+My own impression when doing this is that the dyads that are produced
+by this indicated transformation are indeed generally superior and rather
+in the proportion, and measure, that one would expect. Thus the
+substitution of 'busy'! as a first term yields such interesting dyads as
+"busy innocence'', "busy defensiveness'', ''busy playfulness", ''busy remorse'’,
+"busy terror'', and ''busy adoration''. And the substitution of "adoration"
+as a universal second term fills our arms at once with such felicitous
+dyads as "artful adoration", "big-thinking adoration", ''captivating
+adoration", ''cerebral adoration'', ''desperate adoration", ''dirty adoration",
+"forgetful adoration", "grand adoration'', "helpful adoration", "inert
+adoration", and ''painstaking adoration".
+
+What is the value or interest, or the possible use, of the dyads that
+the Human Kaleidoscope creates? | will touch on a few of the
+possibilities.

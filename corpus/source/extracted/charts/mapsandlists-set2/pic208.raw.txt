@@ -1,0 +1,23 @@
+
+--STDERR--
+Reading prompt from stdin...
+2026-09-04T02:54:24.030189Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+2026-09-04T02:54:24.044350Z ERROR codex_models_manager::manager: failed to refresh available models: timeout waiting for child process to exit
+OpenAI Codex v0.146.0
+--------
+workdir: /private/tmp
+model: gpt-5.6-sol
+provider: codexpool
+approval: never
+sandbox: read-only
+reasoning effort: low
+reasoning summaries: none
+session id: 01a06a56-bb2c-7e02-85b5-52f96529d971
+--------
+user
+Transcribe the attached photographed chart from Patrick Gunkel's ideonomy archive. Output ONLY a JSON object, no prose, no code fences:
+{"title": str, "kind": "list"|"mds-map"|"matrix"|"diagram"|"other", "legibility": "full"|"partial"|"illegible", "lists": [{"name": str, "of": "what one item is", "items": [str,...]}], "notes": str}
+Transcribe verbatim - preserve wording and capitalization, do not invent or complete items you cannot read; omit unreadable items and set legibility accordingly. For an MDS map or radial diagram, transcribe the labels as one list.
+
+ERROR: exceeded retry limit, last status: 429 Too Many Requests
+ERROR: exceeded retry limit, last status: 429 Too Many Requests

@@ -1,0 +1,30 @@
+DIFFERENT KINDS OF COMPUTERS
+
+NOTE: Up until now the evolution of the computer has largely been
+homogeneous, unidimensional, or concentrated on the development of
+only one or a few basic types of computer. But it is conceivable-~-
+and there are some indications--that this monomaniacal historical
+situation is about to change and computer science, engineering, and
+industry will begin researching and introducing an unknown but great
+variety of fundamentally different types of ‘computer! or computer
+evolution will change from a unilineal to a branched, repeatedly
+branching, heterogeneous, anamorphic, or maximally differentiated,
+specialized, exploratory, or experimental pattern or future history.
+Specialized types of computers may be far more effective for certain
+computational and cognitive purposes. Very different types of
+computers than we have today, or have ever even imagined, may be
+possible, and the best thing for their discovery or development might
+be highly divergent research, at least initially; or research
+unrestrained by excessively general goals, methods, requirements, or
+ideas; or research--seemingly paradoxically--aimed at a maximum variety
+of different goals. Later the variety of approaches might be pruned
+or a single type of general purpose computer selected, or the effort
+might be made to combine a maximum variety of computers into one
+maximally unified kind or complex of computers. In any case, a
+problem has recently arisen of a terminological, conceptual, and
+taxonomical nature from the proliferation of computer types, goals,
+and concerns. Terms for distinct types of computers are absent,
+ambiguous, ill-defined, redundant, unargued, arbitrary, or unconnected;
+they are uncontrolled by any fundamental, comprehensive, responsible,
+and authoritative vision of the future.
+

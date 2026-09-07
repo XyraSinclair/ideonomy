@@ -1,0 +1,88 @@
+2015
+
+120
+
+1. Maximal duty cycle (ie minimal turnaround time).
+
+2. Maximal load (in weight, volume, &rc per ship, system, &rc).
+
+3. Ideal size for any scientificotechnological law of size or dimension.
+
+4, Greatest passenger number per launch, ship, &c.
+
+5. Greatest economies of scale: in terms of industry producing ship, use of
+systems, least marginal charge, &c.
+
+6. Governmental (ie non-profit) subsidy or running of the service.
+
+7. Risk-taking, achieved safety, &c. For example, the space program to date
+has been very inefficient because of excessive safety reflecting politics.
+
+8. Total reuse and eternal life-span.
+
+9. Minimal maintenance, repair, &c in duty cycle.
+
+10. No-cost energy.
+
+1]. Exomotive travel: periplanetary and intraspacial baser propulsion, linear
+
+accelerator, mass driver, &c.
+
+12. Perfect drive: fission, fusion, ionic, antimatter, é&rc.
+
+13. Research and development (R&D) costs terminated and debts paid.
+
+14. No or least backup: in terms of launch facilities, personnel, guidance, &rc.
+For example, maintenance and checkout done by flight crew instead of
+others.
+
+15. Minimal or no crew (ie perfect automation).
+
+16. Perfect guidance, control, theory and electronics replacing on-board and
+other systemic needs, &c.
+
+17. Ultimate fuel.
+
+18. "Intervehicular staging'': for example, using three vehicles successively.
+
+19. Such intervehicular staging dispensed with altogether.
+
+20. Unistaged (ie unstaged) launch or flight (ie SSTO).
+
+21. Maximal total annual passengers, number of flights per passenger, &c.
+
+22. "Learning'', or a ''wise'' stage.
+
+23. Relative value of freight, materials or persons; the ratio could be infinite.
+
+24. Relative human wealth (which could be infinitely greater than in 1975).
+
+25. "Unhulled''! transport, both microscopic (via mass driver) and macroscopic
+(driven asteroids).
+
+26. "Circular entropy'', which refers, for example, to gravitational ''pendular",
+&r electromotive-ponderomotive ''regenerative'', schemes for interplanetary
+transport which minimize flight entropy or mimic perpetual motion; one
+of the most important developmental curves describing the future of
+science and technology, in various areas and overall, will be that
+plotting progressive reduction in the entropic product of customary
+actions.
+
+27. Transportation using, in fractional fashion, the energy &r value of energy
+(eg fuel) obtained en route, and netting positive profit &r energy;
+examples would be ferried fuel, atmospheric and intraspacial 'ramjets'',
+solar energy drives, modes of ''sailing'', &c.
+
+28. Miscellaneous things like disposable drop tanks, orbital fuel storage
+facilities, semifueled takeoff and in-flight refueling, aerodynamic
+descent, &c.
+
+It was on the basis of some of these things that Maxwell W. Hunter II, in a
+1968 paper titled ''Propulsion Systems for Manned Planetary Missions'', argued
+that the cost of single periterran, terrilunar, and interplanetary missions,
+alike, could be reduced by as much as a factor of 150-500 from what it then
+was--a shocking assertion, by Lockheed's Director of Advanced Space Programs.
+| have given an interval of 35 years--twice the time since man launched
+Sputnik in 1957--in order to let certain minima emerge. One wonders what
+economies will have been attained by 2045, 2080, 2115, 2150...., and the
+impacts these will have on what man does In Space.

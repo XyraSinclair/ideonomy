@@ -1,0 +1,65 @@
+20, In 2 cells the preferred direction of movement was different and it was
+mirromsymetrie along the vertical meridian; the receptive-field location
+and the response properties were similar in the two eyes. Suggests, in a
+neat fashion, divergent movement, as in perspectival change during
+anteroposterior motion.
+
+21. Some cells respond sharply or only to red or blue or green stimmli and not
+to the others or to white; luminance-independent; much more frequent in TS
+than OA. (Are there cells responsive to more intermediate or eanbinatory,
+even highly specifie (eg familiar) colors, or what is the minimal bandwidth
+of any cell (less than the pigments’?)? Are there cells responsive to
+specific transitions? Are there only-white cells? Are there cells responding
+to specifie chrano-textural relationships? © Are these preferences innate
+or learnt? Do they change with time? Do they correlate with other properties?
+Do cella responding to trees prefer green trees or generalize to sane degree
+for green objects?)
+
+22. Most cells decline in response when stitmlated at less than 5 second intervals.
+Response strength maintained by intervallic increase, Gells requiring more
+than 15 seconds for optinmm response commoner in Tf than QA,
+
+23. A few TB cells* response wil» decline in the course of a sweep across their
+microfield at the standard (5~-79/sec) rate. Reintroduction of the stimlus
+
+after a few seconds here in the field enjoys again the response.
+
+24. Eye dominance: } ipsilateral, Ps contralateral, and % bilateral. The bilateral
+fields and their responses were identical.
+
+25. For almost all cells, response strength and ERG ecovaries: vigorous response
+during fast EEG and little or no response during slow. In same cells the
+pattern of spontaneous activity covaries with frequency, in others, only
+ehanges in evoked activity covaries with EEG. Novel sonic, visual, or
+somesthetic stimli cai” effect this transition by effecting arousal; in
+fast ERG, cells go unaltered. (Novel scamesthetie or sonic stimli are also
+et required for full visual response of area 17 and 18 cells in anesthetized
+eat.
+
+26. Same cells respond to specific and complex dark (shadowform) shapes but not to
+dark slits or dark rectangles of similar overall dimensionsg TZ more than QA.
+40% of the dark-responsive cells optimal for rectangular stimli, amaller ones
+usually are better as stimlis for the other 60%, particular complex dark
+stimuli optimal. (Gommonest dark stimali used by Gross were a variety of
+of iano or slits with widths of .25-30° and lengths of 1-70°, and hand
+shadows.
+
+27, At least threé TE cells preferred complex colored patterns (eg photographs
+of faces or trees; erueial features undetermined).
+
+28. For most neurons, a light slit 1° wide better than another size.
+
+29. Stimnli sofar tried arbitrary and half-irrelevant for monkey: the larger and
+more specifie pattern is inapparent.
+
+30. A few TE cells preferca G° diameter circle or a 5° x 5° square to the 1° slit
+most cells profers: ».
+
+31. 10° x 5° and 5° x 5° cheekerboards are good stimmli for several units (exaet
+field boundary determination difficult). (These could imply textures of whole
+and be quite different fram each other; even, cell preferences for specific
+ecmpiea complex figures could be analogous to or identical with such *textures’.)
+
+32. 48% of the cells respond to both dark and light stimli (OA and T proportion
+similar); whether responding to dark, light, or both seems uncorrelated with
+other properties. 71% responded to light and 69% to dark stimli.

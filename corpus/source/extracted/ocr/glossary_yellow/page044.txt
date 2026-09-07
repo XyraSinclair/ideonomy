@@ -1,0 +1,68 @@
+43
+
+dimensionalities; and in principle it may even refer to that still larger set
+
+of coplots representing variable-dimensionality cross sections of the
+
+spaces;
+
+2Comaps generally, or countermaps specifically;
+
+In ideography: ‘Any co-plotted ideas, or any type of ideographic
+coplot. — E.g., two related ideographic curves plotted on the same graph for the sake
+of direct comparison;
+
+4Plot simultaneously showing [two or more] [variables or
+functions] of the same idea;
+
+5ub.: To create coplots, or to coplot the same or different ideosets,
+or to plot on the same plot different functions of the same idea.
+
+Countermap, n.: A comap [e.g., an analytic countermap]) [created or
+designed] to serve as an [opposite or complementary] companion
+to another map; either [such a comap or the primary. map it
+addresses]. Actually there may be any number of corresponding
+countermaps.
+
+A countermap may variously [be shown <to the right of, below, or on the left
+of> the primary map (e.g., as the facing page of a double-spread), be included as
+a small inset in the primary map (or vice versa), or be a superimposable
+transparency].
+
+Comap family, Countermap family, n.: A set of many closely related
+[individual, typal, or taxonic] [comaps or countermaps] : often
+concreated : designed to function together [e.g., a8 a set, cluster,
+series, hierarchy, tree, or network].
+
+Comap_ hierarchy, nter rarchy, A set of [comaps or
+countermaps] of ascending order [e.g., including a countermap,
+meta-countermap, etc] that, together with a primary map, form a
+single hierarchic series.
+
+Endomorphism, n. (adj. endomorphistic =~ endogmornphic): A
+mapping of one (ideic) [space, structure, or set] onto a mere [part,
+region, aspect, dimension, or function] of [another or itself];
+the [result, process, laws, mathematics, or study] of such
+mapping.
+
+r -of-canonical- riation nMDS m ,n.: An important
+preliminary conclusion from ideonomic research using nMDS is that the
+suites of coplots that are automatically coproduced at different dimensionalities
+by the mapping of a given ideoset—coplots that most psychometricians would
+regard as largely redundant—are really not redundant at all, and that each
+such coplot (except perhaps for those at very high dimensionalities, where noise
+may exceed pattern) tends to be specially important in different ways.
+
+Evidently psychometricians have made the mistake of viewing such coplots
+from a purely quantitative point of view, rather than attempting to analyze them
+[generically and individually] as (logical, cognitive, and semantic] problems.
+
+In ideonomic terms, however, a set of mutual coplots appears to represent a
+[set, or group, or ideogroup| of canonical variations of the semantic structure of
+the ideoset (under a given scaling relationship); and a polythematic set, in that
+different conceptual themes (of the sort that would be expected to appear in an
+analytic countermap) would seem to emerge in a dominant role in certain
+coplots, even though they are [submerged, inhibited, or compromised] in others.
+(The ideonomist refers to such themes as polyideic states. )
+
+Hypermap, n. (can also serve asa verb):

@@ -1,0 +1,61 @@
+(3)
+
+w 15 . , at 7 . : ig,
+changes, transformations, interactions, or combinations; or in terms of
+
+problems,illusions, errors, or fallacies connected with their treatment.
+
+OVERVIEW OF MORPHOLOGICAL TECHNIQUES: What methods exist, or might be
+developed, for treating forms and matters of form? What do these methods
+have in common and how do they differ? What are the best uses of and ways of
+using these methods? What are the general needs of morphology that are
+answerable by any of its methods? How can morphological methods be modi f ied
+to produce other methods? How can morphological methods be combined? What
+are the pluses and minuses of various methods?
+
+GENERA OF FORMS: Glancing at the welter of forms exhibited by things,
+one notices that there are recurring and characteristic types of forms—
+'species', if you will. Surveying these progressively more numerous species,
+one may note that these, too, have a tendency to fall into general and
+recurring categories—so that there are 'genera' of forms, Morphological
+genera are different from biotaxonomic genera, however, in that a given
+species of form may simultaneously 'belong! to or be ‘represented by' two or
+more morphological genera. Indeed, to some extent, and in important ways,
+every species of form illustrates, or is illustrated by, every genus of
+form. Morphotaxonomy, at least in the present sense, is not concerned with
+the historical reconstruction of any unique evolutionary tree of forms, but
+rather with grouping forms for descriptive and productive purpose in terms
+of their overall degrees and varying types of analogies, The basis or result
+of this process may be cluster-analytic, statistical, arbitrarily
+multidimensional, network-like, arboreal, etc; to the extent it is arboreal,
+the tree may be anastomotic or one of an indefinitely large set of only
+partially equivalent trees. There are homological sequences of forms, of
+course, and these do contain things equivalent to homological genera of forms ;
+but forms are mutually derivable in an infinity of ways. The number of
+genera of forms is arbitrary, just as to some extent the particular genera
+of forms are arbitrary. The reason for dividing the universe of forms into
+genera and species is to simplify its description and render it more manageable
+generally. A few tens or few hundreds of genera seem reasonable—people can
+name, remember, visualize, and discuss that number; but a greater number would
+create hopeless confusion, and a lesser number would caricature the capacity
+of the human mind and lack discrimination. An infinity of morphological
+species can be derived from these finite genera by suitable rules of
+transformation and combination, Ina like way and for a like reason, the
+rules themselves are divisible into pragmatic genera and species of rules,
+if the species of forms go on diverging, or progress in number and variety
+ad infinitum, the genera of forms may go on converging, pari passu, or
+continuously regress in relative number and progress in relative generality
+and power.
+
+PICTORIAL ATLAS OF SPECIES OF FORMS: The specific variants of generic
+forms can and should be depicted in a variety of ways: verbally, mathematically,
+logically, photographically (via photographs of concrete exemplifying things),
+via abstract diagrams (using ideographs), via exact sketches, analogically,
+via generative or manipulative computer programs, axiomatically, biologically
+(sic; or in terms of what forms mean, in any of various senses, for an ,
+organism), or perhaps even musically (say based upon neurologically discovered
+synesthetic principles). What are the simplest species of forms that define
+or distinguish a genus? Conversely, what are the most complex, subtle, or
+bizarre species that illustrate the same genus? Where do the species of a
+genus begin to transcend the genus, or become genera themselves? What novel
+

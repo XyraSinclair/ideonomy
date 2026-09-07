@@ -1,0 +1,181 @@
+{
+ "title": "",
+ "kind": "list",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "Constructional Forms Due to Fluvial Accumulation",
+   "of": "fluvial landform",
+   "items": [
+    "River-built plain",
+    "Alluvial terrace plains",
+    "Rock terrace plain overlain by fluvial gravel",
+    "Alluvial fan (-cone) plain",
+    "Piedmont fans",
+    "Delta plains",
+    "Delta levees",
+    "Intervening depressions",
+    "Fluvial gravelbanks"
+   ]
+  },
+  {
+   "name": "Destructional Forms Due to Erosion of Subglacial Water",
+   "of": "subglacial erosion landform",
+   "items": [
+    "Subglacial channel sides belonging to former glaciations",
+    "Würm",
+    "Potholes (marmites)",
+    "Flat subglacial channel floors",
+    "Sides of lake cirques"
+   ]
+  },
+  {
+   "name": "Constructional Forms Due to Subglacial Water Deposition",
+   "of": "subglacial deposition landform",
+   "items": [
+    "Subaquatic water ridges",
+    "Esker ridges and hillocks formed in tunnels . . . in height"
+   ]
+  },
+  {
+   "name": "Karst Forms — Forms Due to Solution",
+   "of": "solutional karst landform",
+   "items": [
+    "Forms developing in limestone",
+    "dolomite",
+    "gypsum",
+    "rock salt",
+    "Swallow, sinkholes (dolinas) formed through solution",
+    "Sinkholes resulting from the collapse of cavern roof (see §1a)",
+    "Uvalas"
+   ]
+  },
+  {
+   "name": "Forms Due to Modification of Proglacial Features by Mountain Glaciers",
+   "of": "modified proglacial landform",
+   "items": [
+    "Corries, cirques or former river valley heads (spring amphitheaters)",
+    "Corries, cirques due to alteration of landslip scars",
+    "Valley corries, cirques due to alteration of portions of unrejuvenated proglacial valleys",
+    "Sides of corries, cirques with gradients of less than 15°",
+    "Sides of glacial troughs with gradients of less than 15°",
+    "Sides of glacial troughs covered with a lateral moraine",
+    "Break of the slope of glacial trough (margin of glacial scour)",
+    "Walls of trough heads",
+    "Flattened trough shoulders (benches, shelves)",
+    "Steps on the floor of troughs",
+    "Hanging tributary valley steps",
+    "Cirque terraces",
+    "Fragments of planated surfaces due to glacial erosion",
+    "Field plain (i.e., above tree line) due to alteration of old surfaces of planation"
+   ]
+  },
+  {
+   "name": "Constructional Forms Due to Continental Ice Deposition",
+   "of": "continental-ice depositional landform",
+   "items": [
+    "Flat ground moraine, local relief up to 2 m",
+    "Riss I",
+    "Riss II",
+    "Brandenburg Stage",
+    "Frankfurt Stage",
+    "Pomeranian Stage",
+    "Later Substages",
+    "Undulating ground moraine, local relief from 2–5 m",
+    "Depressions due to irregular glacial deposition",
+    "End, terminal, frontal morainic hills and ridges",
+    "Depressions separating end morainic ridges",
+    "Ablation morainic hummocks and ridges",
+    "Drumlin ridges",
+    "Grooves separating drumlins"
+   ]
+  },
+  {
+   "name": "Constructional Forms Due to Valley Glacier Deposition",
+   "of": "valley-glacier depositional landform",
+   "items": [
+    "Irregular surface of the ablation moraines"
+   ]
+  },
+  {
+   "name": "Constructional Forms Due to Eolian Deposition",
+   "of": "eolian depositional landform",
+   "items": [
+    "Barchans",
+    "Evolving barchans",
+    "Longitudinal (seif) dunes",
+    "Transverse dunes",
+    "Parabolic dunes",
+    "Dune fields (irregular dunes)",
+    "Dune nets (crest lines marked)",
+    "Conical dunes",
+    "Sandy plains due to eolian accumulation",
+    "Sand heaps",
+    "Sand strips",
+    "Sand and silt mounds around vegetation",
+    "Loess plains due to eolian accumulation"
+   ]
+  },
+  {
+   "name": "Forms of Limnic (Lacustrine) Origin — Destructional Forms Due to Abrasion by Lake Water",
+   "of": "lake-abrasion landform",
+   "items": [
+    "Active cliff",
+    "Abandoned cliff",
+    "Wave-cut platform",
+    "Wave-cut terrace plain",
+    "Wave-cut notches (abandoned)"
+   ]
+  },
+  {
+   "name": "Forms of Limnic (Lacustrine) Origin — Constructional Forms Due to Lake Water Deposition",
+   "of": "lake-water depositional landform",
+   "items": [
+    "Beach formed by gravel (shingle), sand, silt",
+    "Bar formed by gravel (shingle), sand, silt"
+   ]
+  },
+  {
+   "name": "Forms of Marine Origin — Destructional Forms Due to Marine Abrasion",
+   "of": "marine-abrasion landform",
+   "items": [
+    "Young active cliff permanently undercut"
+   ]
+  },
+  {
+   "name": "Constructional Forms Created by Animals",
+   "of": "animal-created landform",
+   "items": [
+    "Reef flats, fringing reef, barrier reef, coral atolls",
+    "Termite fields large termite hills",
+    "Groups of ant hills",
+    "Groups of mole hills",
+    "Beaver dams"
+   ]
+  },
+  {
+   "name": "Manmade Forms — Destructional Forms Produced by Man",
+   "of": "manmade destructional landform",
+   "items": [
+    "Quarry: clay pits, sand pits, gravel pits",
+    "Old mining pits",
+    "Hollowed deep road cuttings",
+    "Canal cuttings",
+    "Hollows due to mining subsidence"
+   ]
+  },
+  {
+   "name": "Manmade Forms — Constructional Forms Produced by Man",
+   "of": "manmade constructional landform",
+   "items": [
+    "Mining slag and industrial dumps",
+    "Tumuli, barrows, prehistoric earthworks",
+    "Railroads and embankments",
+    "Embankments and groynes for flood prevention",
+    "Agricultural terracing (including lynchets)"
+   ]
+  }
+ ],
+ "notes": "The chart title is not visible. Parts of the left edge, top, bottom, and several headings and entries are cropped, faded, stained, or too small to read reliably; unreadable text and symbols are omitted.",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set1/pic119.jpg"
+}

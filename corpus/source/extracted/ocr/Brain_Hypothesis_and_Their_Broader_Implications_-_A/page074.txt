@@ -1,0 +1,57 @@
+GRAMMATIC AND SEMANTIC PROBIEIG AND THEIR SPHCIAL SQWTION «
+Pat Gunkel
+
+a) For a long time the computer people have had a hard time trying to mechanize . ‘a
+; language and one might even have Supposed that that was impractical. The reason
+for and the solution to these chaps' difficulties may be stated this way. In
+addition to the operations of grammar there is a component of experiential
+meaning in discourse inapparent in the grammar. Purely formal operations of
+grammar are ambiguous. There are the mnemic materials of existence and logical
+implications for all purposes wholly missed in mere grammar. Intrinsically and
+extrinsically, implicative possibilities proliferate in sentences and, certainly,
+in series of sentences, going on to books and the whole of experience. Accordingly
+these things govern the choice of words, It is not as if unidimensional lists
+described subsenses of single words or told mch at all about those words, as only
+in combination may some level of nontriviality or relative importance come about
+and be embodied in the grammar, It is, on the one hand, of course obvious that
+progression from the natural start of a passage or whole gives predefinition of
+concepts and words that are-then handled somewhat more freely or peculiarly in
+the subsequent arrangement, and that, without start or certain ordinality, the |
+directionless clustering or even incidence and coincidence of words supplies
+definition and terms of reference for the discourse, and on the other, that forms
+in the external or experiential world themselves are organized in similar ways
+and degrees so that a coupling with pure discourse is necessary for sensibility.
+It is notable that same definition of words and forms sets a lanquage that is then
+absolutely or procedurally organized or defined in the course of use, in the initial
+generation of a language, and in the course of experience, The ontogeny and
+‘phylogeny’ of a language establishes nonarbitrary probabilities within a style of
+languege and thought that would otherwise be indefinite and unable to specify
+Cc meanings. This mst be learnt but is clearly without the province of a machine
+that at any one time is concerned with a few passages or is in any case concerned
+with those passages in the absence of any experience of the external referents of
+that language which own their own definitions. It is this which distinquishes
+similarities and combines dissimilarities in the course of writing, reading, and
+outward thought. There is no specificity in any word-form and, even beyond grammar,
+the very operations of the external world are ambiguous in their everyday combination,
+Therefore "connotation" is a very weak allusion to this difficulty, and any lanquage
+translator along the lines that we now have is apt to have a very cumbersome output
+and one everywhere filled with ambiguities that are quite often nonsensical. Among
+the questions asking to be asked is whether some better operations might be given
+to these conputers to lessen the difficulties of their output, but perhaps the
+answer is that not without some approximation of the machines’ experience with our
+own, which is, the genesis of lanquage in the day to day world of concrete
+activities of concrete objects as opposed to something farther toward the pole of
+sterility. In this connexion, one could imagine a hierarchization so that a machine
+could have rapid access to many universes of referential discourse, as perhaps occurs
+in the brain.
+It is important to point out that there is nothing special about operations in
+time as opposed to operations in space, except that activities may change in time
+and thus confer an added dimension of complexity, which however is to some degree
+foreshadowed in familiar operations in space, and there is no dichotany. Therefore 1
+at least the fact of temporal properties of linquistic as well as cognitive operations
+should occasion no added concern, and the develomment of very complex or characteristic
+linguistic operations faces the theoretician in a simple way. Other than this, the
+parts of grammar may be taken as simple organizers of operations, the total
+a linguistic-cognitive operation being the product of pragmatic experience imaging that
+experience pragmaticly,
+

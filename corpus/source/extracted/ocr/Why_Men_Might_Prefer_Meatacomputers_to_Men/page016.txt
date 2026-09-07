@@ -1,0 +1,101 @@
+car interior and exterior,
+clothes,
+
+linen,
+
+blanket,
+
+cover,
+
+mattress,
+
+doghouse,
+
+ventilation panels and ducts,
+plumbing (interior of drains),
+birdbath,
+
+yard,
+
+typewriter,
+
+TV interior,
+
+lampshade,
+
+collection,
+
+dog,
+
+kids’ room,
+
+basement,
+
+attic,
+
+play or work area,
+woodwork,
+
+table,
+
+chair,
+
+mat,
+
+upholstery,
+
+drape,
+
+blind,
+
+fruit,
+
+walk,
+
+metal surface of ornament,
+toothbrush,
+
+medicine cabinet,
+
+garden,
+
+indoor plant (e.g. leaf surfaces),
+pantry,
+
+cupboard,
+
+robot,
+
+innumerable tiny surfaces, objects, cracks, crannies, and knobs,
+face,
+
+body,
+
+ashtray,
+
+smoking pipe,
+
+trash or barbage container,
+gutter,
+
+curb,
+
+house exterior,
+
+chimney and fireplace,
+shelf,
+
+book,
+
+painting on wall,
+
+drawer,
+
+eyeglasses,
+
+tools,
+
+memorabilia,
+
+etc.
+

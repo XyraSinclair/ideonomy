@@ -1,0 +1,66 @@
+Each by an
+
+15
+
+General ideonomic principles, however, require that there is always
+something to be learned from the contemplation or modeling of, or futile
+attempt fo achieve, what is (supposedly) impossible in a subject; and
+that? should have a developed branch concerned with such quixotic
+or deliberately unrealistic investigation.
+
+Impossible chemistry (or "byrmo-chemistry'') could be conducted by
+means of mathematical or axiomatic models or principles, computer
+simulations, or gedankenexperiments. The fruit of examining fantastic
+or bizarre molecules, unsustainable or completely artificial reactions,
+self-contradictory chemical phenomena, or impossibly incomplete chemical
+structures could over the long-term include: discovery of new constraints
+and laws governing the molecular realm, serendipitous finding of novel
+families of chemicals, stronger and richer development of chemical
+intuition and imagination in student and professional, insights into
+the interdependent probabilities and complexities of chemical phenomena,
+isolation and removal of the barriers to things being feasible, and
+insights through "lateral reasoning" that would otherwise themselves
+be impossible.
+
+a
+
+Three-temporal-variables theory of the mind.”
+A tach!stoscope 1S a Standard psychophysical apparatus for the brief
+exposure of visual stimuli that is used in the study of learning,
+attention, and perception.
+
+Imagine a modified version of the tachistoscope that is able to
+present a set of photographic images, or of other sensory stimuli, to a
+human or animal subject in a temporal sequence simultaneously controlled
+in three temporal dimensions: the duration (or length of continuous
+presentation) of the individual stimuli, the interval (or temporal
+separation) between the successive stimuli, and the sequential order
+(or diachronic program) of the stimuli. A computer would be used to
+control and program the device. (In a more sophisticated form of this
+instrument, a fourth dimension for which the stimuli could be controlled
+
+would be ''sets''. This means that different subsets of stimuli could
+exist and be drawn upon, or that a computer could modify any of the
+various properties of stimuli or actually create novel stimuli. But in
+
+a certain sense this idea is already implicit in the first three
+dimensions, since the original set used could be arbitrarily large,
+diverse, and specific, and the sequential order of its presentation
+could be arbitrarily complex.)
+
+Assume for the moment that the stimuli are various photographs of
+objects and scenes, and that these are presented to a person for
+durations and at intervals comparable to the flicker fusion rate of the
+eye (say 20-50Hz). Assume further that the three presentational
+dimensions (duration, interval, and order) are varied randomly, or via
+some stochastic function; although the average duration and interval
+can still be adjusted from without for optimizing and experimental
+purpose.
+
+The tachistoscope would at first be used to verify the existence
+of certain predicted psychophysical effects and phenomena, including:
+
+a tendency for images suitably controlled in the three dimensions to
+interact and coalesce in visual perception; an illusion that the static
+images are protean, or possessed of a tendency to mutate into other
+

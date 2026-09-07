@@ -1,0 +1,61 @@
+78
+
+Organons can variously be [created and used] by [ideonomists, specialists in any
+<field or subfield>, or laymen). More generally, organons can be [created, studied,
+refined, and used] by: [scientists, teachers, pupils of all ages, scholars, businessmen,
+engineers, people in all arts, critics, lawyers, men in government, critics, journalists,
+mathematicians, psychiatrists, and computers (sic)]. Indeed, the creation—and even
+the performative use—of organons is apt to become a future art form.
+
+Different types of organons can be said to have different characteristic spatial
+dimensionalities, D: [for a bag-organon D = 0, for an (ordered) list-organon D = 1, for
+a chart-organon 1 <D < 2, for a (standard) [graph-organon or _map-organon] D = 2, fora
+hypermap D 24).
+
+Organons can contain organons (as pglyerganons) and can in turn (as
+suborganons) [be part of or contained in] other organons (including any number of
+organons simultaneously).
+
+Typically a list-like organon, e.g., deals with types, but [instead or in addition] it
+may concern such standard things as: [examples, taxons, taxologic structure,
+dimensions, properties, parts or elements, appearances, examples, cases, instances, an
+individual, referents, relations, combinations of ideas (usually dyads), phenomena,
+acts, choices or alternatives, thoughts, hypotheses, possibilities, data or knowledge,
+concepts, purposes or goals, needs, tasks, methods, functions or values, criticisms,
+uses, principles, questions, answers or solutions, quantities, definitional senses,
+effects or consequences, goods or bads, events, sequences, subfields or topics, clusters,
+domains, levels, a network, words, problems, errors, analogies or commonalities,
+differences, changes or transformations, processes, paths, metaphors, assumptions,
+patterns, conditions, complexities, behaviors, naughts, extensions, generalizations,
+extremes, anomalies, a history, resources, mechanisms, etc].
+
+Basic rules for creating organons include: Make the organon neither too small
+nor too big; Make the organon self-explanatory [e.g., via a legend, history,
+introduction, symbols, organization, e/vc]; Items should be functionally
+[commensurate, equivalent, and organonically <isgthematic, cothematic, or
+interthematic>]; Make the [nature, content, function, e/uc] of the organon univocal
+(unique); Avoid [ambiguous, unexplained, or puzzling] items; Suggest the various
+[uses and interests] of the organon; Avoid mixing taxonic levels [e.g., genera, species,
+individuals, properties, e/vc]; Avoid grammatical inconsistencies [e.g., mixing
+nouns, verbs, and adjectives] (not always!); Usually try to maximize the organization
+of the itemic ideas [e.g., radially, bidimensionally, axially, orthogonally, regionally,
+partitionally, hierarchically, connectionally, via <symbols or notes>, via semantic
+<rank-ordering or mapping>, via classification, via cross-referencing, by properties,
+clusterally, oppositely, symmetrically, etc]; [Define or illustrate] items where
+necessary; Avoid [compound, unresolved, or overly complex] items; Avoid
+arbitrariness; Make the organon esthetic (physically and conceptually attractive);
+Minimize redundancy (except where this has a translational function); Maximize the
+[significant or important] diversity of the items [where relevant and not inappropriate];
+Make the ideas fundamental; Consult other relevant organons [before and while]
+making the new organon; Use devices to emphasize what [ideas, parts, e/v aspects] of
+the organon are most [important, interesting, essential, special, puzzling, typical,
+e/uc]; Insert a comment on which other organons the organon is most [related or
+
+relevant] to; etc.
+§ DISCUSSION, “The List-Organon” §
+
+Anyone who encounters this book, or almost any bit of ideonomy, will
+almost at once be struck by the heavy use of lists and of a list-like style. It
+is a situation that demands an immediate explanation, if only to prevent
+a grave and persistent misunderstanding.
+

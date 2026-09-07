@@ -1,0 +1,87 @@
+Were
+i WD
+
+/
+. /
+ee coe
+
+—
+
+t
+
+a ee
+
+\ Metodsicay
+i \ METHots «
+
+| MDS
+
+i
+
+A MULTIDIMENSIONAL SCALING VERSION OF '"WordSpring"
+
+i
+
+1 often use the term 'WordSpring'' to refer to the genus of computer
+programs | have designed, or might yet design, to coin candidate words
+en masse by means of some form of combinatorial ideonomy; or to
+designate a specific or particular example of the genus.
+
+Here | will depict a far more powerful, and more truly ideonomic,
+version of WordSpring that it would be easy to create with the help of
+nonmetric multidimensional scaling (MDS)’. Although at the time | write
+this | have not actually implemented such a sophisticated program, my
+experience to date with the methods it would employ assures its
+feasibility.
+
+Nevertheless, many modifications of my account would no doubt be
+necessary and desirable, and it is impossible to anticipate the exact
+quantitative dimensions of the computer hardware and software that would
+optimal or appropriate, or the precise level of efficiency that given
+or lesser versions of this WordSpring would be expected to display.
+
+What is obvious to me is that, as is true for almost any ideonomic
+computer program, a WordSpring program permits innumerable refinements,
+and types and taxons of types of refinements. Today's vision will be
+tomorrow's conceptual antique,
+
+One of the simplest WordSprings attaches prefixes or prefixual
+combining forms, or adjectives or other words qua prefixes, to words,
+to suggest new words. The prefixes may be ones that have traditionally
+been recognized, or that the dictionary identifies, as being prefixes,
+or new prefixes formed, either previously in ideonomy or ad hoc, by
+conventional or unconventional modification of Ancient Greek or Latin,
+English, or other words.
+
+The sets of prefixes and of words to be combined may initially be
+chosen at random, through their special pertinence to some theme or topic, or
+because of their being perceived as having greater ideonomic or generic
+character, conceptual purity, combinatorial power, logical or natural
+fundamentality, or cognitive value.
+
+The actual basis for the subsequent combination of the linguistic
+elements in these preselected or predetermined subsets may be random
+(or stochastic processes), previously structured or ad hoc human judgment,
+grammatical rules or habits, classification by formal logic,
+psychometric or ideometric statistics, artificial-intelligence techniques,
+e/vc.
+
+Assume that the WordSpring computer program to be extended via MDS
+is one that hitherto has combined at random and comprehensively such
+prefixes of or derived from Ancient Greek and Latin as lito- (meaning
+simple, frugal, or plain) or holico- (meaning general or universal), with
+such common or technical English words as volcano and immunogenesis, to
+yield such tentative words and word-senses as: li to-volcano (a simple,
+frugal, or plain volcano) and holico-immunogenesis (general or universal
+immunogenesis).
+
+Notice that each prefix, and each artificial word, has several
+potential senses that are explicitly defined.
+
+In practice a professional or lay ideonomist would be expected to
+examine the partial or exhaustive printout or on-screen list produced
+by this WordSpring in order to do such things as interpret, define,
+Nanti-define' (circumscribe the meaning of), compare, differentiate,
+classify, illustrate, justify, criticize, rank, transform, perfect,
+winnow, and synthesize the many different neologisms,
+

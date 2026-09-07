@@ -1,0 +1,57 @@
+(70)
+
+Show How A Thing Is Affected By Its Environment
+
+Not only do things affect their environment, their environment affects
+them—but once again ideonomy can be of help.
+
+Ideonomy can: visualize and define all possible types and taxons of
+environments; suggest the properties and capacities of those environments
+and the ways in which they may or are likely to affect the things that
+they environ—be they of related or arbitrary kind; enumerate the
+relationships that are apt to develop between things and their
+surroundings; clarify the paths, media, agencies, objects, processes,
+modes, circumstances, etc through which environments may influence the
+things they contain or accompany; indicate the diverse elements and
+complex structure of things that are apt to mediate or receive the
+effects environment has on those things; provide tests and suggest
+experiments for determining the actual effects environments have had
+upon things; furnish means for exploring and exploiting analogies between
+the effects certain environments have on certain things and the effects
+various other environments may have upon various other—or given—
+things, or for using the former as models for differentiating the
+latter; trace the effects of an environment within the thing it
+affects, and also back into the originative environment; show the limits
+of an environment's effects upon a thing; suggest what a thing : receives
+from, requires in, reflects of, gains from, loses through, etc : its
+environment; and so forth. a
+
+Some specific examples of matters ideonomy could help investigate are:
+how an organ is affected by its bodily environment, a cell is influenced
+by the contiguity of other cells, or the activity of a mitochondrion
+varies as a function of its cytoplasmic distance from the cell nucleus;
+how the properties of a molecule vary as a function of nearby molecules;
+how the perception of an object depends on the spatiotemporal context
+of the object; whether Mach's principle is correct—or the local
+properties of matter depend upon the structure, content, or
+interrelationship of the entire universe; the extent to which—in the
+problem of text recognition in artificial intelligence—the meaning of
+individual words is, or should be, a function of prior and subsequent
+words; the transformations of state, appearance, and behavior that comets
+undergo when they enter the inner solar system and approach the Sun; how
+the physiology of a bacterial biont changes when the bacterium is
+inserted into diverse consortiums of microorganisms; how the operation
+or effect of a particular law are apt to vary if the law is
+introduced in different countries' legal systems; how the ethical status
+of a human act, and hence the various probabilities connected with that
+act, are altered by the geographic and historical culture in which the
+act occurs; how the admirability of a military tactic depends on the
+campaign in which the tactic is tried; how the validity, universality,
+or expression of fundamental physical laws and constants—so-called—
+may vary in radically different physical regimes; how the phenotypal
+expression of a species' genotype may change in minor or major ways in
+different physical and biological settings and circumstances; how a
+speaker's conception of the meaning of his own words may change in
+different conversational circumstances or in a way that depends on the
+particular persons with whom he is speaking; etc.
+

@@ -1,0 +1,65 @@
+85
+
+Pragmon: IGP ACTS AND PRAGMOLOGY.
+Pragmology: IGP ACTS AND PRAGMOLOGY.
+
+Preconcept, n.: A mental image or idea rudimentary between an ordinary recept
+(i.e., a mental image or idea formed by repeated exposure to a particular stimulus or
+class of stimuli) and a fully developed concept. — Webster's Third.
+
+Preconcerted, adj.: Previously arranged. — Websters Third.
+
+PREDICTIONS AND STOCHOLOGY; adj. prefix Stocho- + adj.
+Stochic, n. Stochology, n. Stochon, adj. stochonic; n. Prediction::
+
+°Prediction, n. (adj. predictive = predictional; vb. predict):
+* PREDICTIONS AND STOCHOLOGY, n
+
+itati j ,n.: A prediction that does not quantify what it
+predicts but rather predicts some qualitative [situation, state,
+relationship, law, or significance].
+
+Qualitative predictions are especially characteristic of ideonomy, and are
+what essentially distinguishes it from its sister mathematics.
+
+Illustrative examples of this [type or mode] of prediction are: [that one
+thing—or type of thing—exists rather than another, that something is true (or
+false), that something <has existence or is possible> (or per contra), that
+something will prove to be important for a certain reason, that a thing will be
+found to have a certain <shape or property>, that one thing is related to another,
+that a thing has a certain <cause or effect>, that a certain concept is necessary to
+understand something, or that an event has a certain <meaning or value> to
+the human race].
+
+Again, some subfields of mathematics are [essentially or in good part]
+qualitative—e.g., topology, catastrophe theory, nonlinear dynamics, abstract
+algebra. Also, logic and much of computer science are extremely qualitative.
+Yet with time it is becoming clear that all of these fields are potentially capable
+of being powerful tools of prediction. — Ant. quantitative prediction.
+
+iction, n.: A prediction of a quantity, or of a
+quantitative [value, relationship, or law]. — Ant. qualitative prediction.
+Principle; Ideonomic principle; Heuristic principle; Axiomology:
+PROBABILITIES AND ICOLOGY; adj. prefix Ico- = iko- = eiko- +
+adj. Ical = ikal = icologiclal; n. Icology, n. Ikon, adj. ikonic; n.
+Probability; Probabilistic::
+- ility: 1G>See CO.PROBABILITIES AND SYNICOLOGY.
+
+Hyper-pr ility:
+
+*Icology, n. (adj. icologic| al):
+
+In r ility = inter-probability: Different probabilities, or the
+probabilities of different things, should have mutual implications
+and trigger reciprocal adjustments.
+
+Ideonomy refers to the things being alluded to as interprobabilities, and
+calls for their discovery and the creation of methods for treating them. The
+more subtle [types and degrees] of probability—not just those which are
+interprobabilities but others—pose challenges to traditional ideas about
+probability and justify the pursuit of a more general theory of probability.
+
+Meta-pr ility: 1A probability of a probability; 2A probability of use
+in (characterizing or evaluating] a probability; SA higher-order
+probability; ‘A higher-level probability.
+

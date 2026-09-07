@@ -1,0 +1,55 @@
+FUNCTIONS OF CYTOTYPOLOGIC AND CYTQMORPHGLOGIC VARIATIONS
+Pat Gunkel
+
+Structurally and functionally there may be and there is contimuous inseperation
+of variations in neurons in and over the continuum going from order and randomness
+and inheritance and noninheritance. In other words, “the vast variety” and "jungle*
+frequently remarked when the complexity of neuropile is seen is not just due to
+superimposition of identical elements and perhaps identical elements in identical
+relations, with identity of size and space, &, but owes itself as well to true
+qualitative and quantitative variations in the cells. It is an open question
+whether this secondary variety fulfils some computational function(s) and, if so,
+to what degree, and not even I can decide the question, ultimately experimentally
+answerable, It is likewise an open question whether and to what extent this
+quantitative and qualitative variation expresses develoment to serve the order
+and process of information; and whether there is a hierarchy of such informations and
+whether evolution has progressively and decisively brought this irregularity and
+regularity under random and directed (unidirectional or mltidireetional) control,
+or whether there is a trend in one or the other or both directions, and whether
+slight but typical control could be decisive or such control is impossible for
+either hereditary or learning mechanisms, given whatever degree there is of
+histologic perfection (ideally or practically, elegantly or superfluously, or
+differently in different tissues). Withal, it is readily possible to suggest
+attractive computive uses of the variations and the proposals have a good chance
+of being right, in terms of what the nervous, could, does, and might use, The
+ideas are tentatively complementary to general theories of nervous function found
+elsewhere in this booke
+
+For any variations, we ma talk about the mean, median, mode, modes, extremes,
+kurtosis, directionality,. configuration, dense structure, practical appearance,
+and functional poles and in nontrivial ways, and the things considered above,
+such as evolutionary signifigance, apply to each. Multivariate analysis, tied
+to purposes, is necessary to describe, consider, and apply quantitative variations
+to qualitative and qualitative to quantitative. Often scrutiny and metrification
+produces additional and characteristic redundant and irredundant discoveries, but
+this is a task for the future.
+
+Qne may speak of the relative gross orientation of neuronal farmed fies a
+tissue; in same tissues the branches may be all oriented in the same direction;
+or in same cases, such as the cerebrocortex, an approach to this condition might
+actually be complementary to other orientations in the tissue, random or regular,
+and all of these be synergistic or specialized. It is interesting and important
+to consider functions assignable to tissues wherein the cells constitute regular
+sets of variations or massive uniformity of variations. Questions of this kind
+are ultimately of critical importance to computers and ontologic engineering,
+inasmuch as extremely simple and/or regular *tissues* might be satisfactory,
+preferable, or ideals; in fact, even if the tissue is subject to variations, the
+functional circuitry and the structure of the information may, at some level and
+for whatever importance, exhibit this simplicity and regularity or polarization
+over the whole.
+
+In cortices there is an orthogonal polarization of the tissue such that up,
+down, sideways, diagonal, curvic, circuital, and apparently unoriented branches
+take on special and different signifigance. In nuclei, distances, small-scale
+directions and groupings, distance to contiguous structures or vacua, gradience
+and mosaic of variations, penetrant fibers, & may take on such signifiganee.

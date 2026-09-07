@@ -203,9 +203,10 @@ Two provenance tiers, never confused (`ideonomy/data/`, load via
   vision models with legibility labels (`canon-charts.jsonl`), and monograph
   pages stitched from page scans (`canon-monographs.jsonl`). Canon text is
   never edited; even its seriation orders live in a sidecar
-  (`data/seriations.jsonl`). The raw scans, OCR, and extraction scripts that
-  produced these files are not published; they live in a private staging
-  repository whose manifest is the coverage denominator for the acquisition.
+  (`data/seriations.jsonl`). The OCR, transcriptions, and extraction scripts
+  that produced these files sit in [`corpus/source/`](corpus/source/), whose
+  [manifest](corpus/source/MANIFEST.md) is the coverage denominator for the
+  acquisition; the raw scans themselves are gitignored.
 - **grown** — the machine-extended edge, produced by the hill-climb
   ([`corpus/climb.py`](corpus/climb.py)): grow → induce the list's own
   typology → name the types it neglects → gap-fill → gate every candidate for

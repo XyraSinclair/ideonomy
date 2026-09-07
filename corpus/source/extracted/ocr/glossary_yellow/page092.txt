@@ -1,0 +1,74 @@
+91
+
+Taxo-system = [taxologic, taxonomic, or classificatory] scheme =
+taxology = obs. taxonomy n.: A [scheme or system] for classifying things,
+or what traditionally has been termed a taxonomy—although in ideonomy the
+latter word is no longer an acceptable synonym, since it has been given a new
+meaning (vide taxonomy). — Contrasted with typology.
+
+*Taxology, n. (adj. taxologic| al): The science of classifying things into
+
+[taxons via taxo-systems].
+Taxonomy, n.: Subfield of taxology concerned with [natural and artificial] laws
+
+of classification; Obsolete: a taxo-system.
+
+¢Taxon*, n. (pl. taxons = taxa; adj. taxonic): Types (categories) of types.
+Taxons subsume mere types. Different taxons may be separated from one
+another either [horizontally or vertically].
+
+In ideonomy things may simultaneously belong to [different taxons that are
+not mutually related or that do not form a single hierarchic scheme of logical
+<containment and exclusion>]; per contra, different ideonomic taxons may
+[overlap, belong to <anastomotic, circular, or repetitive> sequences, have
+logically “fuzzy” relationships, represent non-unified taxo-systems, e/uc].
+
+° A TAXOLOGY, n.:
+
+Template: 1" Ideonomic template.
+
+Temporal nMDS:
+
+Tertium quid* (pl. tertiums quids):
+
+TERTIUM QUIDS AND TRIONTOLOGY; adj. prefix Trionto- +
+adj. Triontic » n. Triontology + n. Trionton » adj. Triontonic; +
+
+suffix -Triont; n. Tertium guid = third thing::
+
+TERTIUM QUIDS AND TRIONTOLOGY:
+
+Tertium quid (pl. tertiums quids) = third thing: 2In ideonomy: ‘third
+thing’ that [transcends, supplements, or belies] would-be
+dichotomies; *Lower Latin (trans. of Gk triton ti): third
+something; In Webster’s Third: 3A middle course or intermediate
+
+component; something that escapes classification with either of
+two [mutually exclusive and supposedly exhaustive] categories but
+
+shares elements of both; 4A third party of ambiguous status. — E.g.
+God, vis mind and matter; Quanta, in view of the problem of wave-particle duality.
+
+Textual nMDS; Intrasentential nMDS:
+Intrasentential nMDS: The use of textual nMDS within a single
+
+sentence.
+Textual nMDS: The use of nMDS to scale the interrelatedness (sensu
+some scaling relation) of the different parts of a text inter se.
+
+The text in question might variously be [a single sentence, paragraph,
+chapter, book, technical paper, famous speech, conversation among many
+people, poem, or the words of a song].
+
+That actually scaled may be [words, morphemes, phonemes, phrases,
+clauses, whole sentences, semantemes or ‘thoughts’, e/uc].
+
+The things scaled may variously be scaled for [interdependence,
+analogousness of meaning, analogousness of function, analogousness of
+external reference, logical priority, semantic independence, ‘mutual
+complexity’, etc].
+
+The results of the nMDS may be [displayed or communicated] via [static,
+dynamic <spatiotemporal, purely temporal, or hypertemporal>, or user-
+interactive] [2-D, 3-D, or <immediately or latently> 2>4-D] [clustering,
+

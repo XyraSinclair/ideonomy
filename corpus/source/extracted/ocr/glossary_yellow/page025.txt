@@ -1,0 +1,68 @@
+24
+
+Subfield of a division: The part of, or approach to, a Thematic
+Division that corresponds to a particular Practical Division, or
+that results from the application of the latter to the former. Such
+subfields are typically named by joining to the divisional affix one
+of a set of standard subfield ‘affixes’. — E.g., morpho- + -taxy =
+morphotaxy.
+
+Subdivision: A division of a division, or a still lesser-order division
+[thereof or therein].
+
+Superdivision: One of the different [senses of ideonomic division or
+phases of ideonomy] [e.g. thematic, methodological, foundational,
+technological, or pedagogic]; A [natural or arbitrary] aggregation
+of ideonomic divisions; An especially [large, broad, or important]
+thematic division [either official or unofficial].
+
+Thematic division: One of a class ideonomic divisions that are
+exclusively devoted to a single major category, or province, of
+ideas (the divisional theme); or the [science or subscience] whose
+concern is with the object of the division.
+
+§ TABLE, “A Set of 234 Ideonomic Divisions ” §
+
+Foreword: In this table divisions are identified by standard trinomens, which at
+once name the [category or province] of ideas the given division treats (e.g. “abilities”)
+and—using Ancient Greek roots exclusively—the field of study itself “anystology”)
+and the thematic affix of the division (“-anyst-”).
+
+Each division has its own [theory, methods, organons, and ideas].
+
+The number of divisions is not fixed, but instead depends upon [circumstances and
+needs]. The two-hundred-thirty-four divisions recognized here are easily defended,
+being neither too few (in the sense of leaving the topic underdifferentiated) nor too
+many (in the sense of being unwieldy and unrecallable).
+
+Divisions may be broken down further into subdivisions, and, in fact, into
+subdivisions of successively lower order.
+
+Moreover, ideonomy can also be partitioned in other ways, or have other sorts of
+divisions. Although these will not be equivalent (certainly not in taxonic level) to what
+are here termed “divisions”.
+
+Since the new science is still in statu nascendi, its [proper or final] structure, and
+the terminology pertinent thereto, can at present only be discussed in a [tentative and
+speculative] way. Ideonomy could ‘be divided’, just as other sciences have sometimes
+been divided, into [philosophical, foundational, thematic, terminological, theoretical,
+methodological, experimental, technological, and applied] parts. In such a nonagonic
+scheme, the things listed below might be said to comprise the thematic superdivision of
+the subject.
+
+SORTED BY THEME SORTED BY SCIENCE
+Abilities : -anyst- : Anystology Acology : -ac- : Solutions
+Acts : -pragm- : Pragmology Acrology : -acr- : Supremes
+Alternative Histories : -nehistor- : Nehistorology Adocetology : -adocet- : Surprises
+Alternatives : -allag- : Allagology Agathology : -agath- : Goods
+Ambiguities : -amphib- : Amphibology Agnosology : -agnos- : ignorances
+Anadescriptions : -anagraph- : Anagraphology Agonology : -agon- : Debates and Arguments
+Analogies : -icel- : Icelology Allagology : -allag- : Alternatives
+Analyses : -merism--: Merismology Allelology : -alleil- : Interdependences and Reciprocities
+Anomalies : -xen- : Xenology Allelosch logy : -alleloschem- : Interrepresentations
+Answers : -chresm- : Chresmology Amphibology : -amphib- : Ambiguities
+Antisyzygies : -antisyzyg- : Antisyzygology Anabathmology : -anabathm- : Niveaus
+Appearances : -phen- : Phenology Anabolok bol- : Reactions
+
+gy :
+Assumptions : -lemm- : Lemmology '-Anagraphology : -anagraph- : Anadescriptions

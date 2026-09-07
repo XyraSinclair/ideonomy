@@ -1,0 +1,65 @@
+197
+
+THROWAWAY vs CYCLIC. The first term refers to such parts or wholes of spaceships
+or other objects as we might profitably throw away rather than burdening
+ourselves with the necessity of their transportation to destination or their
+return at nonlinear cost. "Cyclic!', in contradistinction, refers to an act
+or practise of returning such things 3, I, or many times. Economies both
+ways can be argued and matters have yet to be decided. For example, an SSTO
+(Single Stage to TakeOff) vehicle might or might not be most economical &r
+convenient for Earth-into-Space Flight. Relative economies may prove variable
+according to different situations &r uses.
+
+PIGGY-BACKING. The carrying of many spacecraft &r spacestations by single,
+capacious spaceships in order to effect total flight and operational economies,
+the contained or attached "piglets" being dispatched in various clusters
+and orders at | or more "dispatch loci’. Put otherwise, large craft will
+Piggy-back many craft, devices, materiels, and personnels to sets or systems
+of planets, stations or loci, dispatching &r retrieving seriatim (eg satellites,
+telemetric microstations, many simultaneous satellites &r landers--such as
+subsatellites--for the same planet or space, &c).
+
+SUBSATELLITE. Today this term is used by the space community to refer to a
+probe and a set of probes carried by a spaceship to another planet and released
+upon arrival to effect seperate landings, assume different buoyant positions
+in the atmosphere, &r assume various orbits.
+
+SATELLOID. A satellite able to maintain itself in an orbit so low as to ordinarily
+be unstable or impossible, compensating atmospheric resistance by continuous
+or periodic propulsion, thereby filling the very large gap between ordinary
+astronautical and aeronautical flight and actually allowing very low orbits
+with little expenditure of energy per instant or per eternity. Unlike
+ground-based aircraft, such a satelloid might actually return to Space and
+be space-based. It is interesting to consider what tasks might be fulfilled
+by future satelloids operating in the atmosphere of Earth and other planets.
+Such low-propulsional satelloids might maintain themselves in perpetual orbit,
+if not by intervehicular refueling, by "solelectric'! drives, exomotive ablation
+Or conversion using continuous or periodic ground-based or space-based lasers,
+"aerofuel" fusion, 6&rc. Clearly the configuration of satelloids would be
+appropriately aerodynamic.
+
+SOLELECTRIC. Of or relating to power or propulsion converting captured sunlight
+into electrical energy.
+
+AEROFUEL. Of or relating to fuel taken from the surrounding atmosphere by
+aeronautical &r astronautical ramjets, satelloids, or atmosphere-skimming craft;
+such fuel itself.
+
+HOLOVISION. Holographic television. Between 1975-2000 various methods will be
+developed and implemented by networks for stereoscopic (binocular), holographic,
+and "ultraholographic" television and videophony. Difficult problems will be
+presented by the need to replace preexistent networks, but not insuperable
+ones owing to the simplicity of possible converters using identical receptions.
+By ultraholographic television is meant the large number of improvements over
+simple holovision which are foreseeable, including cycloramic holovision and
+of such kind--what might be called "'spherovision''=-that viewing angle will
+alter so rapidly with movement of the head that scenes viewed will readily be
+rotated through 360° by active observers. Indeed, viewers might be equipped
+with sufficient powers that scenes will be fixed unless a viewer chooses to
+move around by rotating, selecting or altering the distance of parts of, altering
+the perspective of, &rc a scene, &r to otherwise alter and select what he senses.
+All these things will probably presuppose much greater instantaneous transmission
+of information, regardless of the routes taken by such information or the
+distant location of various telecommunicators. Telecommunication via geosatellitic
+relays should grow accordingly, by many orders of magnitude, as such sophisticated
+and heavy-informational systems are implemented.

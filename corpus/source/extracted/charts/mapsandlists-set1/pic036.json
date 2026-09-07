@@ -1,0 +1,25 @@
+{
+ "title": "20(of152) SPECIES OF THE FORM-GENUS “RADIATION”, MDS Scaling Via Complete 400-Decision Rank-Ordering Per Analogousness.",
+ "kind": "mds-map",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "ANALYTIC-REGIONS COUNTERMAP",
+   "of": "radiation-form region",
+   "items": [
+    "STRAIGHT (Radial) ARMS",
+    "BUDDING ARMS",
+    "TAPERING- (Convergent) ARMS",
+    "ROUNDED (Obtuse) ARMS",
+    "CONCENTRIC (Layered) ARMS",
+    "PROGRESSIVE ARMS",
+    "CORELESS ARMS",
+    "FLARED (Divergent or Hyperbolic) ARMS",
+    "ENWRAPPED ARMS",
+    "CROSS & QUASI RADIATIONS"
+   ]
+  }
+ ],
+ "notes": "D=2. DIMENSION 1 and DIMENSION 2. Some handwritten regional labels and small annotations are unreadable.",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set1/pic036.jpg"
+}

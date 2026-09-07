@@ -1,0 +1,69 @@
+55
+
+eArcho-set: An ideoset from which another ideoset, an abset, [came,
+is originating, or might be taken]. — Cf decto-set.
+
+Control set, n.: An ideoset that serves as an experimental control to test the
+
+[validity, significance, or nature] of another ideoset, and that may per contra be
+
+[random, unwinnowed, disparate, bogus, unrelated, negatively related (qnti-
+
+related), extremal, directed to another subject, <selected or treated> by other
+
+persons, e/uc).
+
+(n.): 1One of [two or more] ideosets that are temporarily
+[combined or treated together]; 2One of [two or more] ideosets that
+are related, but that are usually not analogous, or that are only
+<weakly or aspectually> analogous]; *One of [two or more] ideosets
+that are co-subsets of an ideic superset.
+
+4(adj.): [Being, of, or relating to] [a coset or cosets].
+
+*Counter-set, n.: An ideoset that [is or functions as] a conjugate of another
+ideoset. Ideosets may be countersets because [they or their ideas] are [opposite,
+contrasting, or complementary] or are meant to [cooperate or interact] in some
+ideonomic process; or because one or more of them is serving as a control set.
+
+*Decto-set, n.: An ideoset that [receives, assimilates, acquires, is
+enlarged by, e/uc] another ideoset—or that [is to do so, could do so,
+or has already done so]. — Cf. adset; archo-set.
+
+¢Dis-set, vb.: !To [unmake, take apart, suppress, or invalidate] an
+idioset; 2To [extract or expel] [ideas or subsets of ideas] from an
+ideoset.
+
+eEn-set = set = ideoset, vb.: !To [make (something) or treat as being]
+an ideoset; 2To [add, include, or seek to discover] [ideas, ideosets,
+things, terms, concepts, relations, data sets, e/uc] in [an ideoset or
+ideosets].
+
+¢Extra-set, adj.: [Being, of, relating to, or involving] something [e.g.,
+other ideas, another ideoset, referent, phenomenon, or concern]
+[existing or functioning] outside a (given) ideoset. — See e.g. under
+Multidimensional scaling. — Ant. intra-set.
+
+§Holoset = holo-ideoset = grand ideoset = mother set: The [total or
+complete] ideoset from which a [sample or specific] subset has
+been taken or of which it is a virtual representative.
+
+A holoset that is never actually [created or examined] is termed yirtual (=
+abstract). Whereas a holoset that physically exists at at least some point in time
+{whether <before, contemporaneously with, or after> <the sample, sampling, or
+one’s present moment>] can be differentiated as a concrete (= real) holoset.
+
+If such a concrete holoset was in actual existence before the sample, or
+whatever, it is described as a pre-set sp. pre-holoset; but a pre-holoset that is now
+extinct, or that was destroyed during or after the sampling, is a paleoset sp.
+paleo-holoset. A concrete holoset coexistent with the sample, e/vc, is a synset sp.
+syn-holoset. Finally, a concrete holoset that is to be created and examined,
+either in full or at least in a more thorough way, after the sampling is done or
+the sample studied or at some future time, is a postset sp. post-holoset.
+
+A [sample or subset] may be random [or not] in myriad different ways: i.a.,
+in respect to its [size <absolute or relative>, sequential order, 21-D spatial
+structure, abstract ideic structure, coordinates (original location), identity,
+<qualitative composition or properties>, specialness, specificity—genericity,
+internal redundancy (<intrinsic or subjective> self-redundancy), ideo-
+

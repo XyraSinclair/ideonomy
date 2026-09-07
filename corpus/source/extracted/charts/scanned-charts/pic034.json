@@ -1,0 +1,52 @@
+{
+ "title": "",
+ "kind": "mds-map",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "",
+   "of": "emotion",
+   "items": [
+    "Respect",
+    "Wonder",
+    "Mystery",
+    "Caution",
+    "Admiration",
+    "Amazement",
+    "Surprise",
+    "Anxiety",
+    "Fear",
+    "Timidity",
+    "Terror",
+    "Solitude",
+    "Loneliness",
+    "Anguish",
+    "Innocence",
+    "Love",
+    "Sadness",
+    "Shame",
+    "Hollowness",
+    "Pain",
+    "Enthusiasm",
+    "Happiness",
+    "Pride",
+    "Amusement",
+    "Dullness",
+    "Serenity",
+    "Suspicion",
+    "Disgust",
+    "Security",
+    "Envy",
+    "Indignation",
+    "Impatience",
+    "Anger",
+    "Irritation",
+    "Mischievousness",
+    "Boredom"
+   ]
+  }
+ ],
+ "notes": "No title is visible. One obscured label near the upper-left center was omitted.",
+ "source_image": "https://ideonomy.mit.edu/scanned-charts/pic034.jpg",
+ "rail": "gemini"
+}

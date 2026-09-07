@@ -1,0 +1,28 @@
+{
+ "name": "index.01-index",
+ "of": "index",
+ "items": [
+  "An Introduction to Ideonomy",
+  "What Ideonomy can do",
+  "Patrick Gunkel: A short Introduction",
+  "Pointers to Internet Resources about Ideonomy",
+  "Ideonomy Divisions - BINOMENS",
+  "Some MDS maps",
+  "Essays",
+  "Sources and Examples of Beauty",
+  "Analogies between a Molecule and an Organism",
+  "Investigable Dimensions of Phenomena",
+  "Paths",
+  "Causes of Forms",
+  "Human Kaleidoscope"
+ ],
+ "status": "open",
+ "made_by": "extract(wayback-html)",
+ "parents": [],
+ "source": {
+  "tier": "canon",
+  "url": "http://ideonomy.mit.edu/index.html",
+  "via": "web.archive.org",
+  "page_title": "index"
+ }
+}

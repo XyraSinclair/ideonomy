@@ -1,0 +1,82 @@
+[N.B. Author's self-note; not for use as written,]
+
+THE CONCEPT OF A ‘SCENARIO ASPECTS TABLE!
+
+Note: The list of about 300 ''Future Scenarios Involving Metamachines''
+
+is so comprehensive, complex, and unique that it might make very good
+sense to construct a table whose rows would be the list of scenarios
+
+and whose columns would be different characterizations of the scenarios,
+say by assigning numbers to each scenario on closed or open scales,
+
+by assigning letters representing various alternative or simultaneous
+concepts defined on an accompanying Table Key, or by entering words--or
+referrals to footnotes--in the boxes. Possible dimensions usable in
+columns to characterize the scenarios are as follows:
+
+1. Probability-Improbability Scale. (This could be either quantitative
+or qualitative, It would treat intrinsic probability.)
+
+2. Optimism-Pessimism Scale. (Again, either quantitative or qualitative;
+but differing from #1 in treating, not intrinsic probability, but
+the degree--if any~-to which the scenario embodies a deliberate
+effort to alter the probability of what is described occurring,
+say via one or more explicit or implicit assumptions or because
+special conditions are assumed.)
+
+3. Competitiveness Scale. (Degree to which the scenario envisioned
+competes with other, incompatible scenarios; hence 'Comprehen-
+siveness of Alternatives Scale'.)
+
+4, Desirability-Undesirability Scale. (Whether, and degree to which,
+the scenario would be a good or bad thing, in some absolute or
+universal sense.)
+
+5. Importance Scale. (Degree of importance scenario would have if it
+occurred: as opposed to #6.) _
+
+6. Interest Scale. (Degree of intrinsic interest or value the scenario
+has to the analyst or reader.
+
+7. Time-Frame Scale. (Quantitative or qualitative chronological dates,
+span, or sequence that scenario probably refers to, either absolutely
+or because of special assumptions made by it; things such as
+starting point, maturational date or interval, climactic point,
+completion point, earliest or extremal dates, etc.)
+
+8. Confidence-As-To-Probability Scale. (Confidence with which one
+can assign a probability to the scenario, or with which the Table
+does assign a probability.)
+
+9. Describability Scale. (Ease or difficulty, or completeness, with
+which that envisaged in the scenario can be imagined or described.)
+
+10. Comprehensibility-Perplexity Scale. ('Intrinsic' comprehensibility
+
+or perplexity of that imagined in the scenario, or extent to
+which that postulated by the scenario, conceptually, is really
+fathomed, or fathomable, in advance--or at the present time.)
+
+11. Number-of-Assumptions Scale. (Relative or absolute number of
+
+assumptions made, or conditions assumed, by the scenario.)
+
+12. Simplicity-Complexity Scale. (Intrinsic complexity of that
+
+postulated by the scenario, or of the scenario itself.)
+
+13. Degeneracy Scale. (Extent to which the scenario is or is not
+easily or fundamental resolvable into other interesting, coessential,
+
+alternative, qualitatively diverse, non-contradictory, equally
+important, unknown, similar, and/or the like scenarios or
+sub-scenarios; hence 'Uniqueness Scale'.)
+
+14. Epoch Assignment. (Say whether the scenario refers--wholly, largely,
+
+exclusively, necessarily, variously, essentially, and/or the like
+--to the development of, or time preceding, A.|., to the moment of
+or neighborhood of A.!.'s achievement, to the transition to the
+new world A.J. will induce, or to a transhuman or posthuman epoch.)
+

@@ -1,0 +1,199 @@
+-morph- Morphology
+-dra- : Draology
+-thelym- Thelymology
+Futuribles -mell- Mellology
+Games -condac- Condacology
+Gedankenexperiments -phronopir- Phronopirology
+Generalizations -euryn- Eurynology
+Geneses -plast- Plastology
+Goals : -balb- : Balbology
+Goods : -agath- Agathology
+‘Groups’ -stell- Stellology
+Hardest Things -mogist-
+Heterodoxies -heterodox- Heterodoxology
+Hierarchies -clim- Climology
+Higher Realities -anohypar-
+Histories -histor- Historology
+Hypotheses -thes- Thesology
+Identities -taut- Tautology
+Ignorances ~agnos- Agnosology
+Nlusions -apat- Apatology
+Images -id- Idology
+Implications -semasi-
+Impossibilities : -bym-
+Individuals -idi-
+Inequalities -anis-
+Infinite Complexities -apiron-
+Infinities -apir- Apirology
+Information-Theoretic + Entropic Things
+Menymology
+Instances -meric- Mericology
+Instruments -lab- : Labology
+Interdependences and Reciprocities
+Interests -ked- : Kedology
+Interpretations -hermenu- Hermenuology
+Interrepresentations -alleloechem- Alleloechemology
+Inventions -poriz- Porizology
+Inversions -simom- Simomology
+Knowledges -epistem- Epistemology
+Languages -semonam- Semonamology
+Laws -nom- Nomology
+Learning and Teaching -didagm-
+Leftovers -lipsan- Lipsanology
+Levels -blethr- Blethrology
+Limitations -hor- Horology
+Logical Things -synet- Synetology
+Manifolds -chorem- Choremology
+Mathematical Things ~mat- Matology
+Matrices -hyster- Hysterology
+Measurements -metr- Metrology
+Mechanisms -mechan- Mechanology
+Metaphors -trope- Tropeology
+Methods -method- Methodology
+Minds -no- Noology
+Models -plasm- Plasmology
+Monads -monad- Monadology
+Monisms -hen- Henology
+Motions -kin- Kinology
+Naughts -anont- Anontology
+Needs -chre- : Chreology
+Negations -arnes- Amesology
+Negative Analogies -anticel- Anticelology
+Negatives -hypudam- Hypudamology
+Networks -dicty- Dictyology
+Networks of Consequences -anyodicty-
+Niches -ken- Kenology
+Niveaus -anabathm- Anabathmology
+Opportunities -caer- Caerology
+Opposites : -enanti- : Enantiology
+Orders -cybel- Cybelology
+Origins -arch- Archology
+Orthodoxies -orthodox- Orthodoxology
+Oughts -deont- Deontology
+
+Forms
+Functions
+Fundamentals
+
+Mogistology
+
+Anohyparology
+
+Semasiology
+Bymology
+
+Idiology
+
+Anisology
+Apironology
+-menym-
+
+-allel- Allelology
+
+Didagmology
+
+Anyodictyology
+
+26
+
+Dromology : -drom- Courses
+
+Ecology : -ec- Ecologic Things
+Ectatology : -ectat- : Extensions
+
+Elpology : -dp Expectations
+Enantiology : -enanti- Opposites
+Enargmology -enargm- Phenomenons
+Encliology : -encl- Periodicities
+
+Endology : -end- : Contents and Parts
+
+Ennoology : -enno- : Concepts
+
+Enology -en- : Stories
+
+Entelology -entel- Perfections
+Epirology : -epir- : Realms
+Epistemology : -epist : Knowledges
+Epochology : -epoch- Epoches
+Ergology : -erg- : Works
+
+Erismology : -erism- Controversies
+Eschatology -eachat- Ultimates and Ends
+Ethology -eth- Behaviors
+
+Etiology : -eti- Causes
+
+Eurynology : -euryn- Generalizations
+Graphology -graph- Descriptions
+Gunology : -gun- Fields
+
+Harmozology -harmoz- Unifications (integrations)
+Henology -hen- Monisms
+Hermenuology -hermenu- Interpretations
+Heterodoxology -heterodox- Heterodoxies
+Heterology -heter- Differences
+Hicanology -hican- Capacities
+Himerology -himer- Wants
+Historology : -histor- Histories
+Hodology : -hod- : Paths .
+Holology -hol- Wholes and Gestalts
+Horology -hor- Limitations
+Hyperapirology -hyperapir- Transfinites
+Hypudamology -hypudam- Negatives
+Hysterology -hyster- Matrices
+Tcelology : -icel- Analogies
+
+Toology : -ic- Probabilities
+
+Idiology -idi- Individuals
+
+Idology -id- Images
+
+Idrology -idr- Experiences
+
+Iridology -irid- Spectrums
+
+Irmology : -irm Series
+
+Isaxiology -isaxi- Equivalences
+Isology : -is- Equalities
+
+Kedology -ked- Interests
+
+Kenology -ken- Niches
+
+Kinology -kin- : Motions
+
+Labology : -lab- Instruments
+
+Legology : -leg- : Decisions
+
+Lemmology -lemm- : Assumptions
+Lichology -lich- Ranges
+
+Lipsanology -lipsan- Leftovers
+Litology -lit- Simplicities
+
+Malistology : -malist- Extremes
+Matology -mat- Mathematical Things
+Mechanology -mechan- Mechanisms
+Medology : -med- Plans
+
+Mellology -mell- Futuribles
+Menology -men- Conservations
+Menymology -menym- Informa tion-Theoretic
+
++ Entropic things
+
+Mericology -meric- Instances
+Merismology -merism- Analyses
+Methodology -method- Methods
+Metochology -metoch- Commonalities
+Metrology -metr- Measurements
+Mimology -mim- Virtuals
+
+Mixology -mix- Combinations
+Mogistology -mogist- Hardest Things
+- Momology -mom- Criticisms
+Monadology -monad- Monads

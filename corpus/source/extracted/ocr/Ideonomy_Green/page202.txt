@@ -1,0 +1,56 @@
+(4)
+
+Curve (B) models a force curve gradually oscillating upward despite,
+or perhaps via, temporarily backsliding subcurves; an ascending series
+of submaxima, in other words.
+
+Curve (C) suggests a similar curve, but one stepping upward via a
+series of temporary pauses or plateaus—as though a series of energy or
+work elements or systems were gradually being superadded or optimized
+by a sequence of priming pulses, cycles of adjustment, feedback, or
+self-stimulation.
+
+Curve (D) visualizes an oscillating final plateau.
+
+Curve (E) suggests a force curve that as it rises upward develops
+oscillations that become maximally resonant midway, and then gradually
+damp to nothing as the curve attains its maximum. This might variously
+hint that there is a lack of integration in the muscular or neuromuscular
+system, that the system operates by feedback (perhaps resonant feedback),
+that the system employs some sort of inversional mechanism, that higher
+derivatives are important, etc.
+
+Curve (F) is meant to suggest that the continuous contraction of a
+muscle is actually underlain by a series of brief contractions by a
+succession of different muscle fiber groups or subsystems with
+increasingly retarded force curves or maxima.
+
+Curve (G) suggests one way in which the contractive force of a muscle
+might eventually decline through fatigue: by a series of oscillations
+with descending maxima but whose minima are all zero.
+
+Curves (H) and (1), finally, are simply the descending equivalents
+(reflectional isomorphs) of (B) and (C), respectively.
+
+Of course one is free to think of the original question in quite
+different ways. For example, if a person embarks on a weight lifting
+program and as a result becomes more muscular and stronger, may there
+remain dimensions of his strength or components of his musculature whose
+maximum capacities are perforce unchanged? Perhaps muscle fibers
+increase in number or efficiency but not in individual strength; or
+there is some tradeoff between short-acting and long-acting fibers that
+redistributes force or work over time.
+
+Another possibility is that there are cyclic or aperiodic fluctuations
+of a muscle's capacity on some timescale; there might even be a whole
+hierarchy or spectrum of them, and life monitoring should be done to
+see if cycles may even exist with periods of many months, years, or
+decades.
+
+There should probably be similar but independent studies of muscular
+relaxation, which might not be simply the reverse of contraction.
+
+Are there types or dimensions of muscular capacity whose maxima are
+surprisingly invariant ('recurrent') across the entire human population
+or even in animals (say by contrast with the variability and covariation
+of other types or dimensions of capacity)?

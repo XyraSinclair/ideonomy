@@ -1,0 +1,28 @@
+{
+ "title": "‘SPIRAL’ FORM-TYPES",
+ "kind": "diagram",
+ "legibility": "partial",
+ "lists": [
+  {
+   "name": "Form-types",
+   "of": "spiral form-type",
+   "items": [
+    "rectangular",
+    "triangular",
+    "broken (dot-train)",
+    "broken (line-segment train)",
+    "single-turn",
+    "multicoiled",
+    "tubular",
+    "out-branching",
+    "in-branching",
+    "closed bidirectional",
+    "spiral spiral-train",
+    "Lituus",
+    "Archimedean"
+   ]
+  }
+ ],
+ "notes": "Numbered pictorial examples 1–64; most have no textual label. Several small handwritten labels are unreadable.",
+ "source_image": "https://ideonomy.mit.edu/mapsandlists-set1/pic078.jpg"
+}

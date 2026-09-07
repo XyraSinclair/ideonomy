@@ -1,0 +1,79 @@
+Poeenet
+
+INTRODUCTION
+
+asm ine ee,
+
+i Methodolo
+\Technology® 7
+
+warn ot
+
+put emaaieei tse oe wser
+
+IDEONOMIC COMPUTER SOFTWARE
+
+The principal future use of the computer remains unheralded:
+not calculation (at least not for its own sake), not data storage and
+retrieval, but rather the manipulation, exploration, and generation of
+ideas. Ideonomy in other words, broadly defined to include ideonomic
+forms and applications of artificial intelligence.
+
+That there may have been such an oversight is hinted by a sensation
+that one has on occasion when using contemporary computer software,
+an intuitive feeling that there is something basically wrong with or
+missing in such software. In the view of the ideonomist, there
+definitely is something missing, namely anything more than the slightest
+attention paid to ideas and to the cognitive aspects, needs, and
+opportunities of the software. Existing software, if you will,
+represents a sophisticated technical ''shell'' with a hollow core.
+
+A glance at educational software makes this particularly clear. It
+is generally agreed that almost all such software is disappointing. It
+can teach knowledge and skills, but only superficially and in ways that
+do not begin to realize the potential or answer the need. The value
+of human instructors and of conventional textbooks far exceeds the value
+of current examples, forms, and techniques of educational software. It
+is also true that academic software does little that is qualitatively
+different or suggestive of the presumptive power of the computer to
+revolutionize educational methods or to develop novel mental skills in
+students.
+
+For the most part educational software simply represents a
+mechanization of textbooks, tests, and other pedagogic materials and a
+partial (but momentarily inferior) automation of pedagogy. Or one could
+say more cynically that its major accomplishment has been to enlarge
+
+the recreational side of schooling by adding video games to the curriculum.
+
+There are four ways in which ideonomy will change computer software:
+
+i. By the addition of ideonomic elements to ordinary software or the
+ideonomic modification of the latter;
+
+ii. Through the development of specialized ideonomic software;
+
+iii. In terms of the development of general or truly universal
+ideonomic software;
+
+iv. Via the production of ideonomy-based artificial intelligence
+software; and
+
+v. Indirectly, through the contribution ideonomy can make to any
+form of planning, creativity, research, development, or implementation,
+including that involved in software design and exploitation in its
+totality.
+
+The computer, computer science, and the computer industry can all be
+neatly divided into the two parts of computer hardware and software. One
+could define the distinction as being between all that which is "hard",
+or contributory to the basic physical structure and functioning of the
+computer or of its physical auxiliaries (the hardware); and all that which
+is "'soft!' because it contributes in a remaining way to the impermanent
+or adaptative side of the computer, to the computer in its processual or
+informational aspects, or to the external government of the computer (the
+software) .
+
+That is an imperfect definitional distinction even today, however, and
+in the future it will progressively lose most or all of its meaning.
+

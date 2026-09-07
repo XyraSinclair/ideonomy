@@ -1,0 +1,67 @@
+16
+
+' rankings, groupings, or classifications] of the overall mutual relatedness of the ideas
+in an ideoset; to the subsequent [symbolic or numeric record] thereof; to the new tabular
+values that result from the subsequent processing of same by matrix arithmetic; to the
+actual mappings of the intra-set ideas that finally result from the processing of the
+former by the high-level mathematics of nMDS; to later meta-mappings of the ideas
+that were inspired by human reflection upon the computer-created primary map; efe.
+
+Covarianes; Covariant; Covariation; Co-vary::
+
+n
+Covarian t, adj & n.:
+Covariation, n.:
+Co-vary, vb.: To vary [together, at once, or conjointly].
+
+E.g., things may covary: [<minimally, substantially, mostly, completely, or
+infinitely>, <actually, hypothetically, or representably>, <absolutely, relatively, or
+virtually>, in an <identical, analogous, commensurate, different, opposite, incommensurate,
+antisyzygial, associated, orthogonal, mutually meaningful, consilient, e/vc> way,
+{harmoniously or disharmoniously>, <randomly or deterministically>, <instantaneously,
+intermittently, continuously, or cyclically>, <statically, dynamically, or progressively>,
+<convergently, divergently, or vergently>, <independently, dependently, or
+interdependently>, <unidimensionally or multidimensionally>, on a single level or <at,
+between, or among> multiple levels, <simply or complexly>, <linearly or nonlinearly>, in a
+<specialized or general> way, <naturally or artificially>, <measurably or intuitively>,
+<quantitatively or qualitatively>, <smoothly or saltatorially>, a la different number systems,
+e/uc].
+
+The number of covarying things may range from [two to infinity], and a thing may
+also covary [with respect to itself or among its parts].
+
+Things may [alternatively or at once] covary in respect to such things as:
+[direction, sign, degree, intensity, size, activity, causation, effect, form, population, position,
+velocity, curvature, development, importance, probability, flow, their very covariation (sic),
+higher derivatives, peculiar integrals, etc].
+
+Cum; Et = and; Etc = et cetera; E/v = et/vel; E/uc = et/vel cetera; Vel
+= v; Ve = vel cetera::
+
+Cum: (‘And’ or ‘with’] sensu indicating that the relationship that obtains among a
+set of [named or implied] things is that of [logical conjunction or necessary
+combination]; Preposition meaning [with, combined with, including, or along
+with].
+
+Cum is often used in ideonomy to imply that two things [occur or are to be <taken,
+viewed, joined, or fused>] together, or that something simultaneously [possesses, resembles,
+or behaves as] both.
+
+Et = and: ‘And’ sensu indicating a mere enumeration of a set of things,
+explicitly named, but not implying that any logical interrelationship obtains
+[between or among] the things; ‘And’ sensu signifying [ambiguously or
+inspecifically] that the interrelationship of the set of things explicitly named [is
+or might be], variously, that of [logical conjunction, logical inclusive
+disjunction, logical exclusive disjunction, or mere nonlogical enumeration].
+
+Etc = et cetera: ‘And’ sensu indicating a mere enumeration of a set of things,
+not all of which [are or are necessarily] explicitly named, but. not implying that
+any logical interrelationship obtains [between or among] the things; ?‘And’
+sensu signifying [ambiguously or inspecifically] that the interrelationship of a
+set of things, only some of which [are or are necessarily] explicitly named, [is
+or might be] yariously that of [logical conjunction, logical inclusive
+disjunction, logical exclusive disjunction, or mere nonlogical enumeration].
+
+E/v = et/vel: ‘And/or’ sensu indicating that the logical interrelationship that
+obtains among a set of explicitly named things is one of inclusive disjunction.
+

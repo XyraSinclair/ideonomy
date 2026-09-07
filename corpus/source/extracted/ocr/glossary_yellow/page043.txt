@@ -1,0 +1,60 @@
+42
+
+Comap, n.: Comaps are [two or more] maps [of like or different type]
+that [are designed to, naturally can, or are made to] function
+together or that [complement, supplement, check, ‘criticize’,
+clarify, or interpret] one another [reciprocally or irreciprocally].
+
+Among other things, comaps may: ‘Be [cogenerated, coevolved, or
+homologous]; 2Be [exhaustive or not] [e.g., in a group-theoretic or information-
+theoretic sense]; 3Be mutually [ordered or random]; ‘Represent [variant or
+covariant] [representations or transformations] [<e.g., algebraic, geometric,
+topologic, logical, ideonomic, or esthetic>; <e.g., number-theoretic, spatial,
+manifold, perspectival, probabilistic, temporal, e/vc>] [of one another or of the
+same <data or ideoset>] {e.9., represent (rotational, curvilinear, curvi-surticial
+(expressive of a curved surface), egagropilar, orthogonal, opposite,
+<irredundant and cagenicad, <transitional or discontinuous>, e/vc]
+perspectives; or represent the maximally <interesting, surprising, metana/ae,
+high-information, asymmetric, supersymmetric, gqute-noeoscopic, e/ve> <path or
+paths> through an <ideospace or set of ideospaces>); 5Be of [human or
+computational] origin; "Represent the same [data or ideic] structure, but with
+the later [addition or superimposition] of [analytic, synthetic, comparisonal,
+contextual, e/vc}] [markings, boundaries, centers or poles, axes, regions or
+partitions, accents, symbols, arrows, connecting lines, grids, annotation, color
+schemes, structures, other <points or maps>, e/uc], or with meaningful
+subtractions; 7Show temporal [changes or development] of [thoughts, ideas,
+psychic <structure or dynamics>, ideic <spaces or manifolds>, evidence,
+ideonomic computation, simulated cognition (e.g., via a neural network),
+e/uc]; ®Show the effect of different assumptions upon ideic structure;
+*SRepresent interpersonal differences; !"Display different magnifications of
+the same ideonomic [spaces or structures]; !!Represent [intermappings
+injective mappings of (often alien) ideas, <automorphisms or recursive
+mappings>, meta-maps, shortest-path map-sets, myrloramic maps, etc];
+12. Juxtapose results from different statistical methods; }5Show the set of nMDS
+maps of ascending dimensionality, or al] the 2-D views of 23-D spaces.
+n.:In ideocartography: ‘Term used in nMDS to refer to any
+
+member of that discrete suite of alternative plots of the results
+of the mathematical analysis that represents the finite set of
+coalternative irredundant orthogonal lower-dimensional
+sightings of the ideostructure of the ideoset as seen in spaces of
+ascending dimensionality.
+
+The results of nMDS can be projected into a space of any
+dimensionality, but to remain comprehensible to (or visualizable by)
+human beings these higher-dimensional projections must be sampled,
+instantaneously, by lower-dimensional cross sections (essentially of D = 1,
+2, 3, or 4, but perhaps ideally of D = 2).
+
+The usual plot of the results of nMDS is 2-dimensional, and the number
+of coplots of equal dimensionality increases rapidly with the
+dimensionality. There are two orthogonal 2-dimensional views of 2-space;
+but since these can both be seen simply by rotating the same plot 90°, there
+is—in the unique case of 2-space—effectively only one plot! The number of
+irredundant orthogonal 2-D [views and coplots] of 3-space is 3; of 4-space, 6;
+of 5-space, 10; ...
+
+In this way it can be seen that when reference is made to a set of coplots it
+may refer to the coplots that sample the same dimensionality of space or else
+to the set of coplots that represent spaces of [different or all]
+

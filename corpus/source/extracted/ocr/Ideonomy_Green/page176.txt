@@ -1,0 +1,67 @@
+Yet variables merely aligned along a straight line, especially one that
+forms an axis through the origin, are often in some important respect
+semantically coherent, even though they may lie opposite. Perhaps this
+explains why surprise and loneliness share such a line with mischievousness,
+since surprise may be felt by those who do, observe, or are subjected to
+mischievousness, and being mischievous can for various reasons make one
+a bit lonely.
+
+Solicitude probably occurs centrad in the map because one of its major
+senses 1S Sympathetic concern for another person or something outside
+or other than oneself, which tends to make it closer to security than pure
+fear, say.
+
+Simlarly surprise falls toward the center because as a feeling it is
+not necessarily bad, and may often be alloyed to delight.
+
+Notice the many minor collinear progressions in the emotional map: e.g.
+solicitude, surprise, amazement, and wonder can in psychodynamics form a
+natural gradient (over which one or more dimensions increase in intensity).
+
+There are more bad than good emotions in the diagram. This was
+probably due to chance: the outcome of the computer's random choice of
+a subset of 36 emotions from a more comprehensive set of 140,
+
+Because of this predominance, the bad emotions occur on the positive
+(right) side of the horizontal axis (Dimension 1). Idea MDS distributions
+tend to be somewhat asymmetric, and the positive part of each dimension
+identified by nonmetric MDS is assigned to the most weighty or essential
+part of a dimension.
+
+As a neuroscientist, | could not help wondering, as | examined the
+map of the 36 emotions, whether its structure and order might have some
+power to predict the natural structural and functional organization of
+those brain regions—especially the component nuclei of the hypothalamus
+and amygdala—that originate and control the corresponding emotions.
+
+Such cartographic agreement might be either direct (geometrically or
+topologically) or indirect (say by analogy to the mathematical
+transformations that are necessary to interpret the raw diagrams created
+
+by x-ray crystallography). | am certain there is at least partial isomorphy.
+
+If so, either the MDS could be an effect of these brain patterns or
+both the MDS and brain patterns could be an effect or manifestation of
+the more or less natural, transcendental, or ideonomic morphology and
+morphogenesis of the emotions.
+
+Possibly a three-dimensional MDS map of the emotions would be more
+apt to predict the neuroanatomy of the emotions, but the fact is that
+the brain uses both two- and three-dimensional organization.
+
+Respect and mystery are located near zero on the horizontal axis, or
+in mid-arc between the subpopulations of good and bad emotions. This
+is easily explained. Respect can be a mixture of positive feelings such
+as admiration and negative feelings such as loneliness, caution, and
+fear; it is a kind of anxious admiration. Feelings of mystery may have
+similar bases: mixing feelings such as wonder, loneliness, anxiety, and
+
+caution (all important colors of the mystery novel).
+ne is forever thrilled when examining an MDS idea map by consciousness
+
+of the astonishing fact that the locations of all of the mapped ideas are
+globally controlled and that the patterns one sees are the intricately
+balanced expressions of global processes. The maps are really stil]
+photographs, or hierarchically discovered final (or metastable)
+equilibria, of cognitive flows.
+
