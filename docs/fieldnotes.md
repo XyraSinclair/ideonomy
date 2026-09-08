@@ -278,5 +278,14 @@ the ambiguity that let them act in one register while accountable in
 another. The critic cut one item that restated the admitted *Invoice that
 ends the favor*, and the walk now closes on a reception nothing can be
 handed to.
+`tollgates-that-must-buy`, the business seed, seriates by who holds the
+clock that compels the gate and therefore how the compulsion can lapse: from
+a writ held by a higher gate (only repeal ends it), through the passers' own
+clocks, the gate's own ledger and franchise, to its mandate and finally its
+habit, where one survived refusal ends it. Its standout, *Borrowed eyes*, is
+the gate that must decide on evidence it cannot make and so buys its sight
+from the party it is gating. The critic widened the type: the gate buys by
+its position as gate from whoever can read the compulsion, not only from
+those who pass it.
 Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
