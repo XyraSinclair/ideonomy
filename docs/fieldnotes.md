@@ -214,6 +214,13 @@ give it back when removed, and forms that outlive it; its new member, *Tin of
 string*, is a rule made under a load and kept when the load is gone. The
 critic caught the removal test's own demonstrator carrying a case that fails
 it.
-The other two (status-conversions and survival-floors) are in review. Briefs and
+`status-conversions` seriates by who must write the new entry for the
+conversion to hold, from conversions nobody writes (the eye converts beauty
+into audience on its own) through a witness at a moment, a witness who pays,
+and a registrar; its new member, *Standing left at the border*, follows from
+conferred standing being a balance in the conferrers' ledger rather than in
+the holder. The critic found six items omitting the fraud site the type
+promises and one whose compensation clause contradicted its own veteran.
+The last, survival-floors, is in review. Briefs and
 critiques are in
 [`../corpus/fable-maps-2026-09-07-survival/`](../corpus/fable-maps-2026-09-07-survival/).
