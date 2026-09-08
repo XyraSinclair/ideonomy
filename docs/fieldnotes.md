@@ -266,5 +266,17 @@ importance on one side of the massaged number and the domain's contempt for
 it on the other. The critic caught the map not applying its own changed
 question (afternoon legibility is built for an outside judge) to its
 showcase cases; the repair re-sorted them into the judge column.
+`register-jumps`, the fleet's centre, seriates by whose hand the carrier
+of the jump is in: from carriers the weaker party owns outright and no room
+can confiscate (a body, a first person, a calendar, a question the holder is
+bound to answer), through carriers the weaker party can bring but the room
+must complete (a laugh, a kinship sentence, a written reply), through
+carriers lent by an institution, to carriers only the holder of the room
+owns. Its standout, *Am I being detained?*, makes an ambiguous encounter a
+declared one by asking which register it is in, at the cost to the holder of
+the ambiguity that let them act in one register while accountable in
+another. The critic cut one item that restated the admitted *Invoice that
+ends the favor*, and the walk now closes on a reception nothing can be
+handed to.
 Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
