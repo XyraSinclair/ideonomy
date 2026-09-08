@@ -190,7 +190,7 @@ market death. These are authored conceptual fieldwork with independent
 editorial review, not empirical taxonomies.
 
 
-## Survival fleet: economy, psychology, status (2026-09-07, in progress)
+## Survival fleet: six Fable maps (2026-09-07)
 
 The standing direction widened the same day to anything about surviving in
 the economy, the psychology of doing so, and status. Six territories were
@@ -221,6 +221,19 @@ and a registrar; its new member, *Standing left at the border*, follows from
 conferred standing being a balance in the conferrers' ledger rather than in
 the holder. The critic found six items omitting the fraud site the type
 promises and one whose compensation clause contradicted its own veteran.
-The last, survival-floors, is in review. Briefs and
-critiques are in
+`survival-floors`, the last, seriates by what standing on the floor does to
+it: floors that exist only by being stood on (a right that lapses unused, a
+ledger that grows by giving), floors that use neither feeds nor consumes, and
+floors that use wears; its new member, *Prove the fall*, is the means-tested
+floor reachable only by proving no other floor exists. The critic found nine
+illustrative cases breaking their own item's discriminator, the fleet's
+commonest defect after the selectively applied type.
+
+Openings the critics left: advantages spent by use rather than lost by
+exposure (a second axis for the low chair); the parked load, held in hours
+and returned unchanged; lead-time floors, where the last months of a runway
+are spent buying the next one; what the witness may do, not only when it may
+enter; marriage as registrar of status conversions; which hands can see which
+floors. Every map's author and repair writes were verified as Fable-served
+before admission. Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-survival/`](../corpus/fable-maps-2026-09-07-survival/).
