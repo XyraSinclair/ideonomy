@@ -201,7 +201,14 @@ is kept (the beliefs of those above, the record kept about one, what one
 holds, the floor itself, a second order held on purpose) because that
 decides the moment on rising at which it is lost. The critic caught a
 civil-only shield and a cash case filed under credit; both were repaired.
-The other five (runway-illusions, self-trust-repairs, status-conversions,
+`runway-illusions` found its live question was whether the clock is cash at
+all: it seriates by how far the real clock lies from the cash ledger, and its
+new member, *Runway in shots*, counts attempts rather than months for anyone
+who must find a thing before the money ends. `self-trust-repairs` seriates by
+when a witness may enter, from repairs that fail if anyone is present while
+the judgment is exercised to repairs that need a stranger afterward; its new
+member, *Silent minority report*, dates the overruled view before folding.
+The other three (status-conversions,
 pressure-transmutations, survival-floors) are in review. Briefs and
 critiques are in
 [`../corpus/fable-maps-2026-09-07-survival/`](../corpus/fable-maps-2026-09-07-survival/).
