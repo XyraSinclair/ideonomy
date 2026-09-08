@@ -238,7 +238,7 @@ floors. Every map's author and repair writes were verified as Fable-served
 before admission. Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-survival/`](../corpus/fable-maps-2026-09-07-survival/).
 
-## Navigation fleet: domains and register jumps (2026-09-08, in progress)
+## Navigation fleet: six Fable maps (2026-09-08)
 
 The direction widened once more, toward maps that help someone move well
 through many important domains at once and change register on purpose. Six
@@ -287,5 +287,24 @@ the gate that must decide on evidence it cannot make and so buys its sight
 from the party it is gating. The critic widened the type: the gate buys by
 its position as gate from whoever can read the compulsion, not only from
 those who pass it.
+`lead-time-floors`, the last, seriates by when the replacement's clock can
+run relative to the source's: run ahead and shelved, pre-started, run at
+exercise on another's calendar, run only inside the dying runway, or begun
+only after the death. Its standout, *Staggered stand*, is the only purchase
+where the lead time is elapsed time itself: a cohort started at every age,
+whose fake is the missing cohort, invisible until the year it would have
+matured. The critic separated its central item from `runway-illusions`'
+*Watched burn* by naming the mechanism, the clock read as a signal that thins
+the field.
+
+Openings the critics left: the two strangers (client and hands) who turn
+different keys; the distribution around a judge's published threshold as a
+detector in its own right; the algebra of lead times, which add along a path
+and which take the maximum; the state of emergency as the holder's own
+register jump; the un-poolable rival a gate commissions to destroy its sole
+author's extraction; the file that will not travel (a seller's reviews, a
+gig worker's rating). Every map's author, critic, and repair writes were
+verified as Fable-served before admission; this fleet ran on the interactive
+quota after the pool vaults emptied.
 Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
