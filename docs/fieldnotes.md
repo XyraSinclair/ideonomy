@@ -237,3 +237,20 @@ enter; marriage as registrar of status conversions; which hands can see which
 floors. Every map's author and repair writes were verified as Fable-served
 before admission. Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-survival/`](../corpus/fable-maps-2026-09-07-survival/).
+
+## Navigation fleet: domains and register jumps (2026-09-08, in progress)
+
+The direction widened once more, toward maps that help someone move well
+through many important domains at once and change register on purpose. Six
+territories were briefed. The first admitted is `who-can-be-bound`, the
+market-precondition seed from the business critics: it seriates by what the
+party must have done for the hold to exist, from holds everyone walks in
+with (a body that can be brought) through holds bought at the door in an
+hour, to holds that only staying confers. Its new member, *Portable file*,
+is the stay done elsewhere that binds here only if a registry carries the
+record out. The critic found the map's main dependency edge partitioned
+wrongly (custody filed as court-free, a brand filed as a court hold); the
+repair re-split it by whether the hold needs a judgment against the party
+itself, which names the kneecap, not the body, as the court-free opening.
+Briefs and critiques are in
+[`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
