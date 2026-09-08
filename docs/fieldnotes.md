@@ -259,5 +259,12 @@ member, *Tourist key*, is the stable, teachable, false simplification a
 domain manufactures for the strangers it must face. The critic's best
 finding was a split the type hid: the client-stranger and the hands-stranger
 turn different keys, and the map now carries that as its seed.
+`importance-detectors` seriates by how much residence a detector needs to
+run, from a form read outside the building in an afternoon to the one that
+runs only at failure; its standout, *Fudged figure*, reads the judge's
+importance on one side of the massaged number and the domain's contempt for
+it on the other. The critic caught the map not applying its own changed
+question (afternoon legibility is built for an outside judge) to its
+showcase cases; the repair re-sorted them into the judge column.
 Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
