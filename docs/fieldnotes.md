@@ -252,5 +252,12 @@ record out. The critic found the map's main dependency edge partitioned
 wrongly (custody filed as court-free, a brand filed as a court hold); the
 repair re-split it by whether the hold needs a judgment against the party
 itself, which names the kneecap, not the body, as the court-free opening.
+`domain-entry-keys` seriates by how much of the key survives the crossing
+between domains, from the key that is the same in every lock (the outcome
+question one must not ask) to keys that must be re-found every time; its new
+member, *Tourist key*, is the stable, teachable, false simplification a
+domain manufactures for the strangers it must face. The critic's best
+finding was a split the type hid: the client-stranger and the hands-stranger
+turn different keys, and the map now carries that as its seed.
 Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
