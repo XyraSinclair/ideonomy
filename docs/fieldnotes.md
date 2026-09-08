@@ -208,7 +208,12 @@ who must find a thing before the money ends. `self-trust-repairs` seriates by
 when a witness may enter, from repairs that fail if anyone is present while
 the judgment is exercised to repairs that need a stranger afterward; its new
 member, *Silent minority report*, dates the overruled view before folding.
-The other three (status-conversions,
-pressure-transmutations, survival-floors) are in review. Briefs and
+`pressure-transmutations` seriates by what the form does with the load: forms
+that spend it (a beat, a retelling, a shared round), forms that hold it and
+give it back when removed, and forms that outlive it; its new member, *Tin of
+string*, is a rule made under a load and kept when the load is gone. The
+critic caught the removal test's own demonstrator carrying a case that fails
+it.
+The other two (status-conversions and survival-floors) are in review. Briefs and
 critiques are in
 [`../corpus/fable-maps-2026-09-07-survival/`](../corpus/fable-maps-2026-09-07-survival/).
