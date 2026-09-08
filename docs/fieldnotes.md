@@ -189,3 +189,19 @@ nobody lights any more; whether a copy of the lot exists as a second axis of
 market death. These are authored conceptual fieldwork with independent
 editorial review, not empirical taxonomies.
 
+
+## Survival fleet: economy, psychology, status (2026-09-07, in progress)
+
+The standing direction widened the same day to anything about surviving in
+the economy, the psychology of doing so, and status. Six territories were
+briefed for someone who has to survive rather than someone who runs a
+company, with self-help vocabulary banned from the register. The first map
+admitted is `low-chair-advantages`, seriated by where a low chair's advantage
+is kept (the beliefs of those above, the record kept about one, what one
+holds, the floor itself, a second order held on purpose) because that
+decides the moment on rising at which it is lost. The critic caught a
+civil-only shield and a cash case filed under credit; both were repaired.
+The other five (runway-illusions, self-trust-repairs, status-conversions,
+pressure-transmutations, survival-floors) are in review. Briefs and
+critiques are in
+[`../corpus/fable-maps-2026-09-07-survival/`](../corpus/fable-maps-2026-09-07-survival/).
