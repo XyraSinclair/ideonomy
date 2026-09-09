@@ -353,8 +353,7 @@ signing before the term bites: nothing but the calendar, then the company's own 
 *New money rewrites the old paper*, follows from the last stop: any term
 that bites only through an outside arrival can be made a condition of the
 arrival, so the new lead demands the ratchet waived and the stack
-collapsed. The critic cut a drain that duplicated `dilution-carriers` and
-turned a loop that did not close into the dependency it was, with the
+collapsed. The critic turned a loop that did not close into the dependency it was, with the
 refusal item's causal order fixed.
 `walkaway-manufactures` seriates by where the alternative's
 existence is held: a state of the world that needs no believer, a contract
