@@ -355,5 +355,15 @@ it, and the repaired rule reads a holder's interest in price as pro-rata
 share of the round minus new dollars, so a twenty-percent holder putting two
 million into a twenty-million round argues up while a two-percent holder
 putting in the same two million argues down, readable off the cap table
-before the meeting. Briefs and critiques are in
+before the meeting.
+`term-sheet-powers` seriates by how much must change from the day of
+signing before the term bites: nothing but the calendar (a redemption date
+arrives), then the company's own fortunes (the middling exit, the split
+syndicate, the founder's firing), then an outside arrival. Its new member,
+*New money rewrites the old paper*, follows from the last stop: any term
+that bites only through an outside arrival can be made a condition of the
+arrival, so the new lead demands the ratchet waived and the stack
+collapsed. The critic cut a drain that duplicated `dilution-carriers` and
+turned a loop that did not close into the dependency it was, with the
+refusal item's causal order fixed. Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).
