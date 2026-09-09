@@ -312,7 +312,7 @@ Briefs and critiques are in
 ## Power fleet: six Fable maps (2026-09-08)
 
 Six territories were briefed, written for a founder in a raise
-or a partner at a fund, with venture vocabulary banned as virtue. The first
+or a partner at a fund. The first
 admitted is `investor-tells`, seriated by where the founder must stand to
 see the tell, from the public record before the first email to the next
 round after the wire; its closing member, *Next-round hand*, is readable
@@ -330,8 +330,7 @@ employment is the board the investor now sits on. The critic checked the
 arithmetic an operator would check first and found four errors (a
 dual-class vote share, lapsed options returning to the pool, an
 at-the-money warrant's option value, a carve-out example at the one price
-where it drains nothing); the repair reworked every number by hand and
-corrected the critic's own band in turn.
+where it drains nothing).
 `power-trades` seriates by what becomes of the given
 power: lent and returned by its own clock, returned lighter, returned for
 the other side, consumed in the giving, and finally minted in a hand that
@@ -349,10 +348,7 @@ other people's money (the letter, the term, the carry, the reserve ledger),
 which persists as the money is halved to nothing. Its standout, *Big holder
 wants the high price*, had its sign wrong in the draft; the critic caught
 it, and the repaired rule reads a holder's interest in price as pro-rata
-share of the round minus new dollars, so a twenty-percent holder putting two
-million into a twenty-million round argues up while a two-percent holder
-putting in the same two million argues down, readable off the cap table
-before the meeting.
+share of the round minus new dollars.
 `term-sheet-powers` seriates by how much must change from the day of
 signing before the term bites: nothing but the calendar (a redemption date
 arrives), then the company's own fortunes (the middling exit, the split

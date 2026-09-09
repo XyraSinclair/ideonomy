@@ -14,12 +14,10 @@ Read, in order:
 Run the sharpening check for real, against the actual text:
 
 - **Item type.** Is `of` a real item type with a plausible member and a tempting nonmember? Does every item satisfy it? Name items that are themes, moods, examples, or restatements rather than mechanisms.
-- **Closest neighbors.** Pick the two closest items yourself (not the author's pair) and try to produce a case that separates them. If you cannot, they collapse: say which to merge or how to sharpen.
-- **Boundary case.** Try a tempting nonmember of your own against the declared type.
+- **Closest neighbors.** Pick the two closest items yourself (not the author's pair) and try to produce a case that separates them.
 - **Modality.** Any speculation quietly promoted to fact? Any physical or technical jargon disguising an unsupported mechanism? Any illustrative case asserted as documented history?
 - **Seriation.** Does the axis have real endpoints, and does the claimed consequential adjacency actually teach something? Is any adjacency arbitrary?
 - **Edges.** For each relation, is the conditional label a real claim whose antecedent could fail? Do the edges together show the fork/loop/dependency/incompatibility/passage that `form_inference` claims? Would a bare sequence have shown the same thing?
-- **Target preserved.** Are these surprising, usable distinctions in the declared register — or a longer, safer list? Where a strange mechanism was domesticated into a respectable one, say so; where you are tempted to domesticate one yourself, do not.
 
 ## Output
 
@@ -27,7 +25,6 @@ Run the sharpening check for real, against the actual text:
 
 ```json
 {
-  "slug": "<slug>",
   "critic": "Fable critic (fresh context, 2026-09-08)",
   "verdict": "admit | admit-with-repairs | return-for-another-breath | reject",
   "strongest_objection": "one paragraph: the single thing most wrong, or an honest statement that you could not break it and what you tried",
