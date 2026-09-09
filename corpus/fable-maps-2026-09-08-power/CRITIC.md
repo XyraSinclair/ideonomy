@@ -14,7 +14,7 @@ Read, in order:
 Run the sharpening check for real, against the actual text:
 
 - **Item type.** Is `of` a real item type with a plausible member and a tempting nonmember? Does every item satisfy it?
-- **Closest neighbors.** Pick the two closest items yourself (not the author's pair) and try to produce a case that separates them.
+- **Closest neighbors.** Pick the two closest items yourself (not the author's pair).
 - **Modality.** Any physical or technical jargon disguising an unsupported mechanism? Any illustrative case asserted as documented history?
 - **Edges.** For each relation, is the conditional label a real claim whose antecedent could fail? Do the edges together show the fork/loop/dependency/incompatibility/passage that `form_inference` claims?
 
@@ -31,7 +31,7 @@ Run the sharpening check for real, against the actual text:
   ],
   "neighbor_test": {"left": "...", "right": "...", "separating_case": "... or: collapses because ..."},
   "boundary_case": "your own tempting nonmember and the ruling",
-  "seriation": {"holds": true, "note": "..."},
+  "seriation": {"note": "..."},
   "edges": [
     {"from_handle": "...", "to_handle": "...", "decision": "keep | repair | cut", "why": "...", "repair_label": "<only when repair>"}
   ],

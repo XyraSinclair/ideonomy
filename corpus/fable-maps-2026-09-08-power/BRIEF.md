@@ -1,9 +1,6 @@
 # Brief: author one ideonomic map — power fleet (run 2026-09-08)
 
-You are one of six independent authors. Each of you makes one **ideonomic
-map** for the Ideonomy atlas
-in the territory of power exchanges, negotiation, startup fundraising, and venture.
-Paths below are relative to the repository root.
+Make one **ideonomic map** for the Ideonomy atlas in the territory of power exchanges, negotiation, startup fundraising, and venture.
 
 Read first, in this order:
 1. `skills/practice-deep-ideonomy/SKILL.md` — the practice.
@@ -24,8 +21,8 @@ virtues); no consultant vocabulary; no motivational tone.
 
 ## Standards (these are the gate; a map that fails them is copy, not a map)
 
-- 13–18 items. Every item is a distinct **mechanism**, not a theme, tip, or example.
-- **4–7 relations**, each `from`/`to` an exact item string, each `label` a conditional claim.
+- Every item is a distinct **mechanism**, not a theme, tip, or example.
+- Each relation `label` is a conditional claim.
 - `boundary_claim`: 3–5 honest limits.
 - Set `gate.independent_review` to `"pending"` — a separate critic in a fresh context will fill it.
 - Your territory is a **pointer**. If the fieldwork teaches you the live question is elsewhere, follow it and retitle.

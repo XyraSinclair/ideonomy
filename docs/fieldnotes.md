@@ -344,15 +344,13 @@ reporter's own withheld stories.
 `power-law-behaviors` seriates by what the behavior is a function of: the
 fund's size relative to your round (halving the fund removes it), ratios
 inside the cap table that size does not touch, and the fund's state under
-other people's money (the letter, the term, the carry, the reserve ledger),
+other people's money,
 which persists as the money is halved to nothing. Its standout, *Big holder
 wants the high price*, had its sign wrong in the draft; the critic caught
 it, and the repaired rule reads a holder's interest in price as pro-rata
 share of the round minus new dollars.
 `term-sheet-powers` seriates by how much must change from the day of
-signing before the term bites: nothing but the calendar (a redemption date
-arrives), then the company's own fortunes (the middling exit, the split
-syndicate, the founder's firing), then an outside arrival. Its new member,
+signing before the term bites: nothing but the calendar, then the company's own fortunes, then an outside arrival. Its new member,
 *New money rewrites the old paper*, follows from the last stop: any term
 that bites only through an outside arrival can be made a condition of the
 arrival, so the new lead demands the ratchet waived and the stack
