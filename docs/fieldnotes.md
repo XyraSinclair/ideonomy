@@ -322,6 +322,17 @@ round after the wire; its closing member, *Next-round hand*, is readable
 only too late for this raise and so becomes the first tell for the next
 founder, which closes the route into a loop. The critic sharpened the type:
 a tell is a cost the investor did not price the reading into, which rescued
-*Wire before paper* as the largest unpriced cost on the route. Briefs and
-critiques are in
+*Wire before paper* as the largest unpriced cost on the route.
+`dilution-carriers` seriates by what the carrier's amount waits on before
+it can be computed: nothing (a cap table at signing settles the pool), a
+clock, the next round's price, a person's leaving, the exit price and the
+room at the exit, and nothing again because what drains is control and no
+share count shows it. Its standout, *Reset with the trigger in the other
+hand*, is the Series A re-vest where the board that can end the founder's
+employment is the board the investor now sits on. The critic checked the
+arithmetic an operator would check first and found four errors (a
+dual-class vote share, lapsed options returning to the pool, an
+at-the-money warrant's option value, a carve-out example at the one price
+where it drains nothing); the repair reworked every number by hand and
+corrected the critic's own band in turn. Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).
