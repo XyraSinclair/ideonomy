@@ -308,3 +308,20 @@ verified as Fable-served before admission; this fleet ran on the interactive
 quota after the pool vaults emptied.
 Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
+
+## Power fleet: exchanges, negotiation, fundraising, venture (2026-09-08, in progress)
+
+The direction turned to power: how it changes hands, how a table's
+alternative is built, what a financing term does in which future state, how
+ownership drains, how fund arithmetic moves an investor, and how a founder
+reads one. Six territories were briefed, written for a founder in a raise
+or a partner at a fund, with venture vocabulary banned as virtue. The first
+admitted is `investor-tells`, seriated by where the founder must stand to
+see the tell, from the public record before the first email to the next
+round after the wire; its closing member, *Next-round hand*, is readable
+only too late for this raise and so becomes the first tell for the next
+founder, which closes the route into a loop. The critic sharpened the type:
+a tell is a cost the investor did not price the reading into, which rescued
+*Wire before paper* as the largest unpriced cost on the route. Briefs and
+critiques are in
+[`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).
