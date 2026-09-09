@@ -13,7 +13,7 @@ Read, in order:
 
 Run the sharpening check for real, against the actual text:
 
-- **Item type.** Is `of` a real item type with a plausible member and a tempting nonmember? Does every item satisfy it?
+- **Item type.** Does every item satisfy `of`?
 - **Closest neighbors.** Pick the two closest items yourself (not the author's pair).
 - **Modality.** Any physical or technical jargon disguising an unsupported mechanism? Any illustrative case asserted as documented history?
 - **Edges.** For each relation, is the conditional label a real claim whose antecedent could fail? Do the edges together show the fork/loop/dependency/incompatibility/passage that `form_inference` claims?
@@ -41,4 +41,4 @@ Run the sharpening check for real, against the actual text:
 }
 ```
 
-Only list items and edges you are *not* simply keeping. Reply with the verdict and strongest objection only.
+Reply with the verdict and strongest objection only.

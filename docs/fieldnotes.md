@@ -318,10 +318,9 @@ see the tell, from the public record before the first email to the next
 round after the wire; its closing member, *Next-round hand*, is readable
 only too late for this raise and so becomes the first tell for the next
 founder, which closes the route into a loop. The critic sharpened the type:
-a tell is a cost the investor did not price the reading into, which rescued
-*Wire before paper* as the largest unpriced cost on the route.
+a tell is a cost the investor did not price the reading into.
 `dilution-carriers` seriates by what the carrier's amount waits on before
-it can be computed: nothing (a cap table at signing settles the pool), a
+it can be computed: nothing, a
 clock, the next round's price, a person's leaving, the exit price and the
 room at the exit, and nothing again because what drains is control and no
 share count shows it. Its standout, *Reset with the trigger in the other
@@ -363,7 +362,7 @@ or certificate, another party's patience, the counterparty's belief alone.
 Its new member, *Pawn-shop option*, is the real outside option that
 discredits its holder when shown, as the insider bridge that lets a founder
 refuse an outside lead. The critic widened the type to admit a leaving that
-needs no alternative (tied hands, the cheap-to-claim exit), fencing
+needs no alternative, fencing
 "makes leaving credible" in and "makes staying credible" out.
 
 Openings the critics left: carriers that drain the preferred, which the
