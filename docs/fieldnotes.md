@@ -311,10 +311,7 @@ Briefs and critiques are in
 
 ## Power fleet: six Fable maps (2026-09-08)
 
-The direction turned to power: how it changes hands, how a table's
-alternative is built, what a financing term does in which future state, how
-ownership drains, how fund arithmetic moves an investor, and how a founder
-reads one. Six territories were briefed, written for a founder in a raise
+Six territories were briefed, written for a founder in a raise
 or a partner at a fund, with venture vocabulary banned as virtue. The first
 admitted is `investor-tells`, seriated by where the founder must stand to
 see the tell, from the public record before the first email to the next
@@ -335,7 +332,7 @@ dual-class vote share, lapsed options returning to the pool, an
 at-the-money warrant's option value, a carve-out example at the one price
 where it drains nothing); the repair reworked every number by hand and
 corrected the critic's own band in turn.
-`power-trades`, the fleet's centre, seriates by what becomes of the given
+`power-trades` seriates by what becomes of the given
 power: lent and returned by its own clock, returned lighter, returned for
 the other side, consumed in the giving, and finally minted in a hand that
 was never a party to the trade. Its standout, *Key man's lever*, is that
@@ -366,7 +363,7 @@ arrival, so the new lead demands the ratchet waived and the stack
 collapsed. The critic cut a drain that duplicated `dilution-carriers` and
 turned a loop that did not close into the dependency it was, with the
 refusal item's causal order fixed.
-`walkaway-manufactures`, the last, seriates by where the alternative's
+`walkaway-manufactures` seriates by where the alternative's
 existence is held: a state of the world that needs no believer, a contract
 or certificate, another party's patience, the counterparty's belief alone.
 Its new member, *Pawn-shop option*, is the real outside option that
@@ -383,9 +380,7 @@ hold-up power in a true stranger; the price of a waiver, for terms whose
 whole value is what their holder is paid to forgive them; the walkaway the
 counterparty pays for (severance, acceleration, the reverse termination
 fee); and, from the fleet's briefing, how a round goes from cold to
-oversubscribed. Two critics in this fleet caught arithmetic an operator
-would check first, a vote-share and the sign of a price interest; both
-repairs reworked every number by hand. Every map's author, critic, and
+oversubscribed. Every map's author, critic, and
 repair writes were verified as Fable-served before admission. Briefs and
 critiques are in
 [`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).

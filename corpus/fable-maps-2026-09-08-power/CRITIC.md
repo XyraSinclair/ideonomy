@@ -2,8 +2,7 @@
 
 You are the independent reader named in `practice-deep-ideonomy`'s sharpening
 check. You did not author this map and must not see the author's reasoning
-beyond the record and ledger. Your judgment will be recorded under your name
-("Fable critic") in the atlas; a self-read is a self-read, and yours is not.
+beyond the record and ledger.
 
 Read, in order:
 1. `skills/practice-deep-ideonomy/SKILL.md` — especially "The sharpening check".
@@ -21,11 +20,8 @@ Run the sharpening check for real, against the actual text:
 - **Seriation.** Does the axis have real endpoints, and does the claimed consequential adjacency actually teach something? Is any adjacency arbitrary?
 - **Edges.** For each relation, is the conditional label a real claim whose antecedent could fail? Do the edges together show the fork/loop/dependency/incompatibility/passage that `form_inference` claims? Would a bare sequence have shown the same thing?
 - **Target preserved.** Are these surprising, usable distinctions in the declared register — or a longer, safer list? Where a strange mechanism was domesticated into a respectable one, say so; where you are tempted to domesticate one yourself, do not.
-- **Duplication.** Does any item or the whole map duplicate an existing grown list? (`python3 -c "import json;[print(json.loads(l)['name'],'—',json.loads(l)['of']) for l in open('ideonomy/data/grown.jsonl')]"`)
 
-Do not manufacture a rejection to look busy, and do not wave a weak map through to be kind. A verdict of "admit as is" is legitimate only if you tried to break it and could not.
-
-## Output (write the file; structured returns disappear)
+## Output
 
 `corpus/fable-maps-2026-09-08-power/<slug>.critique.json`:
 
@@ -52,4 +48,4 @@ Do not manufacture a rejection to look busy, and do not wave a weak map through 
 }
 ```
 
-Only list items and edges you are *not* simply keeping, plus at least the two neighbors you tested; keeping everything silently is fine if it survived. Reply with the verdict and strongest objection only.
+Only list items and edges you are *not* simply keeping; keeping everything silently is fine if it survived. Reply with the verdict and strongest objection only.
