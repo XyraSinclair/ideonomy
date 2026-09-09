@@ -9,7 +9,7 @@ into the record that will enter the atlas. Read, in order:
 
 ## Rules
 
-- Apply every `repair` and `cut` the critic justified. Where a repair domesticates a strange mechanism into a familiar one without showing the original fails, keep the original and record the disagreement in the ledger's `residue` (with `why`). Do not add new items of your own beyond the critic's repairs.
+- Apply every `repair` and `cut` the critic justified. Do not add new items of your own beyond the critic's repairs.
 - When an item's text changes, update **every** place the old string appears: `items`, `relations[].from/to`, `priorities[].item`, `exploration.new_member`, `gate.checks.neighbors.*`.
 - Apply seriation reorders if the critic argued them; update `seriation.note` accordingly.
 - Set `source.gate.independent_review` to the critic's `independent_review_line` (verbatim, or lightly corrected to match what you actually applied).

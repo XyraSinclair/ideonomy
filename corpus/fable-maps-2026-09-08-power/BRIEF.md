@@ -7,7 +7,7 @@ Paths below are relative to the repository root.
 
 Read first, in this order:
 1. `skills/practice-deep-ideonomy/SKILL.md` — the practice.
-2. The admitted map `witness-architectures` in `ideonomy/data/grown.jsonl` — one admitted map record. Your output must have exactly this schema (same keys, same nesting). Study the item form: `Handle: mechanism sentence; discriminator clause` — the handle is a memorable name, the mechanism says how it works with an illustrative case, the discriminator says what it is *not* or what an answer must do.
+2. The admitted map `witness-architectures` in `ideonomy/data/grown.jsonl` — one admitted map record. Your output must have exactly this schema (same keys, same nesting).
 3. `corpus/climb-ledger/witness-architectures.jsonl` — the per-breath ledger: candidates, kept, residue with reasons, gaps that changed the question.
 4. Skim `python3 -c "import json;[print(json.loads(l)['name'],'—',json.loads(l)['of']) for l in open('ideonomy/data/grown.jsonl')]"` so your map does not duplicate an existing list. The business-adjacent lists already present are: cooperation-mechanisms, cooperative-masks, coalition-frictions, cooperation-integrity-hinges, contribution-credit-hinges, deal-flow-sources, deal-flow-reflexivities, exchange-ontologies, first-mover-forecloses, ghost-leverages, leverage-discoveries, negotiator-check-loops, persuasion-moves, strategy-generic-moves, velocity-bottlenecks, hinge-kinds, deal-flow-attractors, deal-deaths, clean-exits, what-a-price-does, tollgates-that-must-buy, who-can-be-bound, status-conversions, register-jumps, cooperation-ignitions. Your map must not restate any of them; where an item is adjacent to one, say what it adds.
 
@@ -25,11 +25,9 @@ virtues); no consultant vocabulary; no motivational tone.
 ## Standards (these are the gate; a map that fails them is copy, not a map)
 
 - 13–18 items. Every item is a distinct **mechanism**, not a theme, tip, or example.
-- Financial or economic jargon is not a mechanism.
-- **4–7 relations**, each `from`/`to` an exact item string, each `label` a conditional claim ("If … then …" / "Can recruit: if …"). Name the relation a sequence conceals in `gate.checks.form_inference`.
+- **4–7 relations**, each `from`/`to` an exact item string, each `label` a conditional claim ("If … then …" / "Can recruit: if …").
 - `boundary_claim`: 3–5 honest limits.
-- Set `gate.independent_review` to `"pending"` — a separate critic in a fresh context will fill it. `empirical_validation: false`.
-- `made_by`: `"fable(deep ideonomy, 2026-09-08)"`.
+- Set `gate.independent_review` to `"pending"` — a separate critic in a fresh context will fill it.
 - Your territory is a **pointer**. If the fieldwork teaches you the live question is elsewhere, follow it and retitle — but record the change in `exploration` and the ledger `gaps`.
 
 ## Outputs
