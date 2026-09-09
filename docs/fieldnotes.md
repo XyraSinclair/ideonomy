@@ -344,5 +344,16 @@ leave, and each named partner now holds a lever over its own firm, so a
 power trade does not conserve power. The critic moved *Silence on the tab*
 out of the bribe shape the map's own boundary excludes by naming the power
 that actually passes, the source's accumulating veto carried by the
-reporter's own withheld stories. Briefs and critiques are in
+reporter's own withheld stories.
+`power-law-behaviors` seriates by what the behavior is a function of: the
+fund's size relative to your round (halving the fund removes it), ratios
+inside the cap table that size does not touch, and the fund's state under
+other people's money (the letter, the term, the carry, the reserve ledger),
+which persists as the money is halved to nothing. Its standout, *Big holder
+wants the high price*, had its sign wrong in the draft; the critic caught
+it, and the repaired rule reads a holder's interest in price as pro-rata
+share of the round minus new dollars, so a twenty-percent holder putting two
+million into a twenty-million round argues up while a two-percent holder
+putting in the same two million argues down, readable off the cap table
+before the meeting. Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).
