@@ -334,5 +334,15 @@ arithmetic an operator would check first and found four errors (a
 dual-class vote share, lapsed options returning to the pool, an
 at-the-money warrant's option value, a carve-out example at the one price
 where it drains nothing); the repair reworked every number by hand and
-corrected the critic's own band in turn. Briefs and critiques are in
+corrected the critic's own band in turn.
+`power-trades`, the fleet's centre, seriates by what becomes of the given
+power: lent and returned by its own clock, returned lighter, returned for
+the other side, consumed in the giving, and finally minted in a hand that
+was never a party to the trade. Its standout, *Key man's lever*, is that
+last case: investors take the right to suspend a fund if named partners
+leave, and each named partner now holds a lever over its own firm, so a
+power trade does not conserve power. The critic moved *Silence on the tab*
+out of the bribe shape the map's own boundary excludes by naming the power
+that actually passes, the source's accumulating veto carried by the
+reporter's own withheld stories. Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).
