@@ -23,9 +23,6 @@ virtues); no consultant vocabulary; no motivational tone.
 
 - Every item is a distinct **mechanism**, not a theme, tip, or example.
 - Each relation `label` is a conditional claim.
-- `boundary_claim`: 3–5 honest limits.
-- Set `gate.independent_review` to `"pending"` — a separate critic in a fresh context will fill it.
-- Your territory is a **pointer**. If the fieldwork teaches you the live question is elsewhere, follow it and retitle.
 
 ## Outputs
 
