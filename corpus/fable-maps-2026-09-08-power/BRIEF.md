@@ -1,7 +1,7 @@
 # Brief: author one ideonomic map — power fleet (run 2026-09-08)
 
 You are one of six independent authors. Each of you makes one **ideonomic
-map** for the Ideonomy atlas (https://xyrasinclair.github.io/ideonomy/catalog-map.html)
+map** for the Ideonomy atlas
 in the territory of power exchanges, negotiation, startup fundraising, and venture.
 Paths below are relative to the repository root.
 

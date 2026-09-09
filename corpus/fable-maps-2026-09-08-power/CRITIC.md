@@ -13,9 +13,9 @@ Read, in order:
 
 Run the sharpening check for real, against the actual text:
 
-- **Item type.** Is `of` a real item type with a plausible member and a tempting nonmember? Does every item satisfy it? Name items that are themes, moods, examples, or restatements rather than mechanisms.
+- **Item type.** Is `of` a real item type with a plausible member and a tempting nonmember? Does every item satisfy it?
 - **Closest neighbors.** Pick the two closest items yourself (not the author's pair) and try to produce a case that separates them.
-- **Modality.** Any speculation quietly promoted to fact? Any physical or technical jargon disguising an unsupported mechanism? Any illustrative case asserted as documented history?
+- **Modality.** Any physical or technical jargon disguising an unsupported mechanism? Any illustrative case asserted as documented history?
 - **Edges.** For each relation, is the conditional label a real claim whose antecedent could fail? Do the edges together show the fork/loop/dependency/incompatibility/passage that `form_inference` claims?
 
 ## Output
@@ -35,7 +35,6 @@ Run the sharpening check for real, against the actual text:
   "edges": [
     {"from_handle": "...", "to_handle": "...", "decision": "keep | repair | cut", "why": "...", "repair_label": "<only when repair>"}
   ],
-  "form_inference_holds": true,
   "modality_problems": ["..."],
   "duplication": "none | names the overlap",
   "best_unresolved_seed": "the most promising thing the map points at but does not contain",
