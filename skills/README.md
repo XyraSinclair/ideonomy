@@ -36,6 +36,7 @@ below.
 
 | Skill | The move it forces | The gate |
 | --- | --- | --- |
+| [`consult-the-atlas`](consult-the-atlas/SKILL.md) | open the catalog at the moment of use: retrieve the lists and maps a situation belongs to, stand on the axis, label every member, walk the edges, take the probes | every member of one chosen map labeled present / ruled-out / unlabeled with the unlabeled count stated, and at least one edge consequence the plan did not state |
 | [`practice-deep-ideonomy`](practice-deep-ideonomy/SKILL.md) | a live question grows inhabitants, discovers a grammar, and opens a second breath; order or map only when it reveals something | a separating case for close neighbors, a boundary case, and a defended form inference; modality and unresolved seeds stay visible |
 | [`triangulate-without-oracle`](triangulate-without-oracle/SKILL.md) ★ | rigor when there is NO computable oracle — dimensionalize the value space, gather independent judgments, expose disagreement, name the irreducible call | honesty about the absence of a gate: ≥2 independent reads per axis, or a named irreducible judgment with an owner |
 | [`build-the-oracle-before-the-answer`](build-the-oracle-before-the-answer/SKILL.md) ★ | commit the independent truth-check and its expected value *before* answering | a timestamped expected-value artifact exists before the answer; the oracle runs and matches |

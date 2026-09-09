@@ -175,6 +175,8 @@ python3 -m ideonomy.parley "name the release" \
     --party ops='claude -p {prompt}' --party brand='codex exec {prompt}' \
     --constraint 'ops:must be greppable' --constraint 'brand:must not be generic'
 python3 -m ideonomy.residue --topic mywork open   # cross-session residue ledger
+python3 -m ideonomy.consult "your situation" --k 3   # the maps it belongs to, as instruments, offline
+python3 -m ideonomy.consult --file plan.md --frame audit   # label every member: present / ruled-out / unlabeled
 python3 -m ideonomy.draw "your problem" --n 3     # forced non-default lenses, offline
 python3 -m ideonomy.registers "the launch post" --n 2   # forced register mixes, offline
 python3 -m ideonomy.lists ls                      # the cross-chat list store

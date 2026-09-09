@@ -376,3 +376,23 @@ oversubscribed. Every map's author, critic, and
 repair writes were verified as Fable-served before admission. Briefs and
 critiques are in
 [`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).
+
+## A consult surface (2026-09-09)
+
+The catalog had grown to seventy-five lists and forty-one maps with nothing
+that opened it at the moment of use; a planning chat sampled the mode while
+a bounded denominator for its situation sat on disk. `ideonomy.consult`
+is the door: lexical, offline retrieval over every list's type sentence,
+questions, axis, register, items, and edge labels, returning each hit as an
+instrument (axis, members, edges, probes) or as a coverage frame in which
+every member must be labeled present, ruled-out, or unlabeled. `--from-residue`
+runs one consult per open item of a residue ledger, so what a session left
+unresolved is routed either to the map it lands in or to a territory the
+next fleet should grow. The `consult-the-atlas` skill carries the gate: a
+labeled denominator with its unlabeled count, and at least one edge
+consequence the plan did not state. Exercised: P10 map, P11 gap-find, P18
+filter, P37 residue-seed. Limits: retrieval is by word, so a map whose
+vocabulary differs from the situation's can be missed, which is why every
+hit prints its `of` sentence; and the module ships without an offline test,
+so by this repo's own doctrine it is a claim until one lands.
+

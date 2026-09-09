@@ -22,12 +22,13 @@ revision, not embarrassment to hide.
 ## Procedure
 
 1. **Name the problem-shape before answering.** Ask what kind of difficulty this
-   is: a fertile but unmapped territory, missing oracle, tiny live instance,
+   is: a territory the atlas already maps, a fertile but unmapped territory, missing oracle, tiny live instance,
    over-hard framing, suspicious answer, early narrative convergence,
    recurring awkward locution, incentive design, failed global glue,
    completeness claim, or session boundary.
 
 2. **Dispatch by the catalog's routing table.**
+   - planning or brainstorming in a territory the catalog already maps -> `consult-the-atlas`
    - discovering distinctions or possibilities, rather than adjudicating an answer -> `practice-deep-ideonomy`
    - oracle cheap or independently writable -> `build-the-oracle-before-the-answer`
    - tiny instance will reveal the mechanism -> `compute-the-smallest-nontrivial-case`
