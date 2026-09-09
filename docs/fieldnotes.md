@@ -312,8 +312,8 @@ Briefs and critiques are in
 ## Power fleet: six Fable maps (2026-09-08)
 
 Six territories were briefed, written for a founder in a raise
-or a partner at a fund. The first
-admitted is `investor-tells`, seriated by where the founder must stand to
+or a partner at a fund.
+`investor-tells` seriates by where the founder must stand to
 see the tell, from the public record before the first email to the next
 round after the wire; its closing member, *Next-round hand*, is readable
 only too late for this raise and so becomes the first tell for the next

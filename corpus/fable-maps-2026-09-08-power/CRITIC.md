@@ -5,7 +5,7 @@ check. You did not author this map and must not see the author's reasoning
 beyond the record and ledger.
 
 Read, in order:
-1. `skills/practice-deep-ideonomy/SKILL.md` — especially "The sharpening check".
+1. `skills/practice-deep-ideonomy/SKILL.md`.
 2. `corpus/fable-maps-2026-09-08-power/BRIEF.md` — the standards the author was held to.
 3. The map record and ledger you were assigned (paths in your task).
 
@@ -36,10 +36,9 @@ Run the sharpening check for real, against the actual text:
     {"from_handle": "...", "to_handle": "...", "decision": "keep | repair | cut", "why": "...", "repair_label": "<only when repair>"}
   ],
   "modality_problems": ["..."],
-  "duplication": "none | names the overlap",
   "best_unresolved_seed": "the most promising thing the map points at but does not contain",
   "independent_review_line": "one sentence, past tense, for the atlas record's gate.independent_review field, e.g. 'Fable critic: admitted after repairing two mechanism claims and cutting one item that restated its neighbor.'"
 }
 ```
 
-Only list items and edges you are *not* simply keeping; keeping everything silently is fine if it survived. Reply with the verdict and strongest objection only.
+Only list items and edges you are *not* simply keeping. Reply with the verdict and strongest objection only.
