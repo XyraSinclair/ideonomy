@@ -309,7 +309,7 @@ quota after the pool vaults emptied.
 Briefs and critiques are in
 [`../corpus/fable-maps-2026-09-07-navigation/`](../corpus/fable-maps-2026-09-07-navigation/).
 
-## Power fleet: exchanges, negotiation, fundraising, venture (2026-09-08, in progress)
+## Power fleet: six Fable maps (2026-09-08)
 
 The direction turned to power: how it changes hands, how a table's
 alternative is built, what a financing term does in which future state, how
@@ -365,5 +365,27 @@ that bites only through an outside arrival can be made a condition of the
 arrival, so the new lead demands the ratchet waived and the stack
 collapsed. The critic cut a drain that duplicated `dilution-carriers` and
 turned a loop that did not close into the dependency it was, with the
-refusal item's causal order fixed. Briefs and critiques are in
+refusal item's causal order fixed.
+`walkaway-manufactures`, the last, seriates by where the alternative's
+existence is held: a state of the world that needs no believer, a contract
+or certificate, another party's patience, the counterparty's belief alone.
+Its new member, *Pawn-shop option*, is the real outside option that
+discredits its holder when shown, as the insider bridge that lets a founder
+refuse an outside lead. The critic widened the type to admit a leaving that
+needs no alternative (tied hands, the cheap-to-claim exit), fencing
+"makes leaving credible" in and "makes staying credible" out.
+
+Openings the critics left: carriers that drain the preferred, which the
+conservation law predicts and the founder-facing itinerary never reaches;
+costs an investor spends toward the founder before the wire; the mark that
+is also the exit in an open-ended vehicle; the closing condition that mints
+hold-up power in a true stranger; the price of a waiver, for terms whose
+whole value is what their holder is paid to forgive them; the walkaway the
+counterparty pays for (severance, acceleration, the reverse termination
+fee); and, from the fleet's briefing, how a round goes from cold to
+oversubscribed. Two critics in this fleet caught arithmetic an operator
+would check first, a vote-share and the sign of a price interest; both
+repairs reworked every number by hand. Every map's author, critic, and
+repair writes were verified as Fable-served before admission. Briefs and
+critiques are in
 [`../corpus/fable-maps-2026-09-08-power/`](../corpus/fable-maps-2026-09-08-power/).
