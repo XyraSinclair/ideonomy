@@ -253,7 +253,7 @@ usageLine = "usage: ideonomy consult [SITUATION] [--file PATH] [--k 3] [--tier a
 -- [--from-residue TOPIC] [--store PATH] [--model CMD]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs ["full"] argv
+  let a = parseArgs ["full"] ["file", "k", "tier", "kind", "frame", "from-residue", "store", "model"] argv
       choice n allowed = case opt n a of
         Nothing -> pure Nothing
         Just v | v `elem` allowed -> pure (Just v)

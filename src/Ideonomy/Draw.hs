@@ -56,7 +56,7 @@ draw n g avoid
 -- | @ideonomy draw SUBJECT [--n 3] [--seed N]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs [] argv
+  let a = parseArgs [] ["n", "seed"] argv
   subject <- case positionals a of
     [s] -> pure s
     _ -> usage "usage: ideonomy draw SUBJECT [--n 3] [--seed N]"

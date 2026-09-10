@@ -425,7 +425,7 @@ dispatch now path cmd led = case cmd of
 -- is saved).
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs ["drop", "defer"] argv
+  let a = parseArgs ["drop", "defer"] ["store", "topic", "kind", "from", "note"] argv
       path = storePath (opt "store" a) (opt "topic" a)
   cmd <- either (\e -> usage (if null e then usageLine else "error: " ++ e ++ "\n" ++ usageLine)) pure (parseCmd a)
   loaded <- load path

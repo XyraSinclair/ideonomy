@@ -199,7 +199,7 @@ operations = seedList "list-operations" "an operation in the list algebra, as a 
 -- | @ideonomy lists [--store DIR] <ls|new|add|show|sample|combine|grow> ...@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs [] argv
+  let a = parseArgs [] ["store", "n", "seed", "template", "name", "model", "k", "hint"] argv
       st = Store (maybe ".lists" id (opt "store" a))
   case positionals a of
     ["ls"] -> names st >>= mapM_ (\n -> do

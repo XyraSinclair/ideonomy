@@ -389,7 +389,7 @@ forever burst tauHours = do
 -- | @ideonomy climb [--only NAME] [--breaths 1] [--forever] [--burst 6.0] [--tau-hours 6.0]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs ["forever"] argv
+  let a = parseArgs ["forever"] ["only", "breaths", "burst", "tau-hours"] argv
   case positionals a of
     [] -> pure ()
     _ -> usage "usage: ideonomy climb [--only NAME] [--breaths 1] [--forever] [--burst 6.0] [--tau-hours 6.0]"

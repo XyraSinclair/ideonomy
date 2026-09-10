@@ -1,16 +1,23 @@
 -- | One binary, one subcommand per engine: @ideonomy <command> [args]@.
 module Main (main) where
 
-import Control.Exception (catch, throwIO)
+import Control.Exception (ErrorCall (..), catch, throwIO)
 import GHC.IO.Exception (IOErrorType (ResourceVanished), ioe_type)
 import Ideonomy.Cli (usage)
 import Ideonomy.Version (version)
 import System.Environment (getArgs)
+import System.Exit (ExitCode (..), exitWith)
+import System.IO (hPutStrLn, stderr)
 import qualified Ideonomy.Commands as C
 
--- | @| head@ is a normal way to read an instrument: a closed pipe is not an error.
+-- | A usage error ('Ideonomy.Cli.die') is one line on stderr and exit 2;
+-- @| head@ is a normal way to read an instrument, so a closed pipe is not
+-- an error.
 main :: IO ()
-main = dispatch `catch` \e -> if ioe_type e == ResourceVanished then pure () else throwIO e
+main = (dispatch `catch` usageError) `catch` closedPipe
+  where
+    usageError (ErrorCall msg) = hPutStrLn stderr ("ideonomy: " ++ msg) >> exitWith (ExitFailure 2)
+    closedPipe e = if ioe_type e == ResourceVanished then pure () else throwIO e
 
 dispatch :: IO ()
 dispatch = getArgs >>= \case

@@ -124,7 +124,7 @@ gate specs have
 -- | @ideonomy widen [--k 40] [--seed 0]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs [] argv
+  let a = parseArgs [] ["k", "seed"] argv
   case positionals a of
     [] -> pure ()
     _ -> usage "usage: ideonomy widen [--k 40] [--seed 0]"

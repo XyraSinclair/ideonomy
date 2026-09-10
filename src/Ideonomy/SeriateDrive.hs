@@ -362,7 +362,7 @@ md5Hex msg = concatMap hex2 (concatMap le32 [a, b, c, d])
 -- | @ideonomy seriate [--grown] [--canon] [--catalog] [--all] [--canon-names 50] [--force]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs ["grown", "canon", "catalog", "all", "force"] argv
+  let a = parseArgs ["grown", "canon", "catalog", "all", "force"] ["canon-names"] argv
       on f = flag f a || flag "all" a
   case positionals a of
     [] -> pure ()

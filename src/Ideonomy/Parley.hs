@@ -154,7 +154,7 @@ usageLine = "usage: ideonomy parley TASK --party NAME=CMD --party NAME=CMD [--pa
 -- | @ideonomy parley TASK --party NAME=CMD ... --constraint NAME:TEXT ... [--rounds 4] [--accept 0.15]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs [] argv
+  let a = parseArgs [] ["party", "constraint", "rounds", "accept"] argv
   case (positionals a, opts "party" a, opts "constraint" a) of
     ([task], partySpecs@(_ : _), constraintSpecs@(_ : _)) -> do
       named <- foldl (\acc spec -> acc >>= \ps -> case break (== '=') spec of

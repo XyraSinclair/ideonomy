@@ -199,7 +199,7 @@ sha256 msg = concatMap bytes (unpack (foldl' block h0 (chunks (pad msg))))
 -- | @ideonomy atlas [--output PATH]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs [] argv
+  let a = parseArgs [] ["output"] argv
   case positionals a of
     [] -> do
       let out = maybe "docs/catalog-map.html" id (opt "output" a)

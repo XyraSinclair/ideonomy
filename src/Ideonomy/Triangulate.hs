@@ -182,7 +182,7 @@ usageLine = "usage: ideonomy triangulate QUESTION --judge CMD --judge CMD [--jud
 -- dimensionalizes the question.
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs [] argv
+  let a = parseArgs [] ["judge", "axis"] argv
   case (positionals a, opts "judge" a) of
     ([question], cmds@(c1 : _ : _))
       | length (nub' cmds) < length cmds -> usage (usageLine ++ "\nerror: "

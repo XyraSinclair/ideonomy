@@ -173,7 +173,7 @@ shorten s = if length s <= 72 then s else take 71 s ++ "\x2026"
 
 -- | @ideonomy check PATH...@
 cli :: [String] -> IO ()
-cli argv = case positionals (parseArgs [] argv) of
+cli argv = case positionals (parseArgs [] [] argv) of
   [] -> usage "usage: ideonomy check PATH..."
   paths -> do
     oks <- mapM checkFile paths

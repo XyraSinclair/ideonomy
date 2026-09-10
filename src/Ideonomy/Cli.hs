@@ -14,10 +14,12 @@ import Text.Read (readMaybe)
 data Args = Args { pos :: [String], kv :: [(String, String)], flags :: [String] }
   deriving (Show)
 
--- | @boolFlags@ names options that take no value. Everything else after
--- @--@ takes the next word. A bare @--@ ends option parsing.
-parseArgs :: [String] -> [String] -> Args
-parseArgs boolFlags = go (Args [] [] [])
+-- | @boolFlags@ names options that take no value; @valueOpts@ names the
+-- ones that take the next word. Any other @--name@ is a usage error, so a
+-- misspelled option cannot silently become a default. A bare @--@ ends
+-- option parsing.
+parseArgs :: [String] -> [String] -> [String] -> Args
+parseArgs boolFlags valueOpts = go (Args [] [] [])
   where
     go a [] = a { pos = reverse (pos a), kv = reverse (kv a) }
     go a ("--" : rest) = go a { pos = reverse rest ++ pos a } []
@@ -27,8 +29,9 @@ parseArgs boolFlags = go (Args [] [] [])
            in case break (== '=') name of
                 (n, '=' : v) -> go a { kv = (n, v) : kv a } rest
                 _ | name `elem` boolFlags -> go a { flags = name : flags a } rest
+                  | name `notElem` valueOpts -> die ("unknown option --" ++ name)
                   | (v : rest') <- rest -> go a { kv = (name, v) : kv a } rest'
-                  | otherwise -> go a { flags = name : flags a } []
+                  | otherwise -> die ("--" ++ name ++ " expects a value")
       | otherwise = go a { pos = w : pos a } rest
 
 positionals :: Args -> [String]

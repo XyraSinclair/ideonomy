@@ -196,7 +196,7 @@ usageLine = "usage: ideonomy trial CLAIM --advocate CMD --adversary CMD --judge 
 -- | @ideonomy trial CLAIM --advocate CMD --adversary CMD --judge CMD... [--rounds 1] [--burden B] [--context TEXT] [--no-swap]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs ["no-swap"] argv
+  let a = parseArgs ["no-swap"] ["advocate", "adversary", "judge", "rounds", "burden", "context"] argv
   case (positionals a, opts "judge" a) of
     ([claim], judgeCmds@(_ : _)) -> do
       let advCmd = require "advocate" a

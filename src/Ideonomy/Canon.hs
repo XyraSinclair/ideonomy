@@ -56,7 +56,7 @@ sourceUrl l = field "url" ++ " (via " ++ field "via" ++ ")"
 -- | @ideonomy canon [--tier canon|grown] ls | show NAME | sample NAME [--n 3] [--seed N]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs [] argv
+  let a = parseArgs [] ["tier", "n", "seed"] argv
   tier <- either (ioError . userError) pure (readTier (maybe "canon" id (opt "tier" a)))
   case positionals a of
     ["ls"] -> do

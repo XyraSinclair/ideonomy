@@ -98,7 +98,7 @@ asIdeolist = seedList "emotional-registers" "an emotional register: name, stance
 cli :: [String] -> IO ()
 cli argv = do
   (mix, rest) <- either usage pure (takeMix argv)
-  let a = parseArgs ["ls"] rest
+  let a = parseArgs ["ls"] ["n", "seed"] rest
   task <- case positionals a of
     [] -> pure "the piece you are writing"
     [t] -> pure t
