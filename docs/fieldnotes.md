@@ -426,3 +426,68 @@ seriation comes from power iteration rather than LAPACK, so near-degenerate
 Fiedler vectors can order a list differently than NumPy did.
 Every worker's writes were checked against the served model in its
 transcript before admission; all were `claude-fable-5-1`.
+
+## Timing fleet: six Fable maps (2026-09-10)
+
+Xyra asked for the deepest things. The territory was where planning
+actually stalls: when to move, whether a move can be undone, what quietly
+stops being available while nobody declines it. Six territories were
+chosen with one outside consult, which replaced a weak candidate
+(parked loads, an inventory of postponements) with `learning-that-commits`
+and sharpened the rest; the brief carried the sharpened types. The
+pipeline was the power fleet's: two authored breaths, a fresh-context
+Fable critic, a Fable repairer, `bin/ideonomy check` as the gate, and every
+one of the eighteen agents' transcripts read for the served model before
+admission (all `claude-fable-5-1`; a first launch of six authors died on
+the account's session limit with zero writes, and the relaunch had authors
+save after breath one). Every map was admitted with repairs, none
+without, and no critic cut an item.
+
+`option-expiries` seriates by what the clock is made of, from a closure
+that has to be a surprise to a pause paper whose renewal belongs to the
+adversary; its standout, *Thawed to be ready*, is the option to wait that
+expires because the option to act was made ready (the thawed vial, the
+mixed epoxy, the mobilized reserve paid by the day), mirrored by *Slot
+flown empty*, where the option dies of not being touched. The critic
+repaired the type fence itself: not "no party decided about the option"
+but "no party at the holder's own table did", which is the fence the
+boundary case had practised all along. `undo-costs` seriates by when and
+to whom the reversal's bill is presented, relative to the mover's chair,
+ending in a bill delivered to no one; the critic caught the closing item
+claiming a reversal with no payer, which the map's own fence assigns to
+option-expiries, and recast it as the bill of a manufactured focal date
+(Sweden's 1967 Sunday had a date-setter; the return has none).
+`hold-up-mints` seriates by who mints the pivotality, from the incumbent's
+own hands to pivotality nobody made, knew, or priced until it failed; its
+standout, *Switch that reads as a tell*, is the fully replaceable incumbent
+the dependent still cannot replace because a prospectus reader or a lender
+reads any switch as a defect, so the standard cure for hold-up is the tell.
+The critic found the map's most vivid item false in every domain it named
+(a co-pilot is exactly the spare *Past V1* said was useless) and the repair
+is sharper: the mint is against any party not already following the live
+state. `witness-powers` extends `witness-architectures` from what must exist
+for a trace to form to what the trace lets someone do, keeping possession,
+recognition, and activation apart; *Key that lights its own fuse* is the
+diagnosis note that proves the claimant knew and thereby starts her own
+limitations clock. `advantages-spent-by-use` seriates by the smallest
+exercise that registers and what must register it, opening on *Never
+asked*, an advantage that is a count of zero and is spent whole by any
+first exercise; the critic corrected the register at both endpoints (price
+impact is the other side of the book reading order flow, not "no
+audience"). `learning-that-commits` seriates by where the less committing
+inquiry lives, from a softer form of the same question to nowhere at all;
+*Self-inquiry widens the warranty* is the seller whose diligence on itself
+converts every "to the seller's knowledge" qualifier into known fact, and
+whose escape, the knowledge group kept out of the room, closes wherever the
+law imputes what they should have known.
+
+Seeds the critics left: the undated signed instrument held by the
+empowered party (witness-powers); the interim look that spends alpha
+(learning-that-commits); the commons dimension three items share
+(advantages-spent-by-use); who learns the mint first and what the interval
+buys (hold-up-mints); the party in the business of selling the way back
+(undo-costs); the keeping that is itself the tell (option-expiries).
+Limits: catalog-map.jsonl does not yet position the six (that is a
+`seriate` run, which embeds and costs), so the atlas shows them by list
+only; and one ledger's breath-two stamp was written ahead of the clock and
+corrected to the author's real finish time from its transcript.
