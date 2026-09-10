@@ -4,9 +4,9 @@ Make one **ideonomic map** for the Ideonomy atlas in the territory of power exch
 
 Read first, in this order:
 1. `skills/practice-deep-ideonomy/SKILL.md` — the practice.
-2. The admitted map `witness-architectures` in `ideonomy/data/grown.jsonl`. Your output must have exactly this schema (same keys, same nesting).
+2. The admitted map `witness-architectures` in `data/grown.jsonl`. Your output must have exactly this schema (same keys, same nesting).
 3. `corpus/climb-ledger/witness-architectures.jsonl` — the per-breath ledger.
-4. Skim `python3 -c "import json;[print(json.loads(l)['name'],'—',json.loads(l)['of']) for l in open('ideonomy/data/grown.jsonl')]"` so your map does not duplicate an existing list. The business-adjacent lists already present are: cooperation-mechanisms, cooperative-masks, coalition-frictions, cooperation-integrity-hinges, contribution-credit-hinges, deal-flow-sources, deal-flow-reflexivities, exchange-ontologies, first-mover-forecloses, ghost-leverages, leverage-discoveries, negotiator-check-loops, persuasion-moves, strategy-generic-moves, velocity-bottlenecks, hinge-kinds, deal-flow-attractors, deal-deaths, clean-exits, what-a-price-does, tollgates-that-must-buy, who-can-be-bound, status-conversions, register-jumps, cooperation-ignitions. Your map must not restate any of them; where an item is adjacent to one, say what it adds.
+4. Skim `bin/ideonomy canon --tier grown ls` so your map does not duplicate an existing list. The business-adjacent lists already present are: cooperation-mechanisms, cooperative-masks, coalition-frictions, cooperation-integrity-hinges, contribution-credit-hinges, deal-flow-sources, deal-flow-reflexivities, exchange-ontologies, first-mover-forecloses, ghost-leverages, leverage-discoveries, negotiator-check-loops, persuasion-moves, strategy-generic-moves, velocity-bottlenecks, hinge-kinds, deal-flow-attractors, deal-deaths, clean-exits, what-a-price-does, tollgates-that-must-buy, who-can-be-bound, status-conversions, register-jumps, cooperation-ignitions. Your map must not restate any of them; where an item is adjacent to one, say what it adds.
 
 ## Register for this fleet
 
@@ -31,6 +31,6 @@ virtues); no consultant vocabulary; no motivational tone.
 
 Validate before you finish:
 ```
-python3 -c "import json,sys; r=json.load(open(sys.argv[1])); s=r['source']; it=set(r['items']); assert 13<=len(it)<=18 and len(it)==len(r['items']); assert 4<=len(s['relations'])<=7; assert all(e['from'] in it and e['to'] in it and e['label'].strip() for e in s['relations']); assert all(p['item'] in it for p in s['priorities']); assert s['exploration']['new_member'] in it; print('ok', r['name'], len(it), 'items', len(s['relations']), 'edges')" <path>
+bin/ideonomy check <path>
 ```
 Final reply: slug, one-line `of`, the axis, and the single most surprising item. Nothing else.

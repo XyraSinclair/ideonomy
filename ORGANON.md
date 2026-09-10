@@ -24,7 +24,7 @@ The six phases below say *what kinds of move exist*. An orthogonal axis — the
 **respiratory axis** of expansion and compression, ratcheted on
 minimum-description-length — says *how the moves are sequenced over time* so a
 system gets deeper rather than just busier. That axis has its own authority,
-[CYCLES.md](CYCLES.md), and its own runnable engine, `ideonomy/cycles.py`.
+[CYCLES.md](CYCLES.md), and its own runnable engine, `Ideonomy.Cycles`.
 
 ## The metabolic frame
 
@@ -328,4 +328,4 @@ step. Two worked paths, as reference designs:
   the full loop pointed at code, with hard oracles at JUDGE.
 
 The machine-readable form of this catalog is
-[`ideonomy/primitives.py`](ideonomy/primitives.py).
+[`src/Ideonomy/Primitives.hs`](src/Ideonomy/Primitives.hs).

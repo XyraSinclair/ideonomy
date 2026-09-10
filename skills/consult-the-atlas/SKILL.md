@@ -23,8 +23,8 @@ Phase: SENSE -> ORIENT -> JUDGE.
 1. **State the situation in your own words, then ask the atlas.**
 
    ```bash
-   python3 -m ideonomy.consult "raising a seed round with four months of cash" --k 3
-   python3 -m ideonomy.consult --file plan.md --kind map --k 2
+   ideonomy consult "raising a seed round with four months of cash" --k 3
+   ideonomy consult --file plan.md --kind map --k 2
    ```
 
    Every hit prints its `of` sentence. Reject a hit whose type the situation
@@ -39,7 +39,7 @@ Phase: SENSE -> ORIENT -> JUDGE.
 3. **Label the denominator.**
 
    ```bash
-   python3 -m ideonomy.consult --file plan.md --frame audit --k 2
+   ideonomy consult --file plan.md --frame audit --k 2
    ```
 
    Every member gets exactly one label — present (where in the plan),
@@ -55,7 +55,7 @@ Phase: SENSE -> ORIENT -> JUDGE.
 
 6. **Route what resisted.** Members left unlabeled and edges you could not
    evaluate go to the residue ledger; the next fleet's brief reads them
-   (`python3 -m ideonomy.consult --from-residue <topic>` shows what last
+   (`ideonomy consult --from-residue <topic>` shows what last
    session left open and which maps it lands in). A situation no list matches
    is a territory for `practice-deep-ideonomy`, not a shrug.
 

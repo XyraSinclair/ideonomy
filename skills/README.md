@@ -56,11 +56,11 @@ below.
 
 ## Executable harnesses
 
-Two skills ship with real, stdlib-only, offline-tested engines:
+Two skills ship with real, dependency-free, offline-tested engines:
 
-- **`triangulate-without-oracle`** → `python3 -m ideonomy.triangulate` — runs
+- **`triangulate-without-oracle`** → `ideonomy triangulate` — runs
   the independent-judges-per-axis panel and reports disagreement.
-- **`carry-the-residue-forward-across-sessions`** → `python3 -m ideonomy.residue`
+- **`carry-the-residue-forward-across-sessions`** → `ideonomy residue`
   — the durable cross-session residue ledger with the metabolism/churn gate.
 
 They compose: `Triangulation.to_residue(ledger)` writes contested axes (P-9)

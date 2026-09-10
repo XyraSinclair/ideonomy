@@ -82,30 +82,32 @@ Three layers, each usable alone:
    ratcheted on minimum description length, that turns the catalog into an
    engine.
 
-3. **[`ideonomy/`](ideonomy/) — the engines and Gunkel's corpus as data.**
-   Stdlib-only Python 3.9+, zero dependencies, fully offline-testable.
-   Engines: [`cycles.py`](ideonomy/cycles.py) (MDL-ratcheted
-   expansion/compression), [`triangulate.py`](ideonomy/triangulate.py)
-   (independent judgments per axis when no oracle exists),
-   [`trial.py`](ideonomy/trial.py) (advocate vs adversary, swap-balanced,
-   independent bench), [`parley.py`](ideonomy/parley.py) (multi-party
-   constraint solving, maximin at impasse),
-   [`residue.py`](ideonomy/residue.py) (cross-session ledger),
-   [`lists.py`](ideonomy/lists.py) (typed, provenanced list algebra),
-   [`seriate.py`](ideonomy/seriate.py) (spectral ordering with an explicit
-   smoothness objective). Corpus: Gunkel's divisions
-   ([`divisions.py`](ideonomy/divisions.py)) and generative operators
-   ([`operators.py`](ideonomy/operators.py)) machine-usable, and his lists
+3. **[`src/`](src/) — the engines, and [`data/`](data/) — Gunkel's corpus.**
+   Haskell on GHC's boot libraries alone, zero packages, one binary
+   (`bin/ideonomy`), fully offline-testable. Engines:
+   [`Cycles`](src/Ideonomy/Cycles.hs) (MDL-ratcheted expansion/compression),
+   [`Triangulate`](src/Ideonomy/Triangulate.hs) (independent judgments per
+   axis when no oracle exists), [`Trial`](src/Ideonomy/Trial.hs) (advocate vs
+   adversary, swap-balanced, independent bench),
+   [`Parley`](src/Ideonomy/Parley.hs) (multi-party constraint solving,
+   maximin at impasse), [`Residue`](src/Ideonomy/Residue.hs) (cross-session
+   ledger), [`List`](src/Ideonomy/List.hs) (typed, provenanced list algebra),
+   [`Seriate`](src/Ideonomy/Seriate.hs) (spectral ordering with an explicit
+   smoothness objective), [`Consult`](src/Ideonomy/Consult.hs) (the maps a
+   situation belongs to, as instruments). Corpus: Gunkel's divisions
+   ([`Divisions`](src/Ideonomy/Divisions.hs)) and generative operators
+   ([`Operators`](src/Ideonomy/Operators.hs)) machine-usable, and his lists
    recovered verbatim with per-URL provenance in the canon layer
-   ([`canon.py`](ideonomy/canon.py) + [`data/`](ideonomy/data/)). Any CLI or
-   callable is a model ([`models.py`](ideonomy/models.py)).
+   ([`Canon`](src/Ideonomy/Canon.hs) + [`data/`](data/)). Any CLI is a model
+   ([`Models`](src/Ideonomy/Models.hs)); the types are the gates.
 
 ## Quick start
 
 ```bash
 git clone https://github.com/XyraSinclair/ideonomy && cd ideonomy
-python3 -m ideonomy.cycles_demo     # the MDL engine over its own catalog — offline
-python3 -m unittest discover tests  # the whole suite, no network, no deps
+make                 # GHC 9.4+ and its boot libraries; nothing else
+bin/ideonomy demo    # the MDL engine over its own catalog — offline
+make test            # the whole suite, no network, no packages
 ```
 
 The demo prints a cycle log: `grp` is how many groups the compression found,
@@ -140,50 +142,51 @@ dispatch.
 
 ## Use the library
 
-```python
-from ideonomy import operators, divisions, primitives, cycles
+```haskell
+import qualified Ideonomy.Operators as Op
+import qualified Ideonomy.Divisions as Div
+import Ideonomy.Primitives (primitives, Phase (..))
+import qualified Ideonomy.Cycles as Cycles
 
-# Ideocombinatorics (P12): cross two lists, read the product for live cells.
-qs = operators.combine(
-    ["recurrence", "symmetry", "cascade"],
-    ["grief", "negotiation", "metabolism"],
-    template="Can there be {a} of {b}?",
-)
+-- Ideocombinatorics (P12): cross two lists, read the product for live cells.
+qs = Op.combine "Can there be {a} of {b}?"
+       ["recurrence", "symmetry", "cascade"] ["grief", "negotiation", "metabolism"]
 
-# Gunkel's divisions (236 recovered), each a fault-model for thought.
-divisions.DIVISIONS["ANALOGIES"]          # -> 'Icelology'
-print(divisions.lens_prompt("ANOMALIES", "the git commit graph"))
+-- Gunkel's divisions (236 recovered), each a fault-model for thought.
+Div.lookupDivision "ANALOGIES"            -- Just "Icelology"
+Div.lensPrompt "ANOMALIES" "the git commit graph"
 
-# The organon, machine-readable.
-[p.key for p in primitives.PRIMITIVES if p.phase == "JUDGE"]
+-- The organon, machine-readable.
+[p.key | p <- primitives, p.phase == Judge]
 
-# The respiratory engine: expand -> judge -> compress over any corpus of text.
-state = cycles.seed(["symmetry of grief", "cascade of negotiation"])
-cycles.run(state, cycles=5)               # MDL-ratcheted
+-- The respiratory engine: expand -> judge -> compress over any corpus of text.
+Cycles.run Cycles.mechanical 5 (Cycles.seed ["symmetry of grief", "cascade of negotiation"])
 ```
 
 Model-backed, with any CLIs you have (heterogeneous panels are the point):
 
 ```bash
-python3 -m ideonomy.triangulate "Is this landing copy in the right register?" \
+ideonomy triangulate "Is this landing copy in the right register?" \
     --axis austerity --axis exactness \
     --judge 'claude -p {prompt}' --judge 'codex exec {prompt}'
-python3 -m ideonomy.trial "this API should be deprecated" \
+ideonomy trial "this API should be deprecated" \
     --advocate 'claude -p {prompt}' --adversary 'codex exec {prompt}' \
     --judge 'ollama run llama3.3'                 # adversarial trial, swap-balanced
-python3 -m ideonomy.parley "name the release" \
+ideonomy parley "name the release" \
     --party ops='claude -p {prompt}' --party brand='codex exec {prompt}' \
     --constraint 'ops:must be greppable' --constraint 'brand:must not be generic'
-python3 -m ideonomy.residue --topic mywork open   # cross-session residue ledger
-python3 -m ideonomy.consult "your situation" --k 3   # the maps it belongs to, as instruments, offline
-python3 -m ideonomy.consult --file plan.md --frame audit   # label every member: present / ruled-out / unlabeled
-python3 -m ideonomy.draw "your problem" --n 3     # forced non-default lenses, offline
-python3 -m ideonomy.registers "the launch post" --n 2   # forced register mixes, offline
-python3 -m ideonomy.lists ls                      # the cross-chat list store
+ideonomy residue --topic mywork open      # cross-session residue ledger
+ideonomy consult "your situation" --k 3   # the maps it belongs to, as instruments, offline
+ideonomy consult --file plan.md --frame audit   # label every member: present / ruled-out / unlabeled
+ideonomy draw "your problem" --n 3        # forced non-default lenses, offline
+ideonomy registers "the launch post" --n 2   # forced register mixes, offline
+ideonomy lists ls                         # the cross-chat list store
+ideonomy check corpus/<fleet>/<map>.json  # the typed gate a grown map must pass
 ```
 
-(The residue ledger stores its state in `./.residue/<topic>.json`, created on
-first use; override with `--store`.)
+(Put `bin/` on your PATH or call `bin/ideonomy`. The residue ledger stores
+its state in `./.residue/<topic>.json`, created on first use; override with
+`--store`.)
 
 ## The database
 
@@ -193,10 +196,10 @@ items, then read a list in its stored or canon-sidecar order. Coverage counts
 are derived from the data, and a stored projection is shown only while its
 item fingerprints match — growing a list hides its stale point rather than
 pretending the old map still measures it. Rebuild without network access:
-`python3 -m ideonomy.atlas`.
+`ideonomy atlas`.
 
-Two provenance tiers, never confused (`ideonomy/data/`, load via
-`python3 -m ideonomy.canon ls` and `... --tier grown ls`):
+Two provenance tiers, never confused (`data/`, load via
+`ideonomy canon ls` and `... --tier grown ls`):
 
 - **canon** — Gunkel's own lists, recovered verbatim with per-source
   provenance: the archived pre-redesign ideonomy.mit.edu text
@@ -209,7 +212,7 @@ Two provenance tiers, never confused (`ideonomy/data/`, load via
   [manifest](corpus/source/MANIFEST.md) is the coverage denominator for the
   acquisition; the raw scans themselves are gitignored.
 - **grown** — the machine-extended edge, produced by the hill-climb
-  ([`corpus/climb.py`](corpus/climb.py)): grow → induce the list's own
+  (`ideonomy climb`): grow → induce the list's own
   typology → name the types it neglects → gap-fill → gate every candidate for
   genuine-category, distinctness, and combinatorial phrasing → ratchet, with
   drops recorded as residue and a plateau flagged when the keep-rate falls.
@@ -222,7 +225,7 @@ than an accident), **maps** (`source.kind == "map"`, relations with exact item
 endpoints so reordering cannot silently change them), **openings**
 (`source.priorities` names a near-term lead and a wild branch — attention
 choices, not confidence scores), **seriation** (model-direct or spectral via
-[`corpus/seriate_drive.py`](corpus/seriate_drive.py); the axis, smoothness,
+`ideonomy seriate`; the axis, smoothness,
 and seriability score are stored in `source.seriation`, and smoothness alone
 is not treated as proof of a one-dimensional spectrum), and **boundary
 claims** (a discovered edge of the universe is recorded and the excluded
@@ -232,8 +235,9 @@ recording residue.
 
 The per-list ledger (residue, keep-rates, `by:` run labels) is in
 [`corpus/climb-ledger/`](corpus/climb-ledger/). The growth, widening, and
-seriation drivers in [`corpus/`](corpus/) require `GEMINI_API_KEY` and make
-billable model calls; the atlas and everything in `ideonomy/` need neither.
+seriation drivers (`ideonomy climb | widen | seriate`) require
+`GEMINI_API_KEY` and make billable model calls; every other subcommand needs
+neither.
 Dated fieldwork records — specimen admissions, a Gemini 3.8 Flash sketching
 experiment, growth checkpoints, each with its repairs and limits — are in
 [docs/fieldnotes.md](docs/fieldnotes.md).
@@ -273,7 +277,7 @@ distinguishes it from its siblings:
 - [`latentwill/ideonomy-skill`](https://github.com/latentwill/ideonomy-skill)
   — a well-made pair of Claude skills built on Kind's essays: an external
   random picker (8 operators × 17 organons × 29 dimension-prompts) against
-  ideation mode-collapse. Take its thesis seriously — `draw.py` here is that
+  ideation mode-collapse. Take its thesis seriously — `ideonomy draw` here is that
   idea pointed at Gunkel's full catalog. What it deliberately lacks is what
   this repo is for: evaluation gates and cross-session accumulation.
 - [`Morpheis/ideonomy-engine`](https://github.com/Morpheis/ideonomy-engine)

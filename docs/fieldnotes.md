@@ -396,3 +396,33 @@ vocabulary differs from the situation's can be missed, which is why every
 hit prints its `of` sentence; and the module ships without an offline test,
 so by this repo's own doctrine it is a claim until one lands.
 
+
+## The engine in Haskell (2026-09-10)
+
+Xyra asked for a more elegant language than Python; the engine is now
+Haskell on GHC boot libraries alone — no cabal, no stack, no packages —
+one binary `bin/ideonomy <command>` built by `make` in under five seconds.
+Eighteen Python modules and three corpus drivers became twenty-nine
+modules under `src/Ideonomy/`; ten pytest files became one executable,
+`build/test`, running the same assertions. The port was a fleet: a spine
+(JSON with key order kept and Python's number printing reproduced,
+SplitMix draws, a model rail that shells out, the list algebra) written
+here, then six Fable workers each given one slice and one proof target —
+byte-identical output against the Python on the same inputs. Where a
+subcommand has a deterministic surface it matched to the byte: `demo`,
+`draw`, `registers`, the consult frames, the 2.78 MB atlas. Two things the
+port surfaced by typing them: a Python bug that printed a string
+`boundary_claim` one character per line (six grown lists were being shown
+that way; fixed in `consult`), and `ideonomy check`, a typed gate over map
+records that replaces the validator one-liner the fleet briefs used to
+carry — under which four pre-fleet maps (`advice-antinomies`,
+`hinge-kinds`, `cooperation-integrity-hinges`,
+`contribution-credit-hinges`) fail, as they did under the Python. Honest
+limits: `consult`, `check`, `atlas`, and the three Gemini drivers ship
+without offline tests, so by this repo's doctrine they are claims;
+seeded draws differ from the Python's because SplitMix is not Mersenne,
+so `--seed` replays a Haskell run, not an old Python one; and spectral
+seriation comes from power iteration rather than LAPACK, so near-degenerate
+Fiedler vectors can order a list differently than NumPy did.
+Every worker's writes were checked against the served model in its
+transcript before admission; all were `claude-fable-5-1`.

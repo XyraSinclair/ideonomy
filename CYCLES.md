@@ -47,7 +47,7 @@ structure forward across breaths is the residue.
 
 Every compression leaves a residue: items that resist the structure,
 anomalies, multiply-assigned members, gaps where a cell should be filled and
-isn't. (The mechanical engine in `cycles.py` represents the first kind —
+isn't. (The mechanical engine in `Ideonomy.Cycles` represents the first kind —
 high-residual items and failed singletons under a hard partition; the
 multiply-assigned and missing-cell kinds need the model-backed compress hook,
 which is where they belong.) The near-universal mistake is to treat residue
@@ -87,7 +87,7 @@ ratio** `raw / codelen`, not absolute codelen — adding items always raises
 absolute bits, so the scale-correct test is whether the new items joined the
 structure (ratio holds or rises) or inflated the residue (ratio falls).
 Otherwise the expansion is reverted and a different bias is tried. Two
-honesty notes on the engine's implementation (`cycles.py`): a group's
+honesty notes on the engine's implementation (`Ideonomy.Cycles`): a group's
 distilled rule is kept only if it *pays* — encoding the members through the
 rule must beat encoding them raw — so a claimed compression can never be
 worse than no structure at all; and the code length has one free constant
@@ -133,7 +133,7 @@ limit.
 
 ## One engine, three registers
 
-- **`ideonomy/cycles.py`** is the substrate-agnostic respiratory engine: it
+- **`src/Ideonomy/Cycles.hs`** is the substrate-agnostic respiratory engine: it
   breathes over any corpus of text items with pluggable expand / judge /
   compress functions and the MDL ratchet built in. Mechanical defaults run
   offline; model hooks deepen every phase.
@@ -156,7 +156,7 @@ The depth claim has to be **earned**. The bootstrap path:
    missing primitives in the organon, recompress the catalog, improve this
    repo's own code and prose. Self-application is the honest first proof — if the
    engine cannot deepen its own design, it will not deepen anyone else's.
-   `cycles_demo.py` runs this breath offline.
+   `ideonomy demo` runs this breath offline.
 2. **One real corpus.** Point it at a single external open-ended problem and
    run breaths, *logging codelen every cycle*. The claim to depth is the
    measured compression curve plus a human confirming the surfaced structure

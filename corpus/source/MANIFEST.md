@@ -7,7 +7,7 @@ produced), **partial**, **pending**, or **ruled-out** (with reason). The
 campaign may not call itself complete while any row is unlabeled.
 
 Acquired 2026-09-03. This directory is acquisition and extraction staging
-for the canon tier in `ideonomy/data/`; list production (growth, widening,
+for the canon tier in `data/`; list production (growth, widening,
 seriation drivers and their ledgers) lives one level up in `corpus/`. Raw
 scans and page renders are gitignored (`raw/ideonomy.mit.edu/`,
 `raw/uh-mirror/*.pdf`, `raw/pageimg/`); the page renders regenerate with

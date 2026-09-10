@@ -216,8 +216,8 @@ changes, recorded here rather than hidden:
 - **"Executable gate" was overclaimed.** The gates are not uniform. The
   gate-hardness classification:
   - **Hard (machine-checkable / coded):** P-7 (best-response check), P-9
-    (≥2 independent reads, enforced in `triangulate.py`), P-10 (cite-prior /
-    metabolism-vs-churn, enforced in `residue.py`), P-11 (zero unlabeled),
+    (≥2 independent reads, enforced in `Ideonomy.Triangulate`), P-10 (cite-prior /
+    metabolism-vs-churn, enforced in `Ideonomy.Residue`), P-11 (zero unlabeled),
     P-1 (timestamped pre-commit), and the new `audit-the-oracle-coverage`.
   - **Soft (disciplined judgment in formal clothing):** P-3 (MDL "shorter" is
     a judgment for prose), P-4 ("serious attack fails on execution" only when

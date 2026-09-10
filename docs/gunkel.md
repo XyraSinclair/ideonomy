@@ -1,7 +1,7 @@
 # Gunkel and ideonomy: distilled research notes
 
 Compiled 2026-06 from primary sources. Machine-usable forms live in
-`ideonomy/divisions.py` and `ideonomy/operators.py`.
+`src/Ideonomy/Divisions.hs` and `src/Ideonomy/Operators.hs`.
 
 ## The man and the program
 
@@ -60,7 +60,7 @@ and countermaps (28 generic motions, 38+ emotions, 159 archetypal analogs).
 **Divisions**: 235 claimed subfields, each a binomen (THEME → coined Greek
 field name): ANALOGIES→Icelology, HIERARCHIES→Climology, NEGATIONS→Arnesology…
 The division list is itself a taxonomy of meta-level structural concepts —
-a catalog of cognitive operations and structures. See `divisions.py`.
+a catalog of cognitive operations and structures. See `Divisions.hs`.
 
 ## Lineage
 

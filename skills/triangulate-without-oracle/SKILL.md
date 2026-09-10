@@ -33,10 +33,10 @@ Misrouting *toward* a fake oracle is the exact failure it exists to prevent.
 
 ## The tool
 
-An executable harness ships with the organon — `ideonomy/triangulate.py`:
+An executable harness ships with the organon — `ideonomy triangulate`:
 
 ```bash
-python3 -m ideonomy.triangulate "<question>" \
+ideonomy triangulate "<question>" \
     --axis "<axis 1>" --axis "<axis 2>" \
     --judge 'claude -p {prompt}' --judge '<a second, different model> {prompt}'
 ```

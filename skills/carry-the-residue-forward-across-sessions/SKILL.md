@@ -29,15 +29,15 @@ ledger. Phase: PERSIST.
 ## The tool
 
 A real, stdlib-only ledger ships with the organon —
-`ideonomy/residue.py`, scoped per topic, JSON-backed:
+`ideonomy residue`, scoped per topic, JSON-backed:
 
 ```bash
-python3 -m ideonomy.residue --topic <topic> open      # surfaces prior residue — cite it
-python3 -m ideonomy.residue --topic <topic> add "<text>" --kind <kind> --from <skill>
-python3 -m ideonomy.residue --topic <topic> seed <id> ...      # mark as fuel for now
-python3 -m ideonomy.residue --topic <topic> resolve <id> [--note .. | --drop | --defer]
-python3 -m ideonomy.residue --topic <topic> status    # strict/lenient, metabolism vs churn
-python3 -m ideonomy.residue --topic <topic> close     # classifies the breath
+ideonomy residue --topic <topic> open      # surfaces prior residue — cite it
+ideonomy residue --topic <topic> add "<text>" --kind <kind> --from <skill>
+ideonomy residue --topic <topic> seed <id> ...      # mark as fuel for now
+ideonomy residue --topic <topic> resolve <id> [--note .. | --drop | --defer]
+ideonomy residue --topic <topic> status    # strict/lenient, metabolism vs churn
+ideonomy residue --topic <topic> close     # classifies the breath
 ```
 
 Residue kinds map to the skills that produce them: `anomaly` (P-5/sensing),

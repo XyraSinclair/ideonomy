@@ -80,7 +80,7 @@ Verify the reframed statement still binds the original target's load-bearing
 constraints; if the compression came from quietly discarding one, reject it. A
 reframe that is shorter because it says less is not a dissolution, it is a loss.
 
-Conceptually this is `cycles.py`'s ratchet: keep the breath only if codelen
+Conceptually this is the cycles engine's ratchet: keep the breath only if codelen
 drops — coverage up while the structure stays small. A reframe that grows
 coverage on paper but leaves a huge residual (you still need per-case work) or
 balloons the statement is over-abstraction; the ratchet reverts it.

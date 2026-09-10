@@ -15,9 +15,9 @@ trusting it.*
 
 | # | Property | Label |
 |---|----------|-------|
-| A1 | The load-bearing prose counts (primitives, skills, divisions, plugin versions) match the machine-readable source, enforced by tests, not by care; counts outside that enforced set are avoided rather than asserted | covered — `tests/test_consistency.py` |
-| A2 | ORGANON.md ↔ `primitives.py` agree on every key, name, and phase | covered — enforced by test |
-| A3 | No dead links: every intra-repo link resolves (test-enforced); external links verified live at release | covered — `tests/test_consistency.py` + manual sweep per release |
+| A1 | The load-bearing prose counts (primitives, skills, divisions, plugin versions) match the machine-readable source, enforced by tests, not by care; counts outside that enforced set are avoided rather than asserted | covered — `test/ConsistencyTest.hs` |
+| A2 | ORGANON.md ↔ `Primitives.hs` agree on every key, name, and phase | covered — enforced by test |
+| A3 | No dead links: every intra-repo link resolves (test-enforced); external links verified live at release | covered — `test/ConsistencyTest.hs` + manual sweep per release |
 | A4 | No stale claims (docs describing an earlier state of the repo) | covered — swept this release; consistency tests catch the recurring class |
 | A5 | Claims about external systems (Gunkel's counts, cited tools) carry provenance | covered — `docs/gunkel.md` |
 
@@ -25,9 +25,9 @@ trusting it.*
 
 | # | Property | Label |
 |---|----------|-------|
-| B1 | One command after clone produces a real, meaningful result offline | covered — `python3 -m ideonomy.cycles_demo` |
+| B1 | One command after clone produces a real, meaningful result offline | covered — `make && bin/ideonomy demo` |
 | B2 | README states what this is, for whom, and why care — in the first screen | covered |
-| B3 | Tests run offline with no dependencies, one command | covered — `python3 -m unittest discover tests` |
+| B3 | Tests run offline with no dependencies, one command | covered — `make test` |
 | B4 | The skills are installable into an agent, not just readable | covered — Claude Code plugin (`/plugin marketplace add XyraSinclair/ideonomy`) + `install.sh` for plain skill dirs |
 | B5 | Works with any model CLI, no SDK lock-in | covered — `models.CommandModel` |
 
@@ -46,9 +46,9 @@ trusting it.*
 
 | # | Property | Label |
 |---|----------|-------|
-| D1 | Stdlib-only core; zero runtime dependencies | covered |
+| D1 | GHC boot-libraries-only core; zero external dependencies, no cabal/stack | covered |
 | D2 | Every module has a stated reason to exist; no dead code | covered |
-| D3 | Packaging metadata is complete and installation paths exercised | covered — pyproject with license/urls/classifiers; `claude plugin validate` passes; `install.sh` and `pip install .` exercised on a fresh clone (Python 3.9) |
+| D3 | Packaging metadata is complete and installation paths exercised | covered — `claude plugin validate` passes; `make && make test` and `install.sh` exercised on a fresh clone (GHC 9.14) |
 | D4 | Skill files satisfy the agent-skill spec (frontmatter name+description with trigger conditions) | covered — enforced by test |
 | D5 | Prose is austere; no slop registers, no unearned adjectives | covered — de-slop passes; external reviews hunted this specifically |
 

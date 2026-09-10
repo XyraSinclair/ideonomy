@@ -25,5 +25,7 @@ for d in "$here"/skills/*/; do
 done
 
 echo "installed $n skills -> $dest"
+echo "the skills shell out to bin/ideonomy: run 'make' in this checkout (GHC 9.4+)"
+echo "  and put $here/bin on your PATH"
 echo "start with: practice-deep-ideonomy for exploration,"
 echo "  or route-to-the-right-move for the wider skill library"

@@ -1,7 +1,7 @@
 {
   "name": "ideonomy",
   "displayName": "Ideonomy",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Gunkel's ideonomy as inference-time machinery: gated agent skills, list and seriation engines, and the recovered canon.",
   "author": {
     "name": "Xyra Sinclair"

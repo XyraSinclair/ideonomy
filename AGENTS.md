@@ -1,16 +1,18 @@
 # For agents working on this repo
 
-Run `python3 -m unittest discover tests` before and after any change. The
-suite is offline, dependency-free, and fast; it also machine-enforces the
-invariants below (`tests/test_consistency.py`), so a green run is the gate.
+Run `make test` before and after any change. The suite is offline,
+dependency-free (GHC and its boot libraries only), and fast; it also
+machine-enforces the invariants below (`test/ConsistencyTest.hs`), so a green
+run is the gate. `make` builds `bin/ideonomy`, the one binary every skill
+shells out to.
 
 ## Invariants
 
-- **ORGANON.md ↔ `ideonomy/primitives.py` are one catalog in two forms.**
+- **ORGANON.md ↔ `src/Ideonomy/Primitives.hs` are one catalog in two forms.**
   Change one, change the other, same commit.
 - **Prose counts are derived, never asserted.** If you add a primitive, a
   skill, or a division, the tests will name every doc that carries the count.
-  Do not hardcode catalog counts inside `.py` prose.
+  Do not hardcode catalog counts inside `.hs` prose.
 - **Skill dirs are self-contained**: `skills/<name>/SKILL.md`, frontmatter
   `name` equal to the directory name, `description` carrying both the move
   and its trigger. Every skill appears in `skills/README.md`; the router
@@ -33,8 +35,9 @@ invariants below (`tests/test_consistency.py`), so a green run is the gate.
   primitives they exercised (P11 gap-find, P22 refute, P35 self-modify) and
   honest failures are recorded, not hidden (`docs/premier-skills.md` shows the
   form).
-- **Stdlib only** in `ideonomy/`. Any model dependency stays behind
-  `models.CommandModel` (any CLI is a model).
+- **Boot libraries only** in `src/` (what GHC ships: base, containers,
+  parsec, process, directory, filepath, time). Any model dependency stays
+  behind `Ideonomy.Models.command` (any CLI is a model).
 - **The public register is austere.** Front-page copy (README, plugin
   metadata, install.sh) carries no internal model pet names (run labels
   belong in ledger data and `docs/fieldnotes.md`), no agent-facing
@@ -43,6 +46,6 @@ invariants below (`tests/test_consistency.py`), so a green run is the gate.
 
 ## Release
 
-`pyproject.toml` version == `.claude-plugin/plugin.json` version ==
+`src/Ideonomy/Version.hs` == `.claude-plugin/plugin.json` version ==
 `.claude-plugin/marketplace.json` plugin version. `claude plugin validate .`
 must pass. Tag releases `vX.Y.Z`.
