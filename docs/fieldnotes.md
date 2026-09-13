@@ -491,3 +491,108 @@ Limits: catalog-map.jsonl does not yet position the six (that is a
 `seriate` run, which embeds and costs), so the atlas shows them by list
 only; and one ledger's breath-two stamp was written ahead of the clock and
 corrected to the author's real finish time from its transcript.
+
+## Enumeration and reasoning-graph fleet: nine Fable maps (2026-09-13)
+
+Xyra asked for maps about enumeration itself (how lists get made, what a
+register does to them, how model passes compose to enumerate better) and
+about reasoning graphs (a reasoner that sees only a window, gets its
+output back through an environment, and hands off to a successor that
+will never share its context). Two outside consults, one Fable and one
+Gemini, each read the eight candidate territories and both cut the same
+two (`window-graphs`, a description of this pipeline; `input-shapings`, a
+prompt-craft folk taxonomy); Fable's replacements `item-grains` and
+`form-yields` were grounded in catalog cases (`somatic-atoms` beside
+`somatic-signals`; Mendeleev's empty cell), and `window-successions` was
+added for the handoff mechanism both readers circled. The pipeline was the
+timing fleet's with one change: authors save after breath one, and every
+agent keeps scratch in a directory named for its slug after two authors
+clobbered each other's `items1.py`. Twenty-seven seats, thirty-one agent
+runs, two probes; every content-producing turn served `claude-fable-5-1`. One author
+(composition-yields) flipped to Opus for its last eleven turns, but the
+whole builder holding both breaths had been written on Fable one turn
+before; the Opus turns executed it and ran the validator, so the record
+stands with that disposition noted here. Five agents died on the
+account's Fable limit mid-fleet; four were relaunched three minutes later
+once a probe served Fable again, and the fifth, the register-yields
+repairer, had finished its writes before it died. The
+pool's two headless accounts were unusable (one organisation-disabled,
+one already at its limit), so the whole fleet ran on the main account.
+
+The fleet measured its own pipeline, and three of the findings changed the
+brief or the engine while it ran. First, the consult's claim that every
+repair ledger sits at keep rate 1.00 was false (three of forty-four sit
+at 0.94), and the corrected number went into the brief; the
+denominator-manufactures critic and the environment-loops author each
+re-measured it independently. Second, the repair breath forbids adding
+items and the ledger divides items after by items before, so its keep
+rate can fall by a cut and never rise by a find: the rule manufactures a
+ceiling of one, and the climb picker was ranking that ceiling as gradient.
+`809dd01` makes `lastBreath` skip regate and repair lines. The fix landed
+forty-five seconds after the environment-loops author's breath-two stamp,
+so its anchor case was stale on arrival; the critic caught it and the
+repair carries the commit and past-tenses the claim. Third, the verdict
+attractor: all thirty-eight critiques across the three previous fleets
+returned `admit-with-repairs`, and so did all nine here, forty-seven of
+forty-seven, with no item cut in this fleet; the brief told critics all
+four verdicts were live and the composition-yields map holds the item
+(*Telling the seat its attractor*) as speculative, now partly tested and
+not yet borne out, which its own critic folded into the repair. Two more
+measurements sit in the maps: nine of eleven fleet maps land on exactly
+eighteen items (item-grains reads the work bound as a target), and eleven
+of thirty-eight boundary cases name an author-residue item (the
+critic's independence is porous exactly at the fence, which
+composition-yields' closing item names as the residue crossing).
+
+`enumeration-stalls` seriates by who can read the tell that separates the
+stall from exhaustion, from the enumerator alone to nobody; *Published as
+finished* is the list that stops because it was published as a thing
+rather than a wanted-list, so a reader holding a candidate checks it
+against the nearest member and files it as found. `denominator-manufactures`
+walks what the universe is made of, from a round wall (a cardinal fixed
+by a bound nobody enumerated) to an open fence (a declared refusal that
+turns every omission from an error into a finding); *Muzzled net* is the
+second enumerator whose remit forbids adding members, so its zero
+additions are read as the first's completeness, which is this pipeline's
+repair seat. `item-grains` walks whose hand fixes the unit, from a count
+announced before the subject is read to *Salami*, the counted party paid
+per unit who splits until the pay stops. `form-yields` walks who can vouch
+for the yielded item, from Mendeleev's cell fixed by its neighbours to the
+diagonal a complete list builds against itself; *Which end is first* is
+the recovered order with two directions and no way from inside to choose,
+so the direction is supplied by the hand that names the axis, which in
+this engine is the caller and not the seriator. `register-yields` walks
+how the member stands to the register once the register is taken away;
+*Trap that took* is the deliberately manufactured member (Agloe) that a
+subject who can read the register makes true. `composition-yields` walks
+what crosses between the passes, from nothing but a meeting at a
+comparator to the other hand's reasoning; the critic found the map's two
+closest items were one composition with a different knob turned and the
+repair gave the register rotation a yield the family diff cannot make (a
+survival profile per item across forty-eight registers with the re-ask
+control). `environment-loops` walks what the return is made of, from
+nothing to a return from which the reasoner has been subtracted on
+purpose; *Shared ledger* is the append-only record others also write to,
+whose lines the reasoner counts as its own because the record does not
+say whose they are. `context-horizons` walks where the mark of the edge
+sits, from a cut with a pointer to no door in the wall; *Own hand,
+stranger's reasons* is the reasoner meeting its own deliberate fence as an
+oversight because the reasons lived only in a window since compacted.
+`window-successions` walks what the successor can read of the loss from
+its own side, from a cold record to a baton; the critic cut the map's
+closing edge (a rule file read from disk at every start is not compacted
+with the transcript) and the loop now closes through the rule file's
+editor cutting under a read budget, an observed case in the rule file in
+view.
+
+Seeds the critics left: run the picker at the parent of `809dd01` against
+the commit over the ledgers as they stood (environment-loops); of the
+thirty-eight boundary cases, how many are the author's residue re-read
+(composition-yields); for a week of compacted sessions, how many
+summaries name the transcript path and state an obligation
+(window-successions); for every plateaued list, the nearest admitted
+member of each rejected candidate (enumeration-stalls); two independent
+authors per territory with a fresh judge aligning mechanisms
+(denominator-manufactures). Limits: catalog-map.jsonl still does not
+position the timing or enumeration maps (a `seriate` run, which embeds
+and costs), so the atlas shows the twelve by list only.
