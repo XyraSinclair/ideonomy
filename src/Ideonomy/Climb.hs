@@ -326,7 +326,8 @@ epochOf s = do
       _ -> Nothing
 
 -- | @(keep_rate, epoch)@ of the list's most recent breath; optimistic cold
--- start. Regate entries are skipped: survival rate is not growth yield.
+-- start. Regate and repair entries are skipped: survival rate is not growth
+-- yield, and a repair pass that may only cut reports a ceiling, not a rate.
 lastBreath :: String -> IO (Double, Double)
 lastBreath n = do
   let path = ledgerDir </> (n ++ ".jsonl")
@@ -337,7 +338,7 @@ lastBreath n = do
   where
     go [] = pure (1.0, 0.0)
     go (e : rest)
-      | (e !? "by" >>= asString) == Just "fable-regate" = go rest
+      | (e !? "by" >>= asString) `elem` map Just ["fable-regate", "fable-repair"] = go rest
       | otherwise = do
           rate <- maybe (ioError (userError ("ledger entry without keep_rate: " ++ n))) pure (e !? "keep_rate" >>= asNumber)
           t <- maybe (ioError (userError ("ledger entry without t: " ++ n))) pure (e !? "t" >>= asString)
