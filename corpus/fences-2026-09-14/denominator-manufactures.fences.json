@@ -1,0 +1,47 @@
+{
+ "name": "denominator-manufactures",
+ "fences": [
+  {
+   "to": "form-yields",
+   "kind": "fence",
+   "rule": "If the case is the product or grid taken as the universe the enumerator counts against, it is here; if it is what one of that product's empty cells yields, a predicted member or an errand, it is form-yields'.",
+   "case": "Mendeleev's gallium, predicted from the empty cell under aluminium: the cell count is Zwicky's box here, and the gallium the cell yields is form-yields' Empty cell.",
+   "case_is": "there"
+  },
+  {
+   "to": "item-grains",
+   "kind": "fence",
+   "rule": "A number that fixes what one item is, so the enumerator splits or merges toward it, is item-grains'; a number that fixes how many the universe holds before any member is named, a wall, is here.",
+   "case": "This atlas's thirteen-to-eighteen item bound, which a map of twelve mechanisms meets by finding a thirteenth: it fixes the unit and not the universe, so it is item-grains' Thirty-six before the first play.",
+   "case_is": "there"
+  },
+  {
+   "to": "enumeration-stalls",
+   "kind": "fence",
+   "rule": "A stop that manufactures a count, a curve's asymptote or a fraction against a wall, is here; a stop that manufactures only the feeling of being done is enumeration-stalls', and it enters this map only when the enumerator scales it into a universe.",
+   "case": "The timebox: an hour's search whose end is taken as the universe's edge, so twelve found in an hour reads as the twelve there are; the hour makes no count, only a stop, until the enumerator says a day would find thirty, which is Flattening curve with one point.",
+   "case_is": "there"
+  },
+  {
+   "to": "list-excellences",
+   "kind": "fence",
+   "rule": "Whether a finished list can name its universe and the fraction held is a dimension list-excellences judges; the mechanism by which the universe was obtained and the fraction can be false is here.",
+   "case": "The coverage line 'open; no claim of exhaustiveness' stamped identically on forty-one of forty-seven map records: as a stated refusal it is Negative space there, as a rule reading itself back as a finding about each record it is Open fence here.",
+   "case_is": "here"
+  },
+  {
+   "to": "witness-architectures",
+   "kind": "passage",
+   "rule": "The same instrument read as what must exist before a difference can leave a trace is witness-architectures'; read as the universe an enumerator counts against, it is here, so a missing witness crosses as a manufactured denominator.",
+   "case": "A trial of three thousand for a one-in-a-hundred-thousand harm: the count of chances too small for the rare case is Enough bodies there, and the intake that never admitted the rare case, so the chances were never counted, is Parish register here.",
+   "case_is": "here"
+  },
+  {
+   "to": "option-expiries",
+   "kind": "passage",
+   "rule": "The bar-date order seen from the estate is a universe closed by a day with a fraction of one by construction; seen from the creditor who never read the paper it is an option dying on a docket, which is option-expiries'.",
+   "case": "The bankruptcy bar date noticed by publication: the estate's exact universe of creditors is Bar date here, and the unknown creditor's expired standing is Bar date in the newspaper there.",
+   "case_is": "here"
+  }
+ ]
+}

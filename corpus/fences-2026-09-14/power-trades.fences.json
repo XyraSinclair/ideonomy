@@ -1,0 +1,47 @@
+{
+ "name": "power-trades",
+ "fences": [
+  {
+   "to": "who-can-be-bound",
+   "kind": "fence",
+   "rule": "A trade is here only if the carrier changes where the power is found and for whose account it is exercised, so third parties route to the taker; an agency in which the power keeps its address and the agent acts for the principal's account is out, and Blame-bearer's fee is in only because the registry, Rented door's carrier, moves the address.",
+   "case": "A client gives counsel a power of attorney and receives service, but the courts and every third party still route to the client and the client pays rather than receives.",
+   "case_is": "there"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "dependency",
+   "rule": "The chip invented to break a deadlock, the swap of vetoes or the right of first refusal, is there; what becomes of the power once traded, the shape of its rate and the moment it is found one-sided, is here and presupposes the chip.",
+   "case": "A right to match the next round is written as an option and paid as a chill, since outsiders will not spend a month of diligence on a round they can be matched out of.",
+   "case_is": "here"
+  },
+  {
+   "to": "ghost-leverages",
+   "kind": "fence",
+   "rule": "An obsolete power still obeyed by habit is there; a live power leased away and atrophied by disuse, which an employer that tests it may find still works, is here.",
+   "case": "The strike threat of a union in a plant already automated.",
+   "case_is": "there"
+  },
+  {
+   "to": "status-conversions",
+   "kind": "fence",
+   "rule": "One standing converting into another in the same holder is there; a share of decisions passing to a counterparty for a sign whose worth third parties settle afterward is here.",
+   "case": "A founder gives the chief executive's chair and receives the chairman's, and learns which kind of sign it is on the day the meetings move elsewhere.",
+   "case_is": "here"
+  },
+  {
+   "to": "term-sheet-powers",
+   "kind": "passage",
+   "rule": "The same class veto: here it is priced at signing by the founder's estimate of an improbability against a buyer who knows the base rate; there it is valued at the moment of exercise by what the blocked party's speed is worth.",
+   "case": "A seed class holds up a rescue round with three weeks of runway for a better conversion until the round dies.",
+   "case_is": "there"
+  },
+  {
+   "to": "dilution-carriers",
+   "kind": "passage",
+   "rule": "The same dual-class charter: here the public's vote is traded for a discounted share and the founder's ten votes cannot be sold onward, only held; there the same ten votes are control on a clock of sunset and transfer events the founder never read.",
+   "case": "A divorce transfers a two-point block of the founder's class, which converts on transfer, and the vote falls under half.",
+   "case_is": "there"
+  }
+ ]
+}

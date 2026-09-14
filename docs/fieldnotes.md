@@ -596,3 +596,42 @@ authors per territory with a fresh judge aligning mechanisms
 (denominator-manufactures). Limits: catalog-map.jsonl still does not
 position the timing or enumeration maps (a `seriate` run, which embeds
 and costs), so the atlas shows the twelve by list only.
+
+## Fences as data (2026-09-14)
+
+Xyra asked what the repo could structurally do toward tiling and chaining
+thought and toward functional register jumping. The answer was that the
+atlas already held the structure in prose: fifty-six maps carried
+fifty-eight boundary claims naming their neighbours, every fleet critique
+tested one case at the fence, and 261 name-mentions ran between maps, none
+of it walkable. This pass promotes the fence to a typed field,
+`source.fences`: a neighbour, a kind (`fence`, `passage`, `dependency`,
+`loop`), the rule that decides the side, one concrete case, and which side
+the case sits on. `Check` validates the field when present, `fencesOf`
+reads it for pre-gate maps too, `ideonomy fences` reports the graph
+(unknown targets, unreciprocated fences, maps without fences, most fenced
+in), `ideonomy fences NAME` shows one map's fences out and in, and
+`consult` now ends each hit with the neighbours that would take the case,
+so retrieval routes instead of stopping.
+
+Extraction ran as eight Fable agents over seven maps each, under a
+no-invention rule: a fence exists only where the map's text or its
+critique supports it, and `to` must name a list in either tier. All eight
+served `claude-fable-5-1`. The result: 255 fences on all 56 maps (200
+fence, 37 passage, 18 dependency, 0 loop), 70 distinct targets (51 grown,
+19 canon), zero unknown targets, 137 cases sitting here against 118 sent
+there. Three findings. First, 135 of the 255 are unreciprocated: the
+neighbour has fences of its own and none back, so tiling as it stands is
+one-sided, and reciprocation is the next pass, not extraction. Second, no
+loop was found: extractors reported handoffs with no move landing back,
+which is either a real absence or a grain the maps' "changed next move"
+prose does not reach yet. Third, about twenty critique boundary cases
+refuse a case to nobody: the ruling is "out by type" with no owner, and
+two maps name owners that exist in neither tier (`obligation-futures`,
+`tollgates that must sell`), so a fence to a missing list is a territory
+to grow. Extractors flagged the three Gemini-era maps and the two oldest
+Fable maps (traces-of-the-unlived, discovery-delights) as fenced from the
+neighbour's side only, since their own text names nobody; those fences
+are marked inferred in the agents' reports and are the first to re-cut.
+Most fenced in: witness-architectures (13), then enumeration-stalls,
+ghost-leverages, and what-a-price-does (9 each).

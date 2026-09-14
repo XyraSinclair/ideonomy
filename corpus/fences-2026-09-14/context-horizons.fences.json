@@ -1,0 +1,47 @@
+{
+ "name": "context-horizons",
+ "fences": [
+  {
+   "to": "environment-loops",
+   "kind": "fence",
+   "rule": "If the reasoner emitted and the world answered, its own output returning through a compiler, a test, or a critic, it is there; if the reasoner reaches out and the question is what it cannot reach and what would bring it in, it is here.",
+   "case": "A compiler's error list returning on the reasoner's own text.",
+   "case_is": "there"
+  },
+  {
+   "to": "window-successions",
+   "kind": "fence",
+   "rule": "If the question is how a predecessor's leaving was made and what its maker stripped, it is there; if the thing is past the edge now, whoever put it there, and the question is what the window can conclude, it is here.",
+   "case": "The reasoner's own earlier artifact in the window, exact and complete, with reasons that existed only in a window now closed, predecessor and successor being one reasoner.",
+   "case_is": "here"
+  },
+  {
+   "to": "enumeration-stalls",
+   "kind": "passage",
+   "rule": "The conclusion that drops its edge as its grammatical subject, 'there are no more' said for 'I found no more', is the stall mistaken for exhaustion there and the horizon here; what changes across is the level, since the window is the enumerator's reach for one session, so No door in the wall is Never met one from inside.",
+   "case": "A window that has concluded 'there is nothing else' about a thing that nothing in it names, points at, counts, or leaves a gap for.",
+   "case_is": "here"
+  },
+  {
+   "to": "composition-yields",
+   "kind": "fence",
+   "rule": "What the split between a measuring pass and a naming pass yields, an order nobody authored and a claim nobody measured, is Measure then name there; the horizon that makes the yield possible and the claim unwarranted, each window's half lying past the other's edge, is Halves in two windows here.",
+   "case": "An engine orders a list by measured similarity and a second pass names the axis the order runs along.",
+   "case_is": "there"
+  },
+  {
+   "to": "form-yields",
+   "kind": "fence",
+   "rule": "A count imposed on a pile that yields a member is Count bound there; a count imposed by the carrier that hides members, so a return at exactly the bound cannot say whether it is a cut or the whole, is Exactly the limit here.",
+   "case": "A tool's default page of ten, which the reasoner never wrote, returning ten.",
+   "case_is": "here"
+  },
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "The arrangement that keeps a trace's source readable, Arm's-length custody, is there; the window that has no such arrangement, so every sentence arrives flat and its source is a fact the window carries only if something tagged it, is Hearsay in the window here.",
+   "case": "An imperative sitting in the window whose source, the user, the harness, a file written by a stranger, or the reasoner's earlier self, is not carried with it.",
+   "case_is": "here"
+  }
+ ]
+}

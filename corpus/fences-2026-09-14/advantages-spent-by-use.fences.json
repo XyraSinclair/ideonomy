@@ -1,0 +1,47 @@
+{
+ "name": "advantages-spent-by-use",
+ "fences": [
+  {
+   "to": "power-trades",
+   "kind": "fence",
+   "rule": "What exercise consumes on the holder's own side is here; a power spent by disuse is power-trades' Leased strike, and what a power fetches when passed to another hand is power-trades' throughout.",
+   "case": "A strike threat the employer no longer believes because the union has not struck in twenty years.",
+   "case_is": "there"
+  },
+  {
+   "to": "walkaway-manufactures",
+   "kind": "fence",
+   "rule": "The fence is direction: an advantage that exercise consumes is in, an advantage that exercise builds and disuse consumes is walkaway-manufactures' Walk on record.",
+   "case": "A retailer whose past walk from a national brand makes its next threat to walk credible.",
+   "case_is": "there"
+  },
+  {
+   "to": "status-conversions",
+   "kind": "fence",
+   "rule": "Standing converted into another form at a rate, or sold for money, is status-conversions'; standing consumed as a side effect of an exercise that was neither a conversion nor a sale is here.",
+   "case": "status-conversions' Introducer's tab, where each introduction is billed to the introducer at a rate rather than the first costing almost everything.",
+   "case_is": "there"
+  },
+  {
+   "to": "risk-rebound-effects",
+   "kind": "passage",
+   "rule": "From risk-rebound-effects' seat the antibiotic is a mitigation breeding its resistant successor; from this seat it is a condition shared across every holder and spent by selection on the pathogen's clock, so what changes across is whether the successor risk or the shape of the spend is read.",
+   "case": "An antibiotic that leaves the survivors, so that one holder's restraint preserves nothing while other holders dose.",
+   "case_is": "here"
+  },
+  {
+   "to": "clocks-that-are-not-clocks",
+   "kind": "dependency",
+   "rule": "Tier above's mark, the count of tiers, records how many times the rare signal has been spent, and reading that count as elapsed spending is an instance of clocks-that-are-not-clocks' Ratchet count.",
+   "case": "The escalation from priority to urgent to critical read like tree rings for how many times the flag was used.",
+   "case_is": "here"
+  },
+  {
+   "to": "deal-deaths",
+   "kind": "fence",
+   "rule": "A concession that reveals a need and manufactures the other side's alternative is deal-deaths' Concession-made option; a grant that reveals nothing and binds only by being cited back and repeated is Exception cited back here.",
+   "case": "An end-of-quarter discount granted once that the next petitioner cites as precedent.",
+   "case_is": "here"
+  }
+ ]
+}

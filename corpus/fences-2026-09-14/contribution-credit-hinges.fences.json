@@ -1,0 +1,12 @@
+{
+ "name": "contribution-credit-hinges",
+ "fences": [
+  {
+   "to": "hinge-kinds",
+   "kind": "dependency",
+   "rule": "Each boundary here is one specific hinge inside a contribution model, and presupposes hinge-kinds' unit, a latent variable that decides between two opposed readings of the same situation.",
+   "case": "The timing boundary decides between acceleration value and permanent ownership of a head start by asking how much disappears under the next-best path's delay, a hinge of hinge-kinds' shape applied to credit.",
+   "case_is": "here"
+  }
+ ]
+}

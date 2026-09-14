@@ -1,0 +1,26 @@
+{
+ "name": "pricing-unit-metamorphoses",
+ "fences": [
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "If the item is the instrument that lets two parties discover they differ, or that lets a debt exist at all, it is the common meter or the ledger there; if it is the unit that gets priced once such a counter is accepted, it is here.",
+   "case": "The odometer plug mailed to the buyer that moved car insurance from per year toward per mile.",
+   "case_is": "here"
+  },
+  {
+   "to": "passages-between-levels",
+   "kind": "passage",
+   "rule": "From the levels seat, many per-copy prices arrive one level up as a residual nobody set; from the pricing seat, the seller's unit becomes a share of a pool; what changes across is whether the subject is the crossing or the unit.",
+   "case": "The streaming payout per play, the month's pot divided by the month's plays.",
+   "case_is": "here"
+  },
+  {
+   "to": "exchange-ontologies",
+   "kind": "fence",
+   "rule": "If what changes is the category of value exchanged in a deal without money, it is there; if a money price stays and the kind of thing the buyer is buying changes, it is here.",
+   "case": "Vouching, reputation staked on another's behalf, offered as the consideration in a deal with no price at all.",
+   "case_is": "there"
+  }
+ ]
+}

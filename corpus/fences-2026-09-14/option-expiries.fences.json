@@ -1,0 +1,47 @@
+{
+ "name": "option-expiries",
+ "fences": [
+  {
+   "to": "runway-illusions",
+   "kind": "fence",
+   "rule": "If the date is printed on the instrument that grants the option, so the holder can read it there, the clock is runway-illusions' Stamp's clock; a clock written somewhere other than on the option, a docket, a parent paper, a chemistry, the new state's first write, is here.",
+   "case": "A plain statute of limitations that runs from a date the claimant can read on the claim itself.",
+   "case_is": "there"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "fence",
+   "rule": "If a party at the holder's own table set the deadline on its own offer, the expiry is a bargaining chip, impasse-inventions' exploding intermediate; if the clock falls out of a rule on a class that nobody at the table decided about this holder, it is here.",
+   "case": "A term sheet that explodes on Friday by the investor's own date, which the founder can probe by letting it pass.",
+   "case_is": "there"
+  },
+  {
+   "to": "walkaway-manufactures",
+   "kind": "fence",
+   "rule": "If the deadline belongs to a party elsewhere and is brought to the table as the holder's alternative, it is walkaway-manufactures' Absent owner's clock; here the clock's owner is a rule, a counterparty's cycle, or the world, and no party's leverage rides on it.",
+   "case": "The offer from another firm that expires on its maker's date, carried into the negotiation as the reason the counterparty must move now.",
+   "case_is": "there"
+  },
+  {
+   "to": "undo-costs",
+   "kind": "fence",
+   "rule": "While the way back can still be bought at a finite price the reversal is billed by undo-costs; once the new state's first act closes it, Rollback horizon holds the moment it stopped being possible.",
+   "case": "A merger unwound the week before the first combined payroll, at the price of the counterparty's reliance.",
+   "case_is": "there"
+  },
+  {
+   "to": "learning-that-commits",
+   "kind": "fence",
+   "rule": "If the move that forfeits the option is an inquiry, finding out, learning-that-commits holds it; if any adjacent act forfeits it by a rule of order the holder learns from the loss, First or never holds it here.",
+   "case": "A patent dead in Europe on the morning of the conference talk that disclosed the invention.",
+   "case_is": "here"
+  },
+  {
+   "to": "advantages-spent-by-use",
+   "kind": "fence",
+   "rule": "If exercising the advantage consumes a condition that made it advantageous, advantages-spent-by-use holds it; if the permission dies of disuse and is kept only by an exercise emptied of purpose, Slot flown empty holds it here.",
+   "case": "An airport slot flown with an empty aircraft to reach the eighty-percent season usage that keeps it.",
+   "case_is": "here"
+  }
+ ]
+}

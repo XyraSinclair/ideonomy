@@ -1,0 +1,33 @@
+{
+ "name": "register-jumps",
+ "fences": [
+  {
+   "to": "what-a-price-does",
+   "kind": "fence",
+   "rule": "If a price attached moves a matter out of the gift register and the door does not reopen, it is Invoice that ends the favor there; if a price refused moves a purchase into the gift register and opens a relation the bill would have closed, it is Wallet away here.",
+   "case": "The daycare fine that told late parents lateness had a price and made lateness a purchasable option.",
+   "case_is": "there"
+  },
+  {
+   "to": "what-a-price-does",
+   "kind": "passage",
+   "rule": "There the price closes the relation and lets the payer leave square; here its refusal opens one with no paper that says settled, and only the party owed can make the jump, since a payment forced past a refusal rejects the relation offered.",
+   "case": "The mechanic who waves off the bill for a neighbor's brake job.",
+   "case_is": "here"
+  },
+  {
+   "to": "low-chair-advantages",
+   "kind": "fence",
+   "rule": "If the discount is standing on a chair so that its occupant's words always arrive pre-discounted, it is Fool's license there; if it is applied to one sentence and paid for by the room's laugh, it is The room's laugh here.",
+   "case": "The jester whose every truth passes because nothing he says can be a challenge.",
+   "case_is": "there"
+  },
+  {
+   "to": "discourse-terminators",
+   "kind": "fence",
+   "rule": "If the move is a one-line argument that ends debate, it is a terminator there; if it is named with what the new register can do, what is lost in transit, and whose hand the carrier is in, it is a jump here.",
+   "case": "The irony shield, every claim retractable as a joke, stated as a bare move with no room to complete it.",
+   "case_is": "there"
+  }
+ ]
+}

@@ -1,0 +1,47 @@
+{
+ "name": "walkaway-manufactures",
+ "fences": [
+  {
+   "to": "cooperation-ignitions",
+   "kind": "fence",
+   "rule": "A move that makes staying credible by removing the holder's own retreat, the burned ships or the precommitment to fight, is there; a move that makes leaving credible on the holder's own side, an alternative built or faked or a leaving that needs none, is here.",
+   "case": "A seller tells the press and the staff 'we will not sell below X' with no buyer in hand, staking its reputation before an audience that is only the witness and not the destination.",
+   "case_is": "here"
+  },
+  {
+   "to": "first-mover-forecloses",
+   "kind": "fence",
+   "rule": "Destroying the counterparty's alternatives is there; building, borrowing, or faking one's own is here.",
+   "case": "Locking every supplier of the scarce input under long-term contracts so the rival has no path to market.",
+   "case_is": "there"
+  },
+  {
+   "to": "power-trades",
+   "kind": "fence",
+   "rule": "Selling the auction's power to one bidder for a fence that prices nothing is there; buying a bidder so that there is an auction at all is here.",
+   "case": "A stalking-horse bidder signs a binding purchase agreement and is paid a court-approved break-up fee if outbid, so the seller's floor exists by contract before the sale opens.",
+   "case_is": "here"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "fence",
+   "rule": "A deadline or principal both sides adopt to share urgency or buy distance is there; an urgency or refusal owned by a party never at the table and meant to hold is here.",
+   "case": "A negotiator says the board will not approve above a figure, and the board does not meet.",
+   "case_is": "here"
+  },
+  {
+   "to": "survival-floors",
+   "kind": "fence",
+   "rule": "A floor under a person's income or standing when the main source fails, paid before the fall, is there; a floor under the firm's refusal priced against the round it declines, or a war chest supplied by a funder paid from the win, is here.",
+   "case": "A company that covers its costs declines a round by doing nothing and pays for the option every month in hires not made.",
+   "case_is": "here"
+  },
+  {
+   "to": "traces-of-the-unlived",
+   "kind": "fence",
+   "rule": "How an alternative that never occurs changes the episode it shadows is there; how such an alternative is made to exist in a counterparty's model and what that costs is here.",
+   "case": "A retailer that dropped a national brand for a season is believed the next time it threatens to, because the counterparty reads the record rather than the present alternative.",
+   "case_is": "here"
+  }
+ ]
+}

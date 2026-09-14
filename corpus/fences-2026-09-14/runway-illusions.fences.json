@@ -1,0 +1,33 @@
+{
+ "name": "runway-illusions",
+ "fences": [
+  {
+   "to": "survival-floors",
+   "kind": "fence",
+   "rule": "If the question is what the skill, the kin, or the right fetches when the main source fails, it is a floor and belongs there; if the question is where it fetches it and how the move changes the time until stopping, it is a clock and stays here.",
+   "case": "The nurse's licence as the income she can always fall back on.",
+   "case_is": "there"
+  },
+  {
+   "to": "clocks-that-are-not-clocks",
+   "kind": "dependency",
+   "rule": "Every item here presupposes that map's Larder countdown, a stock consumed at a rate read as the time remaining; the bare reading is that map's, and an item enters here only where the reading misreads.",
+   "case": "Thirty in cash over a burn of ten, read as three months.",
+   "case_is": "there"
+  },
+  {
+   "to": "where-margin-hides",
+   "kind": "fence",
+   "rule": "If the stretch between collecting and paying really moves the balance and the months, nothing is misread and it is a margin mechanism there; if the stretch is tolerated only at the creditor's discretion or is seen and repriced, the misread is here as Forbearance clock or Watched burn.",
+   "case": "Paying every vendor thirty days later and calling the longer months runway.",
+   "case_is": "there"
+  },
+  {
+   "to": "pivot-invariants",
+   "kind": "fence",
+   "rule": "If the operator's health is counted as an asset retained across a change of objective, it belongs there; if it is a clock drawn down by producing the very income the cash figure counts, it is here.",
+   "case": "The carpenter whose double shift lengthens the cash runway and spends the back's.",
+   "case_is": "here"
+  }
+ ]
+}

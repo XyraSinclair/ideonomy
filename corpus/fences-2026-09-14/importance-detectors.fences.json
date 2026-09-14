@@ -1,0 +1,47 @@
+{
+ "name": "importance-detectors",
+ "fences": [
+  {
+   "to": "domain-entry-keys",
+   "kind": "fence",
+   "rule": "If the thing separates the expert from the imitation, it is Kept tell there; if it ranks the domain's failures by what would make everything else moot, it is First look here.",
+   "case": "The sailor who goes below to look at the bilge before greeting anyone.",
+   "case_is": "here"
+  },
+  {
+   "to": "domain-entry-keys",
+   "kind": "fence",
+   "rule": "If the errors are sorted by whether they can be undone, it is Fatal class there; if the sort is what the domain dismisses a person for on the first occurrence, it is Firing offense here, and where the two diverge the divergence is the reading.",
+   "case": "The leaked memo, fully reversible, that gets one fired while the surgeon's irreversible honest complication is forgiven.",
+   "case_is": "here"
+  },
+  {
+   "to": "domain-entry-keys",
+   "kind": "fence",
+   "rule": "If the precision marks one domain against other domains, it is Native tolerance there; if it compares quantities inside one domain to find where the money or the danger lives, it is Costly precision here.",
+   "case": "The machinist's thousandth against the framer's eighth, read as what marks the trade.",
+   "case_is": "there"
+  },
+  {
+   "to": "domain-entry-keys",
+   "kind": "passage",
+   "rule": "There a domain's wreck fossilizes into rules a stranger reads off the rulebook; here the same wreck fossilizes into legibility, a drill an afternoon can read, and the outside judge is the path by which another domain's wreck arrives as a drill run for the record.",
+   "case": "The disaster-recovery drill imported after someone else's wreck, run for the record and never failed.",
+   "case_is": "here"
+  },
+  {
+   "to": "ghost-leverages",
+   "kind": "fence",
+   "rule": "If what survives three reorganizations was invisible or feared and nobody can say what would break, it is an obsolete power persisting by habit there; if it was inspected each time and left, it is a load-bearing Reorg survivor here.",
+   "case": "The committee nobody abolished because nobody remembered it existed.",
+   "case_is": "there"
+  },
+  {
+   "to": "status-conversions",
+   "kind": "fence",
+   "rule": "If the absence halts the work because the domain never bought a spare, it is Halting absence here; if it halts because the indispensable person made herself so by hoarding, it is immunity by entanglement there and the halt marks a hostage.",
+   "case": "The one clerk who alone can run the billing system because she kept it so.",
+   "case_is": "there"
+  }
+ ]
+}

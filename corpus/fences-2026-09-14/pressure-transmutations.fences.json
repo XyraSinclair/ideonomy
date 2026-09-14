@@ -1,0 +1,26 @@
+{
+ "name": "pressure-transmutations",
+ "fences": [
+  {
+   "to": "ghost-leverages",
+   "kind": "passage",
+   "rule": "Across the passage the same habit is read from the rule's side rather than the load's: there it is an obsolete power still obeyed, here it is told by what removal returns, nothing for a tin and dread for a vessel.",
+   "case": "The grandmother who lived through the hunger years and keeps a tin of string too short to use.",
+   "case_is": "here"
+  },
+  {
+   "to": "status-conversions",
+   "kind": "fence",
+   "rule": "If money given away converts into respect by how completely the giver lets go, it belongs there; if the gift pre-empts a seizure and moves the load into the obligation of those who received it, it is here.",
+   "case": "The bankrupt who buys the whole bar a round the week before the bailiff's van.",
+   "case_is": "here"
+  },
+  {
+   "to": "self-trust-repairs",
+   "kind": "fence",
+   "rule": "If what is redescribed is a verdict on one's judgment, whose kind changes from finding to move, it belongs there; if it is an imposed loss redescribed as chosen and kept as a rule that does real work, it is here.",
+   "case": "The immigrant told his qualifications are worthless who learns that the man saying so employs him at half rate.",
+   "case_is": "there"
+  }
+ ]
+}

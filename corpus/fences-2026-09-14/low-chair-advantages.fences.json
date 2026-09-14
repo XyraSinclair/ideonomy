@@ -1,0 +1,40 @@
+{
+ "name": "low-chair-advantages",
+ "fences": [
+  {
+   "to": "advantages-spent-by-use",
+   "kind": "fence",
+   "rule": "If the advantage is kept somewhere, in others' beliefs, a record, a holding, or the floor, and is lost by exposure, promotion, or acquisition, it is here; if the first success consumes it, it belongs there, with No file at the joint.",
+   "case": "The low bar: a competent deck from the intern is a triumph, and the bar rises the first time she exceeds it.",
+   "case_is": "there"
+  },
+  {
+   "to": "what-a-price-does",
+   "kind": "passage",
+   "rule": "Across the passage the same mechanism, that cash sterilises obligation, is seen from the price's side rather than the chair's: there attaching an invoice moves a favour out of the gift register, here the known inability to pay is what keeps the favour account open, and it closes the day the neighbours learn you can pay.",
+   "case": "The neighbour who minds the children and is repaid in a roof rather than in cash.",
+   "case_is": "here"
+  },
+  {
+   "to": "hinge-kinds",
+   "kind": "dependency",
+   "rule": "No file presupposes that map's Record permanence, whether an event enters a living reciprocal memory or a permanent adversarial file; No file is the low chair's side of that hinge, where nobody stores the failure.",
+   "case": "The open-mic comic who bombs two hundred nights that nobody records.",
+   "case_is": "here"
+  },
+  {
+   "to": "leverage-discoveries",
+   "kind": "fence",
+   "rule": "If the assistant matters for what they can do to what the decider sees, a lever an outsider can pull, it is that map's attention gate; if the assistant matters for what they are told because they cannot use it, it is here.",
+   "case": "The assistant who decides which memos reach the chief.",
+   "case_is": "there"
+  },
+  {
+   "to": "cooperative-masks",
+   "kind": "fence",
+   "rule": "If the discount is performed on purpose to bait a rival into underestimating, it is a mask and belongs there; if the discount is applied by those above to a chair that really is low, and spent the first time anyone acts on the words in the open, it is here.",
+   "case": "The negotiator who plays the rube so the other side underestimates him.",
+   "case_is": "there"
+  }
+ ]
+}

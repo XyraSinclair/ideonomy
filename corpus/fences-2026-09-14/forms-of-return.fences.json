@@ -1,0 +1,23 @@
+{"name": "forms-of-return",
+ "fences": [
+   {"to": "traces-of-the-unlived",
+    "kind": "fence",
+    "rule": "If something departed and comes back across an absence, the item is here; if what shapes the episode is a returner who was represented or prepared for and never arrived, it is there.",
+    "case": "The returner expected at the class reunion who never comes, whose empty chair the pageant performs around.",
+    "case_is": "there"},
+   {"to": "invariant-kinds",
+    "kind": "fence",
+    "rule": "If the case is the quantity or structure conserved across the absence, it is there; it is here only for what the return does with the interval, erases it, files it, rewrites it, performs it away, or announces it, the criterion the first breath took up when it abandoned conservation.",
+    "case": "A whale born with hind limbs because the code was kept unexpressed for generations.",
+    "case_is": "here"},
+   {"to": "clocks-that-are-not-clocks",
+    "kind": "fence",
+    "rule": "If the return's delay is itself the reading and measures the road it crossed, the case is an instrument of elapsed time and is there as Lag as ruler; it is here only when the return does something with the interval rather than measuring it.",
+    "case": "A sonar ping whose echo comes back late in proportion to the seabed's distance.",
+    "case_is": "there"},
+   {"to": "fertile-forgettings",
+    "kind": "fence",
+    "rule": "If a memory is lost and the loss produces a capacity that keeping it was blocking, the case is there; if the memory comes back on recall vivid and changed, it is here as Reconsolidation, which is not forgetting.",
+    "case": "A memory recalled so often that it returns vivid every time and is the least original thing its holder knows.",
+    "case_is": "here"}
+ ]}

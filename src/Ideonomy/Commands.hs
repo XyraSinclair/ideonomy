@@ -4,6 +4,7 @@ module Ideonomy.Commands (commands, summaries) where
 import qualified Ideonomy.Atlas as Atlas
 import qualified Ideonomy.Canon as Canon
 import qualified Ideonomy.Check as Check
+import qualified Ideonomy.Fences as Fences
 import qualified Ideonomy.Climb as Climb
 import qualified Ideonomy.Consult as Consult
 import qualified Ideonomy.Demo as Demo
@@ -30,6 +31,7 @@ table =
   , ("atlas", "build the offline catalog atlas (docs/catalog-map.html)", Atlas.cli)
   , ("check", "the typed gate a grown map record must pass", Check.cli)
   , ("consult", "the lists and maps a situation belongs to, as instruments", Consult.cli)
+  , ("fences", "the inter-map graph: where each map hands a case to a neighbour", Fences.cli)
   , ("demo", "the respiratory engine over its own catalog, offline", Demo.cli)
   , ("draw", "forced non-default lenses: division x operator over a subject", Draw.cli)
   , ("residue", "the cross-session residue ledger", Residue.cli)

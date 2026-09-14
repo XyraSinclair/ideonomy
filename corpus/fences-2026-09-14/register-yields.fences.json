@@ -1,0 +1,47 @@
+{
+ "name": "register-yields",
+ "fences": [
+  {
+   "to": "item-grains",
+   "kind": "fence",
+   "rule": "A grammatical frame or count that fixes what one item is, is item-grains'; a rule about who may write an entry, what counts as evidence, and what an entry must carry, and what it does to the list, is here.",
+   "case": "The rule 'phrased as a verb phrase' that fixes the unit of mathematical-moves: a frame, item-grains'; the rule that a species needs a body before it has a name is No body, no name here.",
+   "case_is": "there"
+  },
+  {
+   "to": "form-yields",
+   "kind": "fence",
+   "rule": "A cell a form's failure leaves open, or an endpoint a named axis conscripts, is form-yields'; the residual member a register's placement obligation fills, growing as the named members are read strictly, is here.",
+   "case": "'Some Other Race', in the 2020 count the second-largest race group in the country alone or in combination: the overflowing residual is Not elsewhere classified here, while the open cell it overflows from is form-yields' Empty cell.",
+   "case_is": "here"
+  },
+  {
+   "to": "composition-yields",
+   "kind": "fence",
+   "rule": "What one register does to a list being written in it is here; what a verdict menu, a seat, or a rotation of registers does when passes are composed is composition-yields'.",
+   "case": "A critic seat given three decisions per item and none that adds: the menu's effect on the critic's list is Verdict menu there, not a register's admission or refusal here.",
+   "case_is": "there"
+  },
+  {
+   "to": "register-jumps",
+   "kind": "fence",
+   "rule": "A live situation moved from one register to another, a room's rules changing mid-episode, is register-jumps'; what a register does to a list once the list is being written in it is here.",
+   "case": "The room's laugh: as the delivery that makes a claim survivable in a live room it is register-jumps'; as the only place a risk with an accused lives on any list it is Only as a joke here.",
+   "case_is": "here"
+  },
+  {
+   "to": "denominator-manufactures",
+   "kind": "fence",
+   "rule": "A member the count lacks though no rule of who may write, what counts as evidence, or what an entry must carry refused it is a coverage failure and belongs to a denominator's blind spot or a stall; it is here only once the Bureau changes who may answer or what counts as a resident.",
+   "case": "The census undercount, which moves with follow-up, address lists, and weather and not with the rules: a coverage failure, Two nets' correlated blind spot there; the 1960 switch to householders marking their own box is Who fills the box here.",
+   "case_is": "there"
+  },
+  {
+   "to": "enumeration-stalls",
+   "kind": "fence",
+   "rule": "A member reachable but not sayable in the list's register, restatable flat once said elsewhere, is enumeration-stalls'; a member that cannot be restated flat without losing its truth was the register's own and is here.",
+   "case": "A risk that survives translation as a sentence but loses its membership, the room's joke told plainly and struck from the written differential: it cannot be restated flat, so it is Only as a joke here and not a Restatable once found stall there.",
+   "case_is": "here"
+  }
+ ]
+}

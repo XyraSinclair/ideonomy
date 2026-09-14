@@ -1,0 +1,26 @@
+{
+ "name": "deal-deaths",
+ "fences": [
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "If the missing witness kills the fact, so that no difference leaves a trace at all, it is there; if the fact stands, both principals believe it, and only the closing form refuses belief, the death is here.",
+   "case": "A business sale that needs audited accounts from a seller who never kept auditable books.",
+   "case_is": "here"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "fence",
+   "rule": "If a fiction, an instrument, or an invented principal can be minted that lets the deal close, it is a chip there; if no fiction can be minted, or the ratifier is real with a want of its own, the death is here.",
+   "case": "The escrow or specific indemnity that takes the written contamination finding off the price and lets the deal close.",
+   "case_is": "there"
+  },
+  {
+   "to": "coalition-frictions",
+   "kind": "fence",
+   "rule": "If the delay is latency summed across the refusal rights of coalition members, it is the veto queue there; if a single signer who is not a party gains nothing by consenting and is blamed if it goes wrong, the death is here.",
+   "case": "A landlord asked to consent to a lease assignment, whose best move is silence on no clock.",
+   "case_is": "here"
+  }
+ ]
+}

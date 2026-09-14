@@ -1,0 +1,40 @@
+{
+ "name": "environment-loops",
+ "fences": [
+  {
+   "to": "enumeration-stalls",
+   "kind": "passage",
+   "rule": "The same void is Never met one there when the enumerator's own reach ran out with nothing asked of the world, and Empty return here when the environment was asked and answered none, so what changes across is whether an outside was consulted at all.",
+   "case": "A search for a record by name that returns nothing because the key on disk was written with a space the pattern lacked.",
+   "case_is": "here"
+  },
+  {
+   "to": "context-horizons",
+   "kind": "passage",
+   "rule": "Pull, not push here holds the return that arrives late by exactly as long as the reasoner went without asking, and across the passage the same lateness is Dated by its last read, the present lying past the window's edge; what changes is whether the cure is a re-ask or a carrier.",
+   "case": "A reasoner reads a git tree's status at the start of a session and acts on it an hour later without asking again.",
+   "case_is": "here"
+  },
+  {
+   "to": "composition-yields",
+   "kind": "fence",
+   "rule": "If the question is what one judge's single return to the author can and cannot carry, it is Once or Blinded return here; if the question is what composing that judge with other passes yields, a rating or a spread no pass gives itself, it is there.",
+   "case": "Candidates from two passes are pooled and stripped of their source before a judge rates them, and the yield is a rating of the passes.",
+   "case_is": "there"
+  },
+  {
+   "to": "denominator-manufactures",
+   "kind": "fence",
+   "rule": "If the compiler's error list is taken as the universe to count against, it is Compiler's catalogue there; if it is taken as a return that the reasoner's edit of the annotation can corrupt, it is Compiler's list here.",
+   "case": "A fix that changed the suppression comment and not the value, so the next return compiles and is read as correct.",
+   "case_is": "here"
+  },
+  {
+   "to": "window-successions",
+   "kind": "fence",
+   "rule": "If the same reasoner reads what it wrote, the loss being only what the carrier changed on the way down and back, it is Read back from disk here; if a successor that never shared the context reads what was left, it is there.",
+   "case": "A file written at a chosen seam so that a session that will not be its writer starts from a whole.",
+   "case_is": "there"
+  }
+ ]
+}

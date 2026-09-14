@@ -1,0 +1,47 @@
+{
+ "name": "tollgates-that-must-buy",
+ "fences": [
+  {
+   "to": "market-births",
+   "kind": "fence",
+   "rule": "If the clock runs on the seller's good and the seller must find a buyer inside its shelf life, the compulsion is the seller's and the precondition is Thick before it rots there; if the gate's own position as gate compels the purchase, it is here.",
+   "case": "The sole cannery in the valley that buys the whole tomato crop while the farmers must sell before the fruit rots.",
+   "case_is": "there"
+  },
+  {
+   "to": "deal-flow-attractors",
+   "kind": "fence",
+   "rule": "If deals bend toward a node because of what its position draws without hunting, it is there; if the question is what the gate must pay to hold that position, the answering, the first shelf, the stamp, it is here.",
+   "case": "The night pharmacist who takes the deal because the searcher's horizon collapsed to whoever answered.",
+   "case_is": "there"
+  },
+  {
+   "to": "what-a-price-does",
+   "kind": "fence",
+   "rule": "If the recorded number is the evidence and the gate buys the number for a reader who is not party to the trade, it is Price for the stranger's eyes there; if the bodies are the evidence and the price is spent down to zero to get them, it is Papered house here.",
+   "case": "The gallery bidding on its own artist at auction so that the printed price is seen.",
+   "case_is": "there"
+  },
+  {
+   "to": "velocity-bottlenecks",
+   "kind": "fence",
+   "rule": "If the question is what a queue does to the flow past a certain speed, it is there; if the question is whom the queue is expensive for and what the gate must buy to clear it, it is Queue with an exit here.",
+   "case": "The port that buys longshore overtime at the union's night rate because the hulls at anchor can steam to Savannah.",
+   "case_is": "here"
+  },
+  {
+   "to": "runway-illusions",
+   "kind": "fence",
+   "rule": "If the clock is on the operator's own time until it must stop, it is there; if the clock is on the buyer and the seller reads it, it is Powder that must be lit here.",
+   "case": "The fund in the last year of its investment period, a forced buyer of whatever is for sale.",
+   "case_is": "here"
+  },
+  {
+   "to": "first-mover-forecloses",
+   "kind": "fence",
+   "rule": "If acquiring the bottleneck is the mover's own move, it is there; if it is the gate's compulsion to buy each credible bypass it cannot copy and the builder's plan to be bought, it is Built to be bought here.",
+   "case": "The photo app with no revenue sold for a billion to the network it would have drained.",
+   "case_is": "here"
+  }
+ ]
+}

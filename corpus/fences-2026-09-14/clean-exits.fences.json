@@ -1,0 +1,47 @@
+{
+ "name": "clean-exits",
+ "fences": [
+  {
+   "to": "pivot-invariants",
+   "kind": "passage",
+   "rule": "Across the passage the priced release stops being an asset the leaver retained and becomes an exit with a buyer and a payer: there it lowers the cost of leaving, here it is asked what survives the leaving, who pays for it, and what the next entrant reads from it.",
+   "case": "A supply contract's exit clause with a priced release from the old obligation, held as one of the firm's retained assets.",
+   "case_is": "there"
+  },
+  {
+   "to": "cooperation-mechanisms",
+   "kind": "fence",
+   "rule": "If the mechanism keeps the parties from leaving, a high exit cost or a privilege that sunsets on non-compliance, it is a stabilizer and belongs there; if it is the leaving itself and what survives it, it is here.",
+   "case": "High exit costs from specialized infrastructure that hold two partners together because neither can leave cheaply.",
+   "case_is": "there"
+  },
+  {
+   "to": "cooperation-integrity-hinges",
+   "kind": "fence",
+   "rule": "If the question is whether a party can reach the door before its exposure makes the advertised exit meaningless, it is that map's Exit bandwidth; if the question is what the door is made of, who pays to pass it, and what stays standing, it is here.",
+   "case": "A supplier who may terminate on paper but has already handed over the designs that make termination worthless.",
+   "case_is": "there"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "fence",
+   "rule": "If what the device conserves is only the closability of a price across a valuation gap, and the party leaves on the same day either way, it is a synthetic bargaining chip and belongs there; if something the default exit would have destroyed survives the leaving, it is here.",
+   "case": "An earn-out in which the seller leaves and is paid over three years from the business's own results.",
+   "case_is": "there"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "passage",
+   "rule": "Across the passage the dated end of a venture changes from a bargaining chip that makes a limited term negotiable, that map's sunset, to the abolition of leaving, so that no party is ever the leaver and the accounts close paid.",
+   "case": "A film production company chartered to dissolve after the picture.",
+   "case_is": "here"
+  },
+  {
+   "to": "deal-flow-attractors",
+   "kind": "fence",
+   "rule": "If the right of first refusal is asked what it does to who sees the deal first, the compulsory offer, it is that map's Written first look; if it is asked what it conserves at a partner's leaving, the stayers' choice of who sits in the seat at the cost of the bids a matchable offer chills, it is here.",
+   "case": "A partnership agreement whose stayers may match any stranger's bid for a departing partner's seat.",
+   "case_is": "here"
+  }
+ ]
+}

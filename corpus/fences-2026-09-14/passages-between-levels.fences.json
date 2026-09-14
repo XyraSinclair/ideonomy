@@ -1,0 +1,18 @@
+{"name": "passages-between-levels",
+ "fences": [
+   {"to": "narrative-feedbacks",
+    "kind": "fence",
+    "rule": "If a classification descends to the people it describes and returns to the classifiers with altered contents, crossing from the level of the class to the level of the person and back, it is here as Looping diagnosis; if a narrative is validated by its target's reaction at the same level, with nothing changing kind in transit, it is there.",
+    "case": "A story that a minority is dangerous, confirmed for its audience by the minority's angry protest against the story.",
+    "case_is": "there"},
+   {"to": "question-metamorphoses",
+    "kind": "fence",
+    "rule": "If what changes is the question the forecaster must answer once the forecast circulates, it is there as Forecast with teeth; if a classification's descent into its objects returns a new kind of person to the classifiers, it is here.",
+    "case": "A forecaster asked what the crowd will do, whose published answer the crowd will hear before it acts.",
+    "case_is": "there"},
+   {"to": "traces-of-the-unlived",
+    "kind": "fence",
+    "rule": "If the item is the crossing by which a gesture's omission became legible, so a movement arrived one level up as a slot that can be refused, it is here as The bow that can be withheld; if it is one omission's effect on one episode, the alternative that did not occur, it is there.",
+    "case": "A handshake withheld at one state funeral and read by the room as an insult.",
+    "case_is": "there"}
+ ]}

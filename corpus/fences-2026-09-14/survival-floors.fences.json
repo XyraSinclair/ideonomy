@@ -1,0 +1,47 @@
+{
+ "name": "survival-floors",
+ "fences": [
+  {
+   "to": "runway-illusions",
+   "kind": "fence",
+   "rule": "If the skill is cash in any town without a registry entry that must be used to keep it, it is Any-town skill and counts the clock; if the floor is the registry entry, kept only by logged hours and lost at a lapse, it is Passport trade here.",
+   "case": "The cook, whose skill travels without a registry and lengthens the runway wherever there is a kitchen.",
+   "case_is": "there"
+  },
+  {
+   "to": "runway-illusions",
+   "kind": "passage",
+   "rule": "The same family tie is read there as Lien of blood, a claim the family holds on savings that are yours on the statement, and here as Kin policy, the payout side, a bed and a meal paid in kind with the premium paid after the claim in obligation and rank.",
+   "case": "The adult child who moves back into the family home after the firm fails and is a child again at the table.",
+   "case_is": "here"
+  },
+  {
+   "to": "status-conversions",
+   "kind": "fence",
+   "rule": "If the question is the price of the step down when the registry entry lapses, it is Staleness discount there; if the question is the floor the entry keeps under employability while it is used, it is Passport trade here.",
+   "case": "The nurse whose licence lapsed for want of logged hours and who re-registers at a lower grade.",
+   "case_is": "there"
+  },
+  {
+   "to": "pivot-invariants",
+   "kind": "fence",
+   "rule": "If the favours are counted as a stock that lowers the cost of a restart, they are the war chest there; if one specific favour is held as a floor that the first call collapses to the thing asked, it is Uncalled favour here.",
+   "case": "The founder who counts the unclaimed favours owed to her as what a second company can draw on.",
+   "case_is": "there"
+  },
+  {
+   "to": "cooperation-mechanisms",
+   "kind": "dependency",
+   "rule": "Burial club presupposes mutualization of risk through insurance pools and joint liability there, and adds the correlation condition and the premium that continues after one's own claim.",
+   "case": "The village burial society that dies in the year the one harvest fails for everyone at once.",
+   "case_is": "here"
+  },
+  {
+   "to": "exchange-ontologies",
+   "kind": "dependency",
+   "rule": "Uncalled favour presupposes Obligation futures there, a favour owed and callable later, and adds the collapse rule: the favour is sized only at the call and sized once.",
+   "case": "The old boss's referral, never called, worth the largest thing it could be asked for.",
+   "case_is": "here"
+  }
+ ]
+}

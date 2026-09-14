@@ -1,0 +1,47 @@
+{
+ "name": "power-law-behaviors",
+ "fences": [
+  {
+   "to": "dilution-carriers",
+   "kind": "dependency",
+   "rule": "The provision and its arithmetic, Veto without votes and Headline bought with terms, are there; the fund state that makes the holder pull the provision or prefer the structure, a letter that cannot see terms or a fund with no money left, is here and presupposes the provision.",
+   "case": "A fund that cannot raise a successor keeps its protective provisions while its partners leave and blocks a down round that would write its mark down.",
+   "case_is": "here"
+  },
+  {
+   "to": "term-sheet-powers",
+   "kind": "dependency",
+   "rule": "The term and the state in which it bites, pro rata and pay-to-play, are there; the reserve ledger that decides whether the fund can exercise it, its motive for silence, and the founder's cure by assignment are here.",
+   "case": "A fund whose reserves went to other companies goes silent at the round rather than say so, and the founder asks it to assign its pro-rata to a co-investor.",
+   "case_is": "here"
+  },
+  {
+   "to": "term-sheet-powers",
+   "kind": "fence",
+   "rule": "A term in the company's financing whose exercise is renegotiated in its state is there; a term in the fund's own partnership agreement enters here only if it produces a behaviour of its own, otherwise as a parameter of an item that does.",
+   "case": "An eight-percent preferred return before carry produces no behaviour of its own and moves the strike of Call option at the board, so a fund at one and a half times in its seventh year is still out of the money.",
+   "case_is": "here"
+  },
+  {
+   "to": "what-a-price-does",
+   "kind": "fence",
+   "rule": "A seller protecting a recorded number for a reader not party to the trade is there; a buyer procuring a stranger to set a number so its own position marks is here.",
+   "case": "An insider that could fund the round by itself shops it to outsiders and gives up allocation to get a stranger's price on its letter.",
+   "case_is": "here"
+  },
+  {
+   "to": "tollgates-that-must-buy",
+   "kind": "fence",
+   "rule": "The compulsion to buy by a date, money committed on a clock, is there; what the fund needs to have happened to your company by when, a mark before its raise or cash before its wind-up, is here.",
+   "case": "A fund in the last year of its investment period is a forced buyer of whatever is for sale.",
+   "case_is": "there"
+  },
+  {
+   "to": "investor-tells",
+   "kind": "passage",
+   "rule": "There the insider's absence at the next round is a tell read too late by this founder and first by the next; here the same absence is decomposed into its arithmetic, a silence that is a verdict, a fund that grew away, a cap reached, or reserves spent.",
+   "case": "A fund large enough to lead the A took a small seed and is absent from the round, its reserves already spent on other companies.",
+   "case_is": "here"
+  }
+ ]
+}

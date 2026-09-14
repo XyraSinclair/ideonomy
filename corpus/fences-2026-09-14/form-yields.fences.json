@@ -1,0 +1,47 @@
+{
+ "name": "form-yields",
+ "fences": [
+  {
+   "to": "denominator-manufactures",
+   "kind": "fence",
+   "rule": "The product or grid as a universe to count against, its cells the denominator, is denominator-manufactures'; what an empty or forbidden cell yields, a predicted member, a law's failure, an errand, is here.",
+   "case": "The morphological box's tens of thousands of cells counted as the universe of jet engines: a denominator there; the empty cell that names an engine nobody built is here.",
+   "case_is": "there"
+  },
+  {
+   "to": "item-grains",
+   "kind": "fence",
+   "rule": "A form imposed on a pile at one setting, and what it yields at that setting, is here; the unit itself, and what the same pile yields at a neighbouring grain, is item-grains'.",
+   "case": "The ten-kilometre square of a survey grid, or the decade on a timeline: coarsen it and empty squares fill, so what changes between settings is a grain and is item-grains', while what one setting sends someone to do is Quadrat here.",
+   "case_is": "there"
+  },
+  {
+   "to": "enumeration-stalls",
+   "kind": "fence",
+   "rule": "The number imposed before the pile is counted, and the cut or the padded member it yields, is here; the process that stops at a number, or goes on past it, while feeling complete is enumeration-stalls'.",
+   "case": "A map with twelve mechanisms meeting the atlas's thirteen-item floor by lifting a case to the rank of one: the padded member is Count bound here; a list that stops at eighteen because the ceiling reads as a size is Ends at the bound there.",
+   "case_is": "here"
+  },
+  {
+   "to": "composition-yields",
+   "kind": "fence",
+   "rule": "What the naming hand adds to a measured order, a direction and the limits that hang on it, is here; the split of measuring from naming as a composition of two passes is composition-yields'.",
+   "case": "The atlas's seriation pass, which measures an order from embeddings and hands it to a model to name with leave to reverse it: the direction the namer supplies is Which end is first here, and the measurer-and-namer shape is Measure then name there.",
+   "case_is": "here"
+  },
+  {
+   "to": "discovery-delights",
+   "kind": "fence",
+   "rule": "The address and description that full neighbours fix for an empty cell is here; the pleasure of pointing at what ought to be there before finding it is discovery-delights'.",
+   "case": "Mendeleev's ether and its companion coronium, extrapolated from one side with nothing beyond them: a cell's name plus a hypothesis, a tooth drawn on the gum, which is this map's tell and no delight.",
+   "case_is": "here"
+  },
+  {
+   "to": "list-excellences",
+   "kind": "fence",
+   "rule": "Crediting a finished list for attending to its limiting cases or naming its universe is list-excellences'; the mechanism by which a named axis conscripts those cases, or a number decided in advance makes the count come out, is here.",
+   "case": "A member with no case, only the axis's word plus most, one step past each end of an authored walk: Edge inclusion would credit it there, and Endpoint demand here reads it as conscripted rather than found.",
+   "case_is": "here"
+  }
+ ]
+}

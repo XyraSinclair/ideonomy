@@ -16,7 +16,8 @@
 -- any failure.
 module Ideonomy.Check
   ( MapRecord (..), Seriation (..), Relation (..), Priority (..), Exploration (..), Horizon (..)
-  , horizonName, readHorizon, mapView, checkRecord, cli
+  , Fence (..), FenceKind (..), Side (..), fenceKindName, readFenceKind, sideName, readSide
+  , horizonName, readHorizon, mapView, fencesOf, checkRecord, cli
   ) where
 
 import Control.Exception (IOException, try)
@@ -50,6 +51,42 @@ data Seriation = Seriation
 data Relation = Relation { from_ :: String, to :: String, label :: String }
   deriving (Eq, Show)
 
+-- | How two maps meet at a case. A @Fence@ sends a case to one side by a
+-- rule; a @Passage@ is the same mechanism seen from the other map's seat;
+-- a @Dependency@ is an item here presupposing a member there; a @Loop@ is
+-- a next move that lands there and comes back.
+data FenceKind = FenceK | Passage | Dependency | Loop deriving (Eq, Show)
+
+fenceKindName :: FenceKind -> String
+fenceKindName FenceK = "fence"
+fenceKindName Passage = "passage"
+fenceKindName Dependency = "dependency"
+fenceKindName Loop = "loop"
+
+readFenceKind :: String -> Either String FenceKind
+readFenceKind "fence" = Right FenceK
+readFenceKind "passage" = Right Passage
+readFenceKind "dependency" = Right Dependency
+readFenceKind "loop" = Right Loop
+readFenceKind s = Left ("kind " ++ show s ++ "; one of fence, passage, dependency, loop")
+
+-- | Where the fence's case sits as stated.
+data Side = Here | There deriving (Eq, Show)
+
+sideName :: Side -> String
+sideName Here = "here"
+sideName There = "there"
+
+readSide :: String -> Either String Side
+readSide "here" = Right Here
+readSide "there" = Right There
+readSide s = Left ("case_is " ++ show s ++ "; one of here, there")
+
+-- | A typed boundary with a neighbouring list: the rule that decides the
+-- side and one concrete case at the fence.
+data Fence = Fence { to :: String, kind :: FenceKind, rule :: String, case_ :: String, caseIs :: Side }
+  deriving (Eq, Show)
+
 -- | An opening: the next expedition from one item.
 data Priority = Priority { item :: String, horizon :: Horizon, why :: String, nextQuestion :: String }
   deriving (Eq, Show)
@@ -64,6 +101,7 @@ data MapRecord = MapRecord
   , relations :: [Relation]
   , exploration :: Exploration
   , priorities :: [Priority]
+  , fences :: [Fence]          -- ^ empty when @source.fences@ is absent
   } deriving (Eq, Show)
 
 -- ------------------------------------------------------------------- view
@@ -90,6 +128,14 @@ mapView l = case view l of
   V (Left errs) -> Left (joinWith "; " errs)
   V (Right r) -> Right r
 
+-- | The typed fences of any list, gated or not: a pre-gate map may fence
+-- its neighbours without carrying a seriation. Right [] when absent.
+fencesOf :: Ideolist -> Either String [Fence]
+fencesOf l = case l.source of
+  Just src | Just _ <- src !? "fences" ->
+    let V v = array "source.fences" src "fences" fenceV in either (Left . joinWith "; ") Right v
+  _ -> Right []
+
 view :: Ideolist -> V MapRecord
 view l = case l.source of
   Nothing -> failV "source: missing"
@@ -100,38 +146,46 @@ view l = case l.source of
         <*> array "source.relations" src "relations" relationV
         <*> object "source.exploration" src "exploration" explorationV
         <*> array "source.priorities" src "priorities" priorityV
+        <*> (case src !? "fences" of
+               Nothing -> pure []
+               Just _ -> array "source.fences" src "fences" fenceV)
     Just k -> failV ("source.kind: expected \"map\", got " ++ show k)
     Nothing -> failV "source.kind: missing"
-  where
-    seriationV path v = Seriation <$> string path v "axis" <*> optional path v "method"
-      <*> optional path v "note" <*> optional path v "named_by"
-    relationV path v = Relation <$> string path v "from" <*> string path v "to" <*> string path v "label"
-    priorityV path v = Priority <$> string path v "item" <*> horizonV path v
-      <*> string path v "why" <*> string path v "next_question"
-    explorationV path v = Exploration <$> string path v "first_question"
-      <*> string path v "changed_question" <*> string path v "new_member"
-    horizonV path v = case string path v "horizon" of
-      V (Right h) -> either (\e -> failV (path ++ ".horizon: " ++ e)) pure (readHorizon h)
-      V (Left e) -> V (Left e)
-    string path v k = case v !? k of
-      Just (String s) -> pure s
-      Just _ -> failV (path ++ "." ++ k ++ ": expected a string")
-      Nothing -> failV (path ++ "." ++ k ++ ": missing")
-    optional path v k = case v !? k of
-      Nothing -> pure Nothing
-      Just Null -> pure Nothing
-      Just (String s) -> pure (Just s)
-      Just _ -> failV (path ++ "." ++ k ++ ": expected a string")
-    object path v k f = case v !? k of
-      Just o@(Object _) -> f path o
-      Just _ -> failV (path ++ ": expected an object")
-      Nothing -> failV (path ++ ": missing")
-    array path v k f = case v !? k of
-      Just (Array xs) -> traverse (\(i, x) -> case x of
-        Object _ -> f (path ++ "[" ++ show i ++ "]") x
-        _ -> failV (path ++ "[" ++ show i ++ "]: expected an object")) (zip [0 :: Int ..] xs)
-      Just _ -> failV (path ++ ": expected a list")
-      Nothing -> failV (path ++ ": missing")
+
+seriationV path v = Seriation <$> string path v "axis" <*> optional path v "method"
+  <*> optional path v "note" <*> optional path v "named_by"
+relationV path v = Relation <$> string path v "from" <*> string path v "to" <*> string path v "label"
+priorityV path v = Priority <$> string path v "item" <*> horizonV path v
+  <*> string path v "why" <*> string path v "next_question"
+explorationV path v = Exploration <$> string path v "first_question"
+  <*> string path v "changed_question" <*> string path v "new_member"
+fenceV path v = Fence <$> string path v "to" <*> enumV path v "kind" readFenceKind
+  <*> string path v "rule" <*> string path v "case" <*> enumV path v "case_is" readSide
+enumV path v k rd = case string path v k of
+  V (Right x) -> either (\e -> failV (path ++ "." ++ k ++ ": " ++ e)) pure (rd x)
+  V (Left e) -> V (Left e)
+horizonV path v = case string path v "horizon" of
+  V (Right h) -> either (\e -> failV (path ++ ".horizon: " ++ e)) pure (readHorizon h)
+  V (Left e) -> V (Left e)
+string path v k = case v !? k of
+  Just (String s) -> pure s
+  Just _ -> failV (path ++ "." ++ k ++ ": expected a string")
+  Nothing -> failV (path ++ "." ++ k ++ ": missing")
+optional path v k = case v !? k of
+  Nothing -> pure Nothing
+  Just Null -> pure Nothing
+  Just (String s) -> pure (Just s)
+  Just _ -> failV (path ++ "." ++ k ++ ": expected a string")
+object path v k f = case v !? k of
+  Just o@(Object _) -> f path o
+  Just _ -> failV (path ++ ": expected an object")
+  Nothing -> failV (path ++ ": missing")
+array path v k f = case v !? k of
+  Just (Array xs) -> traverse (\(i, x) -> case x of
+    Object _ -> f (path ++ "[" ++ show i ++ "]") x
+    _ -> failV (path ++ "[" ++ show i ++ "]: expected an object")) (zip [0 :: Int ..] xs)
+  Just _ -> failV (path ++ ": expected a list")
+  Nothing -> failV (path ++ ": missing")
 
 -- ------------------------------------------------------------------- gate
 
@@ -162,6 +216,12 @@ violations r =
   ++ [ "exploration.new_member is not an item: " ++ shorten r.exploration.newMember
      | not (isItem r.exploration.newMember) ]
   ++ [ "seriation.axis is blank" | null (strip r.seriation.axis) ]
+  ++ concat
+       [ [ at ++ ".to names this map" | f.to == r.ideolist.name ]
+         ++ [ at ++ ".to is blank" | null (strip f.to) ]
+         ++ [ at ++ ".rule is blank" | null (strip f.rule) ]
+         ++ [ at ++ ".case is blank" | null (strip f.case_) ]
+       | (i, f) <- zip [0 :: Int ..] r.fences, let at = "fences[" ++ show i ++ "]" ]
   where
     m = length r.relations
     isItem x = x `elem` r.ideolist.items

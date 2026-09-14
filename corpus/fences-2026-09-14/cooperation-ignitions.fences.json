@@ -1,0 +1,33 @@
+{
+ "name": "cooperation-ignitions",
+ "fences": [
+  {
+   "to": "cooperation-mechanisms",
+   "kind": "passage",
+   "rule": "What changes across is the instant: at the first pledge the promise is nearly free, the pool is untested, and the residue is the first claim; once claims are paid it is the pool running, and the seat moves from the ignition to the maintenance.",
+   "case": "County farmers pledging to cover any barn that burns, before the first barn has burned.",
+   "case_is": "here"
+  },
+  {
+   "to": "cooperation-mechanisms",
+   "kind": "fence",
+   "rule": "If the steps need an agreed plan and steady a cooperation already running, they are sequential milestones there; if one lot is given with no plan and proves only the lot, it is here.",
+   "case": "A freight broker giving a new carrier one load.",
+   "case_is": "here"
+  },
+  {
+   "to": "cooperative-masks",
+   "kind": "fence",
+   "rule": "If the giver means the unasked favor as a trap to be priced later, or stages the shared enemy to lower a drawbridge, it is a mask there; if the unrefusable first turn ignites whether or not the giver ever names a price, it is here.",
+   "case": "The produce broker who drops a case of stone fruit at the restaurant's back door on a Friday.",
+   "case_is": "here"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "fence",
+   "rule": "If the device breaks a deadlock in a negotiation already running, a graduated tie, a contingent clause, an invented deadline, a commissioned enemy, it is there; if there was no relationship and the disagreement or the clock is itself the fuel of the first move, it is here.",
+   "case": "An earn-out inserted to break the price deadlock of a negotiation already months old.",
+   "case_is": "there"
+  }
+ ]
+}

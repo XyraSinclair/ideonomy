@@ -1,0 +1,18 @@
+{"name": "fertile-forgettings",
+ "fences": [
+   {"to": "traces-of-the-unlived",
+    "kind": "fence",
+    "rule": "If the thing existed, was retained, and was then lost, the erasure is here; if what shapes the episode is an alternative that was represented or prepared for and never occurred, it is there, and the two maps are read against each other, not merged.",
+    "case": "A rampart raised against an invasion that never came and that still fixes where the town's streets run.",
+    "case_is": "there"},
+   {"to": "ghost-leverages",
+    "kind": "fence",
+    "rule": "If a retained thing goes on steering behaviour after its function is gone, it is there as retention without function; only where the loss itself produces a capacity that retention was blocking is it here.",
+    "case": "A player who never forgets one accidental defection and stays locked in punishment long after the punishment deters nothing.",
+    "case_is": "there"},
+   {"to": "invariant-kinds",
+    "kind": "fence",
+    "rule": "If the information survives the transformation and an echo can call it back, what the case exhibits is a preserved structure and it is there; the erasure is a carrier here only once the correlations have passed beyond any echo, which is why Thermal amnesia's survivor, the conserved quantities, belongs there and its loss of access belongs here.",
+    "case": "Spins dephasing in a gradient decay to one clean time constant, and a single pi pulse brings the whole signal back.",
+    "case_is": "there"}
+ ]}

@@ -1,0 +1,40 @@
+{
+ "name": "dilution-carriers",
+ "fences": [
+  {
+   "to": "what-a-price-does",
+   "kind": "fence",
+   "rule": "A drain that is the round price times a coefficient runs through the price and is out; a drain by a route around the price, a bend in the payoff, a clock, a clause, a reclassification, is here.",
+   "case": "A twenty-percent conversion discount on a note is a fixed ratio on the round price, so whoever can compute the price computes the drain in the same breath.",
+   "case_is": "there"
+  },
+  {
+   "to": "what-a-price-does",
+   "kind": "dependency",
+   "rule": "Headline bought with terms presupposes Price for the stranger's eyes, a price set for a reader not party to the trade, and adds the compensating term that makes the stranger's number cheap for the party who granted it.",
+   "case": "Twenty million for twenty percent at a hundred post with one-times participating pays the investor more on a hundred-and-fifty exit than twenty million for twenty-nine percent at seventy post non-participating.",
+   "case_is": "here"
+  },
+  {
+   "to": "clean-exits",
+   "kind": "fence",
+   "rule": "Dilution on a schedule the holder triggers by not paying, with the terms fixed at entry, is there; dilution the later round's price triggers, where the earlier preferred gains and the common pays, is here.",
+   "case": "Under a full ratchet a Series A that bought a quarter at four dollars sees a B at two and doubles its share count before the B buys a share.",
+   "case_is": "here"
+  },
+  {
+   "to": "runway-illusions",
+   "kind": "fence",
+   "rule": "The step in a runway's worth from arriving at the vesting date is there; the toll charged at the exit door for keeping what already vested is here.",
+   "case": "A departing engineer with fifty thousand vested options at a two-dollar strike against a twenty-dollar appraisal owes the strike and tax on the spread within ninety days or forfeits four years of ownership.",
+   "case_is": "here"
+  },
+  {
+   "to": "ghost-leverages",
+   "kind": "fence",
+   "rule": "An obsolete power still obeyed through habit is there; a live legal power written in the charter that a class can exercise today is here.",
+   "case": "A twenty-percent preferred holder blocks a sale through standard protective provisions while the cap table shows nothing.",
+   "case_is": "here"
+  }
+ ]
+}

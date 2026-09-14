@@ -1,0 +1,40 @@
+{
+ "name": "traces-of-the-unlived",
+ "fences": [
+  {
+   "to": "fertile-forgettings",
+   "kind": "fence",
+   "rule": "An effect of something that existed and was then lost is fertile-forgettings'; an effect of an alternative that never occurred is here, and the two maps are read against each other, not merged.",
+   "case": "A vocabulary coined for a cancelled project that still names some differences effortlessly: nothing was kept and then lost, the project never ran, so it is Fossil distinction here.",
+   "case_is": "here"
+  },
+  {
+   "to": "walkaway-manufactures",
+   "kind": "fence",
+   "rule": "How an alternative to the table is built, borrowed, or faked so that it exists in a counterparty's model, and what that costs, is walkaway-manufactures'; how an alternative that never occurs changes the episode it shadows is here.",
+   "case": "A paid floor, a second buyer kept on retainer so the seller's model contains a walkaway: the manufacture and its cost are there; what the never-taken exit does to the deal that was signed is here.",
+   "case_is": "there"
+  },
+  {
+   "to": "option-expiries",
+   "kind": "fence",
+   "rule": "A return absorbed at the counterparty's next planning cycle with nobody opposing it is option-expiries'; a reserved place that acquires beneficiaries who then oppose the return is Vacancy tenant here.",
+   "case": "The co-founder's seat left empty until the next hire redistributes it: with no one invested in the vacancy the expiry is Chair grown over there; once a use has been organized for the empty seat, the opponents it breeds are here.",
+   "case_is": "there"
+  },
+  {
+   "to": "context-horizons",
+   "kind": "passage",
+   "rule": "A metric that keeps answering a comparison nobody faces, with the abandoned decision still on record, is here; the same kept distinction whose question the keeper can no longer ask, because the window that held it is gone, is context-horizons', and what changes across is whether the dead question can still be found.",
+   "case": "An author rereading after compaction a fence it built on purpose and cutting it as an oversight: the reason lies past the edge, Own hand, stranger's reasons there; a success metric built to choose between two systems and still optimized after one was abandoned is Extinct question here.",
+   "case_is": "there"
+  },
+  {
+   "to": "register-yields",
+   "kind": "fence",
+   "rule": "An alternative that enters a list beside the taken ones in a tense that marks it as unmade is register-yields'; an alternative that never occurs yet changes the actual episode through a carrier is here.",
+   "case": "The patent's prophetic example, written in the present tense and taken by examiners for a result: admitted by the tense rule, Present tense for the unmade there.",
+   "case_is": "there"
+  }
+ ]
+}

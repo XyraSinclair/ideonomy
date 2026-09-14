@@ -1,0 +1,47 @@
+{
+ "name": "learning-that-commits",
+ "fences": [
+  {
+   "to": "option-expiries",
+   "kind": "fence",
+   "rule": "An option that lapses without its holder declining is option-expiries'; Fuse shorter than the finding is here only because the inquiry itself is what does the expiring.",
+   "case": "A buyer whose structural survey takes longer than the offer stays open.",
+   "case_is": "here"
+  },
+  {
+   "to": "advantages-spent-by-use",
+   "kind": "passage",
+   "rule": "The asserted patent is read there as an advantage consumed by testing it, Ruling that prices the patent, and here as the price of the answer, Known only by staking it; what changes across is whether the spend is billed to the use or to the knowing.",
+   "case": "A patent whose validity can be learned only by asserting it against an infringer who may invalidate it.",
+   "case_is": "here"
+  },
+  {
+   "to": "investor-tells",
+   "kind": "passage",
+   "rule": "Borrowed eyes reads the investor off the investor's own ask; Asking the gatekeeper is the mirror, the founder's ask read by the investor, so what changes across is whose ask is being read and by whom.",
+   "case": "A founder who asks her existing investor whether the fund would bridge and thereby tells the fund the round is not coming.",
+   "case_is": "here"
+  },
+  {
+   "to": "lead-time-floors",
+   "kind": "fence",
+   "rule": "A search the source itself sees and shortens by is lead-time-floors' Seeking is telling; here the readers of the ask are strangers to the source and read the count of asks rather than the fact of one.",
+   "case": "An employer who learns of the employee's interviews elsewhere.",
+   "case_is": "there"
+  },
+  {
+   "to": "deal-deaths",
+   "kind": "fence",
+   "rule": "A written record that obliges a third party, the buyer's lender or board, is deal-deaths' Report that must be acted on; here the duty is the finder's own and needs no third party to read it.",
+   "case": "A diligence report that writes down a defect the buyer would have priced anyway and so obliges its lender to act.",
+   "case_is": "there"
+  },
+  {
+   "to": "first-mover-forecloses",
+   "kind": "fence",
+   "rule": "A test case initiated to shape the governing precedent as an attack on the responder's options is first-mover-forecloses'; here the holder wants an answer and the knowing costs the thing asked about.",
+   "case": "An incumbent that files the test case to fix the precedent against a rival's design.",
+   "case_is": "there"
+  }
+ ]
+}

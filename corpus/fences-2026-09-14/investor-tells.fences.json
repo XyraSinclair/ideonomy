@@ -1,0 +1,40 @@
+{
+ "name": "investor-tells",
+ "fences": [
+  {
+   "to": "importance-detectors",
+   "kind": "passage",
+   "rule": "The same skeleton (carrier read, state revealed, the lie, the residence needed) instantiated for one counterparty who knows it is read, so a cost the investor priced into being read reveals nothing and only a cost whose reading the investor did not price in is a tell.",
+   "case": "The price on the term sheet, signed rather than said and the first thing a founder reads, is the contested object every party knows is read and prices the reading into, so it shows only what the investor meant to say with money.",
+   "case_is": "there"
+  },
+  {
+   "to": "lead-time-floors",
+   "kind": "fence",
+   "rule": "What the counterparty's calendar or lock does to the founder's own clock is there; what the interval's length or the lock's length says about the investor's ordering and remaining doubt is here.",
+   "case": "A sixty-day no-shop asked for by a fund that has spent no back-channel reads as an option kept open, while ten days from one that has reads as a close.",
+   "case_is": "here"
+  },
+  {
+   "to": "lead-time-floors",
+   "kind": "passage",
+   "rule": "Seeking is telling there is the founder's search made visible to the source; here the same visibility runs the other way, the investor's back-channel call reaching the founder through the person called, so the search is the tell and the call not made is the sharper one.",
+   "case": "A term sheet issued with no reference call to anyone the founder did not offer, where there was someone to call, is a reservation and not a decision.",
+   "case_is": "here"
+  },
+  {
+   "to": "deal-deaths",
+   "kind": "fence",
+   "rule": "How a sponsor's leaving kills a deal the business case still supports is there; reading from the wording of the no whether a sponsor ever existed is here.",
+   "case": "A no that states the objection that won in terms particular to this company reads as a vote that happened and a sponsor who argued and lost.",
+   "case_is": "here"
+  },
+  {
+   "to": "cooperative-masks",
+   "kind": "fence",
+   "rule": "The helpful behaviour that hides a competitive intent is there; the check that can be run from the portfolio page before the alliance is proposed, and the tell of a neighbour left unnamed, is here.",
+   "case": "A fund that already holds a company in the founder's market takes the meeting without naming the neighbour, so the meeting is intelligence gathered for it.",
+   "case_is": "here"
+  }
+ ]
+}

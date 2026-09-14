@@ -107,6 +107,7 @@ data Instrument = Instrument
   , probes :: [(String, String, String)]     -- ^ (horizon, handle, next question)
   , questions :: [String]                    -- ^ first question, changed question
   , limits :: [String]
+  , fences :: [(String, String, String)]     -- ^ (neighbour, kind, rule): where a neighbour takes over
   } deriving (Eq, Show)
 
 instrument :: Ideolist -> Instrument
@@ -126,6 +127,7 @@ instrument l = Instrument
              | p <- map Just (arr "priorities" src) ]
   , questions = [q | k <- ["first_question", "changed_question"], Just q <- [nonEmpty (field k "" ex)]]
   , limits = boundary (src >>= (!? "boundary_claim"))
+  , fences = [ (field "to" "" f, field "kind" "" f, field "rule" "" f) | f <- map Just (arr "fences" src) ]
   }
   where
     src = l.source
@@ -218,6 +220,9 @@ render full inst = joinWith "\n" $
   ++ (case inst.limits of
         (lim : _) -> ["limit: " ++ lim]
         [] -> [])
+  ++ (if null inst.fences then [] else
+      "fences (where a neighbouring map takes the case):"
+      : ["  -> " ++ n ++ " (" ++ k ++ "): " ++ r | (n, k, r) <- inst.fences])
 
 -- | The coverage frame: every member of every chosen map gets a label, or
 -- the audit is declared partial. Zero unlabeled elements is the gate.

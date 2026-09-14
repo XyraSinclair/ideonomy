@@ -1,0 +1,47 @@
+{
+ "name": "hold-up-mints",
+ "fences": [
+  {
+   "to": "who-can-be-bound",
+   "kind": "fence",
+   "rule": "If the power is a priced term agreed at entry and a substitute can still finish inside what remains, the vendor holds only what who-can-be-bound's paper gave it; it is here only when the replacement's cost or time exceeds what remains of the process.",
+   "case": "A vendor whose contract carries a large early-termination fee that grows with the term remaining, while a substitute could still finish on time.",
+   "case_is": "there"
+  },
+  {
+   "to": "power-trades",
+   "kind": "fence",
+   "rule": "Pivotality traded on paper or set by the arithmetic of seats is power-trades' Key man's lever and Kingmaker's tax; the moment a replaceable party stops being replaceable inside a running process is here.",
+   "case": "A small party paid ministries for its votes at a rate set by pivotality in the chamber and not by its size.",
+   "case_is": "there"
+  },
+  {
+   "to": "lead-time-floors",
+   "kind": "passage",
+   "rule": "The same clock read from the dependent party's seat is lead-time-floors' Rising floor, the death line drawn above zero by how long a replacement takes; read from inside the window it is Inside the lead time, the power minted in the hand already there.",
+   "case": "A fund that has done its diligence when the company has six weeks of cash and every other fund's process takes eight.",
+   "case_is": "here"
+  },
+  {
+   "to": "tollgates-that-must-buy",
+   "kind": "fence",
+   "rule": "If a gate is compelled by its position to buy what the passers can read the compulsion for, tollgates-that-must-buy holds it; if a rule binds the pivot to stay and forbids it to price the stay, Appearance entered holds it here.",
+   "case": "A court that may not decline to decide a case properly before it, and a licensed gate that must staff every hour its license names.",
+   "case_is": "there"
+  },
+  {
+   "to": "deal-deaths",
+   "kind": "fence",
+   "rule": "A required consent held by someone who gains nothing by giving it is deal-deaths' Signer with no upside; a signer who wanted the deal and became pivotal by being the last unsigned is Last signature here.",
+   "case": "A landlord whose consent to an assignment gains him nothing and earns him the blame if it goes wrong.",
+   "case_is": "there"
+  },
+  {
+   "to": "risk-rebound-effects",
+   "kind": "fence",
+   "rule": "A mitigation that breeds a risk larger than the one it treated is risk-rebound-effects'; a sole source minted by consolidation nobody chose as a risk, unknown until the plant fails, is Discovered by the fire here.",
+   "case": "The 2012 explosion at one chemical plant in Marl that cut off a large share of the world's nylon-12 for fuel and brake lines.",
+   "case_is": "here"
+  }
+ ]
+}

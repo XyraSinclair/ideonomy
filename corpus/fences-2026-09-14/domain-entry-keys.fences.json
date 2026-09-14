@@ -1,0 +1,40 @@
+{
+ "name": "domain-entry-keys",
+ "fences": [
+  {
+   "to": "status-conversions",
+   "kind": "fence",
+   "rule": "If the thing changes what the stranger can see, it is a key here; if it changes only what the domain lets in without orienting, it is a status conversion there and is the imitation Kept tell exists to catch.",
+   "case": "Scrubs, the site vest, the right suit: native costume that opens the door and orients nobody.",
+   "case_is": "there"
+  },
+  {
+   "to": "low-chair-advantages",
+   "kind": "fence",
+   "rule": "If the question is what the low chair confers on its occupant, it is there; if it is the stranger's one use of the chair, a routing from the switchboard or a shift at the confluence chore, it is here.",
+   "case": "The ward clerk asked by a stranger who actually decides discharges on this ward.",
+   "case_is": "here"
+  },
+  {
+   "to": "pricing-unit-metamorphoses",
+   "kind": "fence",
+   "rule": "If the unit is the one that is priced and its change alters what the buyer buys in kind, it is there; if it is the unit natives say in the corridor, which compresses what the domain is short of, it is Native unit here.",
+   "case": "The billable hour as the unit on the client's invoice, whose replacement by a fixed fee changes who carries the risk.",
+   "case_is": "there"
+  },
+  {
+   "to": "hinge-kinds",
+   "kind": "fence",
+   "rule": "If the variable decides between two sincere opposed advices, it is a hinge kind there; if it is the cut natives make before any advice exists, which every sentence assumes, it is Hinge distinction here.",
+   "case": "Acute or chronic, the first cut a physician makes before a word of advice is spoken.",
+   "case_is": "here"
+  },
+  {
+   "to": "ghost-leverages",
+   "kind": "fence",
+   "rule": "If the native unit still tracks the scarcity the domain pays for, it is a key here; if it is a badge kept from a time when it tracked the scarcity and now reads a dead one, it is an obsolete power worn as a count and belongs there.",
+   "case": "The film crew's day as the count, where the cost is now the setup and the day tracks nothing.",
+   "case_is": "there"
+  }
+ ]
+}

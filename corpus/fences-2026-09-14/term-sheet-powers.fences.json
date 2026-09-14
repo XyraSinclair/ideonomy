@@ -1,0 +1,47 @@
+{
+ "name": "term-sheet-powers",
+ "fences": [
+  {
+   "to": "dilution-carriers",
+   "kind": "fence",
+   "rule": "A term that self-executes at its written formula and carries exactly its price drains and is there; a term whose exercise is renegotiated in the very state it was written for is here.",
+   "case": "Broad-based weighted-average anti-dilution bites in the down round at its formula and is almost never the object of a waiver negotiation, because it does not wipe the common.",
+   "case_is": "there"
+  },
+  {
+   "to": "clean-exits",
+   "kind": "fence",
+   "rule": "The leaver's price fixed at entry and what the exit conserves are there; who the term actually bites when the state arrives and whose ledger decides it are here.",
+   "case": "A small seed fund in its eighth year sees its entire preferred position convert to common under pay-to-play because its reserves are gone, not because it stopped believing.",
+   "case_is": "here"
+  },
+  {
+   "to": "what-a-price-does",
+   "kind": "fence",
+   "rule": "A price set for a reader who is not party to the trade is there; a refusal read before it is given, which discounts the outsider's bid on every secondary, is here.",
+   "case": "An outside buyer of an angel's shares bids as if the insiders had already matched every case worth winning, and the insiders may match at that discount.",
+   "case_is": "here"
+  },
+  {
+   "to": "power-law-behaviors",
+   "kind": "passage",
+   "rule": "Here pro rata is a call on the next round's information, worth nothing in a fund with no reserves left; there the empty reserve ledger is the fund state itself, with its motive for silence and the founder's cure by assignment.",
+   "case": "A seed fund whose whole return sat in the pro rata of two companies it could not afford to follow.",
+   "case_is": "here"
+  },
+  {
+   "to": "impasse-inventions",
+   "kind": "fence",
+   "rule": "A most-favoured promise offered as a chip to break a deadlock, equality across time replacing advantage now, is there; the clause's bite as a multiplier on a later rescue's sweetener is here.",
+   "case": "A desperate company offers one rescuer a sweetener and the clause copies it to every earlier holder, so the rescue that needed one sweetener cannot afford the propagated one.",
+   "case_is": "here"
+  },
+  {
+   "to": "lead-time-floors",
+   "kind": "fence",
+   "rule": "A term whose only bite is what it does to the founder's clock, making the search serial, is there; a term that carries a power in a future state is here.",
+   "case": "The term sheet's exclusivity period forbids running the raise in parallel for thirty days.",
+   "case_is": "there"
+  }
+ ]
+}

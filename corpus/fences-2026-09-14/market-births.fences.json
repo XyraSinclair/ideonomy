@@ -1,0 +1,47 @@
+{
+ "name": "market-births",
+ "fences": [
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "If the setting only lets a pattern spread across private memories become recordable, it is Room for strangers there; if what is compared on the wall expires, so the wall needs a clock and a stale offer on it is a lie, it is here.",
+   "case": "The trucking load board that put every posted load on one screen where before the only wall was inside one broker's head.",
+   "case_is": "here"
+  },
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "If a rule makes the party at fault build an honest instrument, it is Silence priced as guilt there; if no such rule was written and the market lives on exactly the seller's own witness's credit, what the market inherits is here.",
+   "case": "Carbon offsets verified by auditors the seller hires, which shrank all together in 2023 when one forest methodology was doubted.",
+   "case_is": "here"
+  },
+  {
+   "to": "exchange-ontologies",
+   "kind": "fence",
+   "rule": "If the place in the queue is named as the good that changes hands, it is Priority there; if the line is read as a price already being paid and a market is born as a parasite on someone else's rationing, it is here.",
+   "case": "Reservation resellers pricing the tables a restaurant gave away free until New York banned the resale in 2024.",
+   "case_is": "here"
+  },
+  {
+   "to": "clocks-that-are-not-clocks",
+   "kind": "fence",
+   "rule": "If the length of the line is read as the wait of the next arrival given the throughput, it is the Queue clock there; if the same line is read as the price the good already carries, it is here.",
+   "case": "The line outside the restaurant, read as what a table costs rather than as how long the next diner waits.",
+   "case_is": "here"
+  },
+  {
+   "to": "market-deaths",
+   "kind": "fence",
+   "rule": "If a market that was clearing stops being one behind its quote, the death is there; a death or a manipulation is here only where it poisons a precondition before the market is made, as wash trades seeding the comps.",
+   "case": "A grade whose issuer's word stops meaning anything, so lots stop substituting in a market that had been clearing for years.",
+   "case_is": "there"
+  },
+  {
+   "to": "passages-between-levels",
+   "kind": "fence",
+   "rule": "If the question is what a price becomes one level up when a matching engine pairs private bets into a public number, it is the Order-book alembic there; if the question is what must exist for two offers to be seen on one wall before any price, it is here.",
+   "case": "The matching engine that turns each holder's private guess into a public number.",
+   "case_is": "there"
+  }
+ ]
+}

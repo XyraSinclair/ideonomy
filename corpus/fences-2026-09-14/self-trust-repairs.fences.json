@@ -1,0 +1,33 @@
+{
+ "name": "self-trust-repairs",
+ "fences": [
+  {
+   "to": "witness-architectures",
+   "kind": "passage",
+   "rule": "Across the passage the copy held beyond someone's reach changes whose reach and what it repairs: there it lives beyond the institution's reach and gives a fact standing before others, here it lives beyond the subject's own revising hand or the narrator in their house and repairs the subject's reliance on the record.",
+   "case": "A founder after a blown company who gives a friend the log and the right to read it back unedited.",
+   "case_is": "here"
+  },
+  {
+   "to": "somatic-signals",
+   "kind": "fence",
+   "rule": "If the item is a bodily state that precedes and informs a call, it belongs there; if it is a mechanism that rebuilds reliance on a judgment already made unusable, it is here.",
+   "case": "The gut drop of a wrong decision recognized late.",
+   "case_is": "there"
+  },
+  {
+   "to": "negotiator-check-loops",
+   "kind": "fence",
+   "rule": "If the check is run inside a live exchange to keep composure, it belongs there; if it catalogues the weather in which one's judgment fails and trusts the judgment outside it, it is here.",
+   "case": "Rating your tiredness in the middle of a deal and discounting the next judgment by it.",
+   "case_is": "there"
+  },
+  {
+   "to": "forms-of-return",
+   "kind": "fence",
+   "rule": "If the object is the return itself, the returner coming back inscribed with the interval, it belongs there; if the object is the clean page built in a new domain before the walk back, it is here.",
+   "case": "The trader who lost the fund, two seasons at sea, back able to say what he now does with a bad read of the wind.",
+   "case_is": "here"
+  }
+ ]
+}

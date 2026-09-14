@@ -1,0 +1,33 @@
+{
+ "name": "what-a-price-does",
+ "fences": [
+  {
+   "to": "first-mover-forecloses",
+   "kind": "fence",
+   "rule": "If the instrument is a clause or a move about other sellers' prices, or about who sets the scale first, it is a move and belongs there; if the work is done by this price's own magnitude, shape, existence, or non-collection, it is here.",
+   "case": "The price-match guarantee that promises to beat any advertised price by ten percent, a clause about rivals' numbers rather than a number of its own.",
+   "case_is": "there"
+  },
+  {
+   "to": "exchange-ontologies",
+   "kind": "fence",
+   "rule": "If the precedent is offered as the consideration in a deal, it is a good traded there; if an ordinary price takes a second job as precedent whether the parties want it or not, the mechanism is here.",
+   "case": "The gallery that bids on its own artist at auction so the record will not print a low number.",
+   "case_is": "here"
+  },
+  {
+   "to": "leverage-discoveries",
+   "kind": "fence",
+   "rule": "If the question is what a small change at the default moves for everybody, the default is a lever there; if the question is how a price stops being seen after its first acceptance, it is here.",
+   "case": "The subscription that renews on a card the customer no longer looks at.",
+   "case_is": "here"
+  },
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "If the item is the instrument or rule that must exist for a fact to leave a trace, it is there; if it is a price whose whole work is to be read by such a witness, it is here.",
+   "case": "The peppercorn rent, a price whose magnitude is irrelevant to a court that reads only whether a price exists.",
+   "case_is": "here"
+  }
+ ]
+}

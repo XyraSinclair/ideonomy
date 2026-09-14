@@ -1,0 +1,33 @@
+{
+ "name": "where-margin-hides",
+ "fences": [
+  {
+   "to": "leverage-discoveries",
+   "kind": "fence",
+   "rule": "If the margin is harvested by the fractional convention at the measurement increment, it is the rounding rule there; if the margin lives in a hiding place with a carrier and a tell an outsider can read, it is here.",
+   "case": "The seller who chooses the measurement resolution so that every fraction rounds in its favor.",
+   "case_is": "there"
+  },
+  {
+   "to": "what-a-price-does",
+   "kind": "fence",
+   "rule": "If the question is what the price does to the buyer, teaching a use or going to sleep, it is the price's own mechanism there; if the question is where the margin lives, what carries it, and what tells an outsider, it is here.",
+   "case": "The software renewal uplift, read as margin carried by inertia with new and existing customers paying different prices as the tell.",
+   "case_is": "here"
+  },
+  {
+   "to": "pricing-unit-metamorphoses",
+   "kind": "fence",
+   "rule": "If the item names how the priced unit changed kind and what the new unit obliges, it is there; if it names the carrier that holds the margin and the outsider's tell, it is here, and the newspaper and the bookseller sit on both sides.",
+   "case": "The newspaper whose readers pay for the paper and whose advertisers pay the margin, with a visible price below cost as the tell.",
+   "case_is": "here"
+  },
+  {
+   "to": "ghost-leverages",
+   "kind": "fence",
+   "rule": "If the payer's leverage has outlived its source and runs on habit, it is there; if the second contract is live and the shelf, the feed, or the route still bends toward the payer, it is here.",
+   "case": "Circulation figures quoted to advertisers who already left.",
+   "case_is": "there"
+  }
+ ]
+}

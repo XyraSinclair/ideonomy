@@ -1,0 +1,13 @@
+{"name": "clocks-that-are-not-clocks",
+ "fences": [
+   {"to": "traces-of-the-unlived",
+    "kind": "fence",
+    "rule": "If the unanswered cadence is read for how long the absence has run, as a count of bottles or a bound held in the reader's expectation, it is here as Milk on the step; if the nonarrival itself initiates a response because a stored schedule made it detectable, the event that never happened is there as Missing alarm.",
+    "case": "The Sunday call that did not come, read by the one who waited for it as a bound on how long the caller has been gone.",
+    "case_is": "here"},
+   {"to": "forms-of-return",
+    "kind": "fence",
+    "rule": "If the return is read for how long the severance lasted, the returner's stale knowledge being the second state that dates it, the case is here as Frozen dictionary; if the case is what the arrival does with the interval, files it, erases it, rewrites it, or performs it away, it is there.",
+    "case": "The returnee who still uses the old street name and the old prices.",
+    "case_is": "here"}
+ ]}

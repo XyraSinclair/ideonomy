@@ -1,0 +1,13 @@
+{"name": "hinge-kinds",
+ "fences": [
+   {"to": "advice-antinomies",
+    "kind": "dependency",
+    "rule": "Each family here was induced from the hinges of the antinomies there, so a member here presupposes at least one domain there whose hinge it generalizes, and a family with no antinomy behind it has no standing.",
+    "case": "Audience regeneration presupposes launch-timing's hinge, whether the audience regenerates daily or is a finite set of gatekeepers who remember.",
+    "case_is": "there"},
+   {"to": "advice-antinomies",
+    "kind": "fence",
+    "rule": "If the case names two opposed poles of sincere advice in one domain with the variable that decides between them, it is there; only the variable's family, recurring across domains with the domain removed, is here.",
+    "case": "Frugality's hinge, which side of your ledger has the higher derivative, stated with its two poles and its domain.",
+    "case_is": "there"}
+ ]}

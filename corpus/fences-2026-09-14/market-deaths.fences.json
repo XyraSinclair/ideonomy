@@ -1,0 +1,33 @@
+{
+ "name": "market-deaths",
+ "fences": [
+  {
+   "to": "market-births",
+   "kind": "passage",
+   "rule": "Across the passage the same precondition is seen arriving rather than failing: a grade, a fence, a queue, or a decree that there bears a market here kills one, and the death adds the tell that it is already dead behind the quote and what a rebirth would require.",
+   "case": "Key money paid for a place on a rent-controlled waiting list, the forbidden sale grown back inside the queue.",
+   "case_is": "here"
+  },
+  {
+   "to": "pricing-unit-metamorphoses",
+   "kind": "fence",
+   "rule": "If the question is what the new unit obliges, who now carries the measurement burden and the risk, it is a metamorphosis and belongs there; if the question is the interval in which the old unit is still printed and never paid by a buyer, it is here.",
+   "case": "The ninety-nine-cent song that lives on as a per-stream royalty no buyer pays.",
+   "case_is": "here"
+  },
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "If the item is a kind of instrument that must exist before a trade can leave a print, it belongs there; if it is a print outliving the trades that once stood behind it, the death of a witness rather than a kind of one, it is here.",
+   "case": "The interbank term-lending rate submitted as judgment for a decade after the lending it named had ended.",
+   "case_is": "here"
+  },
+  {
+   "to": "fertile-forgettings",
+   "kind": "passage",
+   "rule": "Across the passage the sign flips: there an erasure leaves standing a capacity that could not exist while the thing was kept, here a piece of knowledge arriving spends the ignorance a risk pool was priced on, and nobody can rebuild it.",
+   "case": "A genetic test the life insurer asks for before writing the policy.",
+   "case_is": "here"
+  }
+ ]
+}

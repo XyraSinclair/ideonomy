@@ -1,0 +1,47 @@
+{
+ "name": "enumeration-stalls",
+ "fences": [
+  {
+   "to": "denominator-manufactures",
+   "kind": "passage",
+   "rule": "The partition or dimension set as the universe an enumerator counts against is denominator-manufactures'; the moment the exhaustion of that container list is read as the exhaustion of the members is here, and what changes across is what is taken as done.",
+   "case": "The census whose enumerators complete the address file and count nobody with no address: the address file as a universe is Filing classes there, and the stop when every address has been opened is Every address visited here.",
+   "case_is": "here"
+  },
+  {
+   "to": "form-yields",
+   "kind": "passage",
+   "rule": "What a named axis produces, the limiting members it conscripts at its ends, is form-yields'; the walk that closes on those ends while the subject stays open is here, so the same axis yields there and stalls here.",
+   "case": "A seriation from a clock the holder never started to a clock the holder wrote, whose author stops at the pause paper: the endpoints it conscripted are Endpoint demand there, and the finished walk read as a finished universe is Both ends named here.",
+   "case_is": "here"
+  },
+  {
+   "to": "register-yields",
+   "kind": "fence",
+   "rule": "A member that was reachable and not sayable, and can be restated in the first register once said in another, is here; a member that cannot be restated flat without losing its truth was the register's own and is register-yields'.",
+   "case": "The legal register that names every stall with a docket and has no sentence for a stall made of singletons: once the singleton stall is said in the ecological register it restates flat, so it is Restatable once found here.",
+   "case_is": "here"
+  },
+  {
+   "to": "item-grains",
+   "kind": "passage",
+   "rule": "What a grain admits and forbids, the frame's required parts, is item-grains'; the moment the frame's refusal is read as the world's having no such member is here.",
+   "case": "The vaccine trial's diary card, whose ticked boxes for solicited reactions run several times the rate of anything volunteered in the blank: the card's parts fix the unit there, and the trial's list of reactions read as the card's list is No box for it here.",
+   "case_is": "here"
+  },
+  {
+   "to": "context-horizons",
+   "kind": "passage",
+   "rule": "The edge of what a reasoner can see, held as an edge, is context-horizons'; the same edge mistaken for the subject's end, 'I found no more' said as 'there are no more', is here.",
+   "case": "An enumerator of stalls who has run climbs and never a census: the address list's stall absent from its window is No door in the wall there, and the emptied memory felt as an emptied subject is Never met one here.",
+   "case_is": "here"
+  },
+  {
+   "to": "composition-yields",
+   "kind": "fence",
+   "rule": "A stall of the enumeration's own growth is here; what a composition of passes yields, a critic seat's verdict distribution or what two nets of different make find, is composition-yields'.",
+   "case": "Thirty-eight critiques across three fleets all returning admit-with-repairs: a stall of the judge's menu, Verdict menu there, and not a stall of any list's growth.",
+   "case_is": "there"
+  }
+ ]
+}

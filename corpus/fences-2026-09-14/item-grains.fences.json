@@ -1,0 +1,47 @@
+{
+ "name": "item-grains",
+ "fences": [
+  {
+   "to": "denominator-manufactures",
+   "kind": "fence",
+   "rule": "A product of dimensions taken as the universe to count against, its cell count the denominator, is denominator-manufactures'; the roll of parts that fixes what one item is, and not how many there are, is here.",
+   "case": "Zwicky's morphological box with its tens of thousands of jet-engine cells: the cell count is a universe and belongs there, while the required parts of one item are Roll of parts here.",
+   "case_is": "there"
+  },
+  {
+   "to": "form-yields",
+   "kind": "fence",
+   "rule": "A hand, an instrument, or a joint that fixes what one item is, is here; an order or an axis laid over items already fixed, and what it yields, is form-yields'.",
+   "case": "The seriation axis: it takes the units as given and orders them, so its endpoints and its direction are form-yields' and it fixes no grain.",
+   "case_is": "there"
+  },
+  {
+   "to": "enumeration-stalls",
+   "kind": "fence",
+   "rule": "A hand that fixes the unit, including the counted party that splits because it is paid per piece, is here; an enumeration that stops yielding before its universe is exhausted while feeling complete is enumeration-stalls'.",
+   "case": "Salami's catalog case, a grower paid in kept items whose finest grain sits where the judge was most lenient: it moves the unit and not the stop, so it is here, marked speculative, and is not a stall.",
+   "case_is": "here"
+  },
+  {
+   "to": "register-yields",
+   "kind": "fence",
+   "rule": "A frame that fixes the unit, a head verb, a required part, a count bound, a slip that must exist first, is here; what the register does to the list once it is being written in it, admitting, refusing, or manufacturing a member, is register-yields'.",
+   "case": "'dord', a slip reading 'D or d' set in type as a word: the rule that a sense is what a slip attests is Slip first here, and the slip admitted as a member is Slip read as a word there.",
+   "case_is": "there"
+  },
+  {
+   "to": "list-excellences",
+   "kind": "fence",
+   "rule": "A dimension along which a finished list is judged, one frame carrying every item or no item another rephrased, is list-excellences'; the fixer whose price or test that dimension names is here.",
+   "case": "The nine 'Pass to' items in mathematical-moves: under Parallel discipline they score as a disciplined frame there; under Head verb here the head repeats while its object varies, and the number to read is distinct heads over items.",
+   "case_is": "here"
+  },
+  {
+   "to": "pricing-unit-metamorphoses",
+   "kind": "fence",
+   "rule": "A unit agreed between a buyer and a seller and transformed in kind is pricing-unit-metamorphoses'; the unit fixed before any price, or fixed by a third party neither side agreed to, is here.",
+   "case": "Bell v. United States, one trip across a state line held one offence and not two by the rule of lenity: a unit neither party agreed and a court construed, One occurrence or two here.",
+   "case_is": "here"
+  }
+ ]
+}

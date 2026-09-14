@@ -1,0 +1,26 @@
+{
+ "name": "cooperation-integrity-hinges",
+ "fences": [
+  {
+   "to": "cooperation-mechanisms",
+   "kind": "dependency",
+   "rule": "A device that makes cooperation stable among self-interested parties is there and is the field each hinge examines; the question whether a stable arrangement consumes one of its survival preconditions is here, since stability is not evidence of preservation.",
+   "case": "An insurance pool whose members pay dues reliably for a decade while the one shock that triggers every claim also impairs the pool's assets.",
+   "case_is": "here"
+  },
+  {
+   "to": "advice-antinomies",
+   "kind": "fence",
+   "rule": "Two poles of sincere expert advice in a domain of life with the hinge that decides between them are there; an arrangement and its superficially similar counterfeit with the diagnostic question that tells them apart are here.",
+   "case": "'Let them roam, antifragility needs exposure' against 'vigilance, some risks are unsurvivable', hinged on whether the worst case is a lesson or an absorbing state.",
+   "case_is": "there"
+  },
+  {
+   "to": "hinge-kinds",
+   "kind": "fence",
+   "rule": "A recurring family of latent variables that decides between both-sided advice across domains is there; a hinge fixed to one diagnostic locus in an agreement between cooperating parties is here.",
+   "case": "Whether one corrupted input, incentive, or measurement method could make every monitor certify the same false state is asked of one agreement's verification, not of a domain.",
+   "case_is": "here"
+  }
+ ]
+}

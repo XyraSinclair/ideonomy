@@ -1,0 +1,47 @@
+{
+ "name": "deal-flow-attractors",
+ "fences": [
+  {
+   "to": "deal-flow-sources",
+   "kind": "fence",
+   "rule": "If the item names where a stream of deals comes from, including a referral a past counterparty makes, it is there; if it names why flow bends toward a node at a price the seller would not otherwise accept, and what a second node does to it, it is here.",
+   "case": "The contractor named by other contractors at the moment they decline the job, an unpaid funnel the refusers run.",
+   "case_is": "here"
+  },
+  {
+   "to": "leverage-discoveries",
+   "kind": "fence",
+   "rule": "If the item is a point where a small input moves a large output, the scarce input at the narrow hour or the register's smallest edit, it is there; if it is what the position does to what arrives unbidden, it is here.",
+   "case": "The tow truck that answers at three in the morning, when the searcher's horizon collapses to whoever picks up.",
+   "case_is": "here"
+  },
+  {
+   "to": "first-mover-forecloses",
+   "kind": "fence",
+   "rule": "If the item is the move of acquiring the bottleneck, it is there; if it is what holding the adjoining position does to which lots are brought first, it is here.",
+   "case": "Acquiring the physical bottleneck through which all traffic must flow, as an act taken to foreclose rivals.",
+   "case_is": "there"
+  },
+  {
+   "to": "ghost-leverages",
+   "kind": "fence",
+   "rule": "If the toll is still paid at a gate with a free bypass nobody remembers, the power is obsolete and it is there; if the onboarding the open file saves is a real cost the counterparty would otherwise pay, it is here.",
+   "case": "The incumbent bank that gets the next loan because the borrower is already onboarded and the file is open.",
+   "case_is": "here"
+  },
+  {
+   "to": "exchange-ontologies",
+   "kind": "fence",
+   "rule": "If the name or reputation is what the seller wants for itself as consideration, it is a category of value there; if the name is wanted because third parties cannot close without it, it is here.",
+   "case": "The anchor tenant whose signature the other tenants' leases are conditioned on.",
+   "case_is": "here"
+  },
+  {
+   "to": "deal-flow-reflexivities",
+   "kind": "fence",
+   "rule": "If the question is what the volume of arrivals does to the node's criteria, it is there; if it is what bends the arrivals toward the node in the first place, it is here.",
+   "case": "A fund whose bar drifts as each deck is judged against the recent stream rather than the underlying bar.",
+   "case_is": "there"
+  }
+ ]
+}

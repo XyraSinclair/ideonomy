@@ -1,0 +1,47 @@
+{
+ "name": "undo-costs",
+ "fences": [
+  {
+   "to": "clean-exits",
+   "kind": "fence",
+   "rule": "If the cost of leaving was written into the move's own paper, a termination fee, a break fee, a notice period, a priced release, clean-exits carries it; only a bill the move's own account does not show is here.",
+   "case": "A break fee written into the merger agreement and paid when the buyer walks.",
+   "case_is": "there"
+  },
+  {
+   "to": "option-expiries",
+   "kind": "fence",
+   "rule": "Every bill here is for a way back that can still be bought; a way back gone entirely, closed by the new state's first act that the old state cannot read, is option-expiries' Rollback horizon.",
+   "case": "A schema migration after the new service has written its first record in a shape the old schema rejects.",
+   "case_is": "there"
+  },
+  {
+   "to": "forms-of-return",
+   "kind": "fence",
+   "rule": "What sameness licenses a return and what the return does with the interval is forms-of-return's question; this map takes only the bill for coming back, so a return that deletes the interval is priced here and described there.",
+   "case": "forms-of-return's Hard reset, the restore that returns a file to its past state and pretends the interval never happened.",
+   "case_is": "there"
+  },
+  {
+   "to": "risk-rebound-effects",
+   "kind": "fence",
+   "rule": "If protection invites settlement while it stands, that is risk-rebound-effects' levee effect; if the settlement is discovered as the bill of taking the levee down, with no denominator, it is Strangers built on it here.",
+   "case": "A floodplain settled behind a levee while the levee stands.",
+   "case_is": "there"
+  },
+  {
+   "to": "walkaway-manufactures",
+   "kind": "fence",
+   "rule": "A record of walks that buys credibility is walkaway-manufactures' Walk on record; a record of un-walks that spends it, read by parties who held no stake in the move, is Retraction read by the room here.",
+   "case": "A retailer that dropped a national brand for a season and is believed the next time it threatens to.",
+   "case_is": "there"
+  },
+  {
+   "to": "market-births",
+   "kind": "fence",
+   "rule": "A precondition a market builds or imports before a thing can be priced is market-births'; a date-setter a group cannot import for its own return without becoming subject to one is Coordination spent here.",
+   "case": "Sweden's drivers moved to the right on one Sunday in 1967 on a date the Riksdag set, and a return would need a second date nobody in the group can set.",
+   "case_is": "here"
+  }
+ ]
+}

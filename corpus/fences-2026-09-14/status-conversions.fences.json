@@ -1,0 +1,26 @@
+{
+ "name": "status-conversions",
+ "fences": [
+  {
+   "to": "exchange-ontologies",
+   "kind": "dependency",
+   "rule": "Introducer's tab presupposes that map's Vouching, reputation staked on another's behalf, and adds the shape of the rate: the converter pays, so credit moves only as fast as someone will be billed for it.",
+   "case": "The referee whose letter opens the door and who is billed if the hire goes badly.",
+   "case_is": "here"
+  },
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "If the item is the instrument that lets the save leave a trace at all, it belongs there; if it is what the witnessed save converts competence into, and at what rate against a credential, it is here.",
+   "case": "The night nurse who caught the tenfold dose and is deferred to by physicians for years afterward.",
+   "case_is": "here"
+  },
+  {
+   "to": "ghost-leverages",
+   "kind": "fence",
+   "rule": "If the power that shields the holder is obsolete and obeyed by habit, it belongs there; if the institution's memory and other people's careers still run through the holder so that removal costs more than tolerance, it is here.",
+   "case": "The thirty-year clerk forgiven what a newcomer would be fired for.",
+   "case_is": "here"
+  }
+ ]
+}

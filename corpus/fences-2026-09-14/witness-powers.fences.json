@@ -1,0 +1,47 @@
+{
+ "name": "witness-powers",
+ "fences": [
+  {
+   "to": "hold-up-mints",
+   "kind": "fence",
+   "rule": "In if the held thing is a record of a fact that stands without it and a rule makes the action unavailable without the record; out if the held thing is the means of the action itself, a stored capability, which is the custody hold-up-mints' Held on their floor extinguishes.",
+   "case": "A source-code escrow released to the licensee on the vendor's bankruptcy.",
+   "case_is": "there"
+  },
+  {
+   "to": "witness-architectures",
+   "kind": "fence",
+   "rule": "What must exist for a trace to form, and a trace that constitutes the fact it records, are witness-architectures'; here the fact stands without the trace and only the power depends on it.",
+   "case": "A bank balance, which exists only because the ledger does.",
+   "case_is": "there"
+  },
+  {
+   "to": "advantages-spent-by-use",
+   "kind": "fence",
+   "rule": "A power spent by its own exercise belongs to advantages-spent-by-use; Held unfired is here only as the point where activation and ending are one act, and this map says nothing of what the spending leaves behind.",
+   "case": "A compromising record worth the whole of what its subject will do to keep it unseen and nothing the day after it is shown.",
+   "case_is": "here"
+  },
+  {
+   "to": "status-conversions",
+   "kind": "fence",
+   "rule": "A credential that is a bearer copy of an entry held in someone else's ledger is status-conversions' Notarized standing; here only where no ledger stands behind the paper and the paper is the entry.",
+   "case": "A negotiable bill of lading whose surrender at the discharge port is the whole claim to the cargo.",
+   "case_is": "here"
+  },
+  {
+   "to": "who-can-be-bound",
+   "kind": "fence",
+   "rule": "What of a party can be reached so that a promise to or from it carries weight is who-can-be-bound's; here the promisor was not reachable at all until the promisee made a reliance trace of her own after the promise.",
+   "case": "A candidate who resigned and signed a lease on a written offer that was then withdrawn.",
+   "case_is": "here"
+  },
+  {
+   "to": "power-trades",
+   "kind": "fence",
+   "rule": "A hold that accumulates in what one party has withheld across a repeated game is power-trades' Silence on the tab; a single act of taking that creates a power in the hand of the one who paid is Rent taken after notice here.",
+   "case": "A source's veto over each story, given for access and outliving the story.",
+   "case_is": "there"
+  }
+ ]
+}

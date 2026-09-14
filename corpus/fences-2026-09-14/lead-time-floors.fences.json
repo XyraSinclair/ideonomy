@@ -1,0 +1,47 @@
+{
+ "name": "lead-time-floors",
+ "fences": [
+  {
+   "to": "runway-illusions",
+   "kind": "fence",
+   "rule": "If it is time the operator must pay for while stopping, it is Burn you cannot put down there; if it is time the operator must wait for an arrival that is not yet its own, it is here.",
+   "case": "The remaining term on the operator's own lease, or the severance owed.",
+   "case_is": "there"
+  },
+  {
+   "to": "velocity-bottlenecks",
+   "kind": "fence",
+   "rule": "If the wait is until the source itself returns, it is the Recovery floor there, a tempo constraint with no counterparty; if the wait is until a replacement arrives, it is here.",
+   "case": "The surgeon's hand healing, or the founder's months off after burnout.",
+   "case_is": "there"
+  },
+  {
+   "to": "survival-floors",
+   "kind": "passage",
+   "rule": "Here the floor is a height above zero the operator must keep by having the replacement in hand before the fixed point; past the death it becomes a gap after zero, and what bridges the gap is a survival floor there.",
+   "case": "The founder who crosses the fixed point with no replacement in hand and moves back into the family home.",
+   "case_is": "there"
+  },
+  {
+   "to": "survival-floors",
+   "kind": "fence",
+   "rule": "If another hand can call the copy, or the floor holds the operator, it is a floor there; if the operator owns the copy and no other hand can call it, or the bridge holds the function at a worse rate, it is here.",
+   "case": "The client's monthly retainer that buys first call on a plumber.",
+   "case_is": "there"
+  },
+  {
+   "to": "who-can-be-bound",
+   "kind": "dependency",
+   "rule": "Clean months presupposes the accrued hold there, the record that binds a stranger once a counterparty has watched enough of it, and adds the guarantor who lends their own record as the purchase that shortens the wait.",
+   "case": "The bank that wants two years of filed accounts before it opens a credit line.",
+   "case_is": "here"
+  },
+  {
+   "to": "clocks-that-are-not-clocks",
+   "kind": "fence",
+   "rule": "If the stand's age structure is read for the inference it licenses about the past, the freeze ten years ago, it is a clock that is not a clock there; if the stand is the purchase that keeps a replacement always ripe, it is Staggered stand here.",
+   "case": "The bench with nobody to promote, read as the hiring freeze of ten years ago.",
+   "case_is": "there"
+  }
+ ]
+}
