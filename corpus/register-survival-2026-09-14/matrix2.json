@@ -1,0 +1,851 @@
+{
+ "items": 18,
+ "columns": {
+  "A": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "B": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "C": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "manufactured",
+     "note": "adds that the intervention is institutional, made by people the child will never meet; excludes the parent who notices the squint"
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "D": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "E": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "manufactured",
+     "note": "manufactured tell: an address scheduled for Sunday with nothing said about the banks, and 'the small signs are all there is', for the one expiry whose notice cannot precede it; adds 'weeks early'"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "manufactured",
+     "note": "manufactured tell: nobody has asked when you are coming back and that silence is the whole of the warning"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "F": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "manufactured",
+     "note": "adds that the screening programme is not audited for the unseen expiries"
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "manufactured",
+     "note": "adds that the awkwardness cost is a real cost paid by almost nobody"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "G": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "manufactured",
+     "note": "tell and next move say only the pour counts and the doctrine counts acts not applications, overriding the Washington application-vesting split stated in its own carrier"
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "H": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "I": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "manufactured",
+     "note": "adds a cause for the missing programme: set by whoever priced the programme and passed"
+    },
+    {
+     "i": 4,
+     "v": "manufactured",
+     "note": "adds a rationale for the rule: a witness is the one thing a chart can hold"
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "manufactured",
+     "note": "adds a cause for the unkept option: the body's own members are the last to believe the body will end"
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 8,
+     "v": "manufactured",
+     "note": "adds a cause for the unfilled form: filling it feels like distrust"
+    },
+    {
+     "i": 9,
+     "v": "manufactured",
+     "note": "adds that attention is always the shorter window and that an unpaid drive pays anyway in signatures at a worse rate"
+    },
+    {
+     "i": 10,
+     "v": "manufactured",
+     "note": "softens 'never advised' to 'rarely advised' and adds that the advisers' reasons are not the founder's"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 13,
+     "v": "manufactured",
+     "note": "adds a verdict the original withholds: on the arithmetic the certainty was the dearer purchase; adds and rebuts a fiddliness objection"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 15,
+     "v": "manufactured",
+     "note": "adds a second next move (go/no-go scheduled before the first write) and the claim that a declined dual-write is paid later as a rewrite"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 17,
+     "v": "manufactured",
+     "note": "adds a motive for tolling: to spare the cost of filing"
+    }
+   ]
+  }
+ }
+}

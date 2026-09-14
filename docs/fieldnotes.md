@@ -635,3 +635,66 @@ neighbour's side only, since their own text names nobody; those fences
 are marked inferred in the agents' reports and are the first to re-cut.
 Most fenced in: witness-architectures (13), then enumeration-stalls,
 ghost-leverages, and what-a-price-does (9 each).
+
+## Register survival: one map, nine registers, two stages (2026-09-14)
+
+`register-yields` claims a register admits, refuses, or manufactures
+members; the roster in `bin/ideonomy registers --ls` asserts each
+register's unlock. Neither had been measured. This pilot takes one
+finished map, `option-expiries` (18 items, operator-grade register), and
+asks what a round trip through a register does to each item: restate the
+item in the register, re-ask it back in the map's own register, and score
+the return against the original as survived, lost, or manufactured. Eight
+registers, one per family of the roster (tenderness, elegy, vertigo,
+scorn, deadpan, foreboding, hunger, austerity), plus the map's own
+register as a control for the restater's drift. Nineteen Fable seats in
+all, every one verified `claude-fable-5-1` from its transcript; the
+blinding was mechanical (columns under letters, key held outside the
+repo) and the scorer never saw a register name. Everything is under
+`corpus/register-survival-2026-09-14/`.
+
+Stage one failed in an instructive way. One seat per register wrote both
+the restatement and the return, told to write the return "from the
+restatement alone". The scorer returned 159 of 162 survived, and the
+number was false: the returns sat at 0.94–1.00 similarity to the
+originals in every register, while the control, told only to vary its
+wording, sat at 0.58. A window that holds the original returns the
+original; the instruction not to look was a claim about the window's
+horizon the window could not honour. That is the degenerate closure
+`environment-loops` names, the reasoner reading its own input back as a
+result, and it was produced by the pilot's own design. `matrix.json` and
+`matrix.md` stay as that run's record.
+
+Stage two moved the return to a fresh seat that saw only the restatement
+(`out/`, `back/`, `blind2.json`, `matrix2.*`). Returns then sat at
+0.14–0.27 similarity to the originals, and the scorer's verdicts were 147
+survived, 0 lost, 15 manufactured. Zero loss is the first finding: at
+this length (restatements ran 1.2–1.7k characters) every register carried
+the mechanism, carrier, threshold, tell, and next move intact through a
+seat that had never seen them. The register's artifact is not
+subtraction but addition, and the additions sort by register. Scorn
+manufactured on nine of eighteen: a register that grants a bad idea the
+respect it earned supplies a cause for the badness ("filling it feels
+like distrust", "the body's own members are the last to believe the body
+will end"), a motive, or a verdict the original withholds. Foreboding
+manufactured tells, including one for Weekend closure, the map's one
+mechanism whose notice cannot precede it: the register that reads small
+signs put a readable sign on the expiry that forbids one. Deadpan
+manufactured frequency claims ("paid by almost nobody", "not audited for
+it"). Hunger overrode a jurisdiction split its own carrier had stated.
+Elegy, austerity, tenderness, and the control returned all eighteen
+clean. Two item-side findings: Patch before seven, whose holder is a
+child who wants nothing, was the item four restaters reported fighting
+hardest and was manufactured on in three registers, since a register
+addressed to a holder relocates its affect onto the screening programme
+and then invents facts about the programme; and the outgrown acquirer,
+the map's one analytical item with no observed case, was named by seven
+of nine re-askers as the thinnest restatement to rebuild from, so the
+round trip flags the weak item without being asked to.
+
+What the roster can carry now is a per-register artifact class: what the
+register adds when it adds. Next: the same design on a map whose own
+register is charged (`ghost-leverages`, elegiac) to separate the
+register's artifact from the map's; the artifact classes into the roster
+lines; and a length bound on the restatement, since zero loss at 1.5k
+characters says nothing about loss at 300.

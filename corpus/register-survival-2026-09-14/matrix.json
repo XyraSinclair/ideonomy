@@ -1,0 +1,851 @@
+{
+ "items": 18,
+ "columns": {
+  "A": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": "gloss only: 'so that announcement and shutting are one act' restates 'notice cannot precede it'"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "B": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": "title renamed; body intact; cross-references to other items keep the original names"
+    }
+   ]
+  },
+  "C": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": "'Friday night and the bank holiday' moved from the carrier clause into the mechanism clause"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": "added 'since notice ran by publication', a restatement of the carrier"
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": "identical to original"
+    }
+   ]
+  },
+  "D": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": "neighbour gloss compressed: 'deposit taken into receivership on a Friday' -> 'the Friday deposit'"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": ""
+    }
+   ]
+  },
+  "E": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "manufactured",
+     "note": "Cypriot case gains 'extended day by day' (original: one extension until the bail-in was law); carrier gains 'deliberately'; neighbour gloss compressed to 'the Friday deposit'"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": "scope 'anyone the debtor could not name' moved from the carrier clause into the case list"
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": "added 'claimed as a window and' before 'contested as a hard one'; gloss on an existing case"
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": "'legislative bill' -> 'bill'"
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": "identical to original"
+    }
+   ]
+  },
+  "F": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": "compressed; 'a fuse' dropped from the Let it lapse contrast, nothing of the mechanism"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": "identical to original"
+    }
+   ]
+  },
+  "G": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": "identical to original"
+    }
+   ]
+  },
+  "H": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 2,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 4,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": "identical to original"
+    }
+   ]
+  },
+  "I": {
+   "verdicts": [
+    {
+     "i": 0,
+     "v": "survived",
+     "note": ""
+    },
+    {
+     "i": 1,
+     "v": "survived",
+     "note": "probate case blurred: 'window after the notice runs in the county paper' -> 'window that runs in the county paper's legal notices'; case description, not a mechanism part"
+    },
+    {
+     "i": 2,
+     "v": "manufactured",
+     "note": "hedge dropped: 'never signed and may never have read' -> 'never signed and never read'; asserts as fact what the original leaves open"
+    },
+    {
+     "i": 3,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 4,
+     "v": "manufactured",
+     "note": "carrier gains a rationale the original does not give: 'asks for a witness and not for the tissue, the one thing a chart can hold'"
+    },
+    {
+     "i": 5,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 6,
+     "v": "survived",
+     "note": "hallway -> corridor"
+    },
+    {
+     "i": 7,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 8,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 9,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 10,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 11,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 12,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 13,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 14,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 15,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 16,
+     "v": "survived",
+     "note": "identical to original"
+    },
+    {
+     "i": 17,
+     "v": "survived",
+     "note": "identical to original"
+    }
+   ]
+  }
+ }
+}
