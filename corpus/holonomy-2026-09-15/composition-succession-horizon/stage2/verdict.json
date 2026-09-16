@@ -1,0 +1,11 @@
+{
+ "verdict": "refused",
+ "item_returned": null,
+ "drift": null,
+ "hop": {
+  "n": 1,
+  "from": "window-successions (B)",
+  "to": "context-horizons (C)",
+  "rule": "the B-to-C fence sorts by whether the reasoner that lost the thing is still present or has been replaced by a successor. The case satisfies both arms in its own words (same session identifier with the transcript on disk past its edge; first half replaced wholesale by a compactor's third-person summary), and the rule carries no test for reasoner identity across a compaction, so the seat could not send it either way and kept it on Compacted."
+ }
+}

@@ -1,0 +1,11 @@
+{
+ "map": "window-successions",
+ "item_taken": {
+  "index": 5,
+  "first_six_words": "Compacted: the window ends by a",
+  "why": "The case names a compactor as the writer, a summary as the carrier, and a successor session as the reader, which is Compacted exactly; not Abstract instead of the paper (4), where the original sits present and named beside the summary and the successor chose the short one, and not Name that resolves (6), where the carrier is a name rather than a summary and the predecessor chose it."
+ },
+ "crosses": "no",
+ "reasoning": "The rule splits on whether the reasoner that lost the material is still present. The case says the summary is written for a successor session to start from: the compacted session has ended by rule, the predecessor is gone, and the successor reads what was left. That is the rule's second clause, so the case stays on window-successions. It would cross only if the case were restated as the same session continuing past its own compaction, reading its own compacted turns as something past the edge of a live window; the case as it arrives does not say that, it says successor.",
+ "case_out": null
+}

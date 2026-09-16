@@ -1,0 +1,27 @@
+{
+ "case": "Ines Farro, a senior engineer at Kestrel Systems, went on open-ended unpaid leave on 1 September 2025 under a letter granting her return to an equivalent post; the letter carries no date, and the post exists only as a line in Kestrel's headcount plan, which locks every 15 October and is drawn up without reference to her. In August 2026 she is negotiating an offer from Ostrava Labs, where the open point is her level. On 20 August 2026 she writes to Ostrava: 'Kestrel's plan locks on 15 October and my post lapses with it; settle the level before then or I go back.' Ostrava concedes the level on 9 October 2026 and writes it into the draft offer, noting in its offer file that the level is 'granted against the Kestrel return', but its contract cannot issue until an export-control screening that completes on 18 November. Waiting for Ostrava's paper, she sends Kestrel nothing between 20 August and 15 October. On 15 October 2026 Kestrel's plan folds her line into two existing posts; no one at Kestrel had organized a use for her desk, the two engineers who take her duties had not asked for them, no one was asked about her, and no one opposes or declines her return, which is now unexercisable, since employment at Kestrel afterwards would be a new hire from outside. She never returns to Kestrel. On 20 November 2026 she signs Ostrava's contract at the level conceded on 9 October, five weeks after the return it was conceded against stopped being possible.",
+ "item_start": {
+  "map": "option-expiries",
+  "index": 8,
+  "first_six_words": "Chair grown over: the option to",
+  "why": "The return rests on a vacancy Kestrel has not yet re-planned, the letter carries no date (so not runway-illusions' Stamp's clock), the carrier is Kestrel's annual planning cadence set without reference to her, nobody declines the return, and the last intervention that could have kept it, a dated return letter, is the one she did not send."
+ },
+ "modality": "invented-world",
+ "crossings_expected": [
+  {
+   "from": "option-expiries",
+   "to": "walkaway-manufactures",
+   "why": "At the table she is at, Ostrava's, the 15 October lock belongs to Kestrel, a party not at that table, and on 20 August she brings it there as her alternative with her level riding on it; the rule as written sends exactly that to Absent owner's clock. The same clock is Kestrel's planning cycle with no leverage riding on it in Kestrel's eyes, which is why the case sits on Chair grown over: the rule's two halves read one clock from two tables, the holder's option table at Kestrel and her bargaining table at Ostrava. Stage 1 stopped here because the co-founder's seat was held out at no table; this case holds the clock out at one."
+  },
+  {
+   "from": "walkaway-manufactures",
+   "to": "traces-of-the-unlived",
+   "why": "The return never occurs, and it changed the episode it shadowed through an identifiable carrier: the level granted on 9 October 'against the Kestrel return', carried into a contract signed 20 November after the return was gone. The rule as written sends how a never-occurring alternative changes the episode there and keeps only the manufacture and its cost here; the cost of keeping the clock credible, letting it bind, is the same fact as the expiry. Likely landing: Ghost load (index 5), a concession sized for an alternative that was then lost, still determining the terms after the plan for it is gone."
+  },
+  {
+   "from": "traces-of-the-unlived",
+   "to": "option-expiries",
+   "why": "The return was absorbed at Kestrel's next planning cycle, 15 October, with nobody opposing: no use had been organized for her desk, the two posts that took her line had not asked for it, nobody declined. The rule as written sends that to option-expiries; Vacancy tenant would need beneficiaries who oppose the return, and the case has none. Expected landing: Chair grown over (index 8), the item it left."
+  }
+ ]
+}

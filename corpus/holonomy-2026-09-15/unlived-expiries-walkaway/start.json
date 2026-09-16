@@ -1,0 +1,14 @@
+{
+ "cycle": [
+  "traces-of-the-unlived",
+  "option-expiries",
+  "walkaway-manufactures"
+ ],
+ "start_fence": {
+  "to": "option-expiries",
+  "kind": "fence",
+  "rule": "A return absorbed at the counterparty's next planning cycle with nobody opposing it is option-expiries'; a reserved place that acquires beneficiaries who then oppose the return is Vacancy tenant here.",
+  "case": "The co-founder's seat left empty until the next hire redistributes it: with no one invested in the vacancy the expiry is Chair grown over there; once a use has been organized for the empty seat, the opponents it breeds are here.",
+  "case_is": "there"
+ }
+}

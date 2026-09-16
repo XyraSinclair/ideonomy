@@ -698,3 +698,62 @@ register is charged (`ghost-leverages`, elegiac) to separate the
 register's artifact from the map's; the artifact classes into the roster
 lines; and a length bound on the restatement, since zero loss at 1.5k
 characters says nothing about loss at 300.
+
+## Holonomy: walking cases around fence cycles (2026-09-15)
+
+If the fences tile the atlas consistently, a case handed around a
+3-cycle of maps by the fences' own rules should return as the case it
+was, on the item it left. The fence graph holds 26 directed 3-cycles;
+this run walked five, chosen across fleets (timing and business,
+navigation, three from the enumeration fleet), with a fresh Fable seat
+at every hop that saw only its own map, the arriving case, and its
+outgoing rule, and a blind judge that saw B's map, the start case, and
+the return. Twenty-nine seats in all, every one served `claude-fable-5-1`
+by its transcript. Everything is under `corpus/holonomy-2026-09-15/`.
+
+Stage one walked each starting fence's own `case`. All five stopped at
+the first hop: three `no` (the rule read cleanly and kept the case), two
+`refused` (the case sat off the rule's axis entirely). A case that one
+fence places on B is interior to B relative to B's next fence; pairwise
+boundary points cannot exhibit holonomy, which needs a case in the
+overlap of all three charts. That is a result about the fence data, not
+a failure of the walk: fence cases are pairwise, and the atlas's
+triangles are three pairwise fences, not a shared boundary. Stage two
+had an unblinded constructor per cycle build a triple-point case, one
+fixed set of facts that all three rules as written send across (one
+observed: the 1962 Atlas of the British Flora's 10-km grid at hectad and
+tetrad grain; one analytical; three invented-world with named dates).
+
+Verdicts: no walk returned as itself. Three closed the loop and came back
+changed; two were refused. No case changed a fact anywhere. In all three
+closed walks the drift happened at the same place, the return crossing,
+where the seat at A had to restate the case in B's parts and wrote them
+from A's own centre: the represented alternative became the condition
+lost, the unassembled witness became a second edge, the recognition
+shock became the stall. Two returned to their item with a part mis-set;
+one (delight-stall-form) returned one item over, from Both ends named to
+Stops on its best, exactly the pair the constructor had flagged as the
+overlap it was built to sit in. The two refusals were rules whose two
+clauses both fire on a triple-point case with no tiebreak: the
+window-successions rule sorts on whether the reasoner that lost the
+material is still present, and a session compacted under one identifier
+is both; the denominator-manufactures rule keeps a grid taken as the
+universe and sends what its empty cell yields, and the grid at the
+triple point is both. The seat at that hop answered `no`; the judge,
+reading both clauses, called it `refused`. Either way the rule does not
+decide at the point where three maps meet.
+
+Reading it as a physicist would: the connection is not flat, and the
+curvature is localised at the last crossing of each loop, where the
+handoff is into a map's parts rather than out of them. The fence graph
+passes cases; it does not preserve their description. Two things follow
+for the data. A fence's `rule` needs a tiebreak clause, or an admission
+that it does not decide, at triple points, and the 26 cycles are the
+list of where to look. And the return crossing's drift is a property of
+the `case_out` restatement, which the fence schema does not constrain;
+a fence that names what crosses (the schema's "what changes across")
+carries the case, while one that names only the side leaves the next
+seat to rebuild it from its own centre. Next: reciprocate the 135
+one-sided fences, then rerun the same five walks to see whether the
+drift at hop 3 moves or vanishes when the return fence has been written
+from B's side.

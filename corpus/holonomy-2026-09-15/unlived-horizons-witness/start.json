@@ -1,0 +1,14 @@
+{
+ "cycle": [
+  "traces-of-the-unlived",
+  "context-horizons",
+  "witness-architectures"
+ ],
+ "start_fence": {
+  "to": "context-horizons",
+  "kind": "passage",
+  "rule": "A metric that keeps answering a comparison nobody faces, with the abandoned decision still on record, is here; the same kept distinction whose question the keeper can no longer ask, because the window that held it is gone, is context-horizons', and what changes across is whether the dead question can still be found.",
+  "case": "An author rereading after compaction a fence it built on purpose and cutting it as an oversight: the reason lies past the edge, Own hand, stranger's reasons there; a success metric built to choose between two systems and still optimized after one was abandoned is Extinct question here.",
+  "case_is": "there"
+ }
+}

@@ -1,0 +1,25 @@
+{
+ "case": "The Botanical Society of the British Isles' Atlas of the British Flora, 1962, Perring and Walters, recorded the vascular plants of Britain and Ireland by the 10-kilometre square of the national grids, a product of easting and northing cut at ten kilometres, in Britain named by two letters and two digits. The squares that cover the two islands were the universe: a species' range was the number of squares with at least one record of it, and the scheme's own coverage was the number of squares with a card returned over the number of squares there are. Through the 1950s a square with no card was a blank, and the blank sent a recorder there; the errand was the blank's yield, and the pattern of blanks that survived the visits, at the sea and on the private estate, was a fact about the recording and not about the flora. The neighbouring grain is the tetrad, the 2-kilometre square, of which every 10-kilometre square holds exactly twenty-five, named by adding one letter to the square's name; the county floras that followed recorded the same flora at that grain. A species recorded once in a 10-kilometre square fills that square and one tetrad of its twenty-five, so at the finer grain twenty-four cells stand blank that were full at the coarser, each a place to send someone, the denominator is twenty-five times larger, and the coverage fraction falls without a single record changing; coarsen back to the 10-kilometre square and the twenty-four blanks close and the fraction rises. The records are the same pile at both settings. What moves with the grain is the cell count the fraction is taken against, the number of blanks, and the number of errands.",
+ "item_start": {
+  "index": 14,
+  "first_six_words": "Quadrat: a grid laid over a"
+ },
+ "modality": "observed",
+ "crossings_expected": [
+  {
+   "from": "form-yields",
+   "to": "item-grains",
+   "why": "The rule keeps a form at one setting and its yield there, and sends across the unit itself and what the same pile yields at a neighbouring grain. The case's moving part is the tetrad against the 10-kilometre square: the same records at two settings, the count of blanks and errands changing between them and no record changing. The fence's own case names this coarsening as the grain that is item-grains'. Expected to land on Two-slot name (one letter added to the square's name refines the grain) or Household door (the recorder visits one square and counts what it yields)."
+  },
+  {
+   "from": "item-grains",
+   "to": "denominator-manufactures",
+   "why": "The rule sends across a product of dimensions taken as the universe to count against, its cell count the denominator, and keeps a roll of parts that fixes what one item is. The grid is easting by northing, its square count is what range and coverage are counted against, and the case fixes no roll of parts for a plant record. Expected to land on Zwicky's box (product of dimensions, cell count the denominator, enumeration the filling of cells). The test the rule as written faces: a product of the space's dimensions, not the members', still reads as a product of dimensions."
+  },
+  {
+   "from": "denominator-manufactures",
+   "to": "form-yields",
+   "why": "The rule keeps the grid taken as the universe and sends across what one of its empty cells yields, a predicted member or an errand. The case's blank square yields an errand, a recorder sent there, at both grains; the twenty-four tetrad blanks are twenty-four errands. Returned as itself it sits on Quadrat, the grid whose empty square is a place to send someone. If the crossing's phrasing as a product of dimensions carries it to Forbidden corner, the product item, that is the drift to read; the case holds no cell its dimensions forbid, only cells unvisited."
+  }
+ ]
+}

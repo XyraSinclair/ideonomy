@@ -1,0 +1,11 @@
+{
+ "map": "form-yields",
+ "item_taken": {
+  "index": 0,
+  "first_six_words": "Empty cell: an order by one",
+  "why": "Gallium is the occupant that full cells on every side fixed before anyone saw it, weight, density, and oxide predicted from the neighbours; not Interior gap, where a rule's spacing fixes an address but not what fills it, and not Forbidden corner, where a product of dimensions has no monotone property running through the cell to fix its occupant."
+ },
+ "crosses": "no",
+ "reasoning": "The rule keeps here a form imposed on a pile at one setting and what it yields at that setting, and sends to item-grains the unit itself and what the same pile yields at a neighbouring grain. The case is one form, the order by atomic weight folded into periods, at one setting, and one yield at that setting, gallium in the cell under aluminium. It holds no question of what one element is and no yield of the element pile at a coarser or finer grain, so the rule places it on this side. The case's own note, that the cell count is Zwicky's box, is a denominator claim, not a grain claim, and does not move it either.",
+ "case_out": null
+}

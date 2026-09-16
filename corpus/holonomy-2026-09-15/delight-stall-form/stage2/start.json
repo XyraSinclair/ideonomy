@@ -1,0 +1,31 @@
+{
+ "cycle": [
+  "discovery-delights",
+  "enumeration-stalls",
+  "form-yields"
+ ],
+ "case": "Hanne Rask, a freshwater ecologist, surveyed the fishes of the river Vael from 2019 to 2021. Her plan of March 2019 laid the survey on one line, named 'from the spring to the tide', in nine reaches from the spring at Kell to the tidal weir at Orm, and folded the line into three rows by habitat, riffle, pool, and backwater: twenty-seven cells, each to be netted and its species entered. The plan's last line read: reach nine, where the fresh water runs out; expect the salt-tolerant end of every row. By the close of the 2020 season twenty-six cells held at least one species. The empty cell was the pool of the ninth reach, the last above the weir. Its neighbours were full on three sides: the ninth reach's riffle held the three-spined stickleback, the ninth reach's backwater held the eel, and the pool column had run reach by reach from trout through grayling and chub to the bream and roach of the eighth reach, stiller and warmer at every step. On 11 January 2021 she wrote in her notebook: 'Reach 9 pool. Something lives here. Bottom-living, still water, takes the salt that comes up on spring tides: a flounder, or a goby. Look at low water in June.' On 14 June 2021, seining the ninth-reach pool at low water, she took three juvenile flounder, a marine flatfish that ascends rivers, and wrote that evening: 'The sea comes up the Vael.' Her final report of October 2021 lists thirty species, the flounder last admitted and the only marine one, gives every one of the twenty-seven cells an occupant, and closes: the fauna of the Vael, spring to tide, is complete. Below the weir the river runs two further kilometres to the sea; the report does not sample it. In 2024 a second team netting the weir pool and the reach below it took mullet, bass, smelt, sand goby, sprat, and sand smelt, six marine species, none in her list.",
+ "item_start": {
+  "index": 1,
+  "first_six_words": "Both ends named: once the enumerator",
+  "why": "The plan names an axis, from the spring to the tide, and the members at its two limits; when the last cell at the far end is filled the walk closes and the report reads the finished walk as a finished fauna while the river below the weir stays unsampled, which is this item's mechanism, its tell being a member whose place on the walk was chosen to keep the walk, the flounder entered as the last freshwater pool fish when it is the first marine one. The case also holds Stops on its best (index 2): the striking member is admitted last, the region it opened has one inhabitant, and the survey stops there; the case is built to sit in that overlap, so whether it returns on 1 or on 2 is the walk's result."
+ },
+ "modality": "invented-world",
+ "crossings_expected": [
+  {
+   "from": "enumeration-stalls",
+   "to": "form-yields",
+   "why": "The rule sends what a named axis produces at its ends across. The case holds a named axis, from the spring to the tide, whose far end demanded a member, the fish at which the fresh water runs out, and the enumerator supplied it. What crosses is the member the axis's end produced, the flounder in the ninth-reach pool; at form-yields it should sit on Empty cell rather than Endpoint demand, since neighbours on three sides fixed its address and description and it has a case."
+  },
+  {
+   "from": "form-yields",
+   "to": "discovery-delights",
+   "why": "The rule keeps the address and description the full neighbours fix and sends the pleasure of pointing at what ought to be there before finding it across. The case holds that pointing, the notebook line of 11 January 2021 written from the three full neighbours, and the find of 14 June 2021 that paid it. What crosses is the pointing and its pleasure; at discovery-delights it should sit on The missing tooth."
+  },
+  {
+   "from": "discovery-delights",
+   "to": "enumeration-stalls",
+   "why": "The rule keeps the recognition shock and sends the same shock, read as the reason the enumerator closes the notebook one member into the region it opened, across. The case holds the shock, 'the sea comes up the Vael', and the report of October 2021 that closes the fauna at thirty with the marine region held by one member and two kilometres of tidal river unsampled. What crosses is the shock as the stop. The rule names Stops on its best; the case left from Both ends named; the return item is the question."
+  }
+ ]
+}

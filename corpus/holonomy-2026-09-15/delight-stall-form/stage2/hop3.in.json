@@ -1,0 +1,42 @@
+{
+ "map": {
+  "name": "discovery-delights",
+  "of": "Distinct pleasures or recognition shocks in an encounter with newly apprehended structure; each member names what changes between a discoverer and the thing discovered.",
+  "items": [
+   "Pocket for a ghost: a distinction you could repeatedly feel but not retain becomes nameable, so the next occurrence has somewhere to land.",
+   "Different footprints, same animal: apparently unrelated cases become recognizable as transformations of one structure, without losing their different appearances.",
+   "The grain turns: changing scale converts what looked like incidental texture into the organizing pattern, as individual hesitations become a rhythm.",
+   "The missing tooth: a newly visible arrangement makes one particular absence palpable; you can point to what ought to be there before finding it.",
+   "Door-shaped error: a stubborn exception stops looking like damage to a rule and starts looking like access to the conditions under which that rule works.",
+   "Orchard in a rule: understanding ceases to summarize known cases and begins to produce unfamiliar ones you can inspect for yourself.",
+   "Merciful erasure: a structure survives the removal of details you had labored to remember, and their dispensability feels like discovering where the weight actually rests.",
+   "The useful wrong turn: a failed explanation leaves behind a distinction that the successful explanation needs; being wrong has changed what you can notice.",
+   "Fog with edges: uncertainty acquires a definite shape without yielding a missing answer; you can distinguish what remains open from what merely remains unexamined.",
+   "Unfinished key: speculative pleasure in finding that several unresolved interpretations jointly disclose a structure that choosing any one of them would hide.",
+   "The knot is the handle: two descriptions resist reconciliation until their precise disagreement becomes the thing you can use to investigate the object.",
+   "Borrowed eyes: another person's way of attending makes a previously invisible distinction available in your own experience, rather than merely adding a fact to it.",
+   "The listening wall: your attempt to inspect a pattern changes it, and the change itself reveals a responsiveness that a passive picture would miss.",
+   "Your thumb in the constellation: what seemed to be a pattern wholly in the object becomes intelligible only when your own selection or framing is included among its causes.",
+   "A room no eye contains: comparing partial views reveals a relation absent from each view alone; the delight lies in a shared structure that nobody separately witnessed.",
+   "The welcome that moves: speculative delight in a structure that answers each learned way of attending with a new distinction, making understanding an ongoing mutual adjustment rather than a final view."
+  ],
+  "seriation": {
+   "axis": "From giving a discovery a place in one's existing attention to discovering that attention itself must enter, be shared, or keep changing.",
+   "method": "model-direct",
+   "note": "An authored route, not a developmental ladder. Naming gives the discoverer a portable grip; generation extends that grip; erasure loosens it; bounded uncertainty and rival descriptions make non-possession usable; the last encounters implicate or distribute the act of seeing. Fog with edges bounds ignorance, whereas Unfinished key speculates that preserving alternatives can itself disclose something.",
+   "named_by": "openai-codex/gpt-6-astra"
+  },
+  "boundary_claim": [
+   "These are authored phenomenological distinctions, not collected testimony, psychological kinds, or claims of universality.",
+   "The speculative members propose experiences to explore; no claim is made that ambiguity or mutual adjustment necessarily produces pleasure.",
+   "Episodes can combine members. The sequence and conditional edges organize attention; they do not establish causal laws or measured similarity."
+  ]
+ },
+ "case_in": "An encounter between a discoverer and the thing discovered: Hanne Rask, a freshwater ecologist surveying the fishes of the river Vael from 2019 to 2021, had laid the survey in March 2019 on one named axis, 'from the spring to the tide', nine reaches from the spring at Kell to the tidal weir at Orm, folded into three rows by habitat, riffle, pool, and backwater, twenty-seven cells each to be netted, with the plan's last line ordering the salt-tolerant end of every row at reach nine. By the close of the 2020 season twenty-six cells held at least one species and one was empty, the pool of the ninth reach, the last above the weir, with full neighbours on three sides: the ninth reach's riffle holding the three-spined stickleback, the ninth reach's backwater holding the eel, and the pool column running reach by reach from trout through grayling and chub to the bream and roach of the eighth reach, stiller and warmer at every step. What changed between her and the pool before anything was found: on 11 January 2021 she pointed at the empty cell and described its occupant from its neighbours, writing 'Reach 9 pool. Something lives here. Bottom-living, still water, takes the salt that comes up on spring tides: a flounder, or a goby. Look at low water in June.' What changed when it was found: on 14 June 2021, seining the ninth-reach pool at low water, she took three juvenile flounder, a marine flatfish that ascends rivers, and wrote that evening, 'The sea comes up the Vael.' The pointing preceded the catch by five months; the description was drawn from the three full neighbours and the pool column, and the fish that arrived was the salt-tolerant end the plan's last line had ordered for every row. The mechanism that made the pointing precise, the address and description the full neighbours fixed, stays on form-yields and is not the item here. The following facts travel with the case as its own and are not part of the encounter: her final report of October 2021 lists thirty species, the flounder last admitted and the only marine one, gives every one of the twenty-seven cells an occupant, and closes, the fauna of the Vael, spring to tide, is complete; below the weir the river runs two further kilometres to the sea, which the report does not sample; in 2024 a second team netting the weir pool and the reach below it took mullet, bass, smelt, sand goby, sprat, and sand smelt, six marine species, none in her list, found by netting and not preceded by any pointing; the same axis whose tide end yielded the flounder closed the walk at the weir, and that closing is the stall the sending map keeps.",
+ "fence_out": {
+  "to": "enumeration-stalls",
+  "kind": "passage",
+  "rule": "The recognition shock at newly apprehended structure is here; the same shock read as the reason the enumerator closes the notebook one member into the region it opened is enumeration-stalls', and what changes across is whether the shock opens or ends the search.",
+  "to_of": "A mechanism by which an enumeration stops yielding new members before its universe is exhausted while feeling complete, named with what the stall is made of (the question's direction, the axis's endpoints, one striking member, one wrong member, a frame's required part, a judge's density test, the list's own publication, an exemplar's gravity, the order of search, a grid cut from the list, a register's ceiling, the enumerator's reach, one net cast twice, a given list of containers, a declared count, two correlated nets, a dimension set), the tell that separates it from exhaustion, who can read that tell, and the move that restarts it, and sorted by who can read the tell, from stalls the enumerator reads alone by rereading its own list, through tells in the residue, including the intake log the keeper of a published list already holds, tells a fresh judge or a reader from another domain reads, tells only a rival list reads, tells only a denominator across lists or a third system reads, to the stall nobody inside can read until the missing member arrives."
+ }
+}

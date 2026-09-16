@@ -1,0 +1,14 @@
+{
+ "cycle": [
+  "denominator-manufactures",
+  "form-yields",
+  "item-grains"
+ ],
+ "start_fence": {
+  "to": "form-yields",
+  "kind": "fence",
+  "rule": "If the case is the product or grid taken as the universe the enumerator counts against, it is here; if it is what one of that product's empty cells yields, a predicted member or an errand, it is form-yields'.",
+  "case": "Mendeleev's gallium, predicted from the empty cell under aluminium: the cell count is Zwicky's box here, and the gallium the cell yields is form-yields' Empty cell.",
+  "case_is": "there"
+ }
+}

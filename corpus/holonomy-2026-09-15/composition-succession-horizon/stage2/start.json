@@ -1,0 +1,41 @@
+{
+ "cycle": [
+  "composition-yields",
+  "window-successions",
+  "context-horizons"
+ ],
+ "walk": [
+  "window-successions",
+  "context-horizons",
+  "composition-yields",
+  "window-successions"
+ ],
+ "case": "One session, kept by the harness under one identifier from its first turn to its last, is seriating an eighteen-item fieldwork map whose record carries no seriation. In its first half it runs the seriation engine: the tool result returns the eighteen items in spectral order, the pairwise distance matrix behind that order, and the engine's line that the spectral order was smoother than the greedy one. The session writes the eighteen ordered items, without the numbers, into the record's seriation field with method 'spectral', and leaves the axis unnamed. The window then reaches the harness's limit, and the harness's compactor, working to its length rule at a moment the session did not choose, replaces the first half with a summary in the third person: 'The assistant ran the seriation engine over the map; the order runs from cases where the cut is marked in the window to cases where nothing marks it.' The summary carries nothing else about the engine: not the distances, not the smoothness comparison, not the command that produced them, and not the path of the transcript, which sits on disk under the session's own identifier. The same session continues under the same identifier with the summary as its opening context and the record on disk. It reads the eighteen ordered items, takes the summary's sentence as the axis, writes that sentence into the seriation as the axis name, and sets the revelatory flag. The distances that would let it check the order's tightness lie past the edge of its live window. The case is the seriation record as it stands after that turn: an order the engine measured and nobody authored, and an axis name and revelatory flag written by a window that never held a distance, from one sentence a compactor wrote.",
+ "item_start": {
+  "map": "window-successions",
+  "index": 5,
+  "first_six_words": "Compacted: the window ends by a",
+  "why": "Every fact Compacted names is fixed in the case: the window ends by a rule, a third hand writes the summary the next half starts from, neither half chose the moment or the stripping, the register tell is the third person ('the assistant'), the summary never names its source, and the transcript sits on disk under the session's identifier where the second half could read it whole if it knew the harness kept it. Not Abstract instead of the paper (4): the second half did not decline the transcript, it was not told the transcript exists. Not Order without its reason (1): what was stripped is the measurement under the order, not the reason for a rule."
+ },
+ "modality": "analytical",
+ "modality_note": "Each part is observed in the atlas (window-successions' Compacted: the session summarized mid-run and resumed; context-horizons' Summary in the seat and Halves in two windows: the compacting harness and the engine/namer split; composition-yields' Measure then name: the engine that orders and the namer that names without the numbers). The conjunction, a session that ran the engine, was compacted between the measuring and the naming, and named from the compactor's sentence, is composed from those parts and is not a logged event; the atlas's driver runs the namer as a separate pass, not as the compacted session's second half.",
+ "why_this_is_the_overlap": "The atlas holds the compacted mid-run session under two names already: window-successions' Compacted calls the post-compaction window a successor reading what a compactor left; context-horizons' Summary in the seat calls it the same reasoner with its own earlier turns past the edge, and context-horizons' of-sentence lists 'the reasoner's own compacted turns' as a thing past the edge. Placing the measuring pass before that edge and the naming pass after it makes the same event composition-yields' Measure then name and context-horizons' Halves in two windows, with the compactor's sentence as the distribution condensed to a sentence that composition-yields' Telling the seat its attractor names. One fixed event, claimed by an item of each of the three maps.",
+ "crossings_expected": [
+  {
+   "from": "window-successions",
+   "to": "context-horizons",
+   "why": "Rule: 'If the reasoner is still present and the thing lies past the edge of its live window, it is there; if the predecessor is gone and the successor reads what was left, it is here.' The fixed facts satisfy the there-clause as written: the session continues under the same identifier, mid-task, so the reasoner is still present, and the thing (the distance matrix and the engine's turns) lies past the edge of its live window. The here-clause needs a predecessor that is gone; the identifier denies it. The word the fence turns on is 'present': stage 1's hop seat on this same fence said the case would cross only if restated as the same session continuing past its own compaction, and that is now a fixed fact rather than a restatement. Restated in context-horizons' terms as it arrives: what lies past the edge is the reasoner's own compacted turns holding the distances, and the window holds a stand-in that reads as the thing (Summary in the seat) or, by the naming, the other half (Halves in two windows)."
+  },
+  {
+   "from": "context-horizons",
+   "to": "composition-yields",
+   "why": "Rule: 'What the split between a measuring pass and a naming pass yields, an order nobody authored and a claim nobody measured, is Measure then name there; the horizon that makes the yield possible and the claim unwarranted, each window's half lying past the other's edge, is Halves in two windows here.' The case is fixed as the seriation record after the naming turn: the engine's order, which nobody authored, and the axis name plus revelatory flag, which nobody measured. That is the yield, so the there-clause holds as written; the measuring pass and the naming pass are the two halves of one session on either side of the compaction edge. The horizon is in the case as what made the yield possible and the flag unwarranted, which is the here-clause's description of the horizon's role, not of the case. The seat would keep the case only by reading it as the edge rather than the record; the case's last sentence fixes it as the record. Restated in composition-yields' terms as it arrives: a measurer and a namer in series, the ordered items crossing without the numbers and a name crossing back, the judgment sitting in a namer that cannot fail."
+  },
+  {
+   "from": "composition-yields",
+   "to": "window-successions",
+   "why": "Rule: 'How a summary that crosses was made and what its maker stripped is there; here a summary appears only as the thickness of a crossing, at Telling the seat its attractor, where a distribution condensed to a sentence is what crosses.' The case fixes how the summary was made (a compactor, third person, to a length rule, at a moment neither half chose) and what it stripped (the distances, the smoothness comparison, the command, the transcript's path), so the there-clause holds as written. The here-clause holds only when the summary appears only as the thickness of the crossing; here it appears with its making and its stripping. The near-miss is real and is the point: the compactor's sentence is a distance distribution condensed to one sentence that the namer then adopted as its axis, which is Telling the seat its attractor's crossing exactly, so the fence's 'only' is the one word that decides. Restated in window-successions' terms as it arrives: the carrier is the summary, what it strips is what the compactor ranked lowest against the length, chosen by the compactor, and the tell is the register and the unnamed source."
+  }
+ ],
+ "return_question": "Whether it lands back on Compacted (5) with the same facts and mechanism, or arrives as Abstract instead of the paper (4) because the walk through composition-yields foregrounds the namer's economy, or arrives as Order without its reason (1) because the walk through context-horizons foregrounds the missing measurement under the order. The facts do not change; the judge reads which item the returned case sits on."
+}
