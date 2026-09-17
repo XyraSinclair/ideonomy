@@ -1,0 +1,19 @@
+{"seat": "map2.p",
+ "items": {
+  "A": {"magnitude": 2, "reversibility": "reversible", "latency": "delayed", "cliff": false, "lost": "The distinction the failed explanation left behind goes unnoticed, and the successful explanation stays out of reach a while longer."},
+  "B": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The felt distinction slips away unnamed again and the next occurrence passes unremarked."},
+  "C": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "Understanding stays a summary of known cases and yields no unfamiliar case to inspect."},
+  "D": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The cases stay unrelated in the mind, each carried separately, and the shared structure goes unused."},
+  "E": {"magnitude": 2, "reversibility": "reversible", "latency": "delayed", "cliff": false, "lost": "The exception is patched over as damage and the conditions under which the rule actually works stay unknown."},
+  "F": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The other person's way of attending lands as a fact you can recite but not a distinction you can see."},
+  "G": {"magnitude": 2, "reversibility": "reversible", "latency": "delayed", "cliff": false, "lost": "A detail that was actually carrying weight is discarded with the dispensable ones and the structure quietly fails later."},
+  "H": {"magnitude": 2, "reversibility": "reversible", "latency": "hidden", "cliff": false, "lost": "A pattern is credited wholly to the object while your own selection silently made it, and nobody ever finds out."},
+  "I": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The rhythm stays invisible as incidental noise at the wrong scale."},
+  "J": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The absence stays unfelt and the missing piece is never sought."},
+  "K": {"magnitude": 1, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "One interpretation is chosen early and the structure that only the several jointly disclosed is hidden."},
+  "L": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The relation no single view holds goes unwitnessed because the partial views were never compared."},
+  "M": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The two descriptions are forced into a false reconciliation and the disagreement's diagnostic use is thrown away."},
+  "N": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "What is open and what is merely unexamined stay indistinguishable, so effort goes to the wrong one."},
+  "O": {"magnitude": 2, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "The pattern's response to inspection is read as measurement error and its liveness is missed."},
+  "P": {"magnitude": 1, "reversibility": "reversible", "latency": "immediate", "cliff": false, "lost": "Understanding freezes into a final view and the structure's further distinctions go unmet."}
+ }}

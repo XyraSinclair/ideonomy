@@ -1,0 +1,131 @@
+{
+ "seat": "map0.q",
+ "items": {
+  "A": {
+   "magnitude": 4,
+   "reversibility": "irreversible",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The right to build the project as designed under the old code; the land is worth what the new ordinance allows."
+  },
+  "B": {
+   "magnitude": 5,
+   "reversibility": "irreversible",
+   "latency": "delayed",
+   "cliff": true,
+   "lost": "Useful sight in one eye for the rest of the child's life, because the cortex stopped listening before anyone patched."
+  },
+  "C": {
+   "magnitude": 3,
+   "reversibility": "costly",
+   "latency": "delayed",
+   "cliff": true,
+   "lost": "The seat itself; any employment there afterwards is an outsider's negotiation at an outsider's terms."
+  },
+  "D": {
+   "magnitude": 5,
+   "reversibility": "irreversible",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The clot-busting drug and the brain tissue it would have saved, forfeited for want of a timestamp."
+  },
+  "E": {
+   "magnitude": 4,
+   "reversibility": "costly",
+   "latency": "delayed",
+   "cliff": true,
+   "lost": "The legal standing to keep operating the practice or product, until a permanent grant is won from scratch."
+  },
+  "F": {
+   "magnitude": 4,
+   "reversibility": "irreversible",
+   "latency": "delayed",
+   "cliff": true,
+   "lost": "The defense or the patent right, waived by the first adjacent act, and learned of only from the loss."
+  },
+  "G": {
+   "magnitude": 4,
+   "reversibility": "costly",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The paused state, the claim, the home, or the job, or a renewal at whatever price the counterparty now knows it is worth."
+  },
+  "H": {
+   "magnitude": 2,
+   "reversibility": "irreversible",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The prepared doses or the mixed batch, discarded at closing because readiness spoils."
+  },
+  "I": {
+   "magnitude": 3,
+   "reversibility": "irreversible",
+   "latency": "delayed",
+   "cliff": true,
+   "lost": "The way back to the old state; every later fix must be made forward from the new one."
+  },
+  "J": {
+   "magnitude": 3,
+   "reversibility": "costly",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The whole gathering; every yes older than the window is void and the count starts from zero."
+  },
+  "K": {
+   "magnitude": 3,
+   "reversibility": "irreversible",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "Any ruling at all; the harm stands unadjudicated and the rule stays in place for the next person."
+  },
+  "L": {
+   "magnitude": 4,
+   "reversibility": "irreversible",
+   "latency": "hidden",
+   "cliff": true,
+   "lost": "The exit to the natural acquirer, priced away by the round that was never seen as the last one under the ceiling."
+  },
+  "M": {
+   "magnitude": 3,
+   "reversibility": "costly",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The matter's place in the process; the successor body starts it at zero and the years of progress are gone."
+  },
+  "N": {
+   "magnitude": 5,
+   "reversibility": "irreversible",
+   "latency": "delayed",
+   "cliff": true,
+   "lost": "The transplant the bridge was carrying toward, or the mine's workings, ended by the upkeep that held them open."
+  },
+  "O": {
+   "magnitude": 4,
+   "reversibility": "irreversible",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The slot, the water right, or the mark, returned to the pool for someone else to take."
+  },
+  "P": {
+   "magnitude": 3,
+   "reversibility": "irreversible",
+   "latency": "delayed",
+   "cliff": true,
+   "lost": "The renewal or the promised return, which lived only in the word of a person who is no longer there."
+  },
+  "Q": {
+   "magnitude": 3,
+   "reversibility": "irreversible",
+   "latency": "hidden",
+   "cliff": true,
+   "lost": "The money owed and the standing to sue for it, barred on a date the holder was deemed to have read."
+  },
+  "R": {
+   "magnitude": 4,
+   "reversibility": "irreversible",
+   "latency": "immediate",
+   "cliff": true,
+   "lost": "The savings that could have moved on Friday, frozen, haircut, or converted at the authority's rate by Monday."
+  }
+ }
+}

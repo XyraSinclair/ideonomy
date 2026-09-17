@@ -1,0 +1,1308 @@
+{
+ "option-expiries": [
+  {
+   "i": 0,
+   "name": "Weekend closure",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 6.0,
+   "lost": [
+    "Access to the holder's own money, and in the bail-in the money itself, taken in the hours the holder could not move it.",
+    "The savings that could have moved on Friday, frozen, haircut, or converted at the authority's rate by Monday."
+   ]
+  },
+  {
+   "i": 1,
+   "name": "Bar date in the newspaper",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "hidden",
+    "hidden"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.0,
+   "lost": [
+    "The debt owed or the right to sue, discharged on a date the holder never saw in a paper the holder never read.",
+    "The money owed and the standing to sue for it, barred on a date the holder was deemed to have read."
+   ]
+  },
+  {
+   "i": 2,
+   "name": "Emergency over",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.0,
+   "lost": [
+    "The permission to operate at all: the product's authorization, the cross-state licence, the premises under the sub-lease.",
+    "The legal standing to keep operating the practice or product, until a permanent grant is won from scratch."
+   ]
+  },
+  {
+   "i": 3,
+   "name": "Patch before seven",
+   "mag": [
+    5,
+    5
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "hidden",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 7.0,
+   "lost": [
+    "Sight in the weak eye for the rest of the child's life, lost before anyone noticed there was an eye to save.",
+    "Useful sight in one eye for the rest of the child's life, because the cortex stopped listening before anyone patched."
+   ]
+  },
+  {
+   "i": 4,
+   "name": "Last known well",
+   "mag": [
+    5,
+    5
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 7.0,
+   "lost": [
+    "The clot-busting drug and the brain tissue it would have saved, withheld because nobody was awake to see the onset.",
+    "The clot-busting drug and the brain tissue it would have saved, forfeited for want of a timestamp."
+   ]
+  },
+  {
+   "i": 5,
+   "name": "Mooted",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.0,
+   "lost": [
+    "A ruling on the merits and any remedy the forum could have given, gone because the harm ended before the forum sat.",
+    "Any ruling at all; the harm stands unadjudicated and the rule stays in place for the next person."
+   ]
+  },
+  {
+   "i": 6,
+   "name": "Session ends",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 4.0,
+   "lost": [
+    "The matter's place in the process and the specific body that would have said yes, so the holder starts over before a body that owes it nothing.",
+    "The matter's place in the process; the successor body starts it at zero and the years of progress are gone."
+   ]
+  },
+  {
+   "i": 7,
+   "name": "Landlord changes",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.0,
+   "lost": [
+    "The promised renewal, the job held open, the supplier's priority, gone with the person whose word held it and never given by the successor.",
+    "The renewal or the promised return, which lived only in the word of a person who is no longer there."
+   ]
+  },
+  {
+   "i": 8,
+   "name": "Chair grown over",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "irreversible",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 4.5,
+   "lost": [
+    "The seat itself, the post, the budget line, the founder's chair, absorbed so that coming back means applying from outside.",
+    "The seat itself; any employment there afterwards is an outsider's negotiation at an outsider's terms."
+   ]
+  },
+  {
+   "i": 9,
+   "name": "Petition that goes stale",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 4.0,
+   "lost": [
+    "Every signature or tender gathered so far and the recall or deal they would have made, all to be gathered again from zero.",
+    "The whole gathering; every yes older than the window is void and the count starts from zero."
+   ]
+  },
+  {
+   "i": 10,
+   "name": "Outgrown the buyer",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "costly",
+    "irreversible"
+   ],
+   "lat": [
+    "hidden",
+    "hidden"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.5,
+   "lost": [
+    "The exit to the buyer who could have paid, so the company must find a larger acquirer or a listing it may never reach.",
+    "The exit to the natural acquirer, priced away by the round that was never seen as the last one under the ceiling."
+   ]
+  },
+  {
+   "i": 11,
+   "name": "Pour the foundation",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 6.0,
+   "lost": [
+    "The right to build the project as designed under the old code, and with it the project the developer financed on that assumption.",
+    "The right to build the project as designed under the old code; the land is worth what the new ordinance allows."
+   ]
+  },
+  {
+   "i": 12,
+   "name": "Slot flown empty",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "delayed",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 6.0,
+   "lost": [
+    "The slot, the water right, or the mark, and the business that ran on it, returned to the pool for want of use.",
+    "The slot, the water right, or the mark, returned to the pool for someone else to take."
+   ]
+  },
+  {
+   "i": 13,
+   "name": "Thawed to be ready",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    true
+   ],
+   "score": 3.0,
+   "lost": [
+    "The doses or mix thawed and not used, discarded at closing and replaced by the next order.",
+    "The prepared doses or the mixed batch, discarded at closing because readiness spoils."
+   ]
+  },
+  {
+   "i": 14,
+   "name": "First or never",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 6.0,
+   "lost": [
+    "The objection, the patent, or the appeal, waived by an adjacent act the holder did not know was linked to it.",
+    "The defense or the patent right, waived by the first adjacent act, and learned of only from the loss."
+   ]
+  },
+  {
+   "i": 15,
+   "name": "Rollback horizon",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.0,
+   "lost": [
+    "The way back: the old state can no longer take over, so a failed change must be fixed forward at whatever cost that turns out to be.",
+    "The way back to the old state; every later fix must be made forward from the new one."
+   ]
+  },
+  {
+   "i": 16,
+   "name": "Kept on the machine",
+   "mag": [
+    5,
+    5
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 7.0,
+   "lost": [
+    "The transplant the machine was buying time for, so the patient's life, or the mine's workings and the company's outside successor.",
+    "The transplant the bridge was carrying toward, or the mine's workings, ended by the upkeep that held them open."
+   ]
+  },
+  {
+   "i": 17,
+   "name": "Standstill with a term",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.5,
+   "lost": [
+    "The paused position itself: the claim barred by limitations, the house foreclosed, the post gone, or the price the counterparty now charges to renew.",
+    "The paused state, the claim, the home, or the job, or a renewal at whatever price the counterparty now knows it is worth."
+   ]
+  }
+ ],
+ "walkaway-manufactures": [
+  {
+   "i": 0,
+   "name": "Nothing to leave",
+   "mag": [
+    3,
+    4
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    true
+   ],
+   "score": 4.5,
+   "lost": [
+    "The round's terms when the investor calls a cut the company never made, or the team and product that go with the cut if it is made to prove the state.",
+    "The team that goes when the cut is actually made, and the product if it does not survive their going, on a state the company had never stood in."
+   ]
+  },
+  {
+   "i": 1,
+   "name": "Paid floor",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 6.0,
+   "lost": [
+    "The gap between the court-approved floor and the price a contested auction would have found, plus the fee paid to a horse chosen because it would win.",
+    "The estate's remaining value, sold at the floor to the horse chosen because it would win, with the fee paid on top."
+   ]
+  },
+  {
+   "i": 2,
+   "name": "Qualified on paper",
+   "mag": [
+    2,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 3.5,
+   "lost": [
+    "The price the certificate was holding down, and, if the second line has been untooled, the switch the certificate said could be made.",
+    "The price leverage against the incumbent, and the months of re-qualification discovered only when the switch is finally attempted and the second line is gone."
+   ]
+  },
+  {
+   "i": 3,
+   "name": "Fed suitor",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 4.0,
+   "lost": [
+    "The second source, which stops quoting after learning it was the stalking horse, leaving the incumbent's price unopposed until another suitor is fed.",
+    "The second source's willingness to quote, gone after it learned it was the stalking horse, and the price leverage that went with it."
+   ]
+  },
+  {
+   "i": 4,
+   "name": "Rented war chest",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.0,
+   "lost": [
+    "The case is settled at the funder's withdrawal floor rather than the plaintiff's, once the defendant learns who can close the chest and sits below that line.",
+    "The case itself, when the funder withdraws below its threshold and the plaintiff cannot pay the distance to trial."
+   ]
+  },
+  {
+   "i": 5,
+   "name": "Absent owner's clock",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 4.0,
+   "lost": [
+    "The outside offer that actually expires on its date, or, if the party is seen still seated after it, every deadline this party ever names again.",
+    "Every deadline this party will ever name, discounted from the moment the counterparty saw it still seated after the date."
+   ]
+  },
+  {
+   "i": 6,
+   "name": "Higher court's door",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "costly",
+    "irreversible"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    true
+   ],
+   "score": 5.5,
+   "lost": [
+    "The town's disputes returned to the lord's court when the crown stops needing the town or stops wanting the charter to be real, discovered on the day the door is tried.",
+    "The appeal above the lord, and with it every dispute afterward decided at the lord's own table once the crown stops needing the town."
+   ]
+  },
+  {
+   "i": 7,
+   "name": "Second table in the square",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 6.0,
+   "lost": [
+    "The private table, ended the moment the letter goes, and the audience's one-shot attention spent on this table rather than any later one.",
+    "The private table, ended the moment the letter goes out, and the one shot itself if the crowd turns out smaller than the counterparty feared."
+   ]
+  },
+  {
+   "i": 8,
+   "name": "Meter on the walkaway",
+   "mag": [
+    4,
+    5
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.5,
+   "lost": [
+    "The strike collapses when the counted weeks run out, and the wages spent waiting buy none of the concessions the number was meant to force.",
+    "The fund drained to zero with nothing won, and the members' wages for every week it took to learn the employer could outlast the meter."
+   ]
+  },
+  {
+   "i": 9,
+   "name": "Kettle on the hob",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "hidden",
+    "hidden"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 5.0,
+   "lost": [
+    "A quarterly slice of the company's information handed to a party that is keeping the founder warm as its own option, never itemized on any ledger.",
+    "Quarters of the company's plans and numbers handed to a party reading it for free, never recalled and never seen on any ledger."
+   ]
+  },
+  {
+   "i": 10,
+   "name": "Walk on record",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 4.0,
+   "lost": [
+    "The deals given up on the counterparties' testing schedule to keep the record, and the present deal's terms when the record is read as stale.",
+    "A season's sales or a strike's wages spent to keep the record, or the record itself if the party folds when tested."
+   ]
+  },
+  {
+   "i": 11,
+   "name": "Silent floor",
+   "mag": [
+    3,
+    2
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    false
+   ],
+   "score": 3.5,
+   "lost": [
+    "The deal that dies at the brink for a holder with a real floor, or every later concession priced off the fold for a holder whose calm broke in the last hour.",
+    "The terms folded on in the last hour, and the counterparty's new knowledge that this party has no floor."
+   ]
+  },
+  {
+   "i": 12,
+   "name": "Tied hands",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    false
+   ],
+   "score": 4.0,
+   "lost": [
+    "The constraint's standing with this counterparty once the money is found, and with it every future refusal this party makes on an absent principal's behalf.",
+    "Every future constraint this party names, read as a choice from the day it found the money it said it did not have."
+   ]
+  },
+  {
+   "i": 13,
+   "name": "Ringer",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 6.0,
+   "lost": [
+    "The sale unwound or the ringer's accidental win let off, and the seller's standing in the venue once a lot that never closed reappears and names the conspiracy.",
+    "The seller's standing in the venue and its exposure to prosecution, once a lot the ringer won reappears in the next sale."
+   ]
+  },
+  {
+   "i": 14,
+   "name": "Check that tips the rival",
+   "mag": [
+    4,
+    4
+   ],
+   "rev": [
+    "irreversible",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.5,
+   "lost": [
+    "The round from the incumbent and the founder's word in a market small enough that one checked and false name is the story that follows the next raise.",
+    "The lead's trust and the round with it, the day the named sheet is checked and found not to exist."
+   ]
+  },
+  {
+   "i": 15,
+   "name": "Cheap to claim, ruinous to check",
+   "mag": [
+    5,
+    5
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 7.0,
+   "lost": [
+    "The company liquidated or the settlement handed to the regulator to make the threat believable, or the whole concession when a counterparty finds nothing burned in the record and calls it.",
+    "The company liquidated or the founder gone to keep the threat real, or the threat itself forever once the counterparty called it and the holder folded."
+   ]
+  },
+  {
+   "i": 16,
+   "name": "Option they built for you",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "costly",
+    "costly"
+   ],
+   "lat": [
+    "hidden",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 4.0,
+   "lost": [
+    "The terms the counterparty's prior was holding up, gone the day the model of the holder's kind updates, with nothing built to replace them and no claim that would not invite the check.",
+    "The terms offered on reputation alone, gone the day a down market or a rival's check updates the counterparty's model and the holder is found to hold nothing."
+   ]
+  },
+  {
+   "i": 17,
+   "name": "Pawn-shop option",
+   "mag": [
+    3,
+    3
+   ],
+   "rev": [
+    "irreversible",
+    "irreversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    true,
+    true
+   ],
+   "score": 5.0,
+   "lost": [
+    "The price the round was going to clear at, the moment the lead learns the only alternative is the insiders and that no outsider came.",
+    "The price the refusal was holding up, once the lead learns the alternative is the insiders' bridge and reads it as the outsiders' absence."
+   ]
+  }
+ ],
+ "discovery-delights": [
+  {
+   "i": 0,
+   "name": "Pocket for a ghost",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The felt distinction slips away unnamed again and the next occurrence passes unremarked.",
+    "The distinction keeps arriving and keeps slipping away, with no name to hold it until the next occurrence."
+   ]
+  },
+  {
+   "i": 1,
+   "name": "Different footprints, same animal",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The cases stay unrelated in the mind, each carried separately, and the shared structure goes unused.",
+    "The cases stay filed apart and each is solved from scratch, with the one structure behind them never named."
+   ]
+  },
+  {
+   "i": 2,
+   "name": "The grain turns",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The rhythm stays invisible as incidental noise at the wrong scale.",
+    "The hesitations stay filed as incidental texture and the rhythm they form is never heard."
+   ]
+  },
+  {
+   "i": 3,
+   "name": "The missing tooth",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The absence stays unfelt and the missing piece is never sought.",
+    "The gap goes unnoticed and the arrangement is taken as complete, so nobody looks for the piece that ought to be there."
+   ]
+  },
+  {
+   "i": 4,
+   "name": "Door-shaped error",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "delayed",
+    "hidden"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The exception is patched over as damage and the conditions under which the rule actually works stay unknown.",
+    "The exception is filed as noise or damage, and the conditions under which the rule actually works stay unexamined."
+   ]
+  },
+  {
+   "i": 5,
+   "name": "Orchard in a rule",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "Understanding stays a summary of known cases and yields no unfamiliar case to inspect.",
+    "Understanding remains a summary of known cases and cannot produce a case you have not already seen."
+   ]
+  },
+  {
+   "i": 6,
+   "name": "Merciful erasure",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "costly"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.5,
+   "lost": [
+    "A detail that was actually carrying weight is discarded with the dispensable ones and the structure quietly fails later.",
+    "Details judged dispensable are thrown away and later turn out to carry weight that cannot be reconstructed from memory."
+   ]
+  },
+  {
+   "i": 7,
+   "name": "The useful wrong turn",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "delayed",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The distinction the failed explanation left behind goes unnoticed, and the successful explanation stays out of reach a while longer.",
+    "The wrong turn is discarded whole, taking with it the distinction the successful explanation needed."
+   ]
+  },
+  {
+   "i": 8,
+   "name": "Fog with edges",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "What is open and what is merely unexamined stay indistinguishable, so effort goes to the wrong one.",
+    "The genuinely open question is confused with the merely unexamined one, and effort goes to the wrong side of the fog."
+   ]
+  },
+  {
+   "i": 9,
+   "name": "Unfinished key",
+   "mag": [
+    1,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "hidden"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "One interpretation is chosen early and the structure that only the several jointly disclosed is hidden.",
+    "One interpretation is chosen early and the structure only visible across the unresolved set is hidden without anyone knowing it was there."
+   ]
+  },
+  {
+   "i": 10,
+   "name": "The knot is the handle",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The two descriptions are forced into a false reconciliation and the disagreement's diagnostic use is thrown away.",
+    "The disagreement is smoothed over and the object stays uninvestigated at exactly the point where it would answer."
+   ]
+  },
+  {
+   "i": 11,
+   "name": "Borrowed eyes",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The other person's way of attending lands as a fact you can recite but not a distinction you can see.",
+    "The distinction arrives as a fact you can repeat but not as something you can see in your own experience."
+   ]
+  },
+  {
+   "i": 12,
+   "name": "The listening wall",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "costly"
+   ],
+   "lat": [
+    "immediate",
+    "hidden"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.5,
+   "lost": [
+    "The pattern's response to inspection is read as measurement error and its liveness is missed.",
+    "The response to your probing is read as the object itself, and the undisturbed pattern can no longer be recovered for comparison."
+   ]
+  },
+  {
+   "i": 13,
+   "name": "Your thumb in the constellation",
+   "mag": [
+    2,
+    3
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "hidden",
+    "hidden"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.5,
+   "lost": [
+    "A pattern is credited wholly to the object while your own selection silently made it, and nobody ever finds out.",
+    "A pattern your own framing produced is attributed to the object, and everything built on it inherits the mistake unattributed."
+   ]
+  },
+  {
+   "i": 14,
+   "name": "A room no eye contains",
+   "mag": [
+    2,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "immediate"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 2.0,
+   "lost": [
+    "The relation no single view holds goes unwitnessed because the partial views were never compared.",
+    "The shared structure stays unwitnessed and each partial view is mistaken for the whole room."
+   ]
+  },
+  {
+   "i": 15,
+   "name": "The welcome that moves",
+   "mag": [
+    1,
+    2
+   ],
+   "rev": [
+    "reversible",
+    "reversible"
+   ],
+   "lat": [
+    "immediate",
+    "delayed"
+   ],
+   "cliff": [
+    false,
+    false
+   ],
+   "score": 1.5,
+   "lost": [
+    "Understanding freezes into a final view and the structure's further distinctions go unmet.",
+    "Understanding settles into a final view and stops answering new ways of attending, so the structure goes quiet."
+   ]
+  }
+ ]
+}

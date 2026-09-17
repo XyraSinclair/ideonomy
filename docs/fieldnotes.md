@@ -757,3 +757,63 @@ seat to rebuild it from its own centre. Next: reciprocate the 135
 one-sided fences, then rerun the same five walks to see whether the
 drift at hop 3 moves or vanishes when the return fence has been written
 from B's side.
+
+## Stakes: is there a consequence field over the atlas? (2026-09-16)
+
+The atlas is a uniform mesh: about eighteen items per map at one grain,
+one rule per fence, the same context cost per item whether one item's
+difference is nothing or is the line between a recoverable and an
+unrecoverable outcome. If items carried a consequence coordinate that
+independent readers agree on, the mesh could refine where it is steep
+and coarsen where it is flat, and `consult` could report a distance in
+consequence rather than in items. `corpus/stakes-2026-09-16/` measures
+whether the coordinate exists. Three maps (`option-expiries`,
+`walkaway-manufactures`, and `discovery-delights` as a flat control),
+two blind Fable seats each, items shuffled under letters with the map's
+name and `of` withheld; each seat gave every item a magnitude (1-5),
+reversibility, latency, a cliff flag, and one sentence on what is lost.
+
+Agreement (`matrix.md`): magnitude Spearman 1.00 on option-expiries and
+0.86 on walkaway; on delights the rank correlation is 0.10 only because
+the seats gave fourteen of sixteen items the same 2 (a floor, not a
+disagreement). Reversibility agreed 0.78-0.89, latency 0.69-0.89, the
+cliff flag 0.78-1.00. Between maps the coordinate separates cleanly:
+delights mean magnitude 1.97 with zero cliffs in 32 judgments,
+walkaway 3.50 with 22/36, option-expiries 3.67 with 35/36. The field
+exists and two readers see the same one.
+
+Its shape is not what the refinement plan assumed. Within
+option-expiries the cliff flag is constant (35/36) and reversibility
+nearly so: the whole map is a cliff, and the within-map variance is in
+magnitude (2-5) and latency, not in reversibility. Walkaway is the map
+with real interior structure (cliffs 22/36, scores 3.5-7.0), so
+item-level refinement has something to act on there and nothing to act
+on in option-expiries, where the refinement unit is the map itself.
+Consequence varies mostly between maps at this grain, and mostly on
+latency within them: the hidden-latency items (Bar date in the
+newspaper, Patch before seven, Outgrown the buyer, Kettle on the hob)
+are the cells where the holder cannot see the clock, which is the
+"find out too late" region the mesh should thicken first.
+
+The prediction failed. Stakes do not predict where the instruments
+broke: Spearman between stakes score and the re-ask's manufactured
+count is -0.11, above-median items averaged 0.89 manufactures against
+0.78 below, and Chair grown over, where the holonomy walk drifted,
+ranks 15 of 18 on stakes. Patch before seven is both the most
+manufactured item (3) and a top-stakes one (7.0), but so are Last known
+well (1) and Kept on the machine (0). Consequence and description
+fragility are independent axes. That is a cleaner result than a
+confirmation would have been: a stakes coordinate tells the refiner
+where being one item off costs the most, and the register and
+holonomy instruments tell it where the description will not survive
+handling; a map needs both readings and neither substitutes for the
+other.
+
+What this licenses: a `stakes` field per item (magnitude, reversibility,
+latency, cliff) is admissible as data because two blind seats reproduce
+it; a per-map mean and cliff fraction is the coarse consequence field
+and already orders the three maps the way a reader would; the first use
+is not refinement but distance-to-edge in `consult`, which needs only
+the cliff flag and the seriation axis. Refinement by stakes should be
+tried on walkaway, where the field has an interior, not on
+option-expiries, where it is flat at the ceiling.
