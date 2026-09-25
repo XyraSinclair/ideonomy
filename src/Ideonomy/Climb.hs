@@ -21,6 +21,7 @@
 --
 -- > ideonomy climb                  # one breath over every seeded domain
 -- > ideonomy climb --only strategy-generic-moves --breaths 2
+-- > ideonomy climb --only NAME --stance 'Work in this stance: fear.'   # prepended to the enumerating prompts
 -- > ideonomy climb --forever        # continuous: leaky-bucket-paced gradient ascent
 --
 -- Continuous mode is the calendar-free shape: spend level is a decayed sum
@@ -210,11 +211,14 @@ loadPool = do
 
 -- --------------------------------------------------------------- breath
 
-breath :: Ideolist -> IO Ideolist
-breath lst = do
+-- | One breath. A stance, when given, is prepended to the three prompts
+-- that enumerate (grow, typology, gap-fill), never to the gate, and is
+-- recorded on the ledger line beside the accepted items.
+breath :: String -> Ideolist -> IO Ideolist
+breath stance lst = do
   -- 1. GROW (cheap)
-  g <- ask cheap $
-    "Extend this list. " ++ frame
+  g <- ask cheap $ pre
+    ++ "Extend this list. " ++ frame
     ++ "Existing items:\n" ++ shown ++ "\n\n"
     ++ "Offer up to 15 distinct additions, one per line, no numbering or commentary. "
     ++ "Try a changed scale, reversal, remote analogy, or overlooked intermediate; "
@@ -224,8 +228,8 @@ breath lst = do
   let cand0 = additions g
 
   -- 2. TYPOLOGY (strong) — the gradient
-  t <- askJson strong $
-    frame ++ "Existing items:\n" ++ shown ++ "\n\n"
+  t <- askJson strong $ pre
+    ++ frame ++ "Existing items:\n" ++ shown ++ "\n\n"
     ++ "Induce the most revealing typology these items support. Then name "
     ++ "neglected or underpopulated types within the same item kind. Prefer "
     ++ "gaps that would change how the field is understood, not simply add "
@@ -237,7 +241,7 @@ breath lst = do
 
   -- 3. GAP-FILL (cheap, targeted)
   filled <- forM gaps $ \gap -> additions <$> ask cheap
-    (frame ++ "Existing items:\n" ++ shown ++ "\n\n"
+    (pre ++ frame ++ "Existing items:\n" ++ shown ++ "\n\n"
      ++ "The list neglects this type: " ++ gap ++ "\n"
      ++ "Offer up to 6 distinct additions of that type. Let an unusual "
      ++ "case refine the distinction. One per line, no numbering or "
@@ -277,16 +281,19 @@ breath lst = do
         , parents = [lst.name], source = Just (Object src) }
   createDirectoryIfMissing True ledgerDir
   now <- timestamp
-  appendFile (ledgerDir </> (lst.name ++ ".jsonl")) $ render (obj
+  appendFile (ledgerDir </> (lst.name ++ ".jsonl")) $ render (obj $
     [ ("t", str now), ("before", int (length have)), ("candidates", int (length cand))
     , ("kept", int (length keep)), ("keep_rate", dbl (roundTo 3 rate)), ("gaps", list gaps)
-    , ("residue", Array [obj [("item", str r), ("why", w)] | (r, w) <- residue]) ]) ++ "\n"
+    , ("accepted", list keep)
+    , ("residue", Array [obj [("item", str r), ("why", w)] | (r, w) <- residue]) ]
+    ++ [("stance", str stance) | not (null stance)]) ++ "\n"
   putStrLn ("  " ++ lst.name ++ ": " ++ show (length have) ++ " -> " ++ show (length out.items)
             ++ " (cand " ++ show (length cand) ++ ", keep_rate " ++ showFixed 2 rate
             ++ (if plateau then ", PLATEAU" else "") ++ ") gaps: " ++ pyReprList gaps)
   pure out
   where
     have = lst.items
+    pre = if null stance then "" else stance ++ "\n\n"
     shown = joinWith "\n" ["- " ++ x | x <- have]
     srcKvs = maybe [] asObject lst.source
     frame = "Each item is: " ++ lst.of_ ++ ".\n"
@@ -362,8 +369,8 @@ pickTarget pool = do
   scored <- forM pool (\(n, _) -> (\(r, t) -> (n, (r, negate t))) <$> lastBreath n)
   pure (fst (foldl1 (\m x -> if snd x > snd m then x else m) scored))
 
-forever :: Double -> Double -> IO ()
-forever burst tauHours = do
+forever :: String -> Double -> Double -> IO ()
+forever stance burst tauHours = do
   when (burst <= 1) (die "--burst must exceed 1")
   putStrLn ("continuous climb: burst " ++ showDouble burst ++ ", tau " ++ showDouble tauHours ++ "h "
             ++ "(sustained " ++ showFixed 2 (burst / tauHours) ++ " breaths/h)")
@@ -381,35 +388,36 @@ forever burst tauHours = do
           pool <- loadPool            -- re-read each breath: widen feeds climb live
           n <- pickTarget pool
           l <- maybe (ioError (userError ("no list named " ++ show n))) pure (lookup n pool)
-          l' <- breath l
+          l' <- breath stance l
           saveGrown (setPool n l' pool)
       loop
 
 -- ------------------------------------------------------------------ CLI
 
--- | @ideonomy climb [--only NAME] [--breaths 1] [--forever] [--burst 6.0] [--tau-hours 6.0]@
+-- | @ideonomy climb [--only NAME] [--breaths 1] [--stance TEXT] [--forever] [--burst 6.0] [--tau-hours 6.0]@
 cli :: [String] -> IO ()
 cli argv = do
-  let a = parseArgs ["forever"] ["only", "breaths", "burst", "tau-hours"] argv
+  let a = parseArgs ["forever"] ["only", "breaths", "burst", "tau-hours", "stance"] argv
+      stance = maybe "" id (opt "stance" a)
   case positionals a of
     [] -> pure ()
-    _ -> usage "usage: ideonomy climb [--only NAME] [--breaths 1] [--forever] [--burst 6.0] [--tau-hours 6.0]"
-  if flag "forever" a then forever (optDouble "burst" 6 a) (optDouble "tau-hours" 6 a) else do
+    _ -> usage "usage: ideonomy climb [--only NAME] [--breaths 1] [--stance TEXT] [--forever] [--burst 6.0] [--tau-hours 6.0]"
+  if flag "forever" a then forever stance (optDouble "burst" 6 a) (optDouble "tau-hours" 6 a) else do
     pool <- loadPool
     let only = maybe "" id (opt "only" a)
         breaths = optInt "breaths" 1 a
         targets = [n | (n, _) <- pool, null only || n == only]
-    pool' <- foldM (\p b -> putStrLn ("breath " ++ show b ++ "/" ++ show breaths) >> foldM step p targets) pool [1 .. breaths]
+    pool' <- foldM (\p b -> putStrLn ("breath " ++ show b ++ "/" ++ show breaths) >> foldM (step stance) p targets) pool [1 .. breaths]
     grownPath <- dataFile "grown.jsonl"
     putStrLn ("grown store: " ++ show (length pool') ++ " lists / " ++ show (sum [length l.items | (_, l) <- pool'])
               ++ " items -> " ++ grownPath)
   where
-    step pool n = do
+    step stance pool n = do
       l <- maybe (ioError (userError ("no list named " ++ show n))) pure (lookup n pool)
       if maybe False truthy (l.source >>= (!? "plateau"))
         then putStrLn ("  " ++ n ++ ": plateaued, skipping") >> pure pool
         else do
-          l' <- breath l
+          l' <- breath stance l
           let pool' = setPool n l' pool
           saveGrown pool'
           pure pool'
