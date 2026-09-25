@@ -14,6 +14,7 @@ import qualified Ideonomy.Parley as Parley
 import qualified Ideonomy.Registers as Registers
 import qualified Ideonomy.Residue as Residue
 import qualified Ideonomy.SeriateDrive as SeriateDrive
+import qualified Ideonomy.Stall as Stall
 import qualified Ideonomy.Trial as Trial
 import qualified Ideonomy.Triangulate as Triangulate
 import qualified Ideonomy.Widen as Widen
@@ -32,6 +33,7 @@ table =
   , ("check", "the typed gate a grown map record must pass", Check.cli)
   , ("consult", "the lists and maps a situation belongs to, as instruments", Consult.cli)
   , ("fences", "the inter-map graph: where each map hands a case to a neighbour", Fences.cli)
+  , ("stall", "one map against enumeration-stalls: what is read, what is unreadable, the move that restarts it", Stall.cli)
   , ("demo", "the respiratory engine over its own catalog, offline", Demo.cli)
   , ("draw", "forced non-default lenses: division x operator over a subject", Draw.cli)
   , ("residue", "the cross-session residue ledger", Residue.cli)

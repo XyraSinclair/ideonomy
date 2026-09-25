@@ -180,6 +180,7 @@ ideonomy consult "your situation" --k 3   # the maps it belongs to, as instrumen
 ideonomy consult --file plan.md --frame audit   # label every member: present / ruled-out / unlabeled
 ideonomy fences                           # the inter-map graph: where each map hands a case to a neighbour
 ideonomy fences enumeration-stalls        # one map's fences out (rule, case) and in
+ideonomy stall option-expiries            # one map against enumeration-stalls: read, unreadable, restart move
 ideonomy draw "your problem" --n 3        # forced non-default lenses, offline
 ideonomy registers "the launch post" --n 2   # forced register mixes, offline
 ideonomy lists ls                         # the cross-chat list store

@@ -13,7 +13,7 @@
 --
 -- Deterministic and offline; exit 1 when a fence names a list the
 -- catalog does not hold.
-module Ideonomy.Fences (Graph (..), graph, unreciprocated, unknownTargets, cli) where
+module Ideonomy.Fences (Graph (..), graph, isMap, unreciprocated, unknownTargets, cli) where
 
 import Control.Monad (unless)
 import qualified Data.Map.Strict as M

@@ -817,3 +817,73 @@ is not refinement but distance-to-edge in `consult`, which needs only
 the cliff flag and the seriation axis. Refinement by stakes should be
 tried on walkaway, where the field has an interior, not on
 option-expiries, where it is flat at the ceiling.
+
+## The stall reader: turning enumeration-stalls on the atlas (2026-09-25)
+
+`enumeration-stalls` names seventeen ways an enumeration stops yielding
+before its universe is exhausted while feeling complete, each with a
+tell and a restart move. `ideonomy stall NAME` reads one grown map
+against all seventeen and reports every one in one of two states: read,
+with evidence and, when the reading is the stall, the map's own restart
+move; or unreadable, with the carrier that would read it. The grid is
+the report; a reader that printed only its hits would be committing the
+map's own *Published as finished*.
+
+What the closed judge (`judge --jsonl`, qwen3-rerank-4b and 8b) can and
+cannot read was measured before the module was written, with
+`option-expiries` as the falsifier: its ledger records breath one as
+*One role throughout* and breath two as the cure. List-level yes/no
+propositions over the whole list carried no signal (0.12 against 0.08).
+Per-item propositions about *content* did (AUROC 0.77 fast, 0.74
+quality); the same tell phrased as *grammar*, the seat of the item's
+subject, sat at chance (0.55). A closed judge reads what an item says,
+not how it is built, so the seat tell needs a generating model to
+extract the seat per item, and that is what the reader declares as the
+carrier for *One role throughout* rather than faking it.
+
+The two similarity readings, *Nearest plate* and *Each near a different
+one*, use one question, asymmetric: the state is the case and the
+question is "the text above is a case of this rule: ITEM". The ledger
+supplies its own falsifier here too, the *Merged into X* lines, which
+are the author's nearest-neighbour labels. Against six labelled pairs in
+`option-expiries` over eighteen options, the symmetric "the text above
+and this item describe the same mechanism" ranked the target first once
+(MRR 0.41); "is a case of this rule" ranked it first four times (MRR
+0.76) on both tiers; "an editor would merge" and a domain phrasing sat
+between. Rule and case is the vocabulary the fences already use, and
+the judge agrees with the grammar of the atlas. On `lead-time-floors`
+the same question found the merge target first for three of seven.
+Seven of thirteen at the top over seventeen or eighteen options is an
+instrument, not an oracle.
+
+"Near" is decided inside each call: every request carries the text as a
+case of itself and an item from the next map in the catalog as far
+anchor, and near is above the midpoint of the two in log-odds. No fixed
+threshold, and no tuning against the thirteen labels, which would be a
+threshold in disguise. The gate errs strict on `option-expiries` (three
+of the four merges the judge ranked first still fell below the midpoint,
+because an item as a case of itself scores 0.6 to 0.9 and a case of a
+sibling rule 0.03 to 0.09 at this tier) and mixed on `lead-time-floors`
+(three merges near and right, two hand-offs to another map near and
+wrong). The report prints the best member's probability against the
+midpoint on every row, and the ledger's own line beside it, so a reader
+sees both the judge and the author.
+
+What the live grids said. `option-expiries`: read 2 of 17. *Ends at the
+bound* is the stall: 30 of 56 maps sit at exactly the ceiling of 18 and
+16 more at 17, this map among the 30, and two of its three breaths
+proposed exactly 18 candidates. The pile the map predicted is the
+catalog's own shape, and the restart move is the map's: put the number
+in the judge's window, not the author's, and publish the cut as
+residue. `lead-time-floors`: read 3 of 17, one row below the ceiling,
+and *Nearest plate* is the stall: breath two admitted six members and
+five are cases of the seed breath one left; breath three, seeded with a
+question rather than a rule, admitted five and one is a case of it.
+
+Fourteen stalls are unreadable from the record, the ledger, and a
+closed judge, and the grid says which carrier each lacks: the seriation
+axis and its endpoints, a cut-one breath, the inflow after publication,
+a blind quality rating (which this judge grades at chance), a second net
+of a different make, an outsider's case brought before a breath. Each is
+a small procedure the atlas does not yet run, and the unreadable list is
+their queue.

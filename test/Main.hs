@@ -10,6 +10,7 @@ import qualified RegistersTest
 import qualified ModelsTest
 import qualified ParleyTest
 import qualified ResidueTest
+import qualified StallTest
 import qualified TrialTest
 import qualified TriangulateTest
 
@@ -26,4 +27,5 @@ main = run
   , ("parley", ParleyTest.tests)
   , ("trial", TrialTest.tests)
   , ("consistency", ConsistencyTest.tests)
+  , ("stall", StallTest.tests)
   ]

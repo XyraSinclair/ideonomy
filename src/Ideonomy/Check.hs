@@ -17,7 +17,7 @@
 module Ideonomy.Check
   ( MapRecord (..), Seriation (..), Relation (..), Priority (..), Exploration (..), Horizon (..)
   , Fence (..), FenceKind (..), Side (..), fenceKindName, readFenceKind, sideName, readSide
-  , horizonName, readHorizon, mapView, fencesOf, checkRecord, cli
+  , horizonName, readHorizon, mapView, fencesOf, checkRecord, itemFloor, itemCeiling, cli
   ) where
 
 import Control.Exception (IOException, try)
@@ -197,10 +197,15 @@ checkRecord l = itemViolations l.items ++ case view l of
   V (Left errs) -> errs
   V (Right r) -> violations r
 
+-- | The gate's bound on a map's unique items: a work bound, not a target.
+itemFloor, itemCeiling :: Int
+itemFloor = 13
+itemCeiling = 18
+
 itemViolations :: [String] -> [String]
 itemViolations items =
   [ "duplicate item: " ++ shorten x | x <- nub' [x | (i, x) <- zip [0 :: Int ..] items, x `elem` take i items] ]
-  ++ [ "13 <= unique items <= 18: have " ++ show n | n < 13 || n > 18 ]
+  ++ [ show itemFloor ++ " <= unique items <= " ++ show itemCeiling ++ ": have " ++ show n | n < itemFloor || n > itemCeiling ]
   where n = length (nub' items)
 
 violations :: MapRecord -> [String]
