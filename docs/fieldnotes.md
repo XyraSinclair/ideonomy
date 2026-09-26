@@ -887,3 +887,45 @@ a blind quality rating (which this judge grades at chance), a second net
 of a different make, an outsider's case brought before a breath. Each is
 a small procedure the atlas does not yet run, and the unreadable list is
 their queue.
+
+## Stance: does the prompt's mood move the enumeration? (2026-09-25)
+
+The dual-pathway account of mood and creativity (De Dreu, Baas, Nijstad)
+predicts that activating, approach-toned states widen the search and
+threat-toned states narrow and deepen it. The climb gained `--stance`, a
+line prepended to its three enumerating prompts (the gate is left
+unstanced), and five stances each took three independent breaths from
+the same 18-item seed, `cooperation-ignitions`, on copies that never
+touched the shared store. Stances and procedure:
+`corpus/stance-2026-09-25/`; ledgers: `corpus/climb-ledger/`;
+`measure.py` reruns offline from its cached judge calls.
+
+| stance | kept per breath (of ~33) | keep rate | accepted | case of a seed item | seed items they sit on | written vocabulary |
+|---|---|---|---|---|---|---|
+| fear | 0 / 7 / 5 | 0.12 | 12 | 11 / 12 | 6 | 4 / 12 |
+| love | 0 / 4 / 8 | 0.12 | 12 | 11 / 12 | 6 | 3 / 12 |
+| openness | 8 / 8 / 2 | 0.18 | 18 | 13 / 18 | 5 | 5 / 18 |
+| control | 3 / 4 / 2 | 0.09 | 9 | 6 / 9 | 3 | 1 / 9 |
+| calm | 2 / 5 / 12 | 0.19 | 19 | 12 / 19 | 7 | 6 / 19 |
+
+"Case of a seed item" is the stall reader's *Nearest plate* test: the
+judge asks whether the accepted item is a case of the seed item as a
+rule, against self and far anchors, near meaning above the log-odds
+midpoint.
+
+At three breaths no stance separates from the noise. The spread inside
+a stance (calm 2 to 12, fear 0 to 7) exceeds the spread between them.
+The first breath alone told a clean story, openness 8 and fear and love
+0, and breaths two and three erased it; one breath per arm is an
+anecdote. Control keeps least and sits on the fewest seed items, and
+although its line asks what must be pinned down in writing, it carries
+the least written vocabulary into the accepted set; the gate, unstanced,
+filters the stance back out.
+
+What does hold across every stance is the stall: 53 of 70 accepted items
+are cases of an item already on the list. A mood line does not move the
+enumeration off its nearest plates. If stance is a composable primitive,
+it has to act somewhere a single prepended sentence does not reach: on
+the gate, on which gap the typology names, or on the model's whole
+context rather than its opening line. The next arm to run is a stanced
+gate with at least five breaths per condition.

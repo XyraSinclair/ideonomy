@@ -1,0 +1,157 @@
+[
+ {
+  "stance": "fear",
+  "breaths": 3,
+  "candidates": [
+   33,
+   33,
+   34
+  ],
+  "kept": [
+   0,
+   7,
+   5
+  ],
+  "keep_rate": 0.12,
+  "accepted": 12,
+  "first_words": 12,
+  "near_seed": 11,
+  "seed_plates": 6,
+  "written": 4,
+  "gaps": [
+   "Ticking Antidote / Poisoned Asset (Handing over a high-value good that actively damages the receiver or degrades into liability unless the giver is permitted to supply a subsequent key, cure, or update, securing the receiver's ongoing compliance through biological or technical dread)",
+   "Manufactured Blindness (Provably and irreversibly denying both parties the specific information needed to weaponize or exploit the first move, leaving blind execution as the only survivable path, such as cryptographic garbling before a commit)",
+   "Automated Doomsday / Delegated Retaliation (Tethering the deal to an unfeeling dead-man's switch that executes mutual destruction instantly on defection, removing the counterpart's hope that the victim will be too weak or merciful to retaliate)",
+   "Ignition by manufactured crisis (the extortionate rescue where the initiator secretly rigged the trap to force the bond, leaving the residue of catastrophic vengeance if the false flag is discovered)",
+   "Ignition by dead-man's switch (mutually assured destruction forcing immediate, panicked compliance to avoid a shared abyss, leaving a residue of permanent hair-trigger escalation)",
+   "Ignition by spoofed kinship (the parasite masking as an insider to bypass the threshold of first trust entirely, leaving a residue of systemic contagion when the host realizes the perimeter was breached)",
+   "Automated Nihilism: Mechanisms where the first move rests on a dead-man's switch, mutually assured destruction, or a burn address that destroys the shared asset entirely upon dispute; missing this hurts us because we will fail to recognize when the certainty of total loss is substituting for trust.",
+   "Hostaging the Innocent: Mechanisms where two strangers bind themselves by placing an unconsenting, vulnerable third party in the blast radius of their defection; missing this blinds us to how often cooperation is subsidized by terrorizing a bystander.",
+   "Symmetrical Blinding: Mechanisms where the first move is made safe by both sides intentionally and provably destroying their own visibility into the counterpart's position to prevent calculating the defection payoff; missing this leaves us fatally assuming transparency is the only cure for suspicion."
+  ]
+ },
+ {
+  "stance": "love",
+  "breaths": 3,
+  "candidates": [
+   34,
+   34,
+   33
+  ],
+  "kept": [
+   0,
+   4,
+   8
+  ],
+  "keep_rate": 0.12,
+  "accepted": 12,
+  "first_words": 12,
+  "near_seed": 11,
+  "seed_plates": 6,
+  "written": 3,
+  "gaps": [
+   "Windfall neither can carry: two strangers happen upon a transient asset that requires immediate pooled labor to secure, as two scavengers finding a heavy beam or two rival labs rushing to sequence a decaying sample; the carrier is an indivisible positive shock, the first move is safe because the asset is entirely lost otherwise, and the residue is a bitter fight over the split since the harvest had to precede any negotiation.",
+   "Shared dependent unasked: two parties without contact independently provision a vulnerable third party, as two neighbors quietly feeding the same stray dog or two rival executives protecting the same rogue skunkworks team; the carrier is a fragile beneficiary, the first move is safe because it is a unilateral gift to the ward rather than a concession to the rival, and the residue is a silent, unacknowledged co-parenting that shatters the moment the dependent is no longer helpless.",
+   "Symmetric boat-burning: both parties simultaneously destroy their outside options in each other's sight, as two founders quitting their safe jobs at the exact same hour; the carrier is a synchronized destruction of fallbacks, the first move is safe because the counterpart is identically exposed in the same instant, and the residue is a suffocating mutual dependency where neither party can afford to let the other fail, making it a bilateral graduation of the 'First cut'.",
+   "Adversarial inversions (An attack, trespass, or breach by one party is deliberately parried and re-cast as a cooperative bid by the target, such as hiring the hacker who breached the system; changes the field by demonstrating that cooperation can ignite from overt hostility rather than benign signaling or shared vulnerability)",
+   "Inadvertent entanglements (Two parties independently execute strictly selfish moves that accidentally lock together in physical or economic space to their mutual benefit, discovering the cooperation only after the fact; changes the field by removing intent, signaling, and awareness entirely from the ignition phase)",
+   "Bountied convergence (An external actor who wants an output but cannot produce it posts an indivisible reward that forces two strangers to combine disparate assets to claim it; changes the locus of ignition from the pair or their environment to an intentionally engineered incentive landscape)",
+   "Inadvertent sunk-cost collision (neither party strikes; independent selfish investments unexpectedly entangle at a physical or technical bottleneck, making defection suddenly costlier than proceeding together)",
+   "Hostile symbiosis or manufactured rescue (one party strikes by deliberately dropping a shared liability or crisis onto the counterpart's doorstep that only joint action can solve, extorting the first cooperative move)",
+   "Transitive proxy or bearer-token trust (a third party struck it long ago; the safe cooperation is embedded in a transferred physical artifact, standardized credential, or unforgeable proof-of-work that speaks for itself)"
+  ]
+ },
+ {
+  "stance": "openness",
+  "breaths": 3,
+  "candidates": [
+   33,
+   33,
+   33
+  ],
+  "kept": [
+   8,
+   8,
+   2
+  ],
+  "keep_rate": 0.18,
+  "accepted": 18,
+  "first_words": 15,
+  "near_seed": 13,
+  "seed_plates": 5,
+  "written": 5,
+  "gaps": [
+   "Fractured keys (where an asset is pre-divided so neither part has utility without the other, forcing a first move out of pure deadweight avoidance, as in torn banknotes given to couriers or split passwords)",
+   "Simultaneous swarms (where the first-mover disadvantage is diluted to zero by sudden, simultaneous mass action without prior agreement, as in wildcat strikes, mutinies, or bank runs)",
+   "Enforced anonymity (where the first move is safe precisely because identities are scrubbed, removing the possibility of targeted retaliation or future reputational harm, as in dark pools or blind peer review)",
+   "Fabricated Kinship & Somatic Taboo (where strangers use shared ingestion, blood-oaths, or extreme physical exertion to hack the biology of tribal loyalty, bypassing cognitive distrust entirely)",
+   "Delegated Autonomous Execution (where an unfeeling machine, script, or mindless proxy takes the first step, removing the flinch of human trust from the ignition sequence)",
+   "Mutual Blindness & The Veil (where both parties intentionally strip their own visibility into the counterpart's identity, alternatives, or exact payoffs so neither can calculate an edge)",
+   "Mutual Waste (Symmetric sunk costs, like proof-of-work or grueling journeys to a neutral site, where both parties demonstrably burn resources just to sit at the table, filtering out frivolous defectors and leaving a residue of high barriers and elitism)",
+   "Blind Sortition (Delegating the first asymmetric risk to a coin flip or neutral lottery, making the submission safe because it removes human dominance from the choice, leaving a residue of fatalism)",
+   "Public Stigma (Joining an outcast group or performing a taboo in public where merely being seen together cuts off outside options, making the move safe because neither can return to polite society, leaving a residue of forced radicalization)"
+  ]
+ },
+ {
+  "stance": "control",
+  "breaths": 3,
+  "candidates": [
+   33,
+   33,
+   34
+  ],
+  "kept": [
+   3,
+   4,
+   2
+  ],
+  "keep_rate": 0.09,
+  "accepted": 9,
+  "first_words": 9,
+  "near_seed": 6,
+  "seed_plates": 3,
+  "written": 1,
+  "gaps": [
+   "Runaway integrations (residues where the ignition creates an escalating structural floor that makes decoupling ruinous, inverting the concept of a hard ceiling)",
+   "Asymmetric lock-ins (residues where the ignition permanently strips exit rights from one party while perfectly preserving them for the other)",
+   "Mechanism capture (residues where the necessary maintenance of the ignition structure, such as feeding a staged enemy or hiding a shared sin, eventually consumes the cooperation's actual yield)",
+   "Writing to legally sever the future (e.g., the explicit liability waiver or 'as-is' clause, where the text's only function is to destroy the shadow of the future to make a spot move safe)",
+   "Writing as a compliant decoy (where a text pins down a fictional clean deal strictly to satisfy a regulator's gaze, sheltering the real unwritten cooperation beneath it)",
+   "Writing as the self-executing payload (e.g., the dead-man's switch or escrowed cryptographic key, where the text itself is the hostage that drops if the counterpart defaults)",
+   "Kinetic emergencies (acute environmental shocks, like a sudden storm or fire, that collapse the timeline for trust and force immediate, unplanned operational parity, distinct from the static liability of a wall)",
+   "Hostile entanglements (one party intentionally forces a cooperative negotiation by seizing a minor asset or creating a reversible nuisance, igniting exchange through manufactured duress)",
+   "Blind pooling (mechanisms where counterparts are structurally anonymized and aggregated, meaning the first move is made with a protocol or a clearinghouse rather than an identifiable stranger)"
+  ]
+ },
+ {
+  "stance": "calm",
+  "breaths": 3,
+  "candidates": [
+   33,
+   33,
+   33
+  ],
+  "kept": [
+   2,
+   5,
+   12
+  ],
+  "keep_rate": 0.19,
+  "accepted": 19,
+  "first_words": 17,
+  "near_seed": 12,
+  "seed_plates": 7,
+  "written": 6,
+  "gaps": [
+   "Mutually assured ignorance (deliberate destruction of the information or surveillance needed to exploit the other, securing the first move by engineered inability rather than transparency)",
+   "Involuntary proxies (strangers securing a first move by tethering it to an unaware third party whose routine, uninterrupted operations mechanically absorb the risk of defection)",
+   "Inherited architectures (structural grooves left by dead predecessors that force an unchosen but inherently safe path for new strangers, requiring no match to be struck at all)",
+   "Cryptographic and algorithmic determinism (safety rooted in immutable execution environments and persistent state machines rather than physical space, time, or social networks)",
+   "Mutual blindness and imposed ignorance (safety achieved by mathematically or procedurally preventing either side from predicting their individual payout state prior to the move)",
+   "Byproduct synergies (safety derived from parallel, purely selfish actions that inadvertently create an un-ignorable shared asset or sunk cost without intentional coordination)",
+   "Algorithmic or cryptographic locks (mechanisms where the first move is secured by flawless technological execution, leaving a residue where no trust is built, no qualitative grace can be granted, and minor errors are fatal)",
+   "Asymmetric transparency (mechanisms where one party proves safety by opening its books or revealing its internal cost structure, leaving a residue of permanent negotiating disadvantage)",
+   "Exhaustion of the exception (mechanisms that rely on a one-time emergency waiver or a temporary suspension of rules that intrinsically resists being routinized into a durable channel)"
+  ]
+ }
+]

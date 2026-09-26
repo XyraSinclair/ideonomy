@@ -1,0 +1,22 @@
+{
+ "date": "2026-09-25",
+ "seed_map": "cooperation-ignitions",
+ "seed_items": 18,
+ "conditions": {
+  "fear": "Work in this stance: fear. Ask of the list, what here will hurt us if it is missing?",
+  "love": "Work in this stance: love. Ask of the list, what here do we cherish and want more of?",
+  "openness": "Work in this stance: openness. Ask of the list, what has nobody put here?",
+  "control": "Work in this stance: control. Ask of the list, what must be pinned down in writing?",
+  "calm": "Work in this stance: calm. Nothing here is urgent and nothing is at stake."
+ },
+ "breaths_per_condition": 3,
+ "placement": "the stance is prepended to the grow, typology, and gap-fill prompts; the gate prompt is unchanged, so every condition is judged by the same standard",
+ "model": {
+  "grow_and_gapfill": "gemini-3-flash-preview",
+  "typology_and_gate": "gemini-3.1-pro-preview",
+  "rail": "Ideonomy.Gemini, the climb's configured tiers"
+ },
+ "command": "IDEONOMY_DATA=<dir with data/*.jsonl plus the copied record> bin/ideonomy climb --only cooperation-ignitions--<stance> --breaths 3 --stance '<preamble>'",
+ "why_a_separate_data_dir": "loadPool injects the eleven hard-coded seed lists and saveGrown re-sorts and re-encodes the whole catalog file, so the climb never runs against data/ itself",
+ "ledgers": "corpus/climb-ledger/cooperation-ignitions--<stance>.jsonl"
+}
